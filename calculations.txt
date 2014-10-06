@@ -1,7 +1,0 @@
-mean return	stddev return	max return	min return
-0.514544857	0.04523944	0.71533401	0.332455161
-	
-mean sharpe	stddev return	max sharpe	min sharpe
-3.925418407	0.101536585	4.296736966	3.524315102
-
-

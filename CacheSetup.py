@@ -4,7 +4,7 @@ from datetime import datetime
 from zipline.utils.factory import load_bars_from_google
 
 if __name__ == '__main__':
-	start = datetime(2013, 1, 1, 0, 0, 0, 0, pytz.utc)
+	start = datetime(2010, 1, 1, 0, 0, 0, 0, pytz.utc)
 	end   = datetime(2014, 1, 1, 0, 0, 0, 0, pytz.utc)     
 
 	print 'loading stocks'	

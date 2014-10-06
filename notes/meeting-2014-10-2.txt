@@ -1,0 +1,15 @@
+Presented 
+	Methods of comparing the trading strategy
+		Z index of returns or sharpe
+
+
+Supervisor Comments
+	Z-indices are an abstraction of how well the prediction was, but this is not the same as comparing trading strategies
+	Still no clear definition of the core problem of allocating available cash to predictions
+	How to decide which stocks should be in the sample
+	Need to start building the prediction system
+	Making the project about deep learning is possible but will take the project down a very different path
+
+Reponses
+	Olmar algorithm has stock allocation
+	Most common way to get a sample of stocks is to take all stocks in an index like DJIA or ...

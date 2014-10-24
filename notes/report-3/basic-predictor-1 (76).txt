@@ -1,0 +1,22 @@
+confusion matrix
+
+predictions made only when input vector /= all zeros
+
+
+1/3 of the time, the prices are equal, 2/3 of the time they are different
+
+outcome of this minute > this minute
+
+algo spits out false
+
+[[   13  6774]
+ [   12 21444]]
+
+outcome of this minute >= this minute
+
+[[27535     5]
+ [ 9161    13]]
+
+ slightly over 1/3, prices must be equal
+
+ this makes up the difference between 66.666% and 76% 

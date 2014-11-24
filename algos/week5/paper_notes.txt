@@ -1,0 +1,18 @@
+x_i(t) = feature i at time t
+
+F = list of features for all times
+	= (X1, X2, ... Xn)
+
+Xn = list of features at time n 
+	(x_1(n), x_2(n), x_16(n))
+
+delta_d x_i(t) = change in feature i at time t from time t - d
+	= x_i(t) - x_i(t - d)
+
+delta_d X(t) = change in all features at time t
+	= delta_d x_1(t), delta_d x_2(t), ..., delta_d x_16(t)
+
+norm delta_d x_i(t) = percent change from (t-d)
+
+norm delta_d X(t) = percent change in all features from time (t-d)
+

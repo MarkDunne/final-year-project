@@ -1,0 +1,490 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hid",
+				"hiddenLayer1	statement"
+			],
+			[
+				"train",
+				"trainer	statement"
+			],
+			[
+				"per",
+				"diff_percent"
+			],
+			[
+				"diff",
+				"diff_percent	function"
+			],
+			[
+				"input",
+				"input_size	statement"
+			],
+			[
+				"wind",
+				"window	forflow"
+			],
+			[
+				"win",
+				"window	forflow"
+			],
+			[
+				"data",
+				"dataset	statement"
+			],
+			[
+				"windo",
+				"window_size	statement"
+			],
+			[
+				"this",
+				"thisTime"
+			],
+			[
+				"last",
+				"lastTime"
+			],
+			[
+				"mome",
+				"momentTime"
+			],
+			[
+				"time",
+				"timeStr"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mes",
+				"messageText"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"add",
+				"addProgrammesForDate"
+			],
+			[
+				"prog",
+				"programme_time"
+			],
+			[
+				"date",
+				"date"
+			],
+			[
+				"get",
+				"getProgrammes"
+			],
+			[
+				"newpr",
+				"new_programmes"
+			],
+			[
+				"prg",
+				"programmes"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"chan",
+				"channelid"
+			],
+			[
+				"channel",
+				"ChannelSchedule"
+			],
+			[
+				"new",
+				"newProgramme"
+			],
+			[
+				"sch",
+				"scheduleLen"
+			],
+			[
+				"stat",
+				"status"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "work/neural-nets/neural-net.py",
+			"settings":
+			{
+				"buffer_size": 2027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "work/neural-nets/error-plot.py",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Unix",
+				"name": "error = [715.636079222,706.822441706,702.319783765"
+			}
+		},
+		{
+			"contents": "import matplotlib.pyplot as plt\n\nerror = [715.636079222, 706.822441706, 702.319783765,\n         680.043732648, 683.648608876, 672.846543895,\n         670.964908831, 664.420683277, 666.086897889,\n         672.318112098, 667.484085558, 672.549389812,\n         669.751023035, 673.903813921, 673.866698919,\n         675.039989645, 675.374372912, 665.272468208,\n         673.092405281, 678.198076317, 679.426517774,\n         682.554165512, 672.7128242, 699.081908187,\n         682.916908717, 672.284530667, 683.289229061,\n         83.297511964, 687.069913144, 686.758460553,\n         682.958433765, 675.512111046, 674.39741156,\n         670.04972234, 674.003566706, 677.856868166,\n         665.912187253, 670.117533827, 677.128484293, 683.590769669]\n\nplt.plot(error)\nplt.show()\n",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Anaconda Python Builder",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/mark/workspace/final-year-project",
+		"/home/mark/workspace/final-year-project/data",
+		"/home/mark/workspace/final-year-project/work",
+		"/home/mark/workspace/final-year-project/work/neural-nets"
+	],
+	"file_history":
+	[
+		"/home/mark/workspace/final-year-project/fyp.sublime-project",
+		"/home/mark/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/mark/.config/sublime-text-3/Packages/User/anaconda-distribution.sublime-build",
+		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
+		"/home/mark/workspace/final-year-project/data/ibm.csv",
+		"/home/mark/workspace/meteor/rabble/packages.json",
+		"/home/mark/workspace/meteor/rabble/rabble.css",
+		"/home/mark/workspace/meteor/rabble/server/lib/schedule.js",
+		"/home/mark/workspace/meteor/rabble/rabble.html",
+		"/home/mark/workspace/meteor/rabble/rabble.js",
+		"/home/mark/Downloads/Anaconda-2.1.0-Linux-x86.sh",
+		"/home/mark/workspace/meteor/rabble/server/schedule.js",
+		"/home/mark/workspace/meteor/bitbet/bitbet.html",
+		"/home/mark/workspace/meteor/bitbet/bitbet.js",
+		"/home/mark/workspace/meteor/bitbet/lib/methods.js",
+		"/home/mark/workspace/meteor/bitbet/lib/collections.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"30",
+			"window_size - 2",
+			"window",
+			"trndata",
+			"tstdata",
+			"Total error: ",
+			"mpl",
+			"Total error: ",
+			"Total error",
+			">>>",
+			">>> ",
+			"auto_complete",
+			"interpre",
+			"list",
+			"programme",
+			"moment(",
+			"console.log",
+			");\n",
+			"content",
+			"'",
+			"p",
+			"tomorrowsDate",
+			"tomorrow",
+			"monday",
+			"date",
+			"monday",
+			"newProgramme",
+			"ChannelSchedule",
+			"programmes",
+			"channelid",
+			"=",
+			"ChannelSchedule",
+			"channelschedule",
+			"ChannelSchedule",
+			"<option value=\"\">",
+			"channl",
+			"programme",
+			"cheerio",
+			"Schedule",
+			"console.log(",
+			"var",
+			"wscraper",
+			"request",
+			"repeat"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "work/neural-nets/neural-net.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1680,
+								1680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work/neural-nets/error-plot.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								530,
+								530
+							]
+						],
+						"settings":
+						{
+							"auto_name": "error = [715.636079222,706.822441706,702.319783765",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								773
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 444.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fyp.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

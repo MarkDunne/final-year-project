@@ -1,5 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1420224790 "Report.tex" "Report.pdf" "Report" 1420224791
+["bibtex report"] 1420381584 "report.aux" "report.bbl" "report" 1420381584
+  "/usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "report.aux" 1420381584 3530 3c49aa97346bfe84b9e5d5c1ae5169a4 ""
+  "report.bcf" 0 -1 0 ""
+  "report.bib" 1420381556 234 c525ad8df6279ad1ead947e1e4f49695 ""
+  (generated)
+  "report.blg"
+  "report.bbl"
+["pdflatex"] 1420381584 "report.tex" "report.pdf" "report" 1420381584
   "/etc/texmf/web2c/texmf.cnf" 1420219559 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
@@ -46,11 +54,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1420221144 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1420222722 722771 99de96b362f2add8c838f1b881543842 ""
-  "Report.aux" 1420224791 3422 810f506679f4a5b8f79d32b97a122fe2 ""
-  "Report.tex" 1420224785 1914 c9ad6093962d4ef2a5d24099cefe9e8d ""
-  "Report.toc" 1420224791 2730 e5d680f1e5642929a050f78a89562de4 ""
+  "report.aux" 1420381584 3530 3c49aa97346bfe84b9e5d5c1ae5169a4 ""
+  "report.bbl" 1420381584 173 20b7c05df115c485a1f12baf64e95caa "bibtex report"
+  "report.tex" 1420381577 1997 2ea47f6a89db6f2f7accffc961d101d8 ""
+  "report.toc" 1420381584 2730 e5d680f1e5642929a050f78a89562de4 ""
   (generated)
-  "Report.aux"
-  "Report.toc"
-  "Report.log"
-  "Report.pdf"
+  "report.aux"
+  "report.log"
+  "report.pdf"
+  "report.toc"

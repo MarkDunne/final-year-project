@@ -1,0 +1,78 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\title{Stock Market Prediction}
+\author{Mark Dunne}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\begin{abstract}
+\end{abstract}
+
+\section{Introduction}
+\subsection{Introduction}
+\subsection{Project motivation}
+\subsection{Importance and prevalence of the problem}
+Explain size of the financial industry affected by the problem and why having better tools to predict the stock market may be important to the average person
+
+\subsection{Project goals}
+
+\subsection{Project outline}
+How the project will meet those goals
+
+\section{Background}
+\subsection{The Stock Market}
+\subsubsection{What is the stock market}
+\subsubsection{How the stock market works}
+\subsubsection{Components of the stock market}
+\subsubsection{Terminology}
+
+\subsection{Analysis of the problem}
+\subsubsection{Explanation of the difficulty of the problem}
+\subsubsection{Separation of profitability and accuracy}
+\subsubsection{Temporal reach of prediction}
+\subsubsection{Formal definition of the problem}
+
+\subsection{Review of existing work}
+
+\section{Methodology and Data}
+\subsection{Tools Used}
+\subsubsection{Python, Numpy, Pandas}
+\subsubsection{Quantopian/Zipline and Pyalgotrade}
+\subsubsection{Statsmodels}
+
+\subsection{Data Used}
+\subsubsection{Data sources}
+\subsubsection{Format of the data}
+\subsubsection{Adjusted prices}
+
+\subsection{Simulation of strategies}
+Similarity to real life
+
+\subsection{Defining a successful model}
+Statistical significance of a model
+
+\section{Attacking the problem - Fundamental Analysis}
+\subsection{PE Ratio}
+
+\section{Attacking the problem - Technical Analysis}
+\subsection{Hobbyist Approaches}
+\subsection{Review of Metrics}
+\subsection{OLMAR algorithm}
+\subsection{StatsModels}
+
+\section{Attacking the problem - Machine Learning}
+\subsection{KNN on metrics}
+
+\cite {Rub1}
+\cite {something}
+
+\bibliography{report}
+\bibliographystyle{plain}
+
+\end{document}

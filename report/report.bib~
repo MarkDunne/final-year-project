@@ -1,32 +1,16 @@
-@incollection{something
-year={2007},
-isbn={978-3-540-72917-4},
-booktitle={Foundations of Fuzzy Logic and Soft Computing},
-volume={4529},
-series={Lecture Notes in Computer Science},
-editor={Melin, Patricia and Castillo, Oscar and Aguilar, LuisT. and Kacprzyk, Janusz and Pedrycz, Witold},
-doi={10.1007/978-3-540-72950-1_32},
-title={Fuzzy Backpropagation Neural Networks for Nonstationary Data Prediction},
-url={http://dx.doi.org/10.1007/978-3-540-72950-1_32},
-publisher={Springer Berlin Heidelberg},
-keywords={Neurofuzzy modelling; data prediction},
-author={Soto C., Ramon},
-pages={318-327},
-language={English}
-}
+@misc{website:pybrain-tutorial,
+      author = "pybrain.org.",
+      title = "Classification with Feed-Forward Neural Networks",
+      month = "January",
+      year = "2015",
+      url = "http://pybrain.org/docs/tutorial/fnn.html"
+},
 
-@BOOK{bar,
-    AUTHOR = "Star, R. M.",
-    TITLE = "Foo Bar Baz",
-    PUBLISHER = {MIT Press},
-    ADDRESS = {Cambridge, MA},
-    YEAR = 1989}
-	    
-@electronic{Rub1,
- author = {Rubino, Daniel},
- editor = {{Windows Phone Central}},
- title = {IE9 for Windows Phone 7: Adobe Flash, demos and development},
- url = {http://www.wpcentral.com/ie9-windows-phone-7-adobe-flash-demos-and-development-videos},
- urldate = {14.01.2013},
- originalyear = {18.02.2011}
-}
+@ARTICLE{Dorffner96neuralnetworks,
+    author = {Georg Dorffner},
+    title = {Neural Networks for Time Series Processing},
+    journal = {Neural Network World},
+    year = {1996},
+    volume = {6},
+    pages = {447--468}
+},

@@ -69,8 +69,7 @@ Statistical significance of a model
 \section{Attacking the problem - Machine Learning}
 \subsection{KNN on metrics}
 
-\cite {Rub1}
-\cite {something}
+\cite {website:pybrain-tutorial}
 
 \bibliography{report}
 \bibliographystyle{plain}

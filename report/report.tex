@@ -2,6 +2,7 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
+\usepackage[numbers]{natbib}
 
 \title{Stock Market Prediction}
 \author{Mark Dunne}
@@ -46,8 +47,9 @@ reflect the information implicit in the sequence of past prices.
 
 Informally, the weak form implies that you cannot profit using strategies shaped on historic data, the semi-strong form implies that there is profit only to be made from insider trading, and the strong form says that even this is futile. Clearly if this project is to be of any success, we must hope that the hypothesis is wrong and does allow for a sufficiently intelligent agent to profit.
 
-Luckily, many researchers do indeed question the validity of the hypothesis. There is evidence that the stock market does not always follow EMH. \cite[(Basu 1983)]{basu1983relationship} showed that certain analysis could yeild information useful in future market forecasts.
+Luckily, many researchers do indeed question the validity of the hypothesis. There is evidence that the stock market does not always follow EMH. \citet{basu1983relationship} showed that certain analysis could yeild information useful in future market forecasts. This result questions the semi-strong and strong forms of the hypothesis, but does not necessarily break the weak form.
 
+(TODO something that breaks the weak form)
 
 \subsection{Analysis of the problem}
 \subsubsection{Explanation of the difficulty of the problem}
@@ -76,7 +78,11 @@ Statistical significance of a model
 
 \section{Attacking the problem - Fundamental Analysis}
 
-We begin by approaching the problem using Fundamental Analysis. Fundamental Analysis of stocks and shares is the earliest and simpliest form of prediction.
+We begin by approaching the problem using Fundamental Analysis. 
+
+Fundamental Analysis of stocks and shares is one of the earliest and forms of market prediction. It takes the view that the market has mispriced an security, but over time the price will be corrected to its intrinsic value. If we can accurately calculate the intrinsic value of a security, e.g how much is one share of company \textit{X} actually worth, then we can choose to invest based on the difference between the current price and intrinsic value. 
+
+\citet{graham1934security} laid the groundwork for the field with his book \textit{Security Analysis}.
 
 \subsection{PE Ratio}
 
@@ -92,6 +98,6 @@ We begin by approaching the problem using Fundamental Analysis. Fundamental Anal
 \cite {website:pybrain-tutorial}
 
 \bibliography{report}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 
 \end{document}

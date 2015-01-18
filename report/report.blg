@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: plain.bst
 Database file #1: report.bib
-You've used 1 entry,
+You've used 3 entries,
             2118 wiz_defined-function locations,
-            500 strings with 4073 characters,
-and the built_in function-call counts, 219 in all, are:
-= -- 17
-> -- 7
+            515 strings with 4410 characters,
+and the built_in function-call counts, 844 in all, are:
+= -- 83
+> -- 27
 < -- 0
-+ -- 3
-- -- 2
-* -- 10
-:= -- 41
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 4
++ -- 13
+- -- 8
+* -- 57
+:= -- 144
+add.period$ -- 8
+call.type$ -- 3
+change.case$ -- 13
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 7
-empty$ -- 23
-format.name$ -- 2
-if$ -- 44
+cite$ -- 3
+duplicate$ -- 29
+empty$ -- 76
+format.name$ -- 8
+if$ -- 171
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 7
-num.names$ -- 2
-pop$ -- 9
+int.to.str$ -- 3
+missing$ -- 2
+newline$ -- 17
+num.names$ -- 6
+pop$ -- 14
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 10
 quote$ -- 0
-skip$ -- 8
+skip$ -- 23
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 64
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 12
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 10
+while$ -- 10
+width$ -- 4
+write$ -- 32

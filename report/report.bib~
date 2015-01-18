@@ -14,3 +14,10 @@
     volume = {6},
     pages = {447--468}
 },
+
+@book{malkielrandomwalk,
+  title={A random walk down Wall Street: the time-tested strategy for successful investing},
+  author={Malkiel, Burton Gordon},
+  year={2003},
+  publisher={WW Norton \& Company}
+}

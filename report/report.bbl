@@ -1,5 +1,16 @@
 \begin{thebibliography}{1}
 
+\bibitem{basu1983relationship}
+Sanjoy Basu.
+\newblock The relationship between earnings' yield, market value and return for
+  nyse common stocks: Further evidence.
+\newblock {\em Journal of financial economics}, 12(1):129--156, 1983.
+
+\bibitem{dimson1998brief}
+Elroy Dimson and Massoud Mussavian.
+\newblock A brief history of market efficiency.
+\newblock {\em European financial management}, 4(1):91--103, 1998.
+
 \bibitem{website:pybrain-tutorial}
 pybrain.org.
 \newblock Classification with feed-forward neural networks, January 2015.

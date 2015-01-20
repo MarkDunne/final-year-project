@@ -4,6 +4,74 @@
 		"selected_items":
 		[
 			[
+				"sta",
+				"stats	module"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"yea",
+				"years	statement"
+			],
+			[
+				"retr",
+				"returns	statement"
+			],
+			[
+				"ret",
+				"returns	statement"
+			],
+			[
+				"sym",
+				"symbol	forflow"
+			],
+			[
+				"symbo",
+				"symbols	statement"
+			],
+			[
+				"data",
+				"dataFile	statement"
+			],
+			[
+				"nex",
+				"nextPoint	function"
+			],
+			[
+				"star",
+				"startPoints	statement"
+			],
+			[
+				"iter",
+				"iterate	function"
+			],
+			[
+				"def",
+				"def	Function"
+			],
+			[
+				"__",
+				"__class__	class"
+			],
+			[
+				"grid",
+				"grid_dict	param"
+			],
+			[
+				"gri",
+				"grid_str	param"
+			],
+			[
+				"wind",
+				"window_diffs	statement"
+			],
+			[
+				"wi",
+				"windows	function"
+			],
+			[
 				"hid",
 				"hiddenLayer1	statement"
 			],
@@ -24,16 +92,8 @@
 				"input_size	statement"
 			],
 			[
-				"wind",
-				"window	forflow"
-			],
-			[
 				"win",
 				"window	forflow"
-			],
-			[
-				"data",
-				"dataset	statement"
 			],
 			[
 				"windo",
@@ -144,32 +204,33 @@
 	"buffers":
 	[
 		{
-			"file": "work/neural-nets/neural-net.py",
+			"file": "work/fundamentals/pe_data.py",
 			"settings":
 			{
-				"buffer_size": 2027,
+				"buffer_size": 1025,
+				"line_ending": "Unix",
+				"name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_",
+				"read_only": true
+			}
+		},
+		{
+			"file": "work/fundamentals/combine.py",
+			"settings":
+			{
+				"buffer_size": 1260,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "work/neural-nets/error-plot.py",
+			"file": "work/fundamentals/analysis.py",
 			"settings":
 			{
-				"buffer_size": 1058,
-				"line_ending": "Unix",
-				"name": "error = [715.636079222,706.822441706,702.319783765"
-			}
-		},
-		{
-			"contents": "import matplotlib.pyplot as plt\n\nerror = [715.636079222, 706.822441706, 702.319783765,\n         680.043732648, 683.648608876, 672.846543895,\n         670.964908831, 664.420683277, 666.086897889,\n         672.318112098, 667.484085558, 672.549389812,\n         669.751023035, 673.903813921, 673.866698919,\n         675.039989645, 675.374372912, 665.272468208,\n         673.092405281, 678.198076317, 679.426517774,\n         682.554165512, 672.7128242, 699.081908187,\n         682.916908717, 672.284530667, 683.289229061,\n         83.297511964, 687.069913144, 686.758460553,\n         682.958433765, 675.512111046, 674.39741156,\n         670.04972234, 674.003566706, 677.856868166,\n         665.912187253, 670.117533827, 677.128484293, 683.590769669]\n\nplt.plot(error)\nplt.show()\n",
-			"settings":
-			{
-				"buffer_size": 773,
+				"buffer_size": 362,
 				"line_ending": "Unix"
 			}
 		}
 	],
-	"build_system": "Anaconda Python Builder",
+	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"command_palette":
 	{
 		"height": 392.0,
@@ -216,9 +277,14 @@
 	],
 	"file_history":
 	[
-		"/home/mark/workspace/final-year-project/fyp.sublime-project",
-		"/home/mark/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/mark/workspace/misc/sodoku.py",
+		"/home/mark/workspace/misc/attractor.py",
+		"/home/mark/workspace/final-year-project/work/neural-nets/neural-net.py",
+		"/home/mark/workspace/final-year-project/work/neural-nets/net-test.py",
+		"/home/mark/workspace/final-year-project/fyp.sublime-project",
+		"/home/mark/workspace/final-year-project/work/neural-nets/error-plot.py",
+		"/home/mark/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/mark/.config/sublime-text-3/Packages/User/anaconda-distribution.sublime-build",
 		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Default (Linux).sublime-keymap",
 		"/home/mark/workspace/final-year-project/data/ibm.csv",
@@ -251,6 +317,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".Data",
+			"Data",
+			"df",
+			", parse_dates=False",
+			" parse_dates=False",
+			"pe_save_loc",
+			"stock_symbol",
+			"line-length",
+			"auto",
+			"phase_constant",
+			"probs",
+			"max",
+			"Total error: ",
+			"Total error:",
 			"30",
 			"window_size - 2",
 			"window",
@@ -312,59 +392,60 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "work/neural-nets/neural-net.py",
+					"file": "work/fundamentals/pe_data.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2027,
+						"buffer_size": 1025,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1680,
-								1680
+								647,
+								647
+							]
+						],
+						"settings":
+						{
+							"auto_name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "work/fundamentals/combine.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1111,
+								1111
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 612.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "work/neural-nets/error-plot.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								530,
-								530
-							]
-						],
-						"settings":
-						{
-							"auto_name": "error = [715.636079222,706.822441706,702.319783765",
-							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -375,31 +456,30 @@
 				},
 				{
 					"buffer": 2,
+					"file": "work/fundamentals/analysis.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 773,
+						"buffer_size": 362,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								773,
-								773
+								362,
+								362
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -438,7 +518,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 444.0
+		"height": 266.0
 	},
 	"output.find_results":
 	{
@@ -482,7 +562,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 242.0,
+	"side_bar_width": 263.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

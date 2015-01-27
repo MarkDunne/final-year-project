@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -23,9 +23,21 @@ Benjamin Graham, David Le~Fevre Dodd, and Sidney Cottle.
 \newblock \emph{Security analysis}.
 \newblock McGraw-Hill New York, 1934.
 
+\bibitem[O'Grady(2015)]{website:redmonk-languages}
+Stephen O'Grady.
+\newblock The redmonk programming language rankings: January 2015, January
+  2015.
+\newblock URL
+  \url{http://redmonk.com/sogrady/2015/01/14/language-rankings-1-15/}.
+
 \bibitem[pybrain.org.(2015)]{website:pybrain-tutorial}
 pybrain.org.
 \newblock Classification with feed-forward neural networks, January 2015.
 \newblock URL \url{http://pybrain.org/docs/tutorial/fnn.html}.
+
+\bibitem[Schroeder(2008)]{schroeder2008snowball}
+Alice Schroeder.
+\newblock \emph{The snowball: Warren Buffett and the business of life}.
+\newblock Random House LLC, 2008.
 
 \end{thebibliography}

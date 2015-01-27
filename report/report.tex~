@@ -32,6 +32,9 @@ How the project will meet those goals
 \subsubsection{How the stock market works}
 \subsubsection{Components of the stock market}
 \subsubsection{Terminology}
+
+Fundamental analysis
+
 \subsubsection{The Efficient Market Hypothesis}
 
 Throughout this area of investigation, there is a very large elephant in the room, the Efficient Market Hypothesis (EMH). The hypothesis talks specifically about an agents ability to profit from make inefficiencies, i.e when stocks and shares are mispriced by the market. Its strongest proponents would claim that the very title of this report, predicting stock market, is all but impossible. The EMH comes in three main forms.
@@ -45,11 +48,11 @@ reflect the information implicit in the sequence of past prices.
 \end{itemize}
 \cite{dimson1998brief}
 
-Informally, the weak form implies that you cannot profit using strategies shaped on historic data, the semi-strong form implies that there is profit only to be made from insider trading, and the strong form says that even this is futile. Clearly if this project is to be of any success, we must hope that the hypothesis is wrong and does allow for a sufficiently intelligent agent to profit.
+Informally, the weak form implies that you cannot profit using historical patterns in the share price, the semi-strong form implies that there is profit only to be made from insider trading, and the strong form says that even this is futile. Important to note is that the week form the the hypothesis does not completely rule out profitable trading on the stock market. Trading profitably based on predictions from Fundamental analysis is still possible in the week form. 
 
-Luckily, many researchers do indeed question the validity of the hypothesis. There is evidence that the stock market does not always follow EMH. \citet{basu1983relationship} showed that certain analysis could yeild information useful in future market forecasts. This result questions the semi-strong and strong forms of the hypothesis, but does not necessarily break the weak form.
+Clearly for the successful application of modern AI techniques to this problem, we must hope that at least the semi-strong and strong forms of the hypothesis are wrong and do allow for a sufficiently intelligent agent to profit. Luckily, many researchers do indeed question the validity of the hypothesis. There is evidence that the stock market does not always follow EMH. \citet{basu1983relationship} showed that fundamental analysis could yeild information useful in future market forecasts. This result questions the semi-strong and strong forms of the hypothesis, but does not necessarily break the weak form. 
 
-(TODO something that breaks the weak form)
+Later in this report, we provide our own data and analysis that supports the view that at most only the week form of the EMH holds true.
 
 \subsection{Analysis of the problem}
 \subsubsection{Explanation of the difficulty of the problem}
@@ -78,11 +81,15 @@ Statistical significance of a model
 
 \section{Attacking the problem - Fundamental Analysis}
 
-We begin by approaching the problem using Fundamental Analysis. Fundamental Analysis of stocks and shares is one of the earliest and forms of market prediction. It takes the view that the market has mispriced an security, but over time the price will be corrected to its intrinsic value. If we can accurately calculate the intrinsic value of a security, e.g how much is one share of company \chi actually worth, then we can choose to invest based on the difference between the current price and intrinsic value. 
+We begin by approaching the problem using Fundamental Analysis. 
 
-\citet{graham1934security} laid the groundwork for the field with his book \textit{Security Analysis}.
+Fundamental Analysis of stocks and shares is one of the earliest and forms of market prediction. It takes the view that the market has mispriced a security, but over time the price will be corrected to its intrinsic value. If we can accurately calculate the intrinsic value of a security, e.g how much is one share of company \textit{X} actually worth, then we can choose to invest based on the difference between the current price and intrinsic value. 
+
+\citet{graham1934security} laid the groundwork for the field with the book \textit{Security Analysis}. He encouraged would-be investors to estimate the intrinsic value of a stock before buying or selling based on trends, a novel idea at the time. It stands as testament to his approach that his only A+ student was Warren Buffet who methodically applied the strategy and has enjoyed renowned success since. \cite{schroeder2008snowball}
 
 \subsection{PE Ratio}
+
+The first approach we take in Fundamental Analysis is to look at the PE Ratio. The PE ratio is the ratio of a company's stock price to its earnings. The idea 
 
 \section{Attacking the problem - Technical Analysis}
 \subsection{Hobbyist Approaches}

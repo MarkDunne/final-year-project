@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"sub",
+				"subscribe"
+			],
+			[
+				"prog",
+				"programme"
+			],
+			[
+				"pro",
+				"programme"
+			],
+			[
+				"to",
+				"toDate"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"tod",
+				"today"
+			],
+			[
+				"last",
+				"lastParsedDate"
+			],
+			[
 				"sta",
 				"stats	module"
 			],
@@ -104,10 +132,6 @@
 				"thisTime"
 			],
 			[
-				"last",
-				"lastTime"
-			],
-			[
 				"mome",
 				"momentTime"
 			],
@@ -146,10 +170,6 @@
 			[
 				"add",
 				"addProgrammesForDate"
-			],
-			[
-				"prog",
-				"programme_time"
 			],
 			[
 				"date",
@@ -207,25 +227,32 @@
 			"file": "work/fundamentals/pe_data.py",
 			"settings":
 			{
-				"buffer_size": 1025,
+				"buffer_size": 1458,
 				"line_ending": "Unix",
-				"name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_",
-				"read_only": true
+				"name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_"
 			}
 		},
 		{
 			"file": "work/fundamentals/combine.py",
 			"settings":
 			{
-				"buffer_size": 1260,
+				"buffer_size": 1281,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "work/fundamentals/analysis.py",
+			"file": "/home/mark/workspace/meteor/rabble/rabble.js",
 			"settings":
 			{
-				"buffer_size": 362,
+				"buffer_size": 1905,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mark/workspace/meteor/rabble/rabble.html",
+			"settings":
+			{
+				"buffer_size": 657,
 				"line_ending": "Unix"
 			}
 		}
@@ -270,13 +297,18 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mark/workspace/final-year-project",
 		"/home/mark/workspace/final-year-project/data",
 		"/home/mark/workspace/final-year-project/work",
-		"/home/mark/workspace/final-year-project/work/neural-nets"
+		"/home/mark/workspace/final-year-project/work/neural-nets",
+		"/home/mark/workspace/meteor/rabble",
+		"/home/mark/workspace/meteor/rabble/packages",
+		"/home/mark/workspace/meteor/rabble/server",
+		"/home/mark/workspace/meteor/rabble/server/lib"
 	],
 	"file_history":
 	[
+		"/home/mark/workspace/meteor/rabble/server/lib/schedule.js",
+		"/home/mark/workspace/final-year-project/work/fundamentals/analysis.py",
 		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/mark/workspace/misc/sodoku.py",
 		"/home/mark/workspace/misc/attractor.py",
@@ -290,7 +322,6 @@
 		"/home/mark/workspace/final-year-project/data/ibm.csv",
 		"/home/mark/workspace/meteor/rabble/packages.json",
 		"/home/mark/workspace/meteor/rabble/rabble.css",
-		"/home/mark/workspace/meteor/rabble/server/lib/schedule.js",
 		"/home/mark/workspace/meteor/rabble/rabble.html",
 		"/home/mark/workspace/meteor/rabble/rabble.js",
 		"/home/mark/Downloads/Anaconda-2.1.0-Linux-x86.sh",
@@ -309,6 +340,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/mark/workspace/meteor/rabble/",
 			""
 		]
 	},
@@ -317,6 +349,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"3",
+			".name",
+			"lastParsedDate",
+			"date",
+			"3",
+			"\"",
 			".Data",
 			"Data",
 			"df",
@@ -401,15 +439,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1025,
+						"buffer_size": 1458,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								647,
-								647
+								0,
+								0
 							]
 						],
 						"settings":
@@ -422,7 +460,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -431,15 +469,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1260,
+						"buffer_size": 1281,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1111,
-								1111
+								0,
+								0
 							]
 						],
 						"settings":
@@ -456,30 +494,61 @@
 				},
 				{
 					"buffer": 2,
-					"file": "work/fundamentals/analysis.py",
+					"file": "/home/mark/workspace/meteor/rabble/rabble.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 362,
+						"buffer_size": 1905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								362,
-								362
+								1730,
+								1730
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 293.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/mark/workspace/meteor/rabble/rabble.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								349,
+								349
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]

@@ -10,7 +10,7 @@
 \contentsline {subsubsection}{\numberline {2.1.2}How the stock market works}{2}
 \contentsline {subsubsection}{\numberline {2.1.3}Components of the stock market}{2}
 \contentsline {subsubsection}{\numberline {2.1.4}Terminology}{2}
-\contentsline {subsubsection}{\numberline {2.1.5}The Efficient Market Hypothesis}{2}
+\contentsline {subsubsection}{\numberline {2.1.5}The Efficient Market Hypothesis}{3}
 \contentsline {subsection}{\numberline {2.2}Analysis of the problem}{4}
 \contentsline {subsubsection}{\numberline {2.2.1}Explanation of the difficulty of the problem}{4}
 \contentsline {subsubsection}{\numberline {2.2.2}Separation of profitability and accuracy}{4}

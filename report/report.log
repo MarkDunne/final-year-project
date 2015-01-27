@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  18 JAN 2015 18:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.19)  27 JAN 2015 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 4 languages loaded.
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -346,34 +346,42 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \openout3 = `report.toc'.
 
  [2]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 42.
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 39.
-[3] (./report.bbl [4]
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 42.
+[3]
+
+Package natbib Warning: Citation `schroeder2008snowball' on page 4 undefined on
+ input line 88.
+
+[4] (./report.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 29.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [5]
-(./report.aux) ) 
+))
+
+Package natbib Warning: There were undefined citations.
+
+[5] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 1175 strings out of 494985
- 13726 string characters out of 6180356
- 61650 words of memory out of 5000000
- 4402 multiletter control sequences out of 15000+600000
+ 1176 strings out of 493304
+ 13749 string characters out of 6139871
+ 65787 words of memory out of 5000000
+ 4645 multiletter control sequences out of 15000+600000
  50900 words of font info for 40 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 23i,6n,28p,484b,210s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texm
-f/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx
-10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on report.pdf (5 pages, 189168 bytes).
+ 957 hyphenation exceptions out of 8191
+ 23i,6n,28p,650b,210s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/
+texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/
+lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on report.pdf (5 pages, 189978 bytes).
 PDF statistics:
  54 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

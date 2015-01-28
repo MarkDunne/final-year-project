@@ -1,8 +1,9 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass{report}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[numbers]{natbib}
+\usepackage{amsthm}
 
 \title{Stock Market Prediction}
 \author{Mark Dunne}
@@ -13,6 +14,9 @@
 \tableofcontents
 
 \begin{abstract}
+
+This project is an attempt to answer the question of whether stock market prices can be accurately predicted using modern Artificial Techniques. We take multiple approaches to the problem including Fundamental Analysis, Technical Analysis, and Machine Learning techniques.
+
 \end{abstract}
 
 \section{Introduction}
@@ -58,13 +62,51 @@ Later in this report, we provide our own data and analysis that supports the vie
 \subsubsection{Explanation of the difficulty of the problem}
 \subsubsection{Separation of profitability and accuracy}
 \subsubsection{Temporal reach of prediction}
+
+Want to avoid HFT
+
+Fundamental is long term
+
+Machine learning focus on short/medium
+
 \subsubsection{Formal definition of the problem}
 
 \subsection{Review of existing work}
 
 \section{Methodology and Data}
 \subsection{Tools Used}
-\subsubsection{Python, Numpy, Pandas}
+\subsubsection{Python and associated packages}
+
+Python was the language of choice for this project. This was an easy decision for the following reasons.
+
+\begin{enumerate}
+  \item Python as a language has an enourmous community behind it. Any problems that might be encountered on the way can be easily solved with a trip to Stack Overflow. Python is amoung the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
+  
+  \item Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available, performant and well documented. Packages such as these can dramatically reduce and simplify the code needed to write a given program. This makes iteration quick.
+
+  \item Python as a language is forgiving and allows for programs that look like pseudo code. This is useful when pseudo code given in academic papers needs to be implemented and tested. Using Python, this step is usually reasonably trivial.
+
+\end{enumerate}
+
+
+However, I digress, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.\newline
+
+
+\noindent The following packages were used throughout the project
+
+\begin{description}
+
+  \item[Numpy] \hfill \\ A staple of scientific computing, useful for efficient data structures and linear algebra.
+   
+  \item[Pandas] \hfill \\ Useful for filtering and mutating the data into a desired form.  
+  
+  \item[SciPy] \hfill \\ Extensive library of numerical routines
+  
+  \item[Matplotlib] \hfill \\ Used for graphing data
+
+\end{description}  
+ 
+  
 \subsubsection{Quantopian/Zipline and Pyalgotrade}
 \subsubsection{Statsmodels}
 
@@ -87,9 +129,9 @@ Fundamental Analysis of stocks and shares is one of the earliest and forms of ma
 
 \citet{graham1934security} laid the groundwork for the field with the book \textit{Security Analysis}. He encouraged would-be investors to estimate the intrinsic value of a stock before buying or selling based on trends, a novel idea at the time. It stands as testament to his approach that his only A+ student was Warren Buffet who methodically applied the strategy and has enjoyed renowned success since. \cite{schroeder2008snowball}
 
-\subsection{PE Ratio}
+\subsection{P/E Ratio}
 
-The first approach we take in Fundamental Analysis is to look at the PE Ratio. The PE ratio is the ratio of a company's stock price to its earnings. The idea 
+One of the simplest and possible most well known approach to gauging the instrinsic value of a stock is to use the P/E Ratio. The P/E ratio is the ratio of a company's share price to its earnings per share. 
 
 \section{Attacking the problem - Technical Analysis}
 \subsection{Hobbyist Approaches}

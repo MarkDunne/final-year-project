@@ -223,39 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "work/fundamentals/pe_data.py",
-			"settings":
-			{
-				"buffer_size": 1458,
-				"line_ending": "Unix",
-				"name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_"
-			}
-		},
-		{
-			"file": "work/fundamentals/combine.py",
-			"settings":
-			{
-				"buffer_size": 1281,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/mark/workspace/meteor/rabble/rabble.js",
-			"settings":
-			{
-				"buffer_size": 1905,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/mark/workspace/meteor/rabble/rabble.html",
-			"settings":
-			{
-				"buffer_size": 657,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"command_palette":
@@ -297,16 +264,17 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mark/workspace/final-year-project/data",
-		"/home/mark/workspace/final-year-project/work",
-		"/home/mark/workspace/final-year-project/work/neural-nets",
-		"/home/mark/workspace/meteor/rabble",
+		"/home/mark/workspace/final-year-project",
 		"/home/mark/workspace/meteor/rabble/packages",
 		"/home/mark/workspace/meteor/rabble/server",
 		"/home/mark/workspace/meteor/rabble/server/lib"
 	],
 	"file_history":
 	[
+		"/home/mark/workspace/final-year-project/work/fundamentals/pe_data.py",
+		"/home/mark/workspace/final-year-project/work/fundamentals/combine.py",
+		"/home/mark/workspace/meteor/rabble/rabble.js",
+		"/home/mark/workspace/meteor/rabble/rabble.html",
 		"/home/mark/workspace/meteor/rabble/server/lib/schedule.js",
 		"/home/mark/workspace/final-year-project/work/fundamentals/analysis.py",
 		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
@@ -322,8 +290,6 @@
 		"/home/mark/workspace/final-year-project/data/ibm.csv",
 		"/home/mark/workspace/meteor/rabble/packages.json",
 		"/home/mark/workspace/meteor/rabble/rabble.css",
-		"/home/mark/workspace/meteor/rabble/rabble.html",
-		"/home/mark/workspace/meteor/rabble/rabble.js",
 		"/home/mark/Downloads/Anaconda-2.1.0-Linux-x86.sh",
 		"/home/mark/workspace/meteor/rabble/server/schedule.js",
 		"/home/mark/workspace/meteor/bitbet/bitbet.html",
@@ -430,127 +396,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "work/fundamentals/pe_data.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1458,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "https://www.quandl.com/api/v1/datasets/DMDRN/GOOG_",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "work/fundamentals/combine.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1281,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/mark/workspace/meteor/rabble/rabble.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1905,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1730,
-								1730
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 293.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/mark/workspace/meteor/rabble/rabble.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 657,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								349,
-								349
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],

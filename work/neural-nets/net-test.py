@@ -20,7 +20,9 @@ net = NetworkReader.readFrom(
 
 for window in windows(data, window_size):
     dp = diff_percent(window)
+    m =np.append(m, np.mean(dp))
     window_inputs = dp[:-1]
     window_target = dp[-1]
     net_result = net.activate(window_inputs)
-    print net_result, window_inputs, window_target
+    print net_result
+

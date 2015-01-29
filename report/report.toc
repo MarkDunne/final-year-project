@@ -27,13 +27,13 @@
 \contentsline {subsubsection}{Format of the data}{3}
 \contentsline {subsubsection}{Adjusted prices}{3}
 \contentsline {subsection}{\numberline {0.3.3}Simulation of strategies}{3}
-\contentsline {subsection}{\numberline {0.3.4}Defining a successful model}{4}
+\contentsline {subsection}{\numberline {0.3.4}Defining a successful model}{3}
 \contentsline {section}{\numberline {0.4}Attacking the problem - Fundamental Analysis}{4}
 \contentsline {subsection}{\numberline {0.4.1}P/E Ratio}{4}
-\contentsline {section}{\numberline {0.5}Attacking the problem - Technical Analysis}{6}
-\contentsline {subsection}{\numberline {0.5.1}Hobbyist Approaches}{6}
-\contentsline {subsection}{\numberline {0.5.2}Review of Metrics}{6}
-\contentsline {subsection}{\numberline {0.5.3}OLMAR algorithm}{6}
-\contentsline {subsection}{\numberline {0.5.4}StatsModels}{6}
-\contentsline {section}{\numberline {0.6}Attacking the problem - Machine Learning}{6}
-\contentsline {subsection}{\numberline {0.6.1}KNN on metrics}{6}
+\contentsline {section}{\numberline {0.5}Attacking the problem - Technical Analysis}{8}
+\contentsline {subsection}{\numberline {0.5.1}Hobbyist Approaches}{8}
+\contentsline {subsection}{\numberline {0.5.2}Review of Metrics}{8}
+\contentsline {subsection}{\numberline {0.5.3}OLMAR algorithm}{8}
+\contentsline {subsection}{\numberline {0.5.4}StatsModels}{8}
+\contentsline {section}{\numberline {0.6}Attacking the problem - Machine Learning}{8}
+\contentsline {subsection}{\numberline {0.6.1}KNN on metrics}{8}

@@ -25,8 +25,7 @@ This project is an attempt to answer the question of whether stock market prices
 \subsection{Introduction}
 \subsection{Project motivation}
 \subsection{Importance and prevalence of the problem}
-Explain size of the financial industry affected by the problem and why having better tools to predict the stock market may be important to the average person
-
+Explain size of the financial industry affected by the problem and why having better tools to predict the stock market may be important to the average person.
 \subsection{Project goals}
 
 \subsection{Project outline}
@@ -43,16 +42,15 @@ Fundamental analysis
 
 \subsubsection{The Efficient Market Hypothesis}
 
-Throughout this area of investigation, there is a very large elephant in the room, the Efficient Market Hypothesis (EMH). The hypothesis talks specifically about an agents ability to profit from make inefficiencies, i.e when stocks and shares are mispriced by the market. Its strongest proponents would claim that the very title of this report, predicting stock market, is all but impossible. The EMH comes in three main forms.
-\begin{itemize}
+Throughout this area of investigation, there is a very large elephant in the room, the Efficient Market Hypothesis (EMH). The hypothesis talks specifically about an agents ability to profit from make inefficiencies, i.e when stocks and shares are mispriced by the market. Its strongest proponents would claim that the very title of this report, predicting stock market, is all but impossible. The EMH comes in three main forms. \cite{dimson1998brief}
+\begin{itemize} 
   \item The weak form of the efficient market hypothesis claims that prices fully
 reflect the information implicit in the sequence of past prices. 
 
   \item The semi-strong form of the hypothesis asserts that prices reflect all relevant information that is publicly available
   
-  \item the strong form of market efficiency asserts information that is known to any participant is reflected in market prices.
+  \item The strong form of market efficiency asserts information that is known to any participant is reflected in market prices.
 \end{itemize}
-\cite{dimson1998brief}
 
 Informally, the weak form implies that you cannot profit using historical patterns in the share price, the semi-strong form implies that there is profit only to be made from insider trading, and the strong form says that even this is futile. Important to note is that the week form the the hypothesis does not completely rule out profitable trading on the stock market. Trading profitably based on predictions from Fundamental analysis is still possible in the week form. 
 
@@ -91,20 +89,20 @@ Python was the language of choice for this project. This was an easy decision fo
 \end{enumerate}
 
 
-However, I digress, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.\newline
+However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.
 
 
 \noindent The following packages were used throughout the project
 
 \begin{description}
 
-  \item[Numpy] \hfill \\ A staple of scientific computing, useful for efficient data structures and linear algebra.
+  \item[Numpy] A staple of scientific computing, useful for efficient data structures and linear algebra.
    
-  \item[Pandas] \hfill \\ Useful for filtering and mutating the data into a desired form.  
+  \item[Pandas] Useful for filtering and mutating the data into a desired form.  
   
-  \item[SciPy] \hfill \\ Extensive library of numerical routines
+  \item[SciPy] Extensive library of numerical routines
   
-  \item[Matplotlib] \hfill \\ Used for graphing data
+  \item[Matplotlib] Used for graphing data
 
 \end{description}  
  
@@ -133,32 +131,44 @@ Fundamental Analysis of stocks and shares is one of the earliest and forms of ma
 
 \subsection{P/E Ratio}
 
-One of the simplest and possible most well known approach to gauging the intrinsic value of a stock is to use the P/E Ratio. P/E Ratio is defined as follows\\
+One of the simplest and possible most well known approach to gauging the intrinsic value of a stock is to use the P/E Ratio. P/E Ratio is defined as follows
 
 \begin{math}
 	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Earnings Per Share}}
-\end{math}\\
+\end{math}
 
 The intuition on why this metric might be used is that if the ratio is high, it means that investors are willing to pay more for every dollar the company earns; they have more faith in the company. For example, if a company is trading at \$20, and the Earnings Per Share is \$100, then the P/E Ratio is 5. This translates to the investor willing to pay \$5 for every dollar of the company's earnings.Although simplistic in nature, we were able to achieve surprising results based on this ratio. 
 
 We analysed 497 companies in the S{\&}P index from 1990 to 2014 and compared their P/E Ratio to the change in their stock price the following year. If the P/E Ratio is indicative of future performance, we should see larger, positive, changes in the stock price of companies with a high PE Ratio compared to those with a lower PE Ratio.
 
-Before cleaning the data, there are large anomalies. These are not incorrect data points, but we should not include them if we want to understand the market in general.
+Before cleaning the data, there are large anomalies. These are not incorrect data points, but we should not include them if we want to understand the market in general. Figure \ref{fig:pe-absolute-unclean} plots the data before cleaning and analysis.
 
-\begin{figure}[bp!]
-\caption{Graph with anomalies present. Some companies show annual gains in excess of 700\%}
-\centerline{\includegraphics[width=0.8\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_unclean.png}}
+\begin{figure}
+	\caption{Graph with anomalies present. Some companies show annual gains in excess of 700\%}
+	\centerline{\includegraphics[width=\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_unclean.png}}
+	\label{fig:pe-absolute-unclean}
 \end{figure}
 
-To control for anomalies, the data was filtered aggressively to look only at data with one standard deviation of the mean on both axis.
+To control for anomalies, the data was filtered aggressively to look only at data with one standard deviation of the mean on both axis. After controlling for anomalies, the data is partitioned into high and low P/E ratios. High P/E Ratios are defined as those above one standard deviation away from the mean P/E Ratio, and low P/E ratios are the complement. 
 
-\begin{figure}[bp!]
-\caption{Filtered Data. Red dots are within one standard deviation $\sigma $ of mean P. Blue dots Dashed lines show averages}
-\centerline{\includegraphics[width=0.8\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_clean.png}}
+We found that the groups differed by an average of 12.61\%. A T-test was carried out to test the statistical significance of the finding. The results of the T-test gave a t-statistic of 1.8825 and a corresponding p-value of 0.06. This is very close to the standard threshold of statistical, 0.05. Figure \ref{fig:pe-absolute-clean} plots the data after cleaning and analysis.
+
+
+\begin{figure}
+\caption{Filtered Data. Red dots are within one standard deviation $\sigma $ of mean P. Dashed lines indicate the mean of their respective groups}
+\centerline{\includegraphics[width=\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_clean.png}}
+\label{fig:pe-absolute-clean}
 \end{figure}
 
+In an effort to cross the statistically significant threshold, a different experiment was proposed. Instead of looking at the absolute P/E Ratio, we look at the change from the previous year. The intuition builds on that of the original P/E Ratio. If the P/E Ratio has increased year on year, we may be able to conclude that investor confidence has increased. In a similar manner to the previous method, we partition the dataset into high and low P/E Ratio changes based on standard deviation from the mean. Figure \ref{fig:pe-delta} plots the dataset for this method. 
 
+\begin{figure}
+\caption{Using change in P/E Ratio year on year}
+\centerline{\includegraphics[width=\textwidth]{../work/fundamentals/delta_pe_ratio_returns_clean.png}}
+\label{fig:pe-delta}
+\end{figure}
 
+With the new method, we found that the groups differed by an average of 8.2\%. The results of the T-test gave a t-statistic of 2.246 and a corresponding p-value of 0.025. This indicated that the result is statistically significant, and the null hypothesis (i.e that there was no information to be gained from the P/E Ratio) can be rejected. 
 
 \section{Attacking the problem - Technical Analysis}
 \subsection{Hobbyist Approaches}

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.19)  29 JAN 2015 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  29 JAN 2015 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report.tex
 (./report.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 4 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -32,7 +32,7 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2008/03/30 v1.1d Input encoding file
+Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
@@ -361,10 +361,10 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -516,49 +516,44 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 ] [1]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 47.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 48.
- [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--141
-
- []
-
-
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 47.
+ [1] [2] [3]
 <../work/fundamentals/absolute_pe_ratio_returns_unclean.png, id=27, 578.16pt x 
 433.62pt>
 File: ../work/fundamentals/absolute_pe_ratio_returns_unclean.png Graphic file (
 type png)
  <use ../work/fundamentals/absolute_pe_ratio_returns_unclean.png>
 Package pdftex.def Info: ../work/fundamentals/absolute_pe_ratio_returns_unclean
-.png used on input line 150.
-(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+.png used on input line 148.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
 
-<../work/fundamentals/absolute_pe_ratio_returns_clean.png, id=29, 578.16pt x 43
+[4] [5 <../work/fundamentals/absolute_pe_ratio_returns_unclean.png>]
+<../work/fundamentals/absolute_pe_ratio_returns_clean.png, id=39, 578.16pt x 43
 3.62pt>
 File: ../work/fundamentals/absolute_pe_ratio_returns_clean.png Graphic file (ty
 pe png)
  <use ../work/fundamentals/absolute_pe_ratio_returns_clean.png>
 Package pdftex.def Info: ../work/fundamentals/absolute_pe_ratio_returns_clean.p
-ng used on input line 157.
-(pdftex.def)             Requested size: 276.00105pt x 206.9972pt.
+ng used on input line 159.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
 
-(./report.bbl [4] [5 <../work/fundamentals/absolute_pe_ratio_returns_unclean.pn
-g> <../work/fundamentals/absolute_pe_ratio_returns_clean.png>] [6]
+<../work/fundamentals/delta_pe_ratio_returns_clean.png, id=40, 578.16pt x 433.6
+2pt>
+File: ../work/fundamentals/delta_pe_ratio_returns_clean.png Graphic file (type 
+png)
+ <use ../work/fundamentals/delta_pe_ratio_returns_clean.png>
+Package pdftex.def Info: ../work/fundamentals/delta_pe_ratio_returns_clean.png 
+used on input line 167.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+ (./report.bbl
+[6 <../work/fundamentals/absolute_pe_ratio_returns_clean.png>] [7 <../work/fund
+amentals/delta_pe_ratio_returns_clean.png>] [8]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 31.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
@@ -573,17 +568,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--32
 \T1/lmr/m/n/10 guage rank-ings: Jan-uary 2015, Jan-uary 2015.  URL
  []
 
-) [7
+) [9
 
 ] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 3143 strings out of 493304
- 41048 string characters out of 6139871
- 101931 words of memory out of 5000000
- 6518 multiletter control sequences out of 15000+600000
+ 3152 strings out of 494978
+ 41390 string characters out of 6180203
+ 97864 words of memory out of 5000000
+ 6288 multiletter control sequences out of 15000+600000
  63776 words of font info for 47 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 37i,6n,28p,654b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36 hyphenation exceptions out of 8191
+ 37i,6n,28p,650b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/te
 xmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm
 .enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts
@@ -593,10 +588,10 @@ xmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm
 hare/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on report.pdf (10 pages, 233905 bytes).
+Output written on report.pdf (12 pages, 255669 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

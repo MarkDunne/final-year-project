@@ -223,6 +223,15 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "`",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix",
+				"name": "`"
+			}
+		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"command_palette":
@@ -264,10 +273,7 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mark/workspace/final-year-project",
-		"/home/mark/workspace/meteor/rabble/packages",
-		"/home/mark/workspace/meteor/rabble/server",
-		"/home/mark/workspace/meteor/rabble/server/lib"
+		"/home/mark/workspace/final-year-project"
 	],
 	"file_history":
 	[
@@ -396,8 +402,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "`",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

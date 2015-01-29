@@ -141,12 +141,24 @@ One of the simplest and possible most well known approach to gauging the intrins
 
 The intuition on why this metric might be used is that if the ratio is high, it means that investors are willing to pay more for every dollar the company earns; they have more faith in the company. For example, if a company is trading at \$20, and the Earnings Per Share is \$100, then the P/E Ratio is 5. This translates to the investor willing to pay \$5 for every dollar of the company's earnings.Although simplistic in nature, we were able to achieve surprising results based on this ratio. 
 
-We analysed 497 companies in the S&P index from 1990 to 2014 and compared their P/E Ratio to the change in their stock price the following year. If the P/E Ratio is indicative of future performance, we should see larger, positive, changes in the stock price of companies with a high PE Ratio compared to those with a lower PE Ratio.
+We analysed 497 companies in the S{\&}P index from 1990 to 2014 and compared their P/E Ratio to the change in their stock price the following year. If the P/E Ratio is indicative of future performance, we should see larger, positive, changes in the stock price of companies with a high PE Ratio compared to those with a lower PE Ratio.
+
+Before cleaning the data, there are large anomalies. These are not incorrect data points, but we should not include them if we want to understand the market in general.
+
+\begin{figure}[bp!]
+\caption{Graph with anomalies present. Some companies show annual gains in excess of 700\%}
+\centerline{\includegraphics[width=0.8\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_unclean.png}}
+\end{figure}
+
+To control for anomalies, the data was filtered aggressively to look only at data with one standard deviation of the mean on both axis.
+
+\begin{figure}[bp!]
+\caption{Filtered Data. Red dots are within one standard deviation $\sigma $ of mean P. Blue dots Dashed lines show averages}
+\centerline{\includegraphics[width=0.8\textwidth]{../work/fundamentals/absolute_pe_ratio_returns_clean.png}}
+\end{figure}
 
 
 
-
-\centerline{\includegraphics[width=1.2\textwidth]{../work/fundamentals/absolute_pe_ratio_returns.png}}
 
 \section{Attacking the problem - Technical Analysis}
 \subsection{Hobbyist Approaches}

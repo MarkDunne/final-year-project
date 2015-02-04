@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"de",
+				"deQueue"
+			],
+			[
+				"Q",
+				"Queue"
+			],
+			[
+				"E",
+				"EmptyQueue"
+			],
+			[
+				"is",
+				"isEmptyQueue"
+			],
+			[
+				"empt",
+				"emptyQueue"
+			],
+			[
+				"ins",
+				"insertIf"
+			],
+			[
+				"in",
+				"insertIf"
+			],
+			[
 				"sub",
 				"subscribe"
 			],
@@ -224,12 +252,12 @@
 	"buffers":
 	[
 		{
-			"contents": "`",
+			"contents": "Processing American Express\nProcessing Boeing\nProcessing Caterpillar\nProcessing Cisco Systems\nProcessing Chevron\nProcessing DuPont\nProcessing Walt Disney\nProcessing General Electric\nProcessing Goldman Sachs\nProcessing The Home Depot\nProcessing IBM\nProcessing Intel\nProcessing Johnson & Johnson\nProcessing JPMorgan Chase\nProcessing Coca-Cola\nProcessing McDonald's\nProcessing 3M\nProcessing Merck\nProcessing Microsoft\nProcessing Nike\n",
 			"settings":
 			{
-				"buffer_size": 1,
+				"buffer_size": 431,
 				"line_ending": "Unix",
-				"name": "`"
+				"name": "Processing American Express"
 			}
 		}
 	],
@@ -273,17 +301,35 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mark/workspace/final-year-project"
+		"/home/mark/workspace/final-year-project",
+		"/home/mark/workspace/final-year-project/work",
+		"/home/mark/workspace/final-year-project/work/fundamentals",
+		"/home/mark/workspace/final-year-project/work/machines"
 	],
 	"file_history":
 	[
+		"/home/mark/workspace/final-year-project/work/machines/data-grabber.py",
+		"/home/mark/Desktop/temp.py",
+		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/mark/workspace/final-year-project/work/fundamentals/pe_data.py",
+		"/home/mark/workspace/cs4621/Queue.hs",
+		"/home/mark/workspace/cs4621/Set.hs",
+		"/home/mark/workspace/cs4621/SET.hs",
+		"/home/mark/workspace/markdunne.github.io/_config.yml",
+		"/home/mark/workspace/markdunne.github.io/public/css/hyde.css",
+		"/home/mark/workspace/markdunne.github.io/_includes/sidebar.html",
+		"/home/mark/workspace/markdunne.github.io/_posts/2015-01-31-test-post.md",
+		"/home/mark/workspace/meteor/rabble/.meteor/local/build/programs/server/node_modules/node-inspector/front-end/CallStackSidebarPane.js",
+		"/home/mark/workspace/final-year-project/CacheSetup.py",
+		"/home/mark/workspace/markdunne.github.io/CNAME",
+		"/home/mark/workspace/meteor/rabble/.meteor/local/build/programs/server/node_modules/node-inspector/front-end/sidebarPane.css",
+		"/home/mark/workspace/meteor/rabble/.meteor/local/build/programs/server/node_modules/phantomjs/node_modules/unzip/node_modules/setimmediate/setImmediate.js",
+		"/home/mark/workspace/markdunne.github.io/_layouts/post.html",
 		"/home/mark/workspace/final-year-project/work/fundamentals/combine.py",
 		"/home/mark/workspace/meteor/rabble/rabble.js",
 		"/home/mark/workspace/meteor/rabble/rabble.html",
 		"/home/mark/workspace/meteor/rabble/server/lib/schedule.js",
 		"/home/mark/workspace/final-year-project/work/fundamentals/analysis.py",
-		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/mark/workspace/misc/sodoku.py",
 		"/home/mark/workspace/misc/attractor.py",
 		"/home/mark/workspace/final-year-project/work/neural-nets/neural-net.py",
@@ -312,6 +358,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/mark/workspace/markdunne.github.io",
 			"/home/mark/workspace/meteor/rabble/",
 			""
 		]
@@ -321,6 +368,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slow",
+			")",
+			" \\",
+			"elem",
+			"a",
+			"(\\",
+			"elem",
+			"node",
+			"related_posts",
+			"related_potss",
+			"related posts",
+			"repo",
 			"3",
 			".name",
 			"lastParsedDate",
@@ -410,20 +469,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1,
+						"buffer_size": 431,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1,
-								1
+								431,
+								431
 							]
 						],
 						"settings":
 						{
-							"auto_name": "`",
+							"auto_name": "Processing American Express",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -513,7 +572,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 263.0,
+	"side_bar_width": 302.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

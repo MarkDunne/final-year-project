@@ -1,5 +1,6 @@
-KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski', metric_params=None,n_neighbors=29, p=2, weights='uniform')
+On full set of data with kFolds = 10, shuffled
 
+n_neighbors range : 10 to 30
 
 gs.best_estimator_ 
 	KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski', metric_params=None,n_neighbors=29, p=2, weights='uniform')

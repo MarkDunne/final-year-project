@@ -3,8 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from sklearn.neighbors import KNeighborsRegressor
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import KFold
+from sklearn.cross_validation import cross_val_score
 from sklearn.metrics import mean_squared_error
+from sklearn.metrics import classification_report
 from plot_learning_curve import plot_learning_curve
 
 def kfold_for_regression(estimator, X, y, n_folds=10, shuffle=True):
@@ -67,6 +70,14 @@ def bias_variance_tradeoff():
     plt.legend(loc="best")
     plt.show()                           
 
+def test_classifier():
+    y = data[['outcome-class']].values.flatten()
+    estimator = KNeighborsClassifier(50)                 
+    folds = KFold(n=len(X), n_folds=10, shuffle=True)    
+    score = cross_val_score(estimator, X, y, cv=folds, scoring='f1')
+    print np.mean(score)
+
+
 def learning_curve():
     estimator = KNeighborsRegressor(50)
     folds = KFold(n=len(X), n_folds=10, shuffle=True)
@@ -74,4 +85,4 @@ def learning_curve():
     fig.show()
     
 if __name__ == "__main__":
-    learning_curve()    
+    test_classifier()    

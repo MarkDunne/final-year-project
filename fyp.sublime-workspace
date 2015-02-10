@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
 				"de",
 				"deQueue"
 			],
@@ -172,10 +180,6 @@
 				"font-size"
 			],
 			[
-				"tex",
-				"text-align"
-			],
-			[
 				"marg",
 				"margin-right"
 			],
@@ -251,42 +255,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski', metric_params=None,n_neighbors=29, p=2, weights='uniform')\n\n\ngs.best_estimator_ \n	KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski', metric_params=None,n_neighbors=29, p=2, weights='uniform')\n\ngs.best_score_\n	-0.00711921381632\n\ngs.best_params_\n	{'n_neighbors': 29}",
-			"settings":
-			{
-				"buffer_size": 357,
-				"line_ending": "Unix",
-				"name": "KNeighborsRegressor(algorithm='auto', leaf_size=30"
-			}
-		},
-		{
-			"contents": "def plot_learning_curve(estimator, X, y, num_iterations=10, test_size=0.3):\n    max_training_set_size = int((1 - test_size) * len(y))\n    training_set_sizes = range(1, max_training_set_size)\n    mses_incremental_train = np.zeros((max_training_set_size, num_iterations))\n    mses_incremental_test = np.zeros((max_training_set_size, num_iterations))\n    ss = ShuffleSplit(\n        n=len(y), n_iter=num_iterations, test_size=test_size, random_state=np.random)\n    for i, (train_indexes, test_indexes) in zip(range(num_iterations), ss):\n    X_train = X[train_indexes]\n    y_train = y[train_indexes]\n    X_test = X[test_indexes]\n    y_test = y[test_indexes]\n    for j in training_set_sizes:\n        estimator.fit(X_train[:j], y_train[:j])\n        y_predicted = estimator.predict(X_train[:j])\n        mses_incremental_train[j][i] = mean_squared_error(y_trai\n                                                          n[:j], y_predicted)\n        y_predicted = estimator.predict(X_test)\n        mses_incremental_test[j][i] = mean_squared_error(y_test,\n                                                         y_predicted)\n    mses_train = []\n    mses_test = []\n    for j in training_set_sizes:\n    mses_train.append(np.mean(mses_incremental_train[j]))\n    mses_test.append(np.mean(mses_incremental_test[j]))\n    fig = plt.figure()\n    plt.xlabel('num. training examples')\n    plt.ylabel('MSE')\n    plt.ylim(0, 5)\n    plt.plot(training_set_sizes, mses_train, label= 'training error\n             ', color = 'purple')\n    plt.plot(training_set_sizes, mses_test, label='test error', co\n             lor='orange')\n    plt.plot(training_set_sizes, np.ones_like(training_set_sizes), l\n             inestyle='dotted', color='gray')\n    plt.legend()\n    plt.show()\n",
-			"file": "/home/mark/Desktop/temp.py",
-			"file_size": 1726,
-			"file_write_time": 130676252123592684,
-			"settings":
-			{
-				"buffer_size": 1747,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "work/machines/plot_learning_curve.py",
-			"settings":
-			{
-				"buffer_size": 3521,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "work/machines/data-grabber.py",
-			"settings":
-			{
-				"buffer_size": 958,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"command_palette":
@@ -328,21 +296,31 @@
 	},
 	"expanded_folders":
 	[
-		"/home/mark/workspace/final-year-project",
-		"/home/mark/workspace/final-year-project/work",
-		"/home/mark/workspace/final-year-project/work/fundamentals",
-		"/home/mark/workspace/final-year-project/work/machines"
+		"/home/mark/workspace/markdunne.github.io",
+		"/home/mark/workspace/markdunne.github.io/_includes",
+		"/home/mark/workspace/markdunne.github.io/_layouts",
+		"/home/mark/workspace/markdunne.github.io/_posts",
+		"/home/mark/workspace/markdunne.github.io/public",
+		"/home/mark/workspace/markdunne.github.io/public/css"
 	],
 	"file_history":
 	[
-		"/home/mark/workspace/final-year-project/work/machines/data-grabber.py",
+		"/home/mark/workspace/markdunne.github.io/index.html",
+		"/home/mark/workspace/markdunne.github.io/_posts/2015-02-08-Inauguration Address Generator.html",
+		"/home/mark/workspace/markdunne.github.io/_layouts/default.html",
+		"/home/mark/workspace/markdunne.github.io/_includes/head.html",
+		"/home/mark/workspace/markdunne.github.io/public/css/styles.css",
+		"/home/mark/workspace/markdunne.github.io/404.html",
+		"/home/mark/workspace/markdunne.github.io/_config.yml",
+		"/home/mark/workspace/markdunne.github.io/_layouts/post.html",
 		"/home/mark/Desktop/temp.py",
+		"/home/mark/workspace/final-year-project/work/machines/plot_learning_curve.py",
+		"/home/mark/workspace/final-year-project/work/machines/data-grabber.py",
 		"/home/mark/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
 		"/home/mark/workspace/final-year-project/work/fundamentals/pe_data.py",
 		"/home/mark/workspace/cs4621/Queue.hs",
 		"/home/mark/workspace/cs4621/Set.hs",
 		"/home/mark/workspace/cs4621/SET.hs",
-		"/home/mark/workspace/markdunne.github.io/_config.yml",
 		"/home/mark/workspace/markdunne.github.io/public/css/hyde.css",
 		"/home/mark/workspace/markdunne.github.io/_includes/sidebar.html",
 		"/home/mark/workspace/markdunne.github.io/_posts/2015-01-31-test-post.md",
@@ -351,7 +329,6 @@
 		"/home/mark/workspace/markdunne.github.io/CNAME",
 		"/home/mark/workspace/meteor/rabble/.meteor/local/build/programs/server/node_modules/node-inspector/front-end/sidebarPane.css",
 		"/home/mark/workspace/meteor/rabble/.meteor/local/build/programs/server/node_modules/phantomjs/node_modules/unzip/node_modules/setimmediate/setImmediate.js",
-		"/home/mark/workspace/markdunne.github.io/_layouts/post.html",
 		"/home/mark/workspace/final-year-project/work/fundamentals/combine.py",
 		"/home/mark/workspace/meteor/rabble/rabble.js",
 		"/home/mark/workspace/meteor/rabble/rabble.html",
@@ -489,123 +466,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								357,
-								357
-							]
-						],
-						"settings":
-						{
-							"auto_name": "KNeighborsRegressor(algorithm='auto', leaf_size=30",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/mark/Desktop/temp.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1747,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1747,
-								1747
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "work/machines/plot_learning_curve.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3521,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2775
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1122.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "work/machines/data-grabber.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 958,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								390,
-								390
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -615,7 +477,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{

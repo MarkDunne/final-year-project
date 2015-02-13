@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"left",
+				"left_on"
+			],
+			[
 				"margin",
 				"margin"
 			],
@@ -255,6 +259,31 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "chess960.append(int(user_perfs['chess960']['rating']))\nblitz.append(int(user_perfs['blitz']['rating']))\nkingOfTheHill.append(int(user_perfs['kingOfTheHill']['rating']))\nthreeCheck.append(int(user_perfs['threeCheck']['rating']))\nantichess.append(int(user_perfs['antichess']['rating']))\nbullet.append(int(user_perfs['bullet']['rating']))\ncorrespondence.append(int(user_perfs['correspondence']['rating']))\npuzzle.append(int(user_perfs['puzzle']['rating']))\natomic.append(int(user_perfs['atomic']['rating']))\nopening.append(int(user_perfs['opening']['rating']))\nclassical.append(int(user_perfs['classical']['rating']))",
+			"settings":
+			{
+				"buffer_size": 614,
+				"line_ending": "Unix",
+				"name": "chess960.append(int(user_perfs['chess960']['rating"
+			}
+		},
+		{
+			"file": "/home/mark/workspace/misc/lichess-player-ratings/lichess-player-ratings.py",
+			"settings":
+			{
+				"buffer_size": 1813,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/mark/anaconda/lib/python2.7/site-packages/pandas/tools/merge.py",
+			"settings":
+			{
+				"buffer_size": 39848,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"command_palette":
@@ -305,6 +334,8 @@
 	],
 	"file_history":
 	[
+		"/home/mark/anaconda/lib/python2.7/site-packages/pandas/tools/merge.pyc",
+		"/home/mark/anaconda/lib/python2.7/site-packages/pandas/core/common.py",
 		"/home/mark/workspace/markdunne.github.io/index.html",
 		"/home/mark/workspace/markdunne.github.io/_posts/2015-02-08-Inauguration Address Generator.html",
 		"/home/mark/workspace/markdunne.github.io/_layouts/default.html",
@@ -372,6 +403,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"left_on)",
+			"left_on",
+			"_validate_specification",
+			"left_on",
+			"(left_on) must equal the n",
+			" = []",
+			"# In",
+			"user_perfs",
+			"user_prefs",
+			"user_pefs",
+			":{\"games",
 			"print(",
 			"slow",
 			")",
@@ -466,8 +508,138 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 614,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							],
+							[
+								103,
+								103
+							],
+							[
+								168,
+								168
+							],
+							[
+								227,
+								227
+							],
+							[
+								284,
+								284
+							],
+							[
+								335,
+								335
+							],
+							[
+								402,
+								402
+							],
+							[
+								453,
+								453
+							],
+							[
+								504,
+								504
+							],
+							[
+								557,
+								557
+							],
+							[
+								614,
+								614
+							]
+						],
+						"settings":
+						{
+							"auto_name": "chess960.append(int(user_perfs['chess960']['rating",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/mark/workspace/misc/lichess-player-ratings/lichess-player-ratings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								321,
+								321
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/mark/anaconda/lib/python2.7/site-packages/pandas/tools/merge.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6061,
+								6061
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2418.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

@@ -1,3 +1,4 @@
-plot recommendations
-rebuild the data to give wider window and include recommendations
+see if its possible to classify pos/neg based on upgrade/downgrade
+try MultinominalNB and tf-idf stuff
+
 train nn

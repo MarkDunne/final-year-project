@@ -1,0 +1,3585 @@
+Date,Research Firm,Action,From,To,Ticker
+2014-11-13,Deutsche Bank,Initiated,,Hold,AXP
+2013-06-14,Barclays,Downgrade,Overweight,Equal Weight,AXP
+2013-06-13,Oppenheimer,Initiated,,Perform,AXP
+2010-12-20,Stifel Nicolaus,Downgrade,Buy,Hold,AXP
+2010-11-05,Argus,Upgrade,Hold,Buy,AXP
+2010-01-26,Ladenburg Thalmann,Upgrade,Sell,Neutral,AXP
+2009-10-26,Stifel Nicolaus,Upgrade,Hold,Buy,AXP
+2009-10-19,FBR Capital,Upgrade,Underperform,Mkt Perform,AXP
+2009-09-25,William Blair,Initiated,,Outperform,AXP
+2009-08-24,Barclays Capital,Upgrade,Equal Weight,Overweight,AXP
+2009-08-18,Keefe Bruyette,Upgrade,Mkt Perform,Outperform,AXP
+2009-08-10,Ladenburg Thalmann,Initiated,,Sell,AXP
+2009-08-06,Citigroup,Upgrade,Hold,Buy,AXP
+2009-07-06,Stifel Nicolaus,Upgrade,Sell,Hold,AXP
+2009-05-12,RBC Capital Mkts,Initiated,,Underperform,AXP
+2009-04-16,Sun Trust Rbsn Humphrey,Upgrade,Reduce,Neutral,AXP
+2009-04-14,Stifel Nicolaus,Downgrade,Hold,Sell,AXP
+2009-04-07,Citigroup,Upgrade,Sell,Hold,AXP
+2009-03-25,JP Morgan,Downgrade,Overweight,Underweight,AXP
+2008-12-17,Sun Trust Rbsn Humphrey,Initiated,,Reduce,AXP
+2008-12-12,Deutsche Securities,Initiated,,Sell,AXP
+2008-12-10,Banc of America Sec,Initiated,,Sell,AXP
+2008-12-10,Citigroup,Initiated,,Sell,AXP
+2008-11-13,Jefferies & Co,Initiated,,Underperform,AXP
+2008-07-22,Oppenheimer,Downgrade,Outperform,Perform,AXP
+2008-07-14,Fox Pitt,Initiated,,Outperform,AXP
+2008-07-01,UBS,Upgrade,Sell,Neutral,AXP
+2008-02-11,Keefe Bruyette,Downgrade,Outperform,Mkt Perform,AXP
+2008-02-04,UBS,Downgrade,Buy,Sell,AXP
+2008-02-01,Sandler O'Neill,Downgrade,Buy,Hold,AXP
+2008-01-22,Citigroup,Downgrade,Buy,Hold,AXP
+2008-01-11,Friedman Billings,Downgrade,Mkt Perform,Underperform,AXP
+2007-12-07,Stifel Nicolaus,Downgrade,Buy,Hold,AXP
+2007-10-22,Lehman Brothers,Downgrade,Overweight,Equal-weight,AXP
+2007-07-24,Friedman Billings,Downgrade,Outperform,Mkt Perform,AXP
+2007-04-02,Calyon Securities,Initiated,,Buy,AXP
+2007-02-28,Friedman Billings,Upgrade,Mkt Perform,Outperform,AXP
+2006-12-05,AG Edwards,Downgrade,Buy,Hold,AXP
+2006-11-17,Goldman Sachs,Initiated,,Neutral,AXP
+2006-07-25,Stifel Nicolaus,Upgrade,Hold,Buy,AXP
+2006-02-02,Prudential,Initiated,,Overweight,AXP
+2005-11-22,Citigroup,Initiated,,Buy,AXP
+2005-11-21,UBS,Upgrade,Neutral,Buy,AXP
+2005-08-10,Morgan Stanley,Upgrade,Underweight,Equal-weight,AXP
+2005-03-17,CIBC Wrld Mkts,Initiated,,Sector Outperform,AXP
+2005-02-01,Wachovia,Upgrade,Mkt Perform,Outperform,AXP
+2005-01-11,Bernstein,Downgrade,Outperform,Mkt Perform,AXP
+2004-12-21,JP Morgan,Initiated,,Overweight,AXP
+2004-12-14,Fulcrum,Upgrade,Neutral,Buy,AXP
+2004-12-09,UBS,Downgrade,Buy,Neutral,AXP
+2004-08-02,Goldman Sachs,Downgrade,Outperform,In-Line,AXP
+2004-07-27,Deutsche Securities,Upgrade,Hold,Buy,AXP
+2004-05-18,Fulcrum,Initiated,,Neutral,AXP
+2004-02-12,FTN Midwest,Initiated,,Neutral,AXP
+2004-01-29,Piper Jaffray,Upgrade,Market Perform,Outperform,AXP
+2003-12-18,UBS,Upgrade,Neutral,Buy,AXP
+2003-07-11,AG Edwards,Initiated,,Buy,AXP
+2003-07-10,CIBC Wrld Mkts,Initiated,,Sector Perform,AXP
+2003-05-20,Friedman Billings,Downgrade,Outperform,Mkt Perform,AXP
+2003-02-25,Legg Mason,Initiated,,Hold,AXP
+2002-11-05,Merrill Lynch,Downgrade,Buy,Neutral,AXP
+2002-09-18,UBS Warburg,Initiated,,Hold,AXP
+2002-09-09,Deutsche Securities,Downgrade,Buy,Hold,AXP
+2002-08-01,Merrill Lynch,Downgrade,NT Strong Buy/LT Strong Buy,NT Buy/LT Buy,AXP
+2002-07-31,Lehman Brothers,Upgrade,Mkt Perform,Strong Buy,AXP
+2002-06-18,USB Piper Jaffray,Initiated,,Market Perform,AXP
+2002-04-19,Prudential,Upgrade,Hold,Buy,AXP
+2002-04-19,CIBC Wrld Mkts,Upgrade,Hold,Buy,AXP
+2002-03-12,Thomas Weisel,Upgrade,Mkt Perform,Buy,AXP
+2002-03-11,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,AXP
+2002-02-14,JP Morgan,Upgrade,Mkt Perform,Buy,AXP
+2001-12-14,Salomon Smth Brny,Initiated,,Buy,AXP
+2001-12-11,Bernstein,Upgrade,Mkt Perform,Outperform,AXP
+2001-11-16,UBS Warburg,Downgrade,Buy,Hold,AXP
+2001-09-21,AG Edwards,Upgrade,Sell,Maintain Position,AXP
+2001-09-18,JP Morgan,Downgrade,Buy,Mkt Perform,AXP
+2001-09-17,AG Edwards,Downgrade,Maintain Position,Sell,AXP
+2001-08-09,Thomas Weisel,Initiated,,Mkt Perform,AXP
+2001-07-31,CIBC Wrld Mkts,Initiated,,Hold,AXP
+2001-05-08,Mrgn Stnly,Downgrade,Outperform,Neutral,AXP
+2001-04-26,Robertson Stephens,Initiated,,LT Attractive,AXP
+2001-04-18,Keefe Bruyette,Initiated,,Mkt Perform,AXP
+2001-04-02,USB Piper Jaffray,Upgrade,Buy,Strong Buy,AXP
+2001-03-14,Prudential,Initiated,,Hold,AXP
+2001-01-23,Merrill Lynch,Upgrade,NT Accum,NT Buy,AXP
+2001-01-04,Bear Stearns,Downgrade,Buy,Attractive,AXP
+2000-12-04,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,AXP
+2000-10-12,Goldman Sachs,Upgrade,Market Outperform,Recommended List,AXP
+2000-10-11,CSFB,Initiated,,Hold,AXP
+2000-09-29,ABN AMRO,Initiated,,Outperform,AXP
+2000-09-14,First Union Sec,Initiated,,Hold,AXP
+2000-07-21,Prudential,Upgrade,Hold,Strong Buy,AXP
+2000-06-01,Banc of America Sec,Initiated,,Market Perform,AXP
+2000-04-13,Lehman Brothers,Initiated,,Neutral,AXP
+2000-01-11,CSFB,Initiated,,Buy,AXP
+1999-10-29,Schroder & Co,Downgrade,Outperform,Perform-In-Line,AXP
+1999-10-29,PaineWebber,Downgrade,Attractive,Neutral,AXP
+1999-10-29,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,AXP
+1999-10-26,CIBC Wrld Mkts,Downgrade,Buy,Hold,AXP
+1999-09-15,Prudential,Downgrade,Strong Buy,Accumulate,AXP
+1999-09-13,Merrill Lynch,Initiated,,NT Accum/LT Buy,AXP
+1999-06-07,Prudential,Upgrade,Accumulate,Strong Buy,AXP
+1999-04-23,CIBC Oppenheimer,Downgrade,Strong Buy,Buy,AXP
+1999-04-05,DLJ,Initiated,,Mkt Perform,AXP
+1999-03-23,Prudential,Initiated,,Accumulate,AXP
+1999-03-18,JP Morgan,Initiated,,Buy,AXP
+1999-03-04,Salomon Smth Brny,Initiated,,Buy,AXP
+1999-02-26,Piper Jaffray,Initiated,,Buy,AXP
+1999-01-26,PaineWebber,Upgrade,Neutral,Attractive,AXP
+1998-11-24,PaineWebber,Downgrade,Attractive,Neutral,AXP
+1998-08-07,DLJ,Upgrade,Buy,Top Pick,AXP
+1998-07-29,CBIC Oppenheimer,Initiated,,Strong Buy,AXP
+1998-05-26,Lehman Bros,Upgrade,Outperform,Buy,AXP
+1998-05-22,Lehman Bros,Upgrade,Outperform,Buy,AXP
+1998-05-21,Lehman Bros,Upgrade,Outperform,Buy,AXP
+2014-06-11,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,BA
+2013-11-20,Oppenheimer,Downgrade,Outperform,Perform,BA
+2013-04-26,BB&T Capital Mkts,Upgrade,Hold,Buy,BA
+2013-03-13,BB&T Capital Mkts,Upgrade,Underweight,Hold,BA
+2013-01-17,BB&T Capital Mkts,Downgrade,Hold,Underweight,BA
+2013-01-08,BB&T Capital Mkts,Downgrade,Buy,Hold,BA
+2012-06-25,Oppenheimer,Upgrade,Perform,Outperform,BA
+2012-06-04,Stifel Nicolaus,Upgrade,Hold,Buy,BA
+2012-05-21,Argus,Upgrade,Hold,Buy,BA
+2012-03-02,Maxim Group,Initiated,,Buy,BA
+2011-10-14,Oppenheimer,Downgrade,Outperform,Perform,BA
+2011-07-20,BB&T Capital Mkts,Initiated,,Buy,BA
+2011-01-05,Argus,Downgrade,Buy,Hold,BA
+2010-09-08,RBC Capital Mkts,Initiated,,Outperform,BA
+2010-06-08,Deutsche Bank,Initiated,,Buy,BA
+2010-04-22,Credit Suisse,Upgrade,Neutral,Outperform,BA
+2010-03-22,Oppenheimer,Upgrade,Underperform,Outperform,BA
+2010-03-17,Wedbush Morgan,Upgrade,Neutral,Outperform,BA
+2010-03-04,C.K. Cooper,Initiated,,Buy,BA
+2010-03-04,UBS,Upgrade,Sell,Neutral,BA
+2010-01-28,Broadpoint AmTech Research,Upgrade,Neutral,Buy,BA
+2010-01-04,Jesup & Lamont,Upgrade,Hold,Buy,BA
+2010-01-04,Barclays Capital,Upgrade,Equal Weight,Overweight,BA
+2009-12-01,HSBC Securities,Initiated,,Underweight,BA
+2009-10-01,McAdams Wright Ragen,Downgrade,Buy,Hold,BA
+2009-07-27,Barclays Capital,Downgrade,Overweight,Equal Weight,BA
+2009-06-24,Oppenheimer,Downgrade,Perform,Underperform,BA
+2009-04-24,Argus,Downgrade,Buy,Hold,BA
+2009-04-09,Citigroup,Initiated,,Hold,BA
+2009-04-01,Wachovia,Downgrade,Outperform,Mkt Perform,BA
+2009-02-10,Jesup & Lamont,Initiated,,Hold,BA
+2009-01-13,Credit Suisse,Downgrade,Outperform,Neutral,BA
+2008-12-11,Bernstein,Downgrade,Outperform,Mkt Perform,BA
+2008-07-24,Cowen & Co,Downgrade,Outperform,Neutral,BA
+2008-04-14,AmTech Research,Upgrade,Sell,Neutral,BA
+2008-01-17,Bernstein,Upgrade,Mkt Perform,Outperform,BA
+2008-01-16,AmTech Research,Downgrade,Buy,Sell,BA
+2007-11-26,Wachovia,Upgrade,Mkt Perform,Outperform,BA
+2007-10-18,AmTech Research,Initiated,,Buy,BA
+2007-10-15,Bernstein,Downgrade,Outperform,Mkt Perform,BA
+2007-09-05,Deutsche Securities,Initiated,,Hold,BA
+2007-02-28,JP Morgan,Upgrade,Underweight,Neutral,BA
+2007-01-22,Wachovia,Downgrade,Outperform,Mkt Perform,BA
+2006-10-27,Matrix Research,Upgrade,Hold,Strong Buy,BA
+2006-09-14,UBS,Downgrade,Buy,Reduce,BA
+2006-08-16,Stifel Nicolaus,Initiated,,Buy,BA
+2006-06-14,Goldman Sachs,Upgrade,Underperform,In-Line,BA
+2006-01-05,Banc of America Sec,Downgrade,Buy,Neutral,BA
+2005-10-14,Prudential,Initiated,,Overweight,BA
+2005-09-13,Wachovia,Initiated,,Outperform,BA
+2005-06-03,Caris & Company,Initiated,,Buy,BA
+2005-05-13,CSFB,Initiated,,Outperform,BA
+2005-05-10,Thomas Weisel,Initiated,,Peer Perform,BA
+2005-03-31,CIBC Wrld Mkts,Initiated,,Sector Perform,BA
+2005-02-03,Banc of America Sec,Upgrade,Neutral,Buy,BA
+2005-01-10,Jefferies & Co,Initiated,,Buy,BA
+2004-11-04,CSFB,Downgrade,Outperform,Neutral,BA
+2004-10-19,Fulcrum,Initiated,,Sell,BA
+2004-10-14,Prudential,Initiated,,Neutral,BA
+2004-09-29,Banc of America Sec,Downgrade,Buy,Neutral,BA
+2004-07-06,Wachovia,Upgrade,Underperform,Mkt Perform,BA
+2004-07-01,Merrill Lynch,Downgrade,Buy,Neutral,BA
+2004-06-07,Lehman Brothers,Upgrade,Equal-weight,Overweight,BA
+2004-05-24,CSFB,Upgrade,Neutral,Outperform,BA
+2004-03-16,CSFB,Downgrade,Outperform,Neutral,BA
+2003-07-01,Deutsche Securities,Downgrade,Hold,Sell,BA
+2003-06-10,Banc of America Sec,Upgrade,Neutral,Buy,BA
+2003-06-05,Sanders Morris Harris,Upgrade,Hold,Buy,BA
+2003-04-28,JP Morgan,Downgrade,Neutral,Underweight,BA
+2003-03-25,Soundview Technology,Initiated,,Neutral,BA
+2003-02-24,UBS Warburg,Initiated,,Neutral,BA
+2003-02-21,Prudential,Initiated,,Hold,BA
+2003-01-31,DA Davidson,Upgrade,Underperform,Neutral,BA
+2002-10-17,Deutsche Securities,Downgrade,Buy,Hold,BA
+2002-07-16,Morgan Stanley,Upgrade,Underweight,Overweight,BA
+2002-07-16,Deutsche Securities,Upgrade,Mkt Perform,Buy,BA
+2002-04-29,Merrill Lynch,Upgrade,NT Buy,NT Strong Buy,BA
+2002-02-19,CSFB,Downgrade,Strong Buy,Buy,BA
+2002-02-15,Wells Fargo Sec,Downgrade,Strong Buy,Buy,BA
+2001-11-30,SG Cowen,Downgrade,Buy,Neutral,BA
+2001-09-18,SG Cowen,Downgrade,Strong Buy,Buy,BA
+2001-09-11,WF Van Kasper,Upgrade,Buy,Strong Buy,BA
+2001-09-07,Morgan Stanley,Downgrade,Outperform,Neutral,BA
+2001-06-22,First Union Sec,Downgrade,Buy,Mkt Perform,BA
+2001-06-22,Banc of America Sec,Downgrade,Buy,Mkt Perform,BA
+2001-06-08,DA Davidson,Downgrade,Buy,Outperform,BA
+2001-05-23,Prudential,Downgrade,Accumulate,Hold,BA
+2001-03-19,Lehman Brothers,Upgrade,Mkt Perform,Buy,BA
+2001-03-13,JP Morgan,Initiated,,Mkt Perform,BA
+2001-03-13,Goldman Sachs,Upgrade,Mkt Perform,Recomm List,BA
+2001-02-28,Banc of America Sec,Initiated,,Buy,BA
+2001-01-18,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,BA
+2001-01-04,CSFB,Upgrade,Buy,Strong Buy,BA
+2001-01-02,First Union Sec,Downgrade,Strong Buy,Buy,BA
+2000-11-06,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,BA
+2000-10-02,Lehman Brothers,Downgrade,Outperform,Neutral,BA
+2000-09-27,Prudential,Upgrade,Hold,Accumulate,BA
+2000-09-07,Deutsche Bc Alex. Br,Downgrade,Strong Buy,Buy,BA
+2000-08-16,Prudential,Downgrade,Accumulate,Hold,BA
+2000-07-20,DLJ,Upgrade,Market Perform,Buy,BA
+2000-04-20,Wasserstein Perella,Upgrade,Buy,Strong Buy,BA
+2000-04-19,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,BA
+2000-03-17,SG Cowen,Upgrade,Buy,Strong Buy,BA
+2000-01-20,Prudential,Upgrade,Hold,Accumulate,BA
+1999-12-23,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,BA
+1999-12-22,SG Cowen,Upgrade,Neutral,Buy,BA
+1999-12-01,Mrgn Stnly Dn Wttr,Initiated,,Neutral,BA
+1999-10-15,Wasserstein Perella,Upgrade,Hold,Buy,BA
+1999-10-15,Merrill Lynch,Upgrade,NT Neutral,NT Accum,BA
+1999-10-15,Lehman Brothers,Upgrade,Neutral,Outperform,BA
+1999-10-15,CSFB,Upgrade,Hold,Buy,BA
+1999-09-28,DLJ,Initiated,,Market Perform,BA
+1999-07-16,CSFB,Initiated,,Hold,BA
+1999-07-16,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,BA
+1999-05-19,Dain Rauscher,Upgrade,Buy,Strong Buy,BA
+1999-04-20,Dain Rauscher,Initiated,,Buy,BA
+1999-02-09,BT Alex. Brown,Initiated,,Mkt Perform,BA
+1999-02-03,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,BA
+1998-12-02,Lehman Bros,Downgrade,Buy,Neutral,BA
+1998-12-02,ING Brng Frmn Selz,Downgrade,Strong Buy,Hold,BA
+1998-12-02,AG Edwards,Downgrade,Maintain,Reduce,BA
+1998-12-02,PaineWebber,Downgrade,Attractive,Neutral,BA
+1998-12-02,Prudential,Downgrade,Accumulate,Hold,BA
+1998-12-02,Salomon Smth Brny,Downgrade,Buy,Neutral,BA
+1998-12-02,SG Cowen & Co,Downgrade,Buy,Neutral,BA
+1998-12-02,Warburg Dlln Rd,Downgrade,Buy,Hold,BA
+1998-12-02,Gruntal & Co,Downgrade,Buy,Hold,BA
+1998-11-24,Gruntal & Co,Downgrade,Strong Buy,Buy,BA
+1998-09-01,PaineWebber,Upgrade,Neutral,Attractive,BA
+1998-08-18,CIBC Oppenheimer,Initiated,,Hold,BA
+1998-05-28,AG Edwards,Downgrade,Accumulate,Maintain,BA
+1998-05-28,Gruntal & Co,Upgrade,Buy,Strong Buy,BA
+1998-04-20,PaineWebber,Downgrade,Attractive,Neutral,BA
+1998-03-24,Gruntal & Co,Downgrade,Strong Buy,Buy,BA
+2015-02-03,Argus,Downgrade,Buy,Hold,CAT
+2014-11-21,Stifel,Initiated,,Buy,CAT
+2014-07-30,Tigress Financial,Upgrade,Underperform,Neutral,CAT
+2014-03-04,Standpoint Research,Downgrade,Buy,Hold,CAT
+2014-02-20,Deutsche Bank,Initiated,,Buy,CAT
+2013-09-18,Robert W. Baird,Downgrade,Outperform,Neutral,CAT
+2013-03-20,Standpoint Research,Initiated,,Buy,CAT
+2012-10-11,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,CAT
+2012-07-18,Longbow,Downgrade,Buy,Neutral,CAT
+2012-04-16,Longbow,Upgrade,Neutral,Buy,CAT
+2011-09-28,Barclays Capital,Initiated,,Overweight,CAT
+2010-06-16,Jefferies,Initiated,,Buy,CAT
+2010-04-12,Robert W. Baird,Upgrade,Neutral,Outperform,CAT
+2010-03-23,Avondale,Initiated,,Mkt Outperform,CAT
+2010-01-28,UBS,Upgrade,Sell,Neutral,CAT
+2009-10-21,Stifel Nicolaus,Downgrade,Hold,Sell,CAT
+2009-10-19,RBC Capital Mkts,Initiated,,Outperform,CAT
+2009-09-25,Credit Suisse,Upgrade,Neutral,Outperform,CAT
+2009-06-26,Citigroup,Initiated,,Hold,CAT
+2009-05-08,Stifel Nicolaus,Downgrade,Buy,Hold,CAT
+2009-04-22,JP Morgan,Upgrade,Neutral,Overweight,CAT
+2009-04-16,Sterne Agee,Downgrade,Neutral,Sell,CAT
+2009-02-06,Barclays Capital,Initiated,,Equal Weight,CAT
+2009-01-28,Wall Street Access,Downgrade,Buy,Hold,CAT
+2009-01-27,UBS,Upgrade,Sell,Neutral,CAT
+2008-10-20,Banc of America Sec,Downgrade,Buy,Neutral,CAT
+2008-07-23,JP Morgan,Downgrade,Overweight,Neutral,CAT
+2008-06-05,UBS,Downgrade,Neutral,Sell,CAT
+2008-04-21,Credit Suisse,Downgrade,Outperform,Neutral,CAT
+2008-04-21,Wachovia,Downgrade,Outperform,Mkt Perform,CAT
+2008-04-21,Longbow,Downgrade,Buy,Neutral,CAT
+2008-03-26,Sterne Agee,Initiated,,Hold,CAT
+2008-01-28,Bear Stearns,Upgrade,Peer Perform,Outperform,CAT
+2008-01-11,Stifel Nicolaus,Upgrade,Hold,Buy,CAT
+2007-11-19,UBS,Upgrade,Sell,Neutral,CAT
+2007-07-03,UBS,Downgrade,Neutral,Reduce,CAT
+2007-05-17,Stifel Nicolaus,Downgrade,Buy,Hold,CAT
+2007-04-18,Wachovia,Upgrade,Mkt Perform,Outperform,CAT
+2007-02-09,Goldman Sachs,Initiated,,Neutral,CAT
+2007-01-26,JP Morgan,Initiated,,Underweight,CAT
+2006-09-20,Prudential,Initiated,,Overweight,CAT
+2006-09-15,Wachovia,Initiated,,Mkt Perform,CAT
+2006-06-07,Banc of America Sec,Initiated,,Buy,CAT
+2006-04-25,Robert W. Baird,Downgrade,Outperform,Neutral,CAT
+2006-03-29,UBS,Downgrade,Buy,Neutral,CAT
+2006-01-17,Lehman Brothers,Downgrade,Overweight,Equal-weight,CAT
+2006-01-17,Citigroup,Upgrade,Hold,Buy,CAT
+2005-09-26,Citigroup,Downgrade,Buy,Hold,CAT
+2005-06-08,Prudential,Upgrade,Neutral,Overweight,CAT
+2005-06-03,Longbow,Initiated,,Buy,CAT
+2005-04-21,Bear Stearns,Downgrade,Outperform,Peer Perform,CAT
+2005-03-14,Legg Mason,Downgrade,Buy,Hold,CAT
+2004-11-04,Bear Stearns,Upgrade,Peer Perform,Outperform,CAT
+2004-11-03,Lehman Brothers,Upgrade,Equal-weight,Overweight,CAT
+2004-10-22,Legg Mason,Upgrade,Hold,Buy,CAT
+2004-08-24,Goldman Sachs,Upgrade,In-Line,Outperform,CAT
+2004-08-04,UBS,Upgrade,Neutral,Buy,CAT
+2004-05-24,Merrill Lynch,Upgrade,Neutral,Buy,CAT
+2004-03-08,Prudential,Upgrade,Underweight,Neutral,CAT
+2004-02-06,Deutsche Securities,Initiated,,Buy,CAT
+2004-01-28,Bear Stearns,Downgrade,Outperform,Peer Perform,CAT
+2003-12-05,Smith Barney Citigroup,Upgrade,Hold,Buy,CAT
+2003-10-17,AG Edwards,Upgrade,Hold,Buy,CAT
+2003-08-25,Legg Mason,Downgrade,Buy,Hold,CAT
+2003-06-03,Bear Stearns,Initiated,,Outperform,CAT
+2003-04-17,UBS Warburg,Downgrade,Buy,Neutral,CAT
+2003-02-19,UBS Warburg,Upgrade,Neutral,Buy,CAT
+2002-10-17,Goldman Sachs,Downgrade,Mkt Outperform,Mkt Perform,CAT
+2002-09-17,Banc of America Sec,Initiated,,Buy,CAT
+2002-07-16,AG Edwards,Downgrade,Strong Buy,Hold,CAT
+2002-07-16,Lehman Brothers,Upgrade,Mkt Perform,Buy,CAT
+2002-07-12,CIBC Wrld Mkts,Initiated,,Hold,CAT
+2002-04-12,Legg Mason,Upgrade,Mkt Perform,Buy,CAT
+2002-04-03,JP Morgan,Downgrade,Buy,LT Buy,CAT
+2002-03-18,Bear Stearns,Downgrade,Buy,Attractive,CAT
+2002-02-28,AG Edwards,Downgrade,Buy,Hold,CAT
+2001-12-10,Legg Mason,Downgrade,Strong Buy,Mkt Perform,CAT
+2001-12-10,Goldman Sachs,Upgrade,Mkt Perform,Mkt Outperform,CAT
+2001-10-17,AG Edwards,Downgrade,Strong Buy,Buy,CAT
+2001-10-17,Deutsche Bc Alex. Br,Upgrade,Buy,Strong Buy,CAT
+2001-10-10,Prudential,Downgrade,Buy,Hold,CAT
+2001-10-05,Merrill Lynch,Upgrade,NT Accum/LT Buy,NT Buy/LT Buy,CAT
+2001-09-26,UBS Warburg,Downgrade,Buy,Hold,CAT
+2001-09-24,Bear Stearns,Upgrade,Attractive,Buy,CAT
+2001-09-17,Legg Mason,Upgrade,Mkt Perform,Strong Buy,CAT
+2001-06-28,Prudential,Initiated,,Buy,CAT
+2001-06-08,Deutsche Bc Alex. Br,Initiated,,Buy,CAT
+2001-06-01,Robert W. Baird,Initiated,,Mkt Outperform,CAT
+2001-05-24,ABN AMRO,Downgrade,Add,Hold,CAT
+2001-05-21,Legg Mason,Downgrade,Strong Buy,Mkt Perform,CAT
+2001-04-19,Dresdner Klnwrt Wass,Upgrade,Add,Buy,CAT
+2001-03-07,Legg Mason,Upgrade,Buy,Strong Buy,CAT
+2001-03-06,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,CAT
+2001-02-20,Bear Stearns,Downgrade,Buy,Attractive,CAT
+2001-01-25,UBS Warburg,Upgrade,Hold,Buy,CAT
+2001-01-19,ABN AMRO,Downgrade,Buy,Add,CAT
+2001-01-03,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,CAT
+2000-12-19,Bear Stearns,Upgrade,Neutral,Buy,CAT
+2000-12-18,Goldman Sachs,Downgrade,Mkt Outperform,Mkt Perform,CAT
+2000-10-26,Salomon Smth Brny,Initiated,,Neutral,CAT
+2000-10-03,ING Barings,Downgrade,Strong Buy,Buy,CAT
+2000-10-02,PaineWebber,Downgrade,Attractive,Neutral,CAT
+2000-07-18,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,CAT
+2000-07-05,Goldman Sachs,Downgrade,Recommended List,Market Outperform,CAT
+2000-05-09,ABN AMRO,Upgrade,Hold,Buy,CAT
+2000-04-19,Salomon Smth Brny,Downgrade,Buy,Neutral,CAT
+2000-03-14,Merrill Lynch,Upgrade,NT Accum,NT Buy,CAT
+2000-03-06,JP Morgan,Upgrade,Mkt Perform,Buy,CAT
+2000-01-10,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,CAT
+2000-01-06,PaineWebber,Upgrade,Neutral,Attractive,CAT
+2000-01-03,ING Barings,Upgrade,Hold,Strong Buy,CAT
+1999-12-22,AG Edwards,Upgrade,Maintain Position,Buy,CAT
+1999-12-21,Lehman Brothers,Downgrade,Buy,Neutral,CAT
+1999-12-10,Merrill Lynch,Upgrade,NT Neutral,NT Accum,CAT
+1999-12-03,Dresdner Klnwrt Bnsn,Downgrade,Buy,Add,CAT
+1999-12-02,DLJ,Initiated,,Buy,CAT
+1999-11-19,Merrill Lynch,Downgrade,NT Accum,NT Neutral,CAT
+1999-08-12,Goldman Sachs,Upgrade,Market Perform,Recommended List,CAT
+1999-07-09,Deutsche Bc Alex. Br,Initiated,,Mkt Perform,CAT
+1999-06-16,Lehman Bros,Initiated,,Buy,CAT
+1999-04-12,Merrill Lynch,Upgrade,NT Neutral,NT Accumulate,CAT
+1999-03-17,Salomon Smth Brny,Upgrade,Neutral,Buy,CAT
+1999-03-15,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,CAT
+1999-03-15,AG Edwards,Downgrade,Accumulate,Maintain,CAT
+1999-02-09,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,CAT
+1998-12-22,Bear Stearns,Initiated,,Neutral,CAT
+1998-12-16,AG Edwards,Downgrade,Buy,Accumulate,CAT
+1998-10-19,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,CAT
+1998-09-11,Merrill Lynch,Downgrade,NT Accumulate,NT Neutral,CAT
+1998-04-16,CS First Boston,Upgrade,Hold,Buy,CAT
+2014-04-22,Standpoint Research,Downgrade,Buy,Hold,CSCO
+2014-04-08,Wunderlich,Downgrade,Buy,Hold,CSCO
+2014-04-04,Northland Capital,Initiated,,Outperform,CSCO
+2014-03-18,Barclays,Downgrade,Overweight,Equal Weight,CSCO
+2013-11-14,Deutsche Bank,Downgrade,Buy,Hold,CSCO
+2013-11-14,Standpoint Research,Upgrade,Hold,Buy,CSCO
+2013-10-16,MKM Partners,Downgrade,Buy,Neutral,CSCO
+2013-08-15,ISI Group,Upgrade,Cautious,Neutral,CSCO
+2013-05-13,FBR Capital,Upgrade,Underperform,Mkt Perform,CSCO
+2013-03-21,FBR Capital,Downgrade,Mkt Perform,Underperform,CSCO
+2013-03-12,Standpoint Research,Downgrade,Buy,Hold,CSCO
+2013-02-14,Northland Capital,Initiated,,Outperform,CSCO
+2013-01-14,Robert W. Baird,Upgrade,Neutral,Outperform,CSCO
+2013-01-03,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,CSCO
+2012-10-17,Cantor Fitzgerald,Downgrade,Buy,Hold,CSCO
+2012-10-02,MKM Partners,Upgrade,Neutral,Buy,CSCO
+2012-08-10,Needham,Initiated,,Hold,CSCO
+2012-05-16,Barclays,Upgrade,Equal Weight,Overweight,CSCO
+2012-02-09,MKM Partners,Downgrade,Buy,Neutral,CSCO
+2012-02-09,ISI Group,Downgrade,Buy,Hold,CSCO
+2012-01-20,FBR Capital,Initiated,,Mkt Perform,CSCO
+2011-11-01,MKM Partners,Initiated,,Buy,CSCO
+2011-10-27,UBS,Upgrade,Neutral,Buy,CSCO
+2011-10-14,ISI Group,Initiated,,Buy,CSCO
+2011-09-09,RBC Capital Mkts,Upgrade,Underperform,Sector Perform,CSCO
+2011-05-12,Canaccord Genuity,Downgrade,Buy,Hold,CSCO
+2011-05-12,Robert W. Baird,Downgrade,Outperform,Neutral,CSCO
+2011-04-15,Auriga U.S.A,Downgrade,Buy,Hold,CSCO
+2011-02-10,Stifel Nicolaus,Downgrade,Buy,Hold,CSCO
+2011-02-07,Avian,Upgrade,Neutral,Positive,CSCO
+2010-12-06,Oppenheimer,Upgrade,Perform,Outperform,CSCO
+2010-11-15,Standpoint Research,Initiated,,Buy,CSCO
+2010-11-11,Wunderlich,Downgrade,Buy,Hold,CSCO
+2010-09-10,RBC Capital Mkts,Downgrade,Top Pick,Outperform,CSCO
+2010-08-12,Oppenheimer,Downgrade,Outperform,Perform,CSCO
+2010-07-08,Avondale,Initiated,,Mkt Outperform,CSCO
+2010-06-24,Kaufman Bros,Initiated,,Buy,CSCO
+2010-06-07,Auriga U.S.A,Upgrade,Hold,Buy,CSCO
+2010-04-28,RBC Capital Mkts,Upgrade,Outperform,Top Pick,CSCO
+2010-04-06,Wunderlich,Initiated,,Buy,CSCO
+2009-12-14,BMO Capital Markets,Upgrade,Market Perform,Outperform,CSCO
+2009-10-21,Wedbush Morgan,Upgrade,Neutral,Outperform,CSCO
+2009-10-07,William Blair,Upgrade,Mkt Perform,Outperform,CSCO
+2009-09-28,Barclays Capital,Upgrade,Equal Weight,Overweight,CSCO
+2009-07-31,BMO Capital Markets,Initiated,,Market Perform,CSCO
+2009-07-22,Robert W. Baird,Upgrade,Neutral,Outperform,CSCO
+2009-07-20,Credit Suisse,Upgrade,Neutral,Outperform,CSCO
+2009-07-15,Citigroup,Initiated,,Buy,CSCO
+2009-07-02,Deutsche Securities,Initiated,,Buy,CSCO
+2009-03-11,Wedbush Morgan,Initiated,,Hold,CSCO
+2009-03-02,Argus,Upgrade,Hold,Buy,CSCO
+2009-02-03,Stifel Nicolaus,Upgrade,Hold,Buy,CSCO
+2009-01-12,AmTech Research,Downgrade,Buy,Neutral,CSCO
+2008-11-21,William Blair,Initiated,,Mkt Perform,CSCO
+2008-10-20,Morgan Keegan,Upgrade,Mkt Perform,Outperform,CSCO
+2008-10-13,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,CSCO
+2008-08-06,Pacific Growth Equities,Upgrade,Neutral,Buy,CSCO
+2008-08-01,Morgan Keegan,Initiated,,Mkt Perform,CSCO
+2008-07-16,Credit Suisse,Downgrade,Outperform,Neutral,CSCO
+2008-07-15,Pacific Growth Equities,Initiated,,Neutral,CSCO
+2008-04-18,Lazard Capital,Initiated,,Buy,CSCO
+2008-04-04,Friedman Billings,Initiated,,Outperform,CSCO
+2008-04-03,UBS,Downgrade,Buy,Neutral,CSCO
+2008-02-21,Citigroup,Upgrade,Hold,Buy,CSCO
+2008-02-07,JP Morgan,Downgrade,Overweight,Neutral,CSCO
+2008-02-07,Robert W. Baird,Downgrade,Outperform,Neutral,CSCO
+2007-11-07,Cowen & Co,Initiated,,Neutral,CSCO
+2007-10-12,Wachovia,Initiated,,Outperform,CSCO
+2007-08-08,Bear Stearns,Upgrade,Peer Perform,Outperform,CSCO
+2007-03-22,Stifel Nicolaus,Initiated,,Hold,CSCO
+2007-02-07,Robert W. Baird,Upgrade,Neutral,Outperform,CSCO
+2007-02-02,AmTech Research,Initiated,,Buy,CSCO
+2007-01-26,Citigroup,Downgrade,Buy,Hold,CSCO
+2007-01-22,JMP Securities,Downgrade,Mkt Outperform,Mkt Perform,CSCO
+2007-01-16,Prudential,Downgrade,Overweight,Neutral,CSCO
+2007-01-16,Banc of America Sec,Downgrade,Buy,Neutral,CSCO
+2006-11-09,UBS,Upgrade,Neutral,Buy,CSCO
+2006-09-26,Jefferies & Co,Initiated,,Buy,CSCO
+2006-09-22,Matrix Research,Downgrade,Buy,Hold,CSCO
+2006-09-21,Piper Jaffray,Upgrade,Market Perform,Outperform,CSCO
+2006-08-09,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,CSCO
+2006-08-03,Robert W. Baird,Downgrade,Outperform,Neutral,CSCO
+2006-08-01,Rochdale Securities,Upgrade,Sell,Hold,CSCO
+2006-07-05,Matrix Research,Upgrade,Hold,Buy,CSCO
+2006-02-08,Robert W. Baird,Upgrade,Neutral,Outperform,CSCO
+2006-02-08,Oppenheimer,Upgrade,Neutral,Buy,CSCO
+2006-01-31,Miller Johnson,Upgrade,Neutral,Buy,CSCO
+2006-01-09,Prudential,Upgrade,Neutral,Overweight,CSCO
+2005-12-07,JP Morgan,Upgrade,Neutral,Overweight,CSCO
+2005-11-21,Oppenheimer,Downgrade,Buy,Neutral,CSCO
+2005-11-08,Miller Johnson,Initiated,,Neutral,CSCO
+2005-09-12,Prudential,Downgrade,Overweight,Neutral,CSCO
+2005-09-06,Lehman Brothers,Upgrade,Equal-weight,Overweight,CSCO
+2005-08-19,Deutsche Securities,Initiated,,Buy,CSCO
+2005-07-14,JMP Securities,Downgrade,Mkt Outperform,Mkt Perform,CSCO
+2005-05-11,Raymond James,Upgrade,Mkt Perform,Strong Buy,CSCO
+2005-04-12,Merrill Lynch,Upgrade,Neutral,Buy,CSCO
+2005-04-07,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,CSCO
+2005-01-24,CSFB,Initiated,,Outperform,CSCO
+2005-01-13,Piper Jaffray,Initiated,,Outperform,CSCO
+2004-11-10,Buckingham Research,Downgrade,Strong Buy,Neutral,CSCO
+2004-09-22,Deutsche Securities,Downgrade,Buy,Hold,CSCO
+2004-09-17,Lehman Brothers,Downgrade,Overweight,Equal-weight,CSCO
+2004-09-07,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,CSCO
+2004-08-13,Morgan Stanley,Upgrade,Equal-weight,Overweight,CSCO
+2004-08-11,Merrill Lynch,Downgrade,Buy,Neutral,CSCO
+2004-08-11,UBS,Downgrade,Buy,Neutral,CSCO
+2004-05-12,Oppenheimer,Upgrade,Neutral,Buy,CSCO
+2004-04-28,RBC Capital Mkts,Initiated,,Outperform,CSCO
+2004-03-23,Janney Mntgmy Scott,Upgrade,Hold,Buy,CSCO
+2004-02-03,Bernstein,Upgrade,Underperform,Mkt Perform,CSCO
+2004-01-28,Banc of America Sec,Initiated,,Buy,CSCO
+2004-01-12,Merriman Curhan Ford,Downgrade,Buy,Neutral,CSCO
+2004-01-12,Janney Mntgmy Scott,Downgrade,Buy,Hold,CSCO
+2004-01-09,Fulcrum,Upgrade,Neutral,Buy,CSCO
+2003-12-08,Legg Mason,Upgrade,Hold,Buy,CSCO
+2003-12-04,Merrill Lynch,Upgrade,Neutral,Buy,CSCO
+2003-11-06,Caris & Company,Upgrade,Above Average,Buy,CSCO
+2003-11-06,CE Unterberg Towbin,Upgrade,LT Mkt Perforn,LT Buy,CSCO
+2003-11-06,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,CSCO
+2003-11-06,USB Piper Jaffray,Upgrade,Market Perform,Outperform,CSCO
+2003-09-24,Oppenheimer,Initiated,,Neutral,CSCO
+2003-09-09,Deutsche Securities,Upgrade,Hold,Buy,CSCO
+2003-09-04,Goldman Sachs,Upgrade,In-Line,Outperform,CSCO
+2003-09-03,UBS,Upgrade,Neutral,Buy,CSCO
+2003-08-07,Caris & Company,Upgrade,Average,Above Average,CSCO
+2003-08-06,Robert W. Baird,Downgrade,Outperform,Neutral,CSCO
+2003-08-06,Wachovia,Upgrade,Mkt Perform,Outperform,CSCO
+2003-08-04,SG Cowen,Upgrade,Outperform,Strong Buy,CSCO
+2003-07-02,Buckingham Research,Upgrade,Accumulate,Strong Buy,CSCO
+2003-06-24,Soundview Technology,Downgrade,Outperform,Neutral,CSCO
+2003-05-21,Deutsche Securities,Downgrade,Buy,Hold,CSCO
+2003-05-13,Bernstein,Downgrade,Mkt Perform,Underperform,CSCO
+2003-05-12,Lehman Brothers,Upgrade,Equal-weight,Overweight,CSCO
+2003-05-08,Goldman Sachs,Initiated,,In-Line,CSCO
+2003-05-07,Prudential,Initiated,,Buy,CSCO
+2003-04-09,USB Piper Jaffray,Initiated,,Market Perform,CSCO
+2003-03-28,Sanders Morris Harris,Initiated,,Buy,CSCO
+2003-03-26,JMP Securities,Initiated,,Mkt Perform,CSCO
+2003-03-11,Credit Lyonnais Sec,Upgrade,Reduce,Hold,CSCO
+2003-01-14,Robert W. Baird,Initiated,,Outperform,CSCO
+2002-12-02,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,CSCO
+2002-11-27,CSFB,Initiated,,Outperform,CSCO
+2002-11-26,JP Morgan,Initiated,,Overweight,CSCO
+2002-11-25,UBS Warburg,Downgrade,Buy,Hold,CSCO
+2002-11-22,Fulcrum,Downgrade,Neutral,Sell,CSCO
+2002-11-19,Legg Mason,Initiated,,Hold,CSCO
+2002-11-14,Needham & Co,Downgrade,Strong Buy,Buy,CSCO
+2002-10-29,CE Unterberg Towbin,Downgrade,ST Buy,ST Mkt Perform,CSCO
+2002-10-28,Morgan Stanley,Downgrade,Overweight,Equal-weight,CSCO
+2002-10-09,Needham & Co,Upgrade,Buy,Strong Buy,CSCO
+2002-10-03,CE Unterberg Towbin,Upgrade,ST Mkt Perform,ST Buy,CSCO
+2002-08-20,Dresdner Klnwrt Wass,Downgrade,Hold,Sell,CSCO
+2002-08-13,Pacific Growth Equities,Initiated,,Equal Weight,CSCO
+2002-08-05,Credit Lyonnais Sec,Initiated,,Hold,CSCO
+2002-07-31,Buckingham Research,Downgrade,Accumulate,Neutral,CSCO
+2002-07-25,Dresdner Klnwrt Wass,Upgrade,Sell,Hold,CSCO
+2002-07-10,Merrill Lynch,Upgrade,NT Buy,NT Strong Buy,CSCO
+2002-06-21,Banc of America Sec,Downgrade,Strong Buy,Buy,CSCO
+2002-06-10,Bear Stearns,Initiated,,Neutral,CSCO
+2002-05-29,Dresdner Klnwrt Wass,Downgrade,Hold,Sell,CSCO
+2002-05-24,Prudential,Initiated,,Buy,CSCO
+2002-05-08,AG Edwards,Upgrade,Buy,Strong Buy,CSCO
+2002-05-08,Fulcrum,Initiated,,Buy,CSCO
+2002-04-24,Dresdner Klnwrt Wass,Upgrade,Sell,Hold,CSCO
+2002-04-10,Needham & Co,Upgrade,Hold,Buy,CSCO
+2002-04-01,Banc of America Sec,Upgrade,Buy,Strong Buy,CSCO
+2002-03-19,Frost Securities,Initiated,,Mkt Perform,CSCO
+2002-02-22,Goldman Sachs,Initiated,,Mkt Outperform,CSCO
+2002-02-08,Buckingham Research,Upgrade,Accumulate,Strong Buy,CSCO
+2002-02-07,SoundView Technology,Upgrade,Buy,Strong Buy,CSCO
+2002-02-07,Dresdner Klnwrt Wass,Downgrade,Reduce,Sell,CSCO
+2002-02-04,Buckingham Research,Upgrade,Neutral,Accumulate,CSCO
+2002-01-24,USB Piper Jaffray,Initiated,,Market Perform,CSCO
+2002-01-18,Deutsche Bc Alex. Br,Initiated,,Buy,CSCO
+2001-12-05,WF Van Kasper,Downgrade,Strong Buy,Buy,CSCO
+2001-11-19,Buckingham Research,Downgrade,Accumulate,Neutral,CSCO
+2001-11-16,Needham & Co,Downgrade,Buy,Hold,CSCO
+2001-11-06,Lehman Brothers,Upgrade,Buy,Strong Buy,CSCO
+2001-11-06,ABN AMRO,Upgrade,Add,Buy,CSCO
+2001-11-06,FAC/Eqts First Albany,Upgrade,Neutral,Buy,CSCO
+2001-10-29,AG Edwards,Downgrade,Strong Buy,Buy,CSCO
+2001-10-15,Needham & Co,Downgrade,Strong Buy,Buy,CSCO
+2001-10-04,CE Unterberg Towbin,Upgrade,Buy,Strong Buy,CSCO
+2001-10-04,Buckingham Research,Upgrade,Neutral,Accumulate,CSCO
+2001-10-03,Buckingham Research,Upgrade,Neutral,Accumulate,CSCO
+2001-09-24,Needham & Co,Upgrade,Hold,Strong Buy,CSCO
+2001-09-20,SoundView Technology,Initiated,,Buy,CSCO
+2001-08-24,WF Van Kasper,Upgrade,Buy,Strong Buy,CSCO
+2001-08-08,Needham & Co,Downgrade,Buy,Hold,CSCO
+2001-08-08,CIBC Wrld Mkts,Upgrade,Hold,Buy,CSCO
+2001-07-30,Dresdner Klnwrt Wass,Downgrade,Hold,Reduce,CSCO
+2001-07-23,UBS Warburg,Upgrade,Hold,Buy,CSCO
+2001-05-29,Thomas Weisel,Initiated,,Buy,CSCO
+2001-05-09,First Union Sec,Downgrade,Buy,Mkt Perform,CSCO
+2001-05-08,Gruntal & Co,Downgrade,LT Outperformer,LT Mkt Performer,CSCO
+2001-05-08,Mrgn Stnly,Upgrade,Neutral,Outperform,CSCO
+2001-05-04,Lazard Freres,Initiated,,Underperform,CSCO
+2001-04-25,UBS Warburg,Downgrade,Buy,Hold,CSCO
+2001-04-25,First Union Sec,Downgrade,Strong Buy,Buy,CSCO
+2001-04-16,Needham & Co,Downgrade,Strong Buy,Buy,CSCO
+2001-04-02,Buckingham Research,Initiated,,Neutral,CSCO
+2001-03-30,Needham & Co,Upgrade,Buy,Strong Buy,CSCO
+2001-03-13,Needham & Co,Upgrade,Hold,Buy,CSCO
+2001-03-12,Robertson Stephens,Downgrade,LT Attractive,Mkt Performer,CSCO
+2001-03-12,FAC/Eqts First Albany,Downgrade,Buy,Neutral,CSCO
+2001-03-06,Banc of America Sec,Downgrade,Strong Buy,Buy,CSCO
+2001-02-07,ABN AMRO,Downgrade,Buy,Add,CSCO
+2001-02-07,CSFB,Downgrade,Strong Buy,Buy,CSCO
+2001-02-07,Dain Rauscher Wessels,Downgrade,Strong Buy Aggress,Buy Aggressive,CSCO
+2001-02-07,Gruntal & Co,Downgrade,NT Outperformer,NT Mkt Performer,CSCO
+2001-02-07,Lehman Brothers,Downgrade,Strong Buy,Buy,CSCO
+2001-02-07,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Neutral,CSCO
+2001-02-07,Robertson Stephens,Downgrade,Buy,LT Attractive,CSCO
+2001-02-07,SG Cowen,Downgrade,Strong Buy,Buy,CSCO
+2001-01-30,Gruntal & Co,Initiated,,NT/LT Outperformer,CSCO
+2001-01-10,CIBC Wrld Mkts,Downgrade,Buy,Hold,CSCO
+2000-12-20,CE Unterberg Towbin,Initiated,,Buy,CSCO
+2000-12-20,Merrill Lynch,Downgrade,NT Buy,NT Accum,CSCO
+2000-10-03,ING Barings,Initiated,,Strong Buy,CSCO
+2000-09-28,Sanford Bernstein,Downgrade,Outperform,Mkt Perform,CSCO
+2000-08-08,DLJ,Initiated,,Buy,CSCO
+2000-06-16,Prudential,Initiated,,Strong Buy,CSCO
+2000-04-28,First Union Sec,Initiated,,Strong Buy,CSCO
+2000-04-28,ABN AMRO,Initiated,,Buy,CSCO
+2000-02-07,Wit SoundView,Upgrade,Buy,Strong Buy,CSCO
+1999-12-17,Gruntal & Co,Initiated,,NT/LT Outperformer,CSCO
+1999-11-23,PaineWebber,Initiated,,Buy,CSCO
+1999-11-01,SoundView Tech,Downgrade,Strong Buy,Buy,CSCO
+1999-10-26,McDonald Invst,Initiated,,Buy,CSCO
+1999-09-13,Merrill Lynch,Upgrade,NT Accum,NT Buy,CSCO
+1999-09-10,Schroder & Co,Initiated,,Outperf. Signif.,CSCO
+1999-06-16,Thomas Weisel,Initiated,,Buy,CSCO
+1999-05-12,Sutro & Co,Upgrade,Outperform,Buy,CSCO
+1999-05-12,Gruntal & Co,Upgrade,Hold,Buy,CSCO
+1999-03-02,Interstate/Johnson,Initiated,,LT Buy,CSCO
+1999-02-03,Sutro & Co,Downgrade,Buy,Accumulate,CSCO
+1999-01-13,Gruntal & Co,Downgrade,Buy,Hold,CSCO
+1998-11-20,Sutro & Co,Initiated,,Buy,CSCO
+1998-11-18,Salomon Smth Brny,Initiated,,Buy,CSCO
+1998-11-09,Soundview,Upgrade,Buy,Strong Buy,CSCO
+1998-11-05,AG Edwards,Downgrade,Buy,Accumulate,CSCO
+1998-10-09,AG Edwards,Upgrade,Accumulate,Buy,CSCO
+1998-10-07,Sunlogic Sec.,Initiated,,Buy,CSCO
+1998-10-05,SG Cowen & Co,Downgrade,Strong Buy,Buy,CSCO
+1998-09-02,EVEREN Sec.,Upgrade,IT Mkt Perform,IT Outperform,CSCO
+1998-08-05,DLJ,Upgrade,Buy,Top Pick,CSCO
+1998-07-17,CS First Boston,Initiated,,Strong Buy,CSCO
+1998-02-27,Deutsche Morgan,Initiated,,Buy,CSCO
+1998-02-26,CIBC Oppenheimer,Initiated,,Buy-Focus List,CSCO
+2014-06-10,Deutsche Bank,Initiated,,Buy,CVX
+2014-05-08,Argus,Downgrade,Buy,Hold,CVX
+2014-01-08,Howard Weil,Downgrade,Sector Outperform,Sector Perform,CVX
+2013-12-13,RBC Capital Mkts,Initiated,,Sector Perform,CVX
+2013-12-06,HSBC Securities,Initiated,,Overweight,CVX
+2013-06-05,Barclays,Downgrade,Overweight,Equal Weight,CVX
+2013-02-04,UBS,Downgrade,Buy,Neutral,CVX
+2012-12-06,Dahlman Rose,Upgrade,Hold,Buy,CVX
+2012-10-11,Dahlman Rose,Initiated,,Hold,CVX
+2012-09-24,Howard Weil,Upgrade,Market Perform,Market Outperform,CVX
+2012-02-29,Deutsche Bank,Upgrade,Hold,Buy,CVX
+2011-10-27,Standpoint Research,Downgrade,Buy,Hold,CVX
+2011-08-15,Standpoint Research,Upgrade,Hold,Accumulate,CVX
+2010-10-06,Standpoint Research,Downgrade,Buy,Hold,CVX
+2010-07-01,Standpoint Research,Initiated,,Buy,CVX
+2010-04-26,Benchmark,Upgrade,Hold,Buy,CVX
+2010-01-11,Citigroup,Upgrade,Hold,Buy,CVX
+2009-09-18,Credit Suisse,Upgrade,Neutral,Outperform,CVX
+2009-04-14,Oppenheimer,Downgrade,Outperform,Perform,CVX
+2009-03-27,Benchmark,Upgrade,Sell,Hold,CVX
+2009-01-09,JP Morgan,Upgrade,Neutral,Overweight,CVX
+2008-11-18,Howard Weil,Downgrade,Market Outperform,Market Perform,CVX
+2008-10-20,Oppenheimer,Upgrade,Perform,Outperform,CVX
+2008-05-15,UBS,Upgrade,Neutral,Buy,CVX
+2007-11-27,Bear Stearns,Upgrade,Peer Perform,Outperform,CVX
+2007-11-16,Deutsche Securities,Upgrade,Sell,Hold,CVX
+2007-08-06,Oppenheimer,Downgrade,Buy,Neutral,CVX
+2007-06-25,Banc of America Sec,Upgrade,Neutral,Buy,CVX
+2007-05-23,Bernstein,Downgrade,Outperform,Mkt Perform,CVX
+2007-04-23,Deutsche Securities,Downgrade,Hold,Sell,CVX
+2007-03-14,Deutsche Securities,Upgrade,Sell,Hold,CVX
+2007-02-05,Deutsche Securities,Downgrade,Hold,Sell,CVX
+2006-12-05,Banc of America Sec,Downgrade,Buy,Neutral,CVX
+2006-12-01,Bear Stearns,Upgrade,Underperform,Peer Perform,CVX
+2006-07-31,JP Morgan,Downgrade,Overweight,Neutral,CVX
+2006-07-24,Soleil,Downgrade,Buy,Hold,CVX
+2006-04-24,Soleil,Upgrade,Hold,Buy,CVX
+2006-02-14,Deutsche Securities,Downgrade,Buy,Hold,CVX
+2006-01-27,Credit Suisse,Downgrade,Outperform,Neutral,CVX
+2006-01-17,UBS,Initiated,,Neutral,CVX
+2005-11-18,Prudential,Initiated,,Neutral,CVX
+2005-09-28,Friedman Billings,Upgrade,Mkt Perform,Outperform,CVX
+2005-09-27,JP Morgan,Upgrade,Neutral,Overweight,CVX
+2005-06-29,Banc of America Sec,Upgrade,Neutral,Buy,CVX
+2005-05-31,Smith Barney Citigroup,Upgrade,Hold,Buy,CVX
+2005-04-07,AG Edwards,Upgrade,Hold,Buy,CVX
+2005-04-04,Friedman Billings,Downgrade,Outperform,Mkt Perform,CVX
+2005-03-04,Banc of America Sec,Downgrade,Buy,Neutral,CVX
+2005-03-02,Friedman Billings,Upgrade,Mkt Perform,Outperform,CVX
+2005-02-07,AG Edwards,Downgrade,Buy,Hold,CVX
+2004-11-19,Banc of America Sec,Initiated,,Buy,CVX
+2004-11-01,Robert W. Baird,Downgrade,Outperform,Neutral,CVX
+2004-09-07,Deutsche Securities,Downgrade,Buy,Hold,CVX
+2004-05-25,Deutsche Securities,Upgrade,Hold,Buy,CVX
+2004-04-01,Robert W. Baird,Upgrade,Neutral,Outperform,CVX
+2004-03-02,Smith Barney Citigroup,Initiated,,Hold,CVX
+2004-01-22,AG Edwards,Upgrade,Hold,Buy,CVX
+2004-01-08,Robert W. Baird,Downgrade,Outperform,Neutral,CVX
+2004-01-06,Bear Stearns,Downgrade,Peer Perform,Underperform,CVX
+2003-11-14,Bear Stearns,Downgrade,Outperform,Peer Perform,CVX
+2003-08-15,Prudential,Downgrade,Buy,Hold,CVX
+2003-07-17,Banc of America Sec,Downgrade,Buy,Neutral,CVX
+2003-06-16,Deutsche Securities,Downgrade,Hold,Sell,CVX
+2003-05-28,AG Edwards,Downgrade,Buy,Hold,CVX
+2003-05-16,UBS Warburg,Initiated,,Neutral,CVX
+2003-05-05,Banc of America Sec,Upgrade,Neutral,Buy,CVX
+2003-01-29,Prudential,Upgrade,Hold,Buy,CVX
+2003-01-10,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,CVX
+2003-01-06,Robert W. Baird,Upgrade,Neutral,Outperform,CVX
+2002-10-31,Goldman Sachs,Downgrade,Recomm List,Mkt Perform,CVX
+2002-07-18,Fahnestock,Upgrade,Neutral,Buy,CVX
+2002-07-18,UBS Warburg,Upgrade,Reduce,Hold,CVX
+2002-06-27,Robert W. Baird,Upgrade,Mkt Perform,Mkt Outperform,CVX
+2002-06-20,JP Morgan,Upgrade,Mkt Perform,LT Buy,CVX
+2002-05-01,CSFB,Upgrade,Hold,Buy,CVX
+2002-04-19,JP Morgan,Initiated,,Mkt Perform,CVX
+2002-04-15,AG Edwards,Upgrade,Hold,Buy,CVX
+2002-04-12,Deutsche Securities,Initiated,,Mkt Perform,CVX
+2002-04-01,UBS Warburg,Downgrade,Hold,Reduce,CVX
+2002-03-20,Banc of America Sec,Downgrade,Buy,Mkt Perform,CVX
+2002-03-15,Gerard Klauer Mattison,Initiated,,Neutral,CVX
+2002-01-30,Prudential,Downgrade,Buy,Hold,CVX
+2002-01-23,Fahnestock,Downgrade,Buy,Hold,CVX
+2001-11-20,CIBC Wrld Mkts,Downgrade,Buy,Hold,CVX
+2001-10-26,CIBC Wrld Mkts,Upgrade,Hold,Buy,CVX
+2001-10-17,FAC/Eqts First Albany,Initiated,,Sell,CVX
+2001-10-12,AG Edwards,Downgrade,Strong Buy,Hold,CVX
+2001-10-10,UBS Warburg,Initiated,,Hold,CVX
+2014-10-09,RBC Capital Mkts,Initiated,,Sector Perform,DD
+2012-09-19,RBC Capital Mkts,Initiated,,Sector Perform,DD
+2011-11-29,UBS,Initiated,,Neutral,DD
+2010-07-27,BB&T Capital Mkts,Upgrade,Hold,Buy,DD
+2010-04-22,Soleil,Upgrade,Hold,Buy,DD
+2009-08-06,Oppenheimer,Upgrade,Underperform,Perform,DD
+2009-06-11,Sterne Agee,Initiated,,Neutral,DD
+2009-03-27,UBS,Initiated,,Buy,DD
+2008-12-10,Jefferies & Co,Initiated,,Buy,DD
+2008-09-22,Soleil,Downgrade,Buy,Hold,DD
+2008-03-05,Credit Suisse,Initiated,,Outperform,DD
+2008-01-24,Oppenheimer,Downgrade,Perform,Underperform,DD
+2008-01-23,BB&T Capital Mkts,Upgrade,Hold,Buy,DD
+2008-01-23,Deutsche Securities,Upgrade,Hold,Buy,DD
+2008-01-17,UBS,Initiated,,Neutral,DD
+2007-11-28,Soleil,Upgrade,Hold,Buy,DD
+2007-10-22,Citigroup,Downgrade,Buy,Hold,DD
+2007-07-24,BB&T Capital Mkts,Downgrade,Buy,Hold,DD
+2007-06-05,Lehman Brothers,Downgrade,Overweight,Equal-weight,DD
+2006-10-25,Soleil,Downgrade,Buy,Hold,DD
+2006-09-14,Soleil,Upgrade,Hold,Buy,DD
+2006-07-18,CIBC Wrld Mkts,Initiated,,Sector Perform,DD
+2006-06-07,Deutsche Securities,Downgrade,Buy,Hold,DD
+2005-12-23,Soleil,Initiated,,Hold,DD
+2005-11-22,Prudential,Initiated,,Neutral,DD
+2005-10-25,Goldman Sachs,Upgrade,In-Line,Outperform,DD
+2005-10-07,Morgan Stanley,Initiated,,Equal-weight,DD
+2005-07-29,Lehman Brothers,Upgrade,Equal-weight,Overweight,DD
+2005-07-27,Goldman Sachs,Downgrade,Outperform,In-Line,DD
+2005-07-26,Fulcrum,Downgrade,Buy,Neutral,DD
+2005-07-06,Banc of America Sec,Initiated,,Neutral,DD
+2005-05-13,JP Morgan,Upgrade,Neutral,Overweight,DD
+2004-12-15,Smith Barney Citigroup,Upgrade,Hold,Buy,DD
+2004-11-29,Prudential,Downgrade,Neutral,Underweight,DD
+2004-07-22,Goldman Sachs,Initiated,,Outperform,DD
+2004-05-13,Fulcrum,Upgrade,Neutral,Buy,DD
+2003-11-03,Smith Barney Citigroup,Downgrade,Buy,Hold,DD
+2003-10-23,Merrill Lynch,Upgrade,Neutral,Buy,DD
+2003-10-23,Bernstein,Downgrade,Outperform,Mkt Perform,DD
+2003-09-18,JP Morgan,Downgrade,Overweight,Neutral,DD
+2003-09-11,Banc of America Sec,Downgrade,Buy,Neutral,DD
+2003-08-08,Goldman Sachs,Initiated,,In-Line,DD
+2003-03-10,Banc of America Sec,Upgrade,Neutral,Buy,DD
+2003-02-13,UBS Warburg,Upgrade,Neutral,Buy,DD
+2003-02-10,Bernstein,Upgrade,Mkt Perform,Outperform,DD
+2003-01-28,CSFB,Downgrade,Neutral,Underperform,DD
+2002-12-13,Salomon Smth Brny,Upgrade,In-line,Outperform,DD
+2002-11-15,JP Morgan,Initiated,,Overweight,DD
+2002-10-08,Janney Mntgmy Scott,Initiated,,Hold,DD
+2002-09-06,Bear Stearns,Upgrade,Attractive,Buy,DD
+2002-07-25,Goldman Sachs,Upgrade,Mkt Outperform,Trading Buy,DD
+2002-07-15,Bernstein,Downgrade,Mkt Perform,Underperform,DD
+2002-06-17,Bear Stearns,Upgrade,Neutral,Attractive,DD
+2002-05-22,Banc of America Sec,Initiated,,Mkt Perform,DD
+2002-04-04,Merrill Lynch,Downgrade,NT Buy,NT Neutral,DD
+2002-04-03,Bernstein,Downgrade,Outperform,Mkt Perform,DD
+2002-03-12,Bear Stearns,Initiated,,Neutral,DD
+2002-02-20,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Strong Buy,DD
+2002-02-11,Salomon Smth Brny,Upgrade,Neutral,Outperform,DD
+2002-01-24,JP Morgan,Upgrade,LT Buy,Buy,DD
+2001-12-18,Merrill Lynch,Upgrade,NT Buy,NT Strong Buy,DD
+2001-12-07,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,DD
+2001-11-09,Prudential,Downgrade,Buy,Hold,DD
+2001-09-18,Prudential,Upgrade,Hold,Buy,DD
+2001-07-26,Bear Stearns,Downgrade,Buy,Neutral,DD
+2001-07-04,Salomon Smth Brny,Downgrade,Buy,Neutral,DD
+2001-07-03,Salomon Smth Brny,Downgrade,Buy,Neutral,DD
+2001-06-19,Prudential,Initiated,,Hold,DD
+2001-06-14,CSFB,Upgrade,Hold,Buy,DD
+2001-05-24,JP Morgan,Downgrade,Buy,LT Buy,DD
+2001-04-02,JP Morgan,Upgrade,Mkt Perform,Buy,DD
+2001-01-09,JP Morgan,Downgrade,Buy,Mkt Perform,DD
+2001-01-02,UBS Warburg,Downgrade,Strong Buy,Hold,DD
+2000-12-06,Janney Mntgmy Scott,Upgrade,Hold,Accumulate,DD
+2000-11-21,Deutsche Bc Alex. Br,Initiated,,Buy,DD
+2000-09-07,Goldman Sachs,Downgrade,Recommended List,Market Outperform,DD
+2000-07-14,Chase H&Q,Initiated,,Strong Buy,DD
+2000-04-26,Janney Mntgmy Scott,Downgrade,Accumulate,Hold,DD
+2000-04-26,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,DD
+2000-04-07,PaineWebber,Upgrade,Neutral,Buy,DD
+2000-03-03,Merrill Lynch,Upgrade,NT Neutral,NT Accum,DD
+2000-01-05,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,DD
+2000-01-03,Janney Mntgmy Scott,Upgrade,Hold,Accumulate,DD
+1999-11-09,CSFB,Upgrade,Hold,Buy,DD
+1999-10-08,Warburg Dillon Read,Initiated,,Hold,DD
+1999-07-14,Lehman Brothers,Initiated,,Neutral,DD
+1999-07-07,ING Barings,Initiated,,Sell,DD
+1999-05-04,HSBC Securities,Downgrade,Hold,Underperform,DD
+1999-04-19,Deutsche Bank,Downgrade,Accumulate,Hold,DD
+1999-03-10,Deutsche Bank,Upgrade,Hold,Accumulate,DD
+1999-01-08,Bear Stearns,Initiated,,Buy,DD
+1998-12-21,Spencer Clarke,Initiated,,Buy,DD
+1998-12-14,PaineWebber,Upgrade,Unattractive,Neutral,DD
+1998-10-23,CS First Boston,Downgrade,Buy,Hold,DD
+1998-10-22,Merrill Lynch,Downgrade,NT Accumulate,NT Neutral,DD
+1998-08-18,Deutsche Bank,Initiated,,Hold,DD
+1998-08-14,Goldman Sachs,Downgrade,Recomm. List,Mkt Outperformer,DD
+1998-08-04,Sanford Bernstein,Upgrade,Sell,Buy,DD
+1998-07-23,CS First Boston,Upgrade,Hold,Buy,DD
+1998-05-11,Merrill Lynch,Upgrade,ST Neutral,ST Accumulate,DD
+1998-05-08,Merrill Lynch,Upgrade,ST Neutral,ST Accumulate,DD
+1998-05-07,Merrill Lynch,Upgrade,ST Neutral,ST Accumulate,DD
+1998-04-20,CS First Boston,Downgrade,Buy,Hold,DD
+2014-12-10,Topeka Capital Markets,Downgrade,Buy,Hold,DIS
+2014-07-09,Barclays,Initiated,,Equal Weight,DIS
+2014-05-05,Topeka Capital Markets,Upgrade,Hold,Buy,DIS
+2013-12-03,B. Riley & Co.,Downgrade,Buy,Neutral,DIS
+2013-10-25,FBR Capital,Initiated,,Outperform,DIS
+2013-04-29,UBS,Upgrade,Neutral,Buy,DIS
+2012-11-05,Argus,Upgrade,Hold,Buy,DIS
+2012-10-08,Caris & Company,Downgrade,Above Average,Average,DIS
+2012-06-11,Caris & Company,Downgrade,Buy,Above Average,DIS
+2012-01-10,Barclays Capital,Downgrade,Overweight,Equal Weight,DIS
+2011-10-11,Caris & Company,Upgrade,Above Average,Buy,DIS
+2011-08-10,Wunderlich,Downgrade,Buy,Hold,DIS
+2011-02-09,Wunderlich,Upgrade,Hold,Buy,DIS
+2010-09-21,UBS,Initiated,,Neutral,DIS
+2010-04-06,Soleil,Upgrade,Hold,Buy,DIS
+2010-02-19,Jefferies & Co,Initiated,,Buy,DIS
+2010-02-08,JP Morgan,Upgrade,Underweight,Neutral,DIS
+2010-01-13,Soleil,Initiated,,Hold,DIS
+2010-01-11,Janney Mntgmy Scott,Downgrade,Buy,Neutral,DIS
+2009-12-10,Needham,Initiated,,Hold,DIS
+2009-08-28,Stifel Nicolaus,Initiated,,Hold,DIS
+2009-08-19,Janney Mntgmy Scott,Initiated,,Buy,DIS
+2009-07-31,JP Morgan,Downgrade,Neutral,Underweight,DIS
+2009-07-30,Piper Jaffray,Initiated,,Neutral,DIS
+2009-05-06,Wunderlich,Upgrade,Sell,Hold,DIS
+2009-05-06,Barclays Capital,Upgrade,Underweight,Overweight,DIS
+2009-04-20,Argus,Downgrade,Buy,Hold,DIS
+2009-04-03,JP Morgan,Downgrade,Overweight,Neutral,DIS
+2009-02-04,Wunderlich,Downgrade,Hold,Sell,DIS
+2008-12-09,Pali Research,Downgrade,Buy,Neutral,DIS
+2008-11-18,Pali Research,Upgrade,Neutral,Buy,DIS
+2008-11-17,Soleil,Downgrade,Buy,Hold,DIS
+2008-11-07,Wunderlich,Downgrade,Accumulate,Neutral,DIS
+2008-10-28,Credit Suisse,Initiated,,Outperform,DIS
+2008-10-02,Stifel Nicolaus,Initiated,,Hold,DIS
+2008-07-16,Caris & Company,Initiated,,Above Average,DIS
+2008-07-07,Lehman Brothers,Downgrade,Equal-Weight,Underweight,DIS
+2008-05-19,Pali Research,Downgrade,Buy,Neutral,DIS
+2008-02-01,Oppenheimer,Upgrade,Perform,Outperform,DIS
+2008-01-30,Pali Research,Upgrade,Neutral,Buy,DIS
+2008-01-29,Citigroup,Downgrade,Hold,Sell,DIS
+2007-12-14,UBS,Upgrade,Neutral,Buy,DIS
+2007-09-20,RBC Capital Mkts,Initiated,,Outperform,DIS
+2007-09-19,Credit Suisse,Initiated,,Outperform,DIS
+2007-02-12,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,DIS
+2007-02-09,Matrix Research,Upgrade,Hold,Buy,DIS
+2007-02-02,Wachovia,Initiated,,Mkt Perform,DIS
+2006-09-28,Hilliard Lyons,Downgrade,Buy,Long-term Buy,DIS
+2006-09-21,Sanders Morris Harris,Downgrade,Buy,Hold,DIS
+2006-07-27,JP Morgan,Initiated,,Overweight,DIS
+2006-07-17,Cowen & Co,Downgrade,Outperform,Neutral,DIS
+2006-07-13,CIBC Wrld Mkts,Downgrade,Sector Perform,Sector Underperform,DIS
+2006-06-14,AG Edwards,Downgrade,Buy,Hold,DIS
+2006-06-12,Citigroup,Downgrade,Buy,Hold,DIS
+2006-02-07,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,DIS
+2005-11-22,UBS,Initiated,,Neutral,DIS
+2005-11-18,CIBC Wrld Mkts,Downgrade,Sector Perform,Sector Underperform,DIS
+2005-10-28,Citigroup,Initiated,,Buy,DIS
+2005-10-18,CIBC Wrld Mkts,Initiated,,Sector Perform,DIS
+2005-07-13,Hillard Lyons,Upgrade,Long-term Buy,Buy,DIS
+2005-03-18,Lehman Brothers,Initiated,,Equal-weight,DIS
+2005-01-14,Merrill Lynch,Upgrade,Neutral,Buy,DIS
+2004-08-11,Loop Capital,Upgrade,Perform,Outperform,DIS
+2004-07-02,Sanders Morris Harris,Upgrade,Hold,Buy,DIS
+2004-05-13,AG Edwards,Upgrade,Hold,Buy,DIS
+2004-05-11,UBS,Upgrade,Neutral,Buy,DIS
+2004-04-29,Bernstein,Upgrade,Mkt Perform,Outperform,DIS
+2004-02-11,AG Edwards,Downgrade,Buy,Hold,DIS
+2003-12-02,UBS,Initiated,,Neutral,DIS
+2003-11-21,Bear Stearns,Upgrade,Underperform,Peer Perform,DIS
+2003-09-25,Goldman Sachs,Upgrade,In-Line,Outperform,DIS
+2003-07-28,Soundview Technology,Upgrade,Neutral,Outperform,DIS
+2003-06-25,Banc of America Sec,Initiated,,Neutral,DIS
+2003-06-04,Fulcrum,Initiated,,Sell,DIS
+2003-04-11,Fahnestock,Initiated,,Neutral,DIS
+2003-03-06,Goldman Sachs,Initiated,,In-Line,DIS
+2002-12-12,Thomas Weisel,Initiated,,Mkt Perform,DIS
+2002-11-08,Merrill Lynch,Downgrade,Buy,Neutral,DIS
+2002-09-03,CSFB,Initiated,,,DIS
+2002-08-02,Kaufman Bros,Downgrade,Hold,Sell,DIS
+2002-08-02,Goldman Sachs,Downgrade,Trading Buy,Mkt Outperform,DIS
+2002-08-02,JP Morgan,Downgrade,Buy,LT Buy,DIS
+2002-07-22,AG Edwards,Upgrade,Hold,Buy,DIS
+2002-07-10,JP Morgan,Initiated,,Buy,DIS
+2002-07-08,Kaufman Bros,Downgrade,Buy,Hold,DIS
+2002-04-26,UBS Warburg,Downgrade,Buy,Hold,DIS
+2002-04-26,Prudential,Upgrade,Hold,Buy,DIS
+2002-04-19,Goldman Sachs,Upgrade,Mkt Perform,Trading Buy,DIS
+2002-04-19,CIBC Wrld Mkts,Upgrade,Hold,Buy,DIS
+2002-02-25,Kaufman Bros,Downgrade,Strong Buy,Buy,DIS
+2002-02-01,Merrill Lynch,Upgrade,NT Neutral,NT Buy,DIS
+2002-01-18,CIBC Wrld Mkts,Initiated,,Hold,DIS
+2002-01-03,ABN AMRO,Upgrade,Hold,Buy,DIS
+2001-11-12,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,DIS
+2001-11-09,Bear Stearns,Downgrade,Attractive,Neutral,DIS
+2001-11-06,Goldman Sachs,Downgrade,Mkt Outperform,Mkt Perform,DIS
+2001-10-24,Gerard Klauer Mattison,Downgrade,Buy,Outperform,DIS
+2001-10-01,Robertson Stephens,Initiated,,Buy,DIS
+2001-09-19,CSFB,Downgrade,Strong Buy,Hold,DIS
+2001-09-17,First Union Sec,Downgrade,Strong Buy,Buy,DIS
+2001-09-05,Banc of America Sec,Initiated,,Buy,DIS
+2001-08-16,Kaufman Bros,Initiated,,Strong Buy,DIS
+2001-07-02,Prudential,Downgrade,Buy,Hold,DIS
+2001-06-27,Goldman Sachs,Downgrade,Recomm List,Mkt Outperform,DIS
+2001-05-22,UBS Warburg,Downgrade,Strong Buy,Buy,DIS
+2001-05-21,Salomon Smth Brny,Upgrade,Outperform,Buy,DIS
+2001-03-07,Lehman Brothers,Initiated,,Buy,DIS
+2001-03-02,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,DIS
+2000-11-21,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,DIS
+2000-11-10,Credit Lyonnais Sec,Upgrade,Hold,Buy,DIS
+2000-11-10,CSFB,Upgrade,Buy,Strong Buy,DIS
+2000-11-10,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,DIS
+2000-11-10,Salomon Smth Brny,Downgrade,Buy,Outperform,DIS
+2000-11-09,Merrill Lynch,Downgrade,NT Accum,NT Neutral,DIS
+2000-09-13,W.R. Hambrecht,Initiated,,Strong Buy,DIS
+2000-07-19,PaineWebber,Upgrade,Attractive,Buy,DIS
+2000-07-13,SG Cowen,Initiated,,Buy,DIS
+2000-06-27,ING Barings,Initiated,,Hold,DIS
+2000-06-27,ABN AMRO,Initiated,,Buy,DIS
+2000-06-23,AG Edwards,Downgrade,Accumulate,Maintain Position,DIS
+2000-06-20,First Union Sec,Initiated,,Buy,DIS
+2000-05-16,DLJ,Initiated,,Buy,DIS
+2000-05-02,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,DIS
+2000-04-28,Merrill Lynch,Upgrade,LT Accum,LT Buy,DIS
+2000-04-19,Banc of America Sec,Initiated,,Buy,DIS
+2000-04-19,Sutro & Co,Initiated,,Buy,DIS
+2000-03-20,Schroder & Co,Upgrade,Outperform,Outperf. Signif.,DIS
+2000-03-10,Warburg Dillon Read,Initiated,,Buy,DIS
+2000-03-03,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,DIS
+2000-01-25,Goldman Sachs,Upgrade,Market Outperform,Recommended List,DIS
+2000-01-25,Merrill Lynch,Upgrade,NT Neutral,NT Accum,DIS
+2000-01-25,Prudential,Upgrade,Hold,Accumulate,DIS
+2000-01-25,Schroder & Co,Upgrade,Perform-In-Line,Outperform,DIS
+2000-01-25,Salomon Smth Brny,Upgrade,Outperform,Buy,DIS
+2000-01-11,AG Edwards,Initiated,,Accumulate,DIS
+2000-01-04,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,DIS
+1999-11-05,CIBC Wrld Mkts,Downgrade,Buy,Hold,DIS
+1999-10-26,Raymond James,Upgrade,Neutral,Accumulate,DIS
+1999-07-21,Raymond James,Initiated,,Neutral,DIS
+1999-07-01,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Neutral,DIS
+1999-06-08,CIBC World Markets,Upgrade,Hold,Buy,DIS
+1999-04-27,Salomon Smth Brny,Downgrade,Buy,Outperform,DIS
+1999-04-27,BT Alex. Brown,Downgrade,Buy,Outperform,DIS
+1999-03-12,Deutsche Bank,Upgrade,Accumulate,Buy,DIS
+1999-03-12,BT Alex. Brown,Upgrade,Mkt Perform,Buy,DIS
+1999-02-25,JP Morgan,Initiated,,Buy,DIS
+1999-01-28,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,DIS
+1999-01-13,Brown Bros,Upgrade,LT Neutral,LT Buy,DIS
+1999-01-13,Brown Bros,Downgrade,ST Buy,ST Neutral,DIS
+1999-01-12,Salomon Smth Brny,Upgrade,Neutral,Buy,DIS
+1999-01-12,Goldman Sachs,Upgrade,Mkt Perform,Mkt Outperform,DIS
+1999-01-11,ING Brng Frmn Selz,Upgrade,Hold,Buy,DIS
+1998-10-13,Prudential,Downgrade,Accumulate,Hold,DIS
+1998-09-14,Goldman Sachs,Downgrade,Recomm. List,Mkt Performer,DIS
+1998-09-14,BT Alex Brown,Downgrade,Buy,Mkt Perform,DIS
+1998-09-14,Deutsche Bank,Downgrade,Buy,Accumulate,DIS
+1998-09-14,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,DIS
+1998-09-14,Salomon Smth Brny,Downgrade,Outperform,Neutral,DIS
+1998-08-12,Prudential,Upgrade,Hold,Accumulate,DIS
+1998-07-16,Salomon Smth Brny,Downgrade,Buy,Outperform,DIS
+1998-06-30,Schroder & Co,Downgrade,Outperform,Perform In Line,DIS
+1998-06-22,Brown Bros,Downgrade,LT Buy,LT Neutral,DIS
+1998-06-22,NB Montgomery,Downgrade,Buy,Hold,DIS
+1998-06-05,Morgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,DIS
+1998-05-15,Merrill Lynch,Downgrade,ST Accumulate,ST Neutral,DIS
+1998-05-14,Schroder & Co,Downgrade,Outperf. Signif,Outperform,DIS
+2015-01-22,UBS,Initiated,,Buy,GE
+2014-11-25,RBC Capital Mkts,Initiated,,Outperform,GE
+2014-09-17,Stifel,Initiated,,Buy,GE
+2013-12-02,Standpoint Research,Initiated,,Sell,GE
+2012-10-12,Deutsche Bank,Initiated,,Buy,GE
+2011-10-14,Barclays Capital,Initiated,,Overweight,GE
+2011-01-28,Argus,Upgrade,Hold,Buy,GE
+2010-03-17,Sterne Agee,Upgrade,Sell,Neutral,GE
+2009-11-06,Bernstein,Upgrade,Mkt Perform,Outperform,GE
+2009-11-06,Oppenheimer,Upgrade,Perform,Outperform,GE
+2009-09-15,Hilliard Lyons,Downgrade,Buy,Long-term Buy,GE
+2009-09-08,JP Morgan,Upgrade,Neutral,Overweight,GE
+2009-02-06,Bernstein,Initiated,,Mkt Perform,GE
+2008-12-10,UBS,Downgrade,Buy,Neutral,GE
+2008-09-26,Argus,Downgrade,Buy,Hold,GE
+2008-06-16,JP Morgan,Downgrade,Overweight,Neutral,GE
+2008-04-14,Oppenheimer,Downgrade,Outperform,Perform,GE
+2008-04-14,Bear Stearns,Downgrade,Outperform,Peer Perform,GE
+2008-04-11,Credit Suisse,Downgrade,Outperform,Neutral,GE
+2007-06-21,Hilliard Lyons,Downgrade,Buy,Long-term Buy,GE
+2007-02-27,UBS,Upgrade,Neutral,Buy,GE
+2006-09-14,UBS,Downgrade,Buy,Neutral,GE
+2006-03-10,Hilliard Lyons,Upgrade,Long-term Buy,Buy,GE
+2005-11-18,Caris & Company,Upgrade,Above Average,Buy,GE
+2005-11-15,Deutsche Securities,Initiated,,Buy,GE
+2005-01-26,Bear Stearns,Initiated,,Outperform,GE
+2004-12-08,Lehman Brothers,Upgrade,Equal-weight,Overweight,GE
+2004-09-14,Deutsche Securities,Initiated,,Hold,GE
+2004-08-17,CIBC Wrld Mkts,Initiated,,Sector Outperform,GE
+2004-06-23,JP Morgan,Upgrade,Neutral,Overweight,GE
+2004-05-28,Jefferies & Co,Initiated,,Hold,GE
+2004-05-21,CSFB,Initiated,,Outperform,GE
+2004-04-29,Banc of America Sec,Initiated,,Buy,GE
+2004-02-12,UBS,Initiated,,Buy,GE
+2003-11-18,Merrill Lynch,Upgrade,Neutral,Buy,GE
+2003-09-05,Goldman Sachs,Initiated,,In-Line,GE
+2003-09-03,JP Morgan,Upgrade,Underweight,Neutral,GE
+2003-06-13,AG Edwards,Downgrade,Buy,Hold,GE
+2002-11-15,JP Morgan,Downgrade,Neutral,Underweight,GE
+2002-10-10,Merrill Lynch,Downgrade,Buy,Neutral,GE
+2002-09-27,CSFB,Downgrade,Outperform,Neutral,GE
+2002-09-27,Lehman Brothers,Downgrade,Overweight,Equal-weight,GE
+2002-08-13,Deutsche Securities,Initiated,,Strong Buy,GE
+2002-06-25,Morgan Stanley,Initiated,,Equal-weight,GE
+2002-04-12,Banc of America Sec,Downgrade,Strong Buy,Buy,GE
+2002-01-08,Wachovia Sec,Initiated,,Buy,GE
+2001-11-15,AG Edwards,Downgrade,Strong Buy,Buy,GE
+2001-09-07,JP Morgan,Initiated,,LT Buy,GE
+2001-08-01,ABN AMRO,Initiated,,Buy,GE
+2001-07-11,William Blair,Initiated,,LT Buy,GE
+2001-01-25,Bear Stearns,Initiated,,Buy,GE
+2000-12-08,Mrgn Stnly Dn Wttr,Initiated,,Strong Buy,GE
+2000-10-11,Banc of America Sec,Initiated,,Strong Buy,GE
+2000-03-23,Lehman Brothers,Upgrade,Outperform,Buy,GE
+1999-12-22,Sanford Bernstein,Initiated,,Mkt Perform,GE
+1999-09-07,Salomon Smth Brny,Upgrade,Outperform,Buy,GE
+1999-06-10,ING Barings,Initiated,,Buy,GE
+1998-11-20,Salomon Smth Brny,Downgrade,Buy,Outperform,GE
+1998-09-16,Merrill Lynch,Upgrade,NT Accumulate,NT Buy,GE
+1998-08-14,CS First Boston,Initiated,,Buy,GE
+2014-08-26,MKM Partners,Initiated,,Buy,GS
+2013-10-24,Deutsche Bank,Upgrade,Hold,Buy,GS
+2012-09-20,UBS,Downgrade,Buy,Neutral,GS
+2012-05-21,JMP Securities,Downgrade,Mkt Outperform,Mkt Underperform,GS
+2012-03-23,RBC Capital Mkts,Upgrade,Underperform,Sector Perform,GS
+2011-09-07,Oppenheimer,Downgrade,Outperform,Perform,GS
+2011-06-14,RBC Capital Mkts,Initiated,,Underperform,GS
+2011-05-04,UBS,Initiated,,Buy,GS
+2011-01-20,Ticonderoga,Downgrade,Buy,Neutral,GS
+2009-10-08,Deutsche Securities,Initiated,,Buy,GS
+2009-09-09,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,GS
+2009-08-18,Pali Research,Upgrade,Neutral,Buy,GS
+2009-07-15,Keefe Bruyette,Upgrade,Mkt Perform,Outperform,GS
+2009-06-04,Bernstein,Upgrade,Mkt Perform,Outperform,GS
+2009-05-18,JMP Securities,Upgrade,Mkt Underperform,Mkt Perform,GS
+2009-04-15,Pali Research,Initiated,,Neutral,GS
+2009-04-15,JP Morgan,Downgrade,Overweight,Neutral,GS
+2009-04-14,JMP Securities,Initiated,,Mkt Underperform,GS
+2009-04-13,Citigroup,Initiated,,Buy,GS
+2009-03-27,FBR Capital Markets,Initiated,,Outperform,GS
+2009-03-25,Rochdale Securities,Initiated,,Hold,GS
+2008-11-25,Sterne Agee,Initiated,,Buy,GS
+2008-09-17,Wachovia,Upgrade,Mkt Perform,Outperform,GS
+2008-06-26,Wachovia,Downgrade,Outperform,Mkt Perform,GS
+2008-05-22,Ladenburg Thalmann,Downgrade,Neutral,Sell,GS
+2008-03-18,Wachovia,Upgrade,Mkt Perform,Outperform,GS
+2008-03-17,UBS,Downgrade,Buy,Neutral,GS
+2008-02-14,Sandler O'Neill,Downgrade,Buy,Hold,GS
+2008-02-05,Oppenheimer,Downgrade,Outperform,Perform,GS
+2008-02-04,"Punk, Ziegel & Co",Upgrade,Sell,Mkt Perform,GS
+2007-12-04,"Punk, Ziegel & Co",Downgrade,Mkt Perform,Sell,GS
+2007-11-12,"Punk, Ziegel & Co",Upgrade,Sell,Mkt Perform,GS
+2007-11-08,Wachovia,Downgrade,Outperform,Mkt Perform,GS
+2007-07-18,"Punk, Ziegel & Co",Downgrade,Mkt Perform,Sell,GS
+2007-04-12,Deutsche Securities,Initiated,,Buy,GS
+2007-03-28,Lehman Brothers,Initiated,,Equal-weight,GS
+2007-03-05,"Punk, Ziegel & Co",Downgrade,Accumulate,Mkt Perform,GS
+2006-12-19,Rochdale Securities,Downgrade,Buy,Hold,GS
+2006-08-29,"Punk, Ziegel & Co",Downgrade,Buy,Mkt Perform,GS
+2006-07-12,Rochdale Securities,Upgrade,Hold,Buy,GS
+2006-06-14,Sandler ONeill,Upgrade,Hold,Buy,GS
+2006-05-26,UBS,Upgrade,Neutral,Buy,GS
+2006-03-01,CIBC Wrld Mkts,Initiated,,Sector Outperform,GS
+2005-12-16,Bernstein,Downgrade,Outperform,Mkt Perform,GS
+2005-12-08,Sandler O'Neill,Downgrade,Buy,Hold,GS
+2005-09-21,Citigroup,Downgrade,Buy,Hold,GS
+2005-07-27,Prudential,Initiated,,Overweight,GS
+2005-06-17,Wachovia,Downgrade,Outperform,Mkt Perform,GS
+2005-05-02,Morgan Stanley,Downgrade,Overweight,Equal-weight,GS
+2005-05-02,UBS,Downgrade,Buy,Neutral,GS
+2005-02-09,CIBC Wrld Mkts,Initiated,,Sector Outperform,GS
+2004-12-10,Marquis Investment Research,Initiated,,Buy,GS
+2004-12-02,Morgan Stanley,Initiated,,Overweight,GS
+2004-11-15,Bear Stearns,Initiated,,Outperform,GS
+2004-06-23,Wachovia,Upgrade,Mkt Perform,Outperform,GS
+2004-05-13,UBS,Upgrade,Neutral,Buy,GS
+2004-03-24,William Blair,Upgrade,Mkt Perform,Outperform,GS
+2004-03-23,Keefe Bruyette,Upgrade,Mkt Perform,Outperform,GS
+2004-02-11,Smith Barney Citigroup,Upgrade,Hold,Buy,GS
+2003-11-25,JP Morgan,Upgrade,Neutral,Overweight,GS
+2003-10-29,Deutsche Securities,Upgrade,Hold,Buy,GS
+2003-09-11,Banc of America Sec,Initiated,,Neutral,GS
+2003-09-10,Deutsche Securities,Initiated,,Hold,GS
+2003-04-11,UBS Warburg,Initiated,,Neutral,GS
+2002-11-25,Keefe Bruyette,Downgrade,Outperform,Mkt Perform,GS
+2002-10-30,Wachovia Sec,Downgrade,Buy,Hold,GS
+2002-10-22,Merrill Lynch,Downgrade,Buy,Neutral,GS
+2002-10-16,Jefferies & Co,Initiated,,Hold,GS
+2002-08-22,Deutsche Securities,Initiated,,Mkt Perform,GS
+2002-08-21,Salomon Smth Brny,Downgrade,Buy,Neutral,GS
+2002-05-02,Salomon Smth Brny,Upgrade,Neutral,Buy,GS
+2002-04-26,Merrill Lynch,Upgrade,NT Neutral,NT Buy,GS
+2002-03-19,Banc of America Sec,Initiated,,Buy,GS
+2002-03-08,Salomon Smth Brny,Downgrade,Buy,Neutral,GS
+2002-01-28,Robertson Stephens,Initiated,,Buy,GS
+2002-01-04,Prudential,Upgrade,Hold,Buy,GS
+2001-11-15,UBS Warburg,Downgrade,Buy,Hold,GS
+2001-10-11,Prudential,Initiated,,Hold,GS
+2001-10-01,ABN AMRO,Initiated,,Add,GS
+2001-09-26,Merrill Lynch,Downgrade,NT Accum,NT Neutral,GS
+2001-09-20,Morgan Stanley,Upgrade,Neutral,Outperform,GS
+2001-09-11,First Union Sec,Downgrade,Strong Buy,Mkt Perform,GS
+2001-09-11,Lehman Brothers,Upgrade,Buy,Strong Buy,GS
+2001-09-05,UBS Warburg,Upgrade,Hold,Buy,GS
+2001-04-19,UBS Warburg,Downgrade,Buy,Hold,GS
+2001-04-05,UBS Warburg,Initiated,,Buy,GS
+2001-03-21,Keefe Bruyette,Downgrade,Buy,Mkt Perform,GS
+2001-03-19,Dresdner Klnwrt Wass,Downgrade,Add,Hold,GS
+2001-03-19,Lehman Brothers,Upgrade,Mkt Perform,Buy,GS
+2001-03-16,Merrill Lynch,Upgrade,NT Neutral,NT Accum,GS
+2001-03-01,JP Morgan,Downgrade,Buy,Mkt Perform,GS
+2000-12-20,Wasserstein Perella,Upgrade,Hold,Buy,GS
+2000-11-13,Wasserstein Perella,Downgrade,Buy,Hold,GS
+2000-11-01,First Union Sec,Initiated,,Strong Buy,GS
+2000-10-25,AG Edwards,Initiated,,Maintain Position,GS
+2000-10-18,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,GS
+2000-10-13,CSFB,Initiated,,Strong Buy,GS
+2000-09-15,William Blair,Initiated,,LT Buy,GS
+2000-08-04,JP Morgan,Upgrade,Mkt Perform,Buy,GS
+2000-07-06,Wasserstein Perella,Initiated,,Buy,GS
+2000-06-13,Deutsche Bc Alex. Br,Initiated,,Buy,GS
+2000-05-02,Lehman Brothers,Initiated,,Neutral,GS
+2000-02-18,Salomon Smth Brny,Upgrade,Neutral,Buy,GS
+2000-01-05,JP Morgan,Downgrade,LT Buy,Mkt Perform,GS
+1999-11-03,PaineWebber,Downgrade,Attractive,Neutral,GS
+1999-10-27,JP Morgan,Initiated,,LT Buy,GS
+1999-10-06,Sanford Bernstein,Initiated,,Mkt Perform,GS
+1999-08-10,Bear Stearns,Upgrade,Neutral,Attractive,GS
+1999-06-17,Schroder & Co,Initiated,,Perform In Line,GS
+1999-06-04,DLJ,Initiated,,Buy,GS
+1999-06-02,Prudential,Initiated,,Hold,GS
+1999-06-01,Salomon Smth Brny,Initiated,,Neutral,GS
+1999-06-01,Paine Webber,Initiated,,Attractive,GS
+1999-06-01,Mrgn Stnly Dn Wttr,Initiated,,Neutral,GS
+1999-06-01,Bear Stearns,Initiated,,Neutral,GS
+1999-05-28,Merrill Lynch,Initiated,,NT Neut/LT Buy,GS
+2013-12-02,Standpoint Research,Initiated,,Sell,HD
+2013-02-22,Oppenheimer,Upgrade,Perform,Outperform,HD
+2013-02-21,Stifel Nicolaus,Downgrade,Buy,Hold,HD
+2012-10-10,Oppenheimer,Downgrade,Outperform,Perform,HD
+2011-12-20,Collins Stewart,Initiated,,Neutral,HD
+2011-11-07,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,HD
+2010-12-09,FBR Capital,Upgrade,Mkt Perform,Outperform,HD
+2010-10-25,FBR Capital,Downgrade,Outperform,Mkt Perform,HD
+2010-05-26,Longbow,Upgrade,Neutral,Buy,HD
+2010-02-17,Oppenheimer,Upgrade,Perform,Outperform,HD
+2009-11-03,UBS,Initiated,,Buy,HD
+2009-08-13,FBR Capital,Upgrade,Mkt Perform,Outperform,HD
+2009-06-08,Longbow,Initiated,,Neutral,HD
+2009-05-20,FBR Capital Markets,Downgrade,Outperform,Mkt Perform,HD
+2009-05-13,Citigroup,Upgrade,Hold,Buy,HD
+2009-05-11,Bernstein,Downgrade,Outperform,Mkt Perform,HD
+2008-10-15,Credit Suisse,Upgrade,Neutral,Outperform,HD
+2008-10-07,RBC Capital Mkts,Initiated,,Sector Perform,HD
+2008-09-15,Credit Suisse,Downgrade,Outperform,Neutral,HD
+2008-09-15,Cowen & Co,Initiated,,Neutral,HD
+2008-09-05,Friedman Billings,Initiated,,Outperform,HD
+2008-09-03,Jesup & Lamont,Initiated,,Hold,HD
+2008-07-21,Rochdale Securities,Initiated,,Buy,HD
+2008-04-25,Lehman Brothers,Initiated,,Overweight,HD
+2008-03-19,Morgan Keegan,Downgrade,Mkt Perform,Underperform,HD
+2008-01-29,Morgan Keegan,Initiated,,Mkt Perform,HD
+2008-01-24,Jefferies & Co,Initiated,,Hold,HD
+2008-01-14,Credit Suisse,Upgrade,Neutral,Outperform,HD
+2007-11-05,Deutsche Securities,Downgrade,Buy,Hold,HD
+2007-11-02,BMO Capital Markets,Initiated,,Underperform,HD
+2007-08-17,UBS,Upgrade,Sell,Neutral,HD
+2007-06-21,Piper Jaffray,Downgrade,Outperform,Market Perform,HD
+2007-06-20,Stifel Nicolaus,Upgrade,Hold,Buy,HD
+2007-01-29,AG Edwards,Upgrade,Hold,Buy,HD
+2006-11-15,JP Morgan,Upgrade,Underweight,Overweight,HD
+2006-11-06,UBS,Downgrade,Neutral,Reduce,HD
+2006-10-16,Goldman Sachs,Downgrade,Buy,Neutral,HD
+2006-10-13,Prudential,Initiated,,Underweight,HD
+2006-09-19,Wachovia,Initiated,,Mkt Perform,HD
+2006-09-18,Credit Suisse,Downgrade,Outperform,Neutral,HD
+2005-11-09,Piper Jaffray,Upgrade,Market Perform,Outperform,HD
+2005-10-20,Bear Stearns,Upgrade,Peer Perform,Outperform,HD
+2005-09-23,UBS,Initiated,,Neutral,HD
+2005-09-14,Banc of America Sec,Initiated,,Buy,HD
+2005-07-12,Jefferies & Co,Upgrade,Hold,Buy,HD
+2005-06-30,Lehman Brothers,Upgrade,Equal-weight,Overweight,HD
+2005-06-23,CSFB,Initiated,,Outperform,HD
+2005-05-17,Deutsche Securities,Upgrade,Hold,Buy,HD
+2004-08-13,Fulcrum,Initiated,,Neutral,HD
+2004-07-01,JP Morgan,Initiated,,Underweight,HD
+2004-06-02,Banc of America Sec,Downgrade,Buy,Neutral,HD
+2004-02-25,Goldman Sachs,Upgrade,In-Line,Outperform,HD
+2003-09-09,Goldman Sachs,Downgrade,Outperform,In-Line,HD
+2003-07-17,AG Edwards,Upgrade,Hold,Buy,HD
+2003-07-11,Banc of America Sec,Upgrade,Neutral,Buy,HD
+2003-05-20,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,HD
+2003-05-06,Goldman Sachs,Upgrade,In-Line,Outperform,HD
+2003-03-13,Legg Mason,Initiated,,Hold,HD
+2003-01-03,Deutsche Securities,Downgrade,Hold,Sell,HD
+2003-01-03,Bear Stearns,Downgrade,Outperform,Peer Perform,HD
+2002-12-17,HC Wainwright,Initiated,,Mkt Perform,HD
+2002-11-19,Deutsche Securities,Downgrade,Buy,Hold,HD
+2002-08-12,Banc of America Sec,Initiated,,Mkt Perform,HD
+2002-07-12,Merrill Lynch,Downgrade,NT Strong Buy/LT Strong Buy,NT Neutral/LT Buy,HD
+2002-05-28,UBS Warburg,Downgrade,Buy,Hold,HD
+2002-05-24,Legg Mason,Initiated,,Buy,HD
+2002-05-22,Jefferies & Co,Downgrade,Accumulate,Hold,HD
+2002-05-21,AG Edwards,Downgrade,Buy,Hold,HD
+2002-05-14,Fulcrum,Initiated,,Trading Buy,HD
+2002-03-04,UBS Warburg,Downgrade,Strong Buy,Buy,HD
+2002-01-17,Jefferies & Co,Downgrade,Buy,Accumulate,HD
+2001-11-15,Salomon Smth Brny,Initiated,,Buy,HD
+2001-11-13,Jefferies & Co,Upgrade,Hold,Accumulate,HD
+2001-09-17,Raymond James,Upgrade,Mkt Perform,Strong Buy,HD
+2001-08-15,Prudential,Upgrade,Hold,Buy,HD
+2001-07-10,Lehman Brothers,Upgrade,Buy,Strong Buy,HD
+2001-03-26,Salomon Smth Brny,Upgrade,Outperform,Buy,HD
+2001-02-23,Buckingham Research Group,Initiated,,Accumulate,HD
+2001-01-30,AG Edwards,Upgrade,Maintain Position,Accumulate,HD
+2001-01-17,Prudential,Downgrade,Strong Buy,Hold,HD
+2000-12-22,Spencer Clarke,Upgrade,Hold,Buy,HD
+2000-12-06,UBS Warburg,Upgrade,Buy,Strong Buy,HD
+2000-12-06,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,HD
+2000-10-16,CSFB,Initiated,,Buy,HD
+2000-10-13,Banc of America Sec,Downgrade,Buy,Market Perform,HD
+2000-10-12,Wachovia Sec,Downgrade,Long Term Buy,Neutral,HD
+2000-10-12,Raymond James,Downgrade,Strong Buy,Mkt Perform,HD
+2000-10-06,Spencer Clarke,Downgrade,Outperform,Hold,HD
+2000-10-04,Jefferies & Co,Initiated,,Accumulate,HD
+2000-09-14,Bear Stearns,Initiated,,Buy,HD
+2000-09-06,JP Morgan,Initiated,,Buy,HD
+2000-08-16,Salomon Smth Brny,Downgrade,Buy,Outperform,HD
+2000-08-15,DLJ,Downgrade,Top Pick,Buy,HD
+2000-08-15,Banc of America Sec,Downgrade,Strong Buy,Buy,HD
+2000-07-10,Prudential,Upgrade,Accumulate,Strong Buy,HD
+2000-06-14,Wachovia Sec,Initiated,,Long Term Buy,HD
+2000-06-08,ING Barings,Downgrade,Buy,Hold,HD
+2000-05-30,Raymond James,Upgrade,Buy,Strong Buy,HD
+2000-05-25,Prudential,Upgrade,Hold,Accumulate,HD
+2000-04-13,CIBC Wrld Mkts,Initiated,,Buy,HD
+2000-03-28,Lehman Brothers,Initiated,,Outperform,HD
+2000-03-07,CSFB,Upgrade,Buy,Strong Buy,HD
+1999-12-03,Hambrecht & Quist,Initiated,,Buy,HD
+1999-11-12,Robinson Humphrey,Initiated,,ST Mkt Perform/LT Buy,HD
+1999-10-29,ING Barings,Initiated,,Buy,HD
+1999-09-14,Deutsche Bc Alex. Br,Initiated,,Strong Buy,HD
+1999-08-17,Robinson Humphrey,Initiated,,ST Buy,HD
+1999-08-12,ABN AMRO,Upgrade,Hold,Buy,HD
+1999-06-02,CSFB,Initiated,,Buy,HD
+1999-05-25,USB Piper Jaffray,Initiated,,Buy,HD
+1999-05-11,PaineWebber,Upgrade,Neutral,Attractive,HD
+1999-05-05,Schroder & Co,Upgrade,Perform In Line,Outperform,HD
+1999-04-29,Prudential,Downgrade,Accumulate,Hold,HD
+1999-02-08,BB Rbrtsn Stphns,Initiated,,Buy,HD
+1998-12-17,Prudential,Downgrade,Strong Buy,Accumulate,HD
+1998-12-08,NB Montgomery,Initiated,,Buy,HD
+1998-11-13,Schroder & Co,Initiated,,Perform In Line,HD
+1998-11-10,Salomon Smth Brny,Upgrade,Outperform,Buy,HD
+1998-09-15,Prudential,Upgrade,Hold,Strong Buy,HD
+1998-07-14,Spencer Clarke,Initiated,,Buy,HD
+1998-07-10,Raymond James,Downgrade,Buy,Accumulate,HD
+2014-04-10,Deutsche Bank,Initiated,,Hold,IBM
+2013-10-17,UBS,Downgrade,Buy,Neutral,IBM
+2013-10-07,Barclays,Downgrade,Overweight,Equal Weight,IBM
+2013-04-10,UBS,Upgrade,Neutral,Buy,IBM
+2012-09-04,Barclays,Upgrade,Equal Weight,Overweight,IBM
+2012-07-11,UBS,Initiated,,Neutral,IBM
+2012-04-18,Macquarie,Downgrade,Outperform,Neutral,IBM
+2012-02-07,Sterne Agee,Initiated,,Buy,IBM
+2011-10-14,ISI Group,Initiated,,Hold,IBM
+2011-10-14,Macquarie,Initiated,,Outperform,IBM
+2011-04-11,Canaccord Genuity,Downgrade,Buy,Hold,IBM
+2010-07-15,Kaufman Bros,Initiated,,Hold,IBM
+2010-04-16,Collins Stewart,Initiated,,Buy,IBM
+2010-01-20,Canaccord Adams,Upgrade,Hold,Buy,IBM
+2009-07-09,AmTech Research,Initiated,,Neutral,IBM
+2009-04-06,Canaccord Adams,Downgrade,Buy,Hold,IBM
+2009-02-13,Caris & Company,Initiated,,Above Average,IBM
+2008-12-18,UBS,Initiated,,Neutral,IBM
+2008-10-07,Barclays Capital,Downgrade,Overweight,Equal Weight,IBM
+2008-09-23,Davenport,Downgrade,Strong Buy,Buy,IBM
+2008-08-08,Credit Suisse,Initiated,,Neutral,IBM
+2008-05-23,BMO Capital Markets,Initiated,,Outperform,IBM
+2008-04-22,Lehman Brothers,Initiated,,Overweight,IBM
+2008-04-17,Canaccord Adams,Upgrade,Hold,Buy,IBM
+2008-01-07,UBS,Downgrade,Buy,Neutral,IBM
+2007-10-16,AmTech Research,Initiated,,Buy,IBM
+2007-10-04,Wachovia,Initiated,,Mkt Perform,IBM
+2007-08-06,Davenport,Initiated,,Strong Buy,IBM
+2007-08-02,Banc of America Sec,Initiated,,Neutral,IBM
+2007-04-23,Lehman Brothers,Upgrade,Equal-weight,Overweight,IBM
+2007-04-18,Credit Suisse,Downgrade,Outperform,Neutral,IBM
+2007-04-18,Goldman Sachs,Downgrade,Buy,Neutral,IBM
+2007-04-16,Canaccord Adams,Upgrade,Hold,Buy,IBM
+2007-01-10,AG Edwards,Downgrade,Buy,Hold,IBM
+2007-01-08,UBS,Upgrade,Neutral,Buy,IBM
+2006-12-18,Prudential,Initiated,,Neutral,IBM
+2006-11-06,Cowen & Co,Initiated,,Neutral,IBM
+2006-10-26,Soleil,Initiated,,Buy,IBM
+2006-10-18,Goldman Sachs,Upgrade,Neutral,Buy,IBM
+2006-07-20,Goldman Sachs,Downgrade,Buy,Neutral,IBM
+2006-06-01,Canaccord Adams,Downgrade,Buy,Hold,IBM
+2006-01-09,JP Morgan,Downgrade,Overweight,Neutral,IBM
+2005-12-21,Moors & Cabot,Initiated,,Buy,IBM
+2005-12-09,UBS,Downgrade,Buy,Neutral,IBM
+2005-10-11,CSFB,Upgrade,Neutral,Outperform,IBM
+2005-10-10,Citigroup,Upgrade,Hold,Buy,IBM
+2005-07-19,First Albany,Upgrade,Neutral,Buy,IBM
+2005-07-13,Bernstein,Upgrade,Mkt Perform,Outperform,IBM
+2005-06-13,Caris & Company,Upgrade,Above Average,Buy,IBM
+2005-04-29,Banc of America Sec,Upgrade,Neutral,Buy,IBM
+2005-04-15,Caris & Company,Downgrade,Buy,Above Average,IBM
+2005-04-15,First Albany,Downgrade,Buy,Neutral,IBM
+2005-04-15,CSFB,Downgrade,Outperform,Neutral,IBM
+2005-02-08,Deutsche Securities,Initiated,,Buy,IBM
+2005-01-28,Bear Stearns,Upgrade,Peer Perform,Outperform,IBM
+2004-10-05,JP Morgan,Upgrade,Neutral,Overweight,IBM
+2004-07-29,CSFB,Initiated,,Outperform,IBM
+2004-07-29,CIBC Wrld Mkts,Initiated,,Sector Outperform,IBM
+2004-07-13,Morgan Stanley,Upgrade,Equal-weight,Overweight,IBM
+2004-06-18,AG Edwards,Initiated,,Buy,IBM
+2004-02-24,Caris & Company,Initiated,,Buy,IBM
+2004-01-29,First Albany,Initiated,,Buy,IBM
+2004-01-16,Smith Barney Citigroup,Upgrade,Sell,Hold,IBM
+2003-12-12,First Albany,Initiated,,Buy,IBM
+2003-11-19,Banc of America Sec,Initiated,,Neutral,IBM
+2003-09-15,UBS,Upgrade,Neutral,Buy,IBM
+2003-09-11,Smith Barney Citigroup,Downgrade,In-line,Underperform,IBM
+2003-09-08,CSFB,Upgrade,Neutral,Outperform,IBM
+2003-07-11,Prudential,Initiated,,Buy,IBM
+2003-07-11,CIBC Wrld Mkts,Initiated,,Sector Outperform,IBM
+2003-06-19,UBS,Initiated,,Neutral,IBM
+2003-01-17,Bear Stearns,Downgrade,Outperform,Peer Perform,IBM
+2002-12-12,Fulcrum,Initiated,,Neutral,IBM
+2002-12-09,Banc of America Sec,Downgrade,Buy,Mkt Perform,IBM
+2002-12-06,Salomon Smth Brny,Downgrade,Outperform,In-line,IBM
+2002-11-25,CSFB,Initiated,,Neutral,IBM
+2002-10-17,Merrill Lynch,Upgrade,Neutral,Buy,IBM
+2002-10-17,Bear Stearns,Upgrade,Peer Perform,Outperform,IBM
+2002-10-11,Lehman Brothers,Upgrade,Equal-weight,Overweight,IBM
+2002-07-31,Buckingham Research,Downgrade,Accumulate,Neutral,IBM
+2002-07-18,Bear Stearns,Downgrade,Attractive,Neutral,IBM
+2002-07-17,Soundview Technology,Initiated,,Outperform,IBM
+2002-04-18,Deutsche Securities,Upgrade,Buy,Strong Buy,IBM
+2002-04-09,Buckingham Research,Downgrade,Strong Buy,Accumulate,IBM
+2002-03-11,Bernstein,Downgrade,Outperform,Mkt Perform,IBM
+2002-03-05,First Albany,Initiated,,Buy,IBM
+2002-01-30,Buckingham Research,Upgrade,Accumulate,Strong Buy,IBM
+2002-01-17,Lehman Brothers,Upgrade,Mkt Perform,Buy,IBM
+2001-12-13,Thomas Weisel,Initiated,,Buy,IBM
+2001-12-12,Buckingham Research,Downgrade,Strong Buy,Accumulate,IBM
+2001-12-06,ABN AMRO,Initiated,,Buy,IBM
+2001-11-01,Morgan Stanley,Initiated,,Neutral,IBM
+2001-09-07,Banc of America Sec,Initiated,,Buy,IBM
+2001-06-20,Deutsche Bc Alex. Br,Initiated,,Mkt Perform,IBM
+2001-05-11,Bear Stearns,Downgrade,Buy,Attractive,IBM
+2001-04-19,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,IBM
+2001-04-19,Dresdner Klnwrt Wass,Upgrade,Add,Buy,IBM
+2001-03-23,Buckingham Research,Upgrade,Accumulate,Strong Buy,IBM
+2000-12-20,Merrill Lynch,Downgrade,NT Accum,NT Neutral,IBM
+2000-12-20,AG Edwards,Downgrade,Accumulate,Maintain Position,IBM
+2000-10-18,Deutsche Bc Alex. Br,Downgrade,Strong Buy,Mkt Perform,IBM
+2000-10-18,Goldman Sachs,Downgrade,Recommended List,Market Outperform,IBM
+2000-10-18,Prudential,Downgrade,Accumulate,Hold,IBM
+2000-10-18,Wasserstein Perella,Downgrade,Strong Buy,Buy,IBM
+2000-10-13,CSFB,Initiated,,Hold,IBM
+2000-07-20,Wit SoundView,Upgrade,Buy,Strong Buy,IBM
+2000-07-20,Lehman Brothers,Upgrade,Outperform,Buy,IBM
+2000-07-20,AG Edwards,Upgrade,Maintain Position,Accumulate,IBM
+2000-06-08,Friedman Billings,Upgrade,Accumulate,Buy,IBM
+2000-04-19,Banc of America Sec,Downgrade,Strong Buy,Buy,IBM
+2000-03-27,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,IBM
+2000-01-20,Robertson Stephens,Upgrade,LT Attractive,Buy,IBM
+2000-01-20,Merrill Lynch,Upgrade,NT Neutral,NT Accum,IBM
+2000-01-20,CIBC Wrld Mkts,Upgrade,Hold,Buy,IBM
+2000-01-05,Banc of America Sec,Upgrade,Buy,Strong Buy,IBM
+1999-12-03,Banc of America Sec,Initiated,,Buy,IBM
+1999-11-15,AG Edwards,Upgrade,Reduce,Maintain Position,IBM
+1999-10-29,Prudential,Initiated,,Accumulate,IBM
+1999-10-21,AG Edwards,Downgrade,Maintain Position,Reduce,IBM
+1999-10-21,Friedman Billings,Downgrade,Buy,Accumulate,IBM
+1999-10-21,Lehman Brothers,Downgrade,Buy,Outperform,IBM
+1999-10-21,Merrill Lynch,Downgrade,NT Buy,NT Neutral,IBM
+1999-10-21,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,IBM
+1999-09-28,Sanford Bernstein,Initiated,,Outperform,IBM
+1999-01-22,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,IBM
+1999-01-22,BB Rbrtsn Stphns,Downgrade,Buy,LT Attractive,IBM
+1998-11-23,Friedman Billings,Initiated,,Buy,IBM
+1998-11-23,Gruntal & Co,Downgrade,Buy,Hold,IBM
+1998-11-11,BT Alex. Brown,Initiated,,Strong Buy,IBM
+1998-10-13,CIBC Oppenheimer,Downgrade,Strong Buy,Buy,IBM
+1998-09-03,PaineWebber,Initiated,,Buy,IBM
+1998-08-31,JP Morgan,Initiated,,Buy,IBM
+1998-07-21,BA Rbtsn Stphns,Upgrade,Mkt Perform,Buy,IBM
+1998-07-21,Merrill Lynch,Upgrade,NT Accumulate,NT Buy,IBM
+1998-07-21,Mgn Stnly Dn Witter,Upgrade,Outperform,Strong Buy,IBM
+1998-07-21,Prudential,Upgrade,Hold,Buy,IBM
+1998-06-18,Goldman Sachs,Downgrade,Glbl Priority Lst,US Recomm. List,IBM
+1998-05-14,Bear Stearns,Upgrade,Attractive,Buy,IBM
+1998-04-21,Morgan Stanley,Upgrade,Neutral,Outperform,IBM
+1998-04-21,Lehman Bros,Upgrade,Neutral,Outperform,IBM
+1998-02-27,Morgan Stanley,Initiated,,Neutral,IBM
+2015-01-16,Charter Equity,Downgrade,Buy,Mkt Perform,INTC
+2015-01-05,MKM Partners,Upgrade,Neutral,Buy,INTC
+2014-10-08,Northland Capital,Initiated,,Market Perform,INTC
+2014-07-16,UBS,Upgrade,Neutral,Buy,INTC
+2014-07-15,Imperial Capital,Initiated,,Outperform,INTC
+2014-04-07,Pacific Crest,Upgrade,Sector Perform,Outperform,INTC
+2013-11-27,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,INTC
+2013-11-19,Mizuho,Initiated,,Buy,INTC
+2013-11-12,MKM Partners,Downgrade,Buy,Neutral,INTC
+2013-08-30,Argus,Upgrade,Hold,Buy,INTC
+2013-07-08,Evercore,Downgrade,Equal Weight,Underweight,INTC
+2013-06-03,FBR Capital,Upgrade,Mkt Perform,Outperform,INTC
+2013-05-06,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,INTC
+2013-04-11,Argus,Downgrade,Buy,Hold,INTC
+2012-11-16,Standpoint Research,Upgrade,Hold,Buy,INTC
+2012-09-26,Caris & Company,Downgrade,Buy,Above Average,INTC
+2012-09-18,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,INTC
+2012-09-17,Longbow,Downgrade,Buy,Neutral,INTC
+2012-06-27,Northland Securities,Initiated,,Market Perform,INTC
+2012-03-12,Avian,Initiated,,Neutral,INTC
+2012-02-06,Maxim Group,Initiated,,Buy,INTC
+2012-01-20,Kaufman Bros,Downgrade,Buy,Hold,INTC
+2012-01-06,Sterne Agee,Downgrade,Buy,Neutral,INTC
+2012-01-03,Barclays Capital,Downgrade,Overweight,Equal Weight,INTC
+2011-10-13,Avian,Downgrade,Positive,Neutral,INTC
+2011-10-12,RBC Capital Mkts,Initiated,,Outperform,INTC
+2011-08-08,Standpoint Research,Upgrade,Hold,Buy,INTC
+2011-04-20,FBR Capital,Upgrade,Mkt Perform,Outperform,INTC
+2011-04-11,Standpoint Research,Upgrade,Hold,Buy,INTC
+2011-03-04,Robert W. Baird,Upgrade,Neutral,Outperform,INTC
+2011-02-25,Longbow,Initiated,,Buy,INTC
+2010-12-07,Standpoint Research,Downgrade,Buy,Hold,INTC
+2010-11-08,UBS,Upgrade,Neutral,Buy,INTC
+2010-09-09,Standpoint Research,Initiated,,Buy,INTC
+2010-09-08,UBS,Downgrade,Buy,Neutral,INTC
+2010-08-30,Charter Equity,Downgrade,Buy,Mkt Perform,INTC
+2010-08-10,Robert W. Baird,Downgrade,Outperform,Neutral,INTC
+2010-04-27,Sterne Agee,Initiated,,Buy,INTC
+2010-04-13,Rodman & Renshaw,Initiated,,Mkt Outperform,INTC
+2010-02-25,RBC Capital Mkts,Initiated,,Outperform,INTC
+2010-01-15,ThinkEquity,Upgrade,Hold,Buy,INTC
+2010-01-11,Auriga U.S.A,Upgrade,Sell,Hold,INTC
+2010-01-04,Robert W. Baird,Upgrade,Neutral,Outperform,INTC
+2009-12-17,Caris & Company,Initiated,,Buy,INTC
+2009-11-20,BMO Capital Markets,Initiated,,Outperform,INTC
+2009-10-28,Roth Capital,Downgrade,Buy,Hold,INTC
+2009-10-27,Kaufman Bros,Initiated,,Buy,INTC
+2009-10-02,Oppenheimer,Upgrade,Perform,Outperform,INTC
+2009-09-11,Roth Capital,Upgrade,Hold,Buy,INTC
+2009-07-22,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,INTC
+2009-04-15,BMO Capital Markets,Downgrade,Outperform,Market Perform,INTC
+2009-03-18,Needham,Upgrade,Hold,Buy,INTC
+2009-03-16,Caris & Company,Upgrade,Below Average,Buy,INTC
+2009-03-12,AmTech Research,Upgrade,Neutral,Buy,INTC
+2009-01-14,Auriga U.S.A,Initiated,,Sell,INTC
+2009-01-08,Argus,Downgrade,Buy,Hold,INTC
+2008-12-18,Jefferies & Co,Downgrade,Buy,Underperform,INTC
+2008-11-13,Global Crown Capital,Downgrade,Overweight,Neutral,INTC
+2008-11-10,Global Crown Capital,Upgrade,Neutral,Overweight,INTC
+2008-09-12,AmTech Research,Downgrade,Buy,Neutral,INTC
+2008-09-04,Collins Stewart,Initiated,,Buy,INTC
+2008-04-10,Banc of America Sec,Upgrade,Neutral,Buy,INTC
+2008-04-09,Wedbush Morgan,Initiated,,Buy,INTC
+2008-03-28,Piper Jaffray,Initiated,,Neutral,INTC
+2008-01-17,Charter Equity,Downgrade,Buy,Mkt Perform,INTC
+2008-01-04,JP Morgan,Downgrade,Overweight,Neutral,INTC
+2008-01-02,Banc of America Sec,Downgrade,Buy,Neutral,INTC
+2007-11-21,Robert W. Baird,Initiated,,Neutral,INTC
+2007-10-04,Wachovia,Initiated,,Outperform,INTC
+2007-09-10,Nollenberger Capital,Initiated,,Buy,INTC
+2007-08-16,Credit Suisse,Upgrade,Underperform,Outperform,INTC
+2007-07-19,Charter Equity,Initiated,,Buy,INTC
+2007-07-18,JMP Securities,Downgrade,Mkt Outperform,Mkt Perform,INTC
+2007-06-28,Lehman Brothers,Upgrade,Equal-weight,Overweight,INTC
+2007-06-01,BMO Capital Markets,Initiated,,Outperform,INTC
+2007-05-14,Davenport,Upgrade,Neutral,Buy,INTC
+2007-04-19,FTN Midwest,Upgrade,Neutral,Buy,INTC
+2007-04-18,Am Tech/JSA Research,Upgrade,Neutral,Buy,INTC
+2007-04-18,JP Morgan,Upgrade,Neutral,Overweight,INTC
+2007-01-24,Am Tech/JSA Research,Downgrade,Buy,Neutral,INTC
+2007-01-05,Credit Suisse,Downgrade,Neutral,Underperform,INTC
+2006-12-18,Nollenberger Capital,Initiated,,Buy,INTC
+2006-11-08,Caris & Company,Downgrade,Buy,Above Average,INTC
+2006-11-06,Bernstein,Downgrade,Mkt Perform,Underperform,INTC
+2006-10-20,FTN Midwest,Initiated,,Neutral,INTC
+2006-10-17,Goldman Sachs,Downgrade,Buy,Neutral,INTC
+2006-10-12,UBS,Initiated,,Buy,INTC
+2006-10-06,Deutsche Securities,Initiated,,Buy,INTC
+2006-09-18,Thomas Weisel,Downgrade,Outperform,Peer Perform,INTC
+2006-08-28,Friedman Billings,Upgrade,Mkt Perform,Outperform,INTC
+2006-08-16,Cowen & Co,Initiated,,Outperform,INTC
+2006-08-09,Matrix Research,Downgrade,Strong Buy,Sell,INTC
+2006-07-18,Caris & Company,Upgrade,Above Average,Buy,INTC
+2006-06-19,UBS,Upgrade,Neutral,Buy,INTC
+2006-06-16,HSBC Securities,Upgrade,Neutral,Overweight,INTC
+2006-06-14,Goldman Sachs,Upgrade,In-Line,Outperform,INTC
+2006-06-12,First Albany,Upgrade,Neutral,Buy,INTC
+2006-05-08,Caris & Company,Upgrade,Average,Above Average,INTC
+2006-05-08,Am Tech/JSA Research,Upgrade,Hold,Buy,INTC
+2006-04-27,Caris & Company,Upgrade,Below Average,Average,INTC
+2006-03-27,First Albany,Upgrade,Underperform,Neutral,INTC
+2006-03-07,Susquehanna Financial,Downgrade,Positive,Neutral,INTC
+2006-03-06,Ferris Baker Watts,Upgrade,Neutral,Buy,INTC
+2006-03-06,Citigroup,Upgrade,Hold,Buy,INTC
+2006-03-03,Caris & Company,Downgrade,Average,Below Average,INTC
+2006-02-27,JMP Securities,Upgrade,Mkt Perform,Mkt Outperform,INTC
+2006-02-24,Friedman Billings,Downgrade,Outperform,Mkt Perform,INTC
+2006-01-23,Bernstein,Downgrade,Outperform,Mkt Perform,INTC
+2006-01-18,Piper Jaffray,Downgrade,Outperform,Market Perform,INTC
+2006-01-18,Citigroup,Downgrade,Buy,Hold,INTC
+2006-01-18,UBS,Downgrade,Buy,Neutral,INTC
+2006-01-18,JMP Securities,Downgrade,Strong Buy,Mkt Perform,INTC
+2006-01-18,Lehman Brothers,Downgrade,Overweight,Equal-weight,INTC
+2006-01-18,Needham & Co,Downgrade,Buy,Hold,INTC
+2006-01-18,Soleil,Downgrade,Buy,Hold,INTC
+2006-01-18,Caris & Company,Downgrade,Above Average,Average,INTC
+2005-12-06,Am Tech/JSA Research,Initiated,,Hold,INTC
+2005-11-08,Banc of America Sec,Initiated,,Buy,INTC
+2005-10-19,JMP Securities,Upgrade,Mkt Perform,Strong Buy,INTC
+2005-10-18,Caris & Company,Upgrade,Average,Above Average,INTC
+2005-10-12,Prudential,Downgrade,Neutral,Underweight,INTC
+2005-09-16,CSFB,Upgrade,Underperform,Neutral,INTC
+2005-08-25,Caris & Company,Downgrade,Above Average,Average,INTC
+2005-08-12,Caris & Company,Downgrade,Buy,Above Average,INTC
+2005-08-11,Goldman Sachs,Downgrade,Outperform,In-Line,INTC
+2005-08-10,Fulcrum,Initiated,,Buy,INTC
+2005-07-20,JMP Securities,Downgrade,Strong Buy,Mkt Perform,INTC
+2005-07-20,JP Morgan,Downgrade,Overweight,Neutral,INTC
+2005-06-29,Friedman Billings,Upgrade,Mkt Perform,Outperform,INTC
+2005-04-29,Jefferies & Co,Initiated,,Buy,INTC
+2005-04-18,Wells Fargo Sec,Upgrade,Sell,Hold,INTC
+2005-03-18,Deutsche Securities,Upgrade,Hold,Buy,INTC
+2005-03-01,JP Morgan,Upgrade,Neutral,Overweight,INTC
+2005-03-01,Susquehanna Financial,Upgrade,Net Neutral,Net Positive,INTC
+2005-02-01,Moors & Cabot,Initiated,,Buy,INTC
+2005-01-12,Piper Jaffray,Upgrade,Market Perform,Outperform,INTC
+2005-01-12,JMP Securities,Upgrade,Mkt Perform,Strong Buy,INTC
+2004-12-21,Lehman Brothers,Upgrade,Equal-weight,Overweight,INTC
+2004-12-06,JMP Securities,Downgrade,Mkt Outperform,Mkt Perform,INTC
+2004-12-03,Needham & Co,Upgrade,Hold,Buy,INTC
+2004-11-23,CSFB,Downgrade,Outperform,Underperform,INTC
+2004-11-17,Caris & Company,Upgrade,Above Average,Buy,INTC
+2004-11-16,Wedbush Morgan,Downgrade,Buy,Hold,INTC
+2004-11-15,First Albany,Downgrade,Buy,Underperform,INTC
+2004-11-12,Wells Fargo Sec,Initiated,,Sell,INTC
+2004-09-07,Lehman Brothers,Downgrade,Overweight,Equal-weight,INTC
+2004-08-31,FTN Midwest,Downgrade,Buy,Neutral,INTC
+2004-08-19,RBC Capital Mkts,Initiated,,Sector Perform,INTC
+2004-07-14,Morgan Stanley,Downgrade,Overweight,Equal-weight,INTC
+2004-07-14,Harris Nesbitt,Downgrade,Outperform,Neutral,INTC
+2004-07-14,Prudential,Downgrade,Overweight,Neutral,INTC
+2004-07-12,Merrill Lynch,Downgrade,Buy,Neutral,INTC
+2004-07-02,Deutsche Securities,Downgrade,Buy,Hold,INTC
+2004-04-26,Caris & Company,Upgrade,Average,Above Average,INTC
+2004-04-12,Raymond James,Initiated,,Outperform,INTC
+2004-04-12,ThinkEquity,Upgrade,Equal Weight,Overweight,INTC
+2004-04-02,Legg Mason,Initiated,,Buy,INTC
+2004-03-17,Caris & Company,Initiated,,Average,INTC
+2004-03-12,Oppenheimer,Upgrade,Neutral,Buy,INTC
+2004-03-01,JP Morgan,Downgrade,Overweight,Neutral,INTC
+2004-01-13,Harris Nesbitt Gerard,Initiated,,Outperform,INTC
+2004-01-07,Bernstein,Upgrade,Mkt Perform,Outperform,INTC
+2003-12-17,AG Edwards,Initiated,,Buy,INTC
+2003-12-11,SG Cowen,Initiated,,Outperform,INTC
+2003-11-10,JP Morgan,Upgrade,Neutral,Overweight,INTC
+2003-10-10,Deutsche Securities,Upgrade,Hold,Buy,INTC
+2003-09-30,CSFB,Initiated,,Outperform,INTC
+2003-09-26,JP Morgan,Upgrade,Underweight,Neutral,INTC
+2003-09-02,Banc of America Sec,Initiated,,Buy,INTC
+2003-08-20,Prudential,Initiated,,Buy,INTC
+2003-07-16,Bear Stearns,Upgrade,Peer Perform,Outperform,INTC
+2003-07-16,Friedman Billings,Upgrade,Mkt Perform,Outperform,INTC
+2003-07-14,Merrill Lynch,Upgrade,Neutral,Buy,INTC
+2003-07-11,Thomas Weisel,Upgrade,Peer Perform,Outperform,INTC
+2003-06-30,Smith Barney Citigroup,Upgrade,In-line,Outperform,INTC
+2003-06-13,Deutsche Securities,Downgrade,Buy,Hold,INTC
+2003-06-06,Wedbush Morgan,Upgrade,Hold,Buy,INTC
+2003-05-23,Bear Stearns,Initiated,,Peer Perform,INTC
+2003-04-23,Fahnestock,Initiated,,Neutral,INTC
+2003-04-16,First Albany,Downgrade,Strong Buy,Buy,INTC
+2003-03-25,Fulcrum,Initiated,,Neutral,INTC
+2003-02-20,Merrill Lynch,Upgrade,Sell,Neutral,INTC
+2003-02-19,Morgan Stanley,Upgrade,Equal-weight,Overweight,INTC
+2003-01-15,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,INTC
+2002-12-13,JP Morgan,Initiated,,Underweight,INTC
+2002-12-13,Deutsche Securities,Initiated,,Buy,INTC
+2002-12-02,Lehman Brothers,Upgrade,Equal-weight,Overweight,INTC
+2002-11-25,Bernstein,Downgrade,Outperform,Mkt Perform,INTC
+2002-11-15,Merrill Lynch,Downgrade,Neutral,Sell,INTC
+2002-11-05,JMP Securities,Initiated,,Mkt Outperform,INTC
+2002-10-16,Salomon Smth Brny,Downgrade,Outperform,In-line,INTC
+2002-10-16,CIBC Wrld Mkts,Downgrade,Sector Perform,Sector Underperform,INTC
+2002-10-16,Banc of America Sec,Downgrade,Buy,Mkt Perform,INTC
+2002-10-16,Prudential,Downgrade,Buy,Hold,INTC
+2002-10-11,RBC Capital Mkts,Initiated,,Outperform,INTC
+2002-10-02,Bernstein,Initiated,,Outperform,INTC
+2002-09-27,Wachovia Sec,Initiated,,Hold,INTC
+2002-09-06,Lehman Brothers,Upgrade,Underweight,Equal-weight,INTC
+2002-06-24,Investec Inc,Initiated,,Strong Buy,INTC
+2002-06-10,First Albany,Upgrade,Buy,Strong Buy,INTC
+2002-06-07,CIBC Wrld Mkts,Downgrade,Strong Buy,Buy,INTC
+2002-06-07,JP Morgan,Downgrade,LT Buy,Mkt Perform,INTC
+2002-06-06,Merrill Lynch,Downgrade,NT Strong Buy,NT Neutral,INTC
+2002-05-29,Pacific Crest,Initiated,,Buy,INTC
+2002-05-14,Robertson Stephens,Upgrade,Mkt Perform,Buy,INTC
+2002-04-30,First Albany,Initiated,,Buy,INTC
+2002-03-05,Morgan Stanley,Upgrade,Outperform,Strong Buy,INTC
+2002-02-20,Wedbush Morgan,Initiated,,Hold,INTC
+2002-01-31,Merrill Lynch,Upgrade,NT Buy,NT Strong Buy,INTC
+2002-01-16,CSFB,Upgrade,Hold,Buy,INTC
+2001-11-16,AG Edwards,Downgrade,Buy,Hold,INTC
+2001-11-02,ABN AMRO,Upgrade,Reduce,Hold,INTC
+2001-10-17,Morgan Stanley,Upgrade,Neutral,Outperform,INTC
+2001-10-17,Merrill Lynch,Upgrade,NT Neutral,NT Accum,INTC
+2001-10-02,UBS Warburg,Initiated,,Buy,INTC
+2001-07-17,ABN AMRO,Downgrade,Hold,Reduce,INTC
+2001-05-30,ABN AMRO,Initiated,,Hold,INTC
+2001-04-23,Merrill Lynch,Downgrade,NT Accum,NT Neutral,INTC
+2001-04-18,ABN AMRO,Upgrade,Hold,Add,INTC
+2001-04-18,Banc of America Sec,Upgrade,Mkt Perform,Buy,INTC
+2001-04-18,CIBC Wrld Mkts,Upgrade,Buy,Strong Buy,INTC
+2001-04-18,Dresdner Klnwrt Wass,Upgrade,Add,Buy,INTC
+2001-04-18,Josephthal & Co,Upgrade,Hold,Buy,INTC
+2001-04-18,Prudential,Upgrade,Hold,Strong Buy,INTC
+2001-04-17,Thomas Weisel,Downgrade,Buy,Mkt Perform,INTC
+2001-04-11,Salomon Smth Brny,Upgrade,Outperform,Buy,INTC
+2001-03-28,Banc of America Sec,Initiated,,Mkt Perform,INTC
+2001-03-16,Thomas Weisel,Initiated,,Buy,INTC
+2001-03-09,Prudential,Downgrade,Accumulate,Hold,INTC
+2001-02-13,CSFB,Downgrade,Buy,Hold,INTC
+2001-01-17,Lehman Brothers,Downgrade,Buy,Mkt Perform,INTC
+2000-12-08,Chase H&Q,Downgrade,Buy,Market Perform,INTC
+2000-12-08,ABN AMRO,Downgrade,Add,Hold,INTC
+2000-12-08,CIBC Wrld Mkts,Upgrade,Hold,Buy,INTC
+2000-12-08,AG Edwards,Upgrade,Maintain Position,Accumulate,INTC
+2000-11-30,AG Edwards,Downgrade,Accumulate,Maintain Position,INTC
+2000-11-30,Lehman Brothers,Downgrade,Buy,Outperform,INTC
+2000-11-20,Wit SoundView,Downgrade,Strong Buy,Buy,INTC
+2000-11-10,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,INTC
+2000-10-18,ABN AMRO,Upgrade,Hold,Outperform,INTC
+2000-10-18,Chase H&Q,Upgrade,Market Perform,Buy,INTC
+2000-10-18,CSFB,Downgrade,Strong Buy,Buy,INTC
+2000-10-18,Merrill Lynch,Downgrade,LT Buy,LT Accum,INTC
+2000-09-22,ABN AMRO,Downgrade,Buy,Hold,INTC
+2000-09-22,AG Edwards,Downgrade,Buy,Accumulate,INTC
+2000-09-22,CIBC Wrld Mkts,Downgrade,Buy,Hold,INTC
+2000-09-22,Deutsche Bc Alex. Br,Downgrade,Strong Buy,Mkt Underperform,INTC
+2000-09-22,Dresdner Klnwrt Bnsn,Downgrade,Buy,Add,INTC
+2000-09-22,Goldman Sachs,Downgrade,Recommended List,Market Outperform,INTC
+2000-09-22,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,INTC
+2000-09-22,Prudential,Downgrade,Strong Buy,Accumulate,INTC
+2000-09-22,Salomon Smth Brny,Downgrade,Buy,Outperform,INTC
+2000-09-19,Banc of America Sec,Upgrade,Market Perform,Buy,INTC
+2000-09-14,ABN AMRO,Upgrade,Outperform,Buy,INTC
+2000-09-13,Banc of America Sec,Downgrade,Strong Buy,Market Perform,INTC
+2000-09-05,USB Piper Jaffray,Downgrade,Strong Buy,Buy,INTC
+2000-07-19,Chase H&Q,Upgrade,Buy,Strong Buy,INTC
+2000-06-07,ABN AMRO,Downgrade,Buy,Outperform,INTC
+2000-05-30,Lehman Brothers,Initiated,,Buy,INTC
+2000-05-03,Josephthal & Co,Downgrade,Buy,Hold,INTC
+2000-04-19,Needham & Co,Downgrade,Hold,Avoid,INTC
+2000-04-18,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,INTC
+2000-04-17,ABN AMRO,Upgrade,Outperform,Buy,INTC
+2000-04-13,ABN AMRO,Upgrade,Hold,Outperform,INTC
+2000-03-27,PaineWebber,Initiated,,Attractive,INTC
+2000-03-21,Chase H&Q,Initiated,,Buy,INTC
+2000-03-13,Robertson Stephens,Upgrade,Buy,Strong Buy,INTC
+2000-01-11,CSFB,Upgrade,Buy,Strong Buy,INTC
+2000-01-10,Robertson Stephens,Upgrade,LT Attractive,Buy,INTC
+2000-01-06,ABN AMRO,Downgrade,Outperform,Hold,INTC
+1999-12-13,Prudential,Downgrade,Strong Buy,Accumulate,INTC
+1999-11-24,Banc of America Sec,Upgrade,Buy,Strong Buy,INTC
+1999-10-29,CIBC Wrld Mkts,Upgrade,Hold,Buy,INTC
+1999-10-13,SG Cowen,Downgrade,Buy,Neutral,INTC
+1999-09-27,ING Barings,Initiated,,Buy,INTC
+1999-08-10,Banc of America Secs,Initiated,,Buy $100,INTC
+1999-07-27,SG Cowen,Upgrade,Neutral,Buy,INTC
+1999-07-14,ABN AMRO,Downgrade,Buy,Outperform,INTC
+1999-07-14,Salomon Smth Brny,Upgrade,Outperform,Buy,INTC
+1999-07-06,Merrill Lynch,Upgrade,NT Accum,NT Buy,INTC
+1999-07-06,Prudential,Upgrade,Accumulate,Strong Buy,INTC
+1999-06-18,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,INTC
+1999-04-14,CSFB,Initiated,,Buy,INTC
+1999-04-13,Salomon Smth Brny,Initiated,,Outperform,INTC
+1999-04-12,BB Rbrtsn Stphns,Downgrade,Strong Buy,LT Attractive,INTC
+1999-03-18,Merrill Lynch,Initiated,,NT Accum/LT Buy,INTC
+1999-03-04,Gruntal & Co,Upgrade,Buy,Strong Buy,INTC
+1999-03-02,NB Montgomery,Downgrade,Buy,Hold,INTC
+1999-03-01,DLJ,Downgrade,Buy,Mkt Perform,INTC
+1999-01-13,JP Morgan,Upgrade,Mkt Perform,Buy,INTC
+1998-12-23,Merrill Lynch,Upgrade,Neutral,Accumulate,INTC
+1998-12-16,EVEREN Sec.,Initiated,,Outperform,INTC
+1998-11-30,Lehman Bros,Upgrade,Outperform,Buy,INTC
+1998-11-20,Prudential,Downgrade,Strong Buy,Accumulate,INTC
+1998-11-10,BT Alex. Brown,Upgrade,Mkt Perform,Strong Buy,INTC
+1998-10-15,CE Unterberg Towbin,Initiated,,Buy,INTC
+1998-09-25,Lehman Bros.,Initiated,,Outperform,INTC
+1998-09-11,Warburg Dlln Rd,Upgrade,Hold,Buy,INTC
+1998-09-11,AG Edwards,Upgrade,Maintain,Accumulate,INTC
+1998-09-09,Prudential,Upgrade,Accumulate,Strong Buy,INTC
+1998-08-21,Piper Jaffray,Upgrade,Buy,Strong Buy,INTC
+1998-08-20,Merrill Lynch,Downgrade,LT Accumulate,LT Neutral,INTC
+1998-08-19,Sunlogic Securities,Initiated,,Hold,INTC
+1998-08-07,Lehman Bros,Upgrade,Neutral,Outperform,INTC
+1998-07-30,CS First Boston,Initiated,,Buy,INTC
+1998-07-28,Gruntal & Co,Upgrade,Hold,Buy,INTC
+1998-07-15,Salomon Smth Brny,Downgrade,Buy,Outperform,INTC
+1998-07-15,Sutro & Co,Upgrade,Hold,Accumulate,INTC
+1998-07-15,Bear Stearns,Upgrade,Neutral,Buy,INTC
+1998-07-14,Volpe Brown,Upgrade,Neutral,Buy,INTC
+1998-06-04,Piper Jaffray,Initiated,,Buy,INTC
+1998-06-01,BT Alex. Brown,Downgrade,Buy,Mkt Perform,INTC
+1998-06-01,Cowen & Co,Downgrade,LT Buy,Neutral,INTC
+1998-04-21,NB Montgomery,Upgrade,Hold,Buy,INTC
+1998-04-15,BA Rbtsn Stphns,Upgrade,LT Attractive,Buy,INTC
+1998-04-15,Morgan Stanley,Upgrade,Outperform,Strong Buy,INTC
+1998-04-15,SoundView,Upgrade,ST Hold,ST Buy,INTC
+1998-04-15,Merrill Lynch,Downgrade,LT Buy,LT Accumulate,INTC
+1998-04-14,Morgan Stanley,Upgrade,Outperform,Strong Buy,INTC
+1998-04-14,BA Rbtsn Stphns,Upgrade,LT Attractive,Buy,INTC
+1998-04-13,Morgan Stanley,Upgrade,Outperform,Strong Buy,INTC
+1998-04-13,BA Rbtsn Stphns,Upgrade,LT Attractive,Buy,INTC
+1998-04-02,JP Morgan,Initiated,,Mkt Performer,INTC
+1998-03-05,CIBC Oppenheimer,Downgrade,Buy,Hold,INTC
+1998-03-05,BT Alex. Brown,Downgrade,Strong Buy,Buy,INTC
+1998-02-19,BT Alex. Brown,Upgrade,Mkt Perform,Strong Buy,INTC
+2014-01-10,Barclays,Downgrade,Overweight,Equal Weight,JNJ
+2014-01-07,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,JNJ
+2013-07-17,Deutsche Bank,Downgrade,Buy,Hold,JNJ
+2013-01-04,Deutsche Bank,Upgrade,Hold,Buy,JNJ
+2012-11-20,Stifel Nicolaus,Initiated,,Hold,JNJ
+2011-12-09,Barclays Capital,Initiated,,Overweight,JNJ
+2011-06-17,Morgan Keegan,Initiated,,Mkt Perform,JNJ
+2010-07-01,Standpoint Research,Downgrade,Buy,Hold,JNJ
+2009-05-29,Piper Jaffray,Initiated,,Neutral,JNJ
+2009-04-29,Standpoint Research,Initiated,,Buy,JNJ
+2009-04-20,Wachovia,Upgrade,Mkt Perform,Outperform,JNJ
+2009-03-20,UBS,Upgrade,Neutral,Buy,JNJ
+2009-02-26,RBC Capital Mkts,Initiated,,Sector Perform,JNJ
+2008-10-29,JP Morgan,Downgrade,Overweight,Neutral,JNJ
+2008-08-15,UBS,Downgrade,Buy,Neutral,JNJ
+2008-06-23,Leerink Swann,Initiated,,Mkt Perform,JNJ
+2008-01-23,Stanford Research,Upgrade,Hold,Buy,JNJ
+2008-01-04,UBS,Initiated,,Buy,JNJ
+2007-10-09,Stanford Research,Initiated,,Hold,JNJ
+2007-07-11,Wachovia,Initiated,,Mkt Perform,JNJ
+2007-06-11,Credit Suisse,Upgrade,Underperform,Neutral,JNJ
+2007-04-04,Hilliard Lyons,Upgrade,Long-term Buy,Buy,JNJ
+2006-10-18,Prudential,Upgrade,Underweight,Neutral,JNJ
+2006-10-05,Hilliard Lyons,Downgrade,Buy,Long-term Buy,JNJ
+2006-08-07,Credit Suisse,Initiated,,Underperform,JNJ
+2006-06-26,KeyBanc Capital Mkts / McDonald,Downgrade,Buy,Hold,JNJ
+2006-05-11,Banc of America Sec,Upgrade,Neutral,Buy,JNJ
+2006-03-10,Hilliard Lyons,Upgrade,Long-term Buy,Buy,JNJ
+2006-02-10,Matrix Research,Initiated,,Buy,JNJ
+2006-01-25,Caris & Company,Downgrade,Above Average,Average,JNJ
+2006-01-03,JP Morgan,Upgrade,Neutral,Overweight,JNJ
+2005-12-09,Prudential,Initiated,,Underweight,JNJ
+2005-11-08,Stanford Research,Upgrade,Sell,Hold,JNJ
+2005-10-06,UBS,Initiated,,Buy,JNJ
+2005-04-26,KeyBanc Capital Mkts / McDonald,Initiated,,Buy,JNJ
+2005-03-29,Caris & Company,Initiated,,Above Average,JNJ
+2005-03-29,Stanford Research,Initiated,,Sell,JNJ
+2005-03-07,Lehman Brothers,Initiated,,Overweight,JNJ
+2005-03-01,Merrill Lynch,Upgrade,Neutral,Buy,JNJ
+2004-12-16,Deutsche Securities,Upgrade,Hold,Buy,JNJ
+2004-11-12,Smith Barney Citigroup,Initiated,,Buy,JNJ
+2004-09-20,Leerink Swann,Downgrade,Outperform,Mkt Perform,JNJ
+2004-08-20,Prudential,Initiated,,Overweight,JNJ
+2004-07-19,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,JNJ
+2004-06-15,Bear Stearns,Downgrade,Outperform,Peer Perform,JNJ
+2004-05-13,Buckingham Research,Downgrade,Accumulate,Neutral,JNJ
+2004-04-13,CSFB,Initiated,,Neutral,JNJ
+2004-01-16,Morgan Stanley,Downgrade,Equal-weight,Underweight,JNJ
+2003-08-01,Merrill Lynch,Downgrade,Buy,Neutral,JNJ
+2003-07-16,AG Edwards,Downgrade,Buy,Hold,JNJ
+2003-07-16,Thomas Weisel,Upgrade,Peer Perform,Outperform,JNJ
+2003-07-16,Banc of America Sec,Downgrade,Buy,Neutral,JNJ
+2003-07-14,Bear Stearns,Upgrade,Peer Perform,Outperform,JNJ
+2003-06-06,Raymond James,Upgrade,Underperform,Mkt Perform,JNJ
+2003-06-06,AG Edwards,Upgrade,Hold,Buy,JNJ
+2003-05-22,RBC Capital Mkts,Initiated,,Sector Perform,JNJ
+2003-05-20,Buckingham Research,Downgrade,Strong Buy,Accumulate,JNJ
+2003-05-09,USB Piper Jaffray,Downgrade,Outperform,Market Perform,JNJ
+2003-04-03,AG Edwards,Downgrade,Buy,Hold,JNJ
+2003-04-02,Banc of America Sec,Initiated,,Buy,JNJ
+2003-04-02,Morgan Stanley,Downgrade,Overweight,Equal-weight,JNJ
+2003-02-14,AG Edwards,Upgrade,Hold,Buy,JNJ
+2003-01-13,Thomas Weisel,Downgrade,Buy,Attractive,JNJ
+2002-10-23,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,JNJ
+2002-10-09,USB Piper Jaffray,Downgrade,Strong Buy,Outperform,JNJ
+2002-09-12,AG Edwards,Downgrade,Buy,Hold,JNJ
+2002-08-22,Thomas Weisel,Initiated,,Buy,JNJ
+2002-07-19,Merrill Lynch,Downgrade,NT Strong Buy,NT Buy,JNJ
+2002-07-16,AG Edwards,Upgrade,Hold,Buy,JNJ
+2002-07-09,Fulcrum,Downgrade,Trading Sell,Sell,JNJ
+2002-07-02,Morgan Stanley,Upgrade,Equal-weight,Overweight,JNJ
+2002-04-09,Fulcrum,Initiated,,Sell,JNJ
+2002-04-08,AG Edwards,Downgrade,Buy,Hold,JNJ
+2002-02-26,Buckingham Research,Initiated,,Strong Buy,JNJ
+2002-02-25,SG Cowen,Upgrade,Buy,Strong Buy,JNJ
+2001-11-29,Morgan Stanley,Downgrade,Outperform,Neutral,JNJ
+2001-11-07,Credit Lyonnais Sec,Initiated,,Buy,JNJ
+2001-10-17,Merrill Lynch,Upgrade,NT Accum,NT Buy,JNJ
+2001-10-02,UBS Warburg,Downgrade,Strong Buy,Hold,JNJ
+2001-08-17,AG Edwards,Initiated,,Accumulate,JNJ
+2001-07-18,ABN AMRO,Downgrade,Buy,Hold,JNJ
+2001-05-18,Lehman Brothers,Upgrade,Mkt Perform,Buy,JNJ
+2001-04-18,Gruntal & Co,Upgrade,NT Mkt Performer,NT Outperformer,JNJ
+2001-03-28,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,JNJ
+2001-03-27,USB Piper Jaffray,Upgrade,Buy,Strong Buy,JNJ
+2001-03-16,Prudential,Initiated,,Strong Buy,JNJ
+2001-02-12,Banc of America Sec,Upgrade,Buy,Strong Buy,JNJ
+2001-01-24,Salomon Smth Brny,Downgrade,Buy,Outperform,JNJ
+2001-01-23,ABN AMRO,Upgrade,Add,Buy,JNJ
+2000-11-13,ABN AMRO,Initiated,,Add,JNJ
+2000-11-09,Raymond James,Initiated,,Mkt Perform,JNJ
+2000-10-18,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,JNJ
+2000-09-22,USB Piper Jaffray,Initiated,,Buy,JNJ
+2000-09-22,Lehman Brothers,Initiated,,Neutral,JNJ
+2000-06-26,PaineWebber,Upgrade,Neutral,Buy,JNJ
+2000-04-18,Bear Stearns,Upgrade,Attractive,Buy,JNJ
+2000-04-17,DLJ,Upgrade,Buy,Top Pick,JNJ
+2000-04-17,Bear Stearns,Upgrade,Attractive,Buy,JNJ
+2000-03-24,JP Morgan,Downgrade,LT Buy,Mkt Perform,JNJ
+2000-03-24,SG Cowen,Downgrade,Strong Buy,Buy,JNJ
+2000-03-24,Merrill Lynch,Downgrade,NT Buy,NT Accum,JNJ
+2000-03-24,Gruntal & Co,Downgrade,NT/LT Outperformer,NT/LT Mkt Performer,JNJ
+2000-03-14,Salomon Smth Brny,Upgrade,Outperform,Buy,JNJ
+2000-02-29,CSFB,Initiated,,Strong Buy,JNJ
+2000-02-16,CSFB,Upgrade,Hold,Buy,JNJ
+2000-01-26,Bear Stearns,Upgrade,Neutral,Attractive,JNJ
+1999-08-05,SG Cowen,Initiated,,Strong Buy,JNJ
+1999-08-03,JP Morgan,Upgrade,Mkt Perform,Buy,JNJ
+1999-07-21,CIBC World Markets,Upgrade,Hold,Buy,JNJ
+1999-04-30,PaineWebber,Downgrade,Attractive,Neutral,JNJ
+1999-04-08,Merrill Lynch,Initiated,,NT/LT Buy,JNJ
+1999-03-25,CIBC Oppenheimer,Initiated,,Hold,JNJ
+1999-03-15,DLJ,Upgrade,Mkt Perform,Buy,JNJ
+1999-02-26,Schroder & Co,Initiated,,Outperform,JNJ
+1999-02-23,CS First Boston,Initiated,,Hold,JNJ
+1999-01-27,Prudential,Upgrade,Hold,Accumulate,JNJ
+1998-12-21,BT Alex. Brown,Downgrade,Strong Buy,Buy,JNJ
+1998-12-04,SG Cowan & Co,Upgrade,Buy,Strong Buy,JNJ
+1998-11-26,DLJ,Downgrade,Top Pick,Buy,JNJ
+1998-11-25,DLJ,Downgrade,Top Pick,Buy,JNJ
+1998-10-05,JP Morgan,Initiated,,Mkt Performer,JNJ
+1998-07-28,DLJ,Upgrade,Buy,Top Pick,JNJ
+1998-07-15,Merrill Lynch,Upgrade,NT Accumulate,NT Buy,JNJ
+1998-07-06,Prudential,Downgrade,Buy,Hold,JNJ
+1998-06-08,PaineWebber,Downgrade,Buy,Attractive,JNJ
+1998-05-26,Dain Rauscher,Initiated,,Buy,JNJ
+2014-10-15,Argus,Upgrade,Hold,Buy,JPM
+2014-10-02,UBS,Downgrade,Buy,Neutral,JPM
+2014-07-21,FBR Capital,Upgrade,Mkt Perform,Outperform,JPM
+2014-05-21,MKM Partners,Initiated,,Buy,JPM
+2013-07-24,Standpoint Research,Downgrade,Buy,Hold,JPM
+2013-04-24,Standpoint Research,Upgrade,Hold,Buy,JPM
+2013-01-08,Standpoint Research,Downgrade,Buy,Hold,JPM
+2013-01-03,Sterne Agee,Upgrade,Neutral,Buy,JPM
+2012-11-16,Standpoint Research,Upgrade,Hold,Buy,JPM
+2012-09-14,Standpoint Research,Downgrade,Buy,Hold,JPM
+2012-07-30,Deutsche Bank,Downgrade,Buy,Hold,JPM
+2012-05-21,JMP Securities,Downgrade,Mkt Perform,Mkt Underperform,JPM
+2012-05-14,Standpoint Research,Upgrade,Hold,Buy,JPM
+2012-05-11,FBR Capital,Downgrade,Outperform,Mkt Perform,JPM
+2012-05-11,Stifel Nicolaus,Downgrade,Buy,Hold,JPM
+2012-03-23,Standpoint Research,Downgrade,Buy,Hold,JPM
+2012-02-29,Standpoint Research,Initiated,,Buy,JPM
+2011-05-20,Stifel Nicolaus,Initiated,,Hold,JPM
+2011-05-04,UBS,Initiated,,Buy,JPM
+2010-06-16,FBR Capital,Initiated,,Outperform,JPM
+2010-01-22,Citigroup,Upgrade,Hold,Buy,JPM
+2010-01-15,Oppenheimer,Upgrade,Perform,Outperform,JPM
+2010-01-14,Ladenburg Thalmann,Initiated,,Buy,JPM
+2009-09-23,Collins Stewart,Initiated,,Buy,JPM
+2009-08-06,Deutsche Securities,Initiated,,Buy,JPM
+2009-04-17,Fox Pitt,Downgrade,Outperform,In Line,JPM
+2009-04-14,Wachovia,Initiated,,Mkt Perform,JPM
+2009-03-13,Robert W. Baird,Initiated,,Outperform,JPM
+2009-03-02,Keefe Bruyette,Upgrade,Mkt Perform,Outperform,JPM
+2008-12-08,Ladenburg Thalmann,Upgrade,Neutral,Buy,JPM
+2008-07-01,Fox Pitt,Downgrade,Outperform,In Line,JPM
+2008-03-11,Fox Pitt,Upgrade,In Line,Outperform,JPM
+2008-01-17,Oppenheimer,Downgrade,Outperform,Perform,JPM
+2007-12-17,Citigroup,Downgrade,Buy,Hold,JPM
+2007-12-11,Keefe Bruyette,Downgrade,Outperform,Mkt Perform,JPM
+2007-08-13,Deutsche Securities,Upgrade,Hold,Buy,JPM
+2007-07-19,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,JPM
+2007-07-18,"Punk, Ziegel & Co",Downgrade,Buy,Mkt Perform,JPM
+2007-06-21,Keefe Bruyette,Upgrade,Mkt Perform,Outperform,JPM
+2007-05-01,AG Edwards,Initiated,,Hold,JPM
+2007-04-12,Deutsche Securities,Initiated,,Hold,JPM
+2006-06-21,Prudential,Downgrade,Overweight,Neutral,JPM
+2006-01-31,Prudential,Upgrade,Neutral,Overweight,JPM
+2006-01-12,Piper Jaffray,Downgrade,Outperform,Market Perform,JPM
+2006-01-09,Prudential,Upgrade,Underweight,Neutral,JPM
+2005-11-18,Morgan Stanley,Downgrade,Overweight,Equal-weight,JPM
+2005-09-07,Piper Jaffray,Upgrade,Market Perform,Outperform,JPM
+2005-07-21,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,JPM
+2005-04-21,Prudential,Downgrade,Neutral,Underweight,JPM
+2005-04-18,Banc of America Sec,Upgrade,Neutral,Buy,JPM
+2005-03-02,CIBC Wrld Mkts,Initiated,,Sector Underperform,JPM
+2004-12-13,Banc of America Sec,Initiated,,Neutral,JPM
+2004-12-09,Morgan Stanley,Initiated,,Overweight,JPM
+2004-11-16,Piper Jaffray,Downgrade,Outperform,Market Perform,JPM
+2004-07-22,UBS,Downgrade,Buy,Neutral,JPM
+2004-06-25,Bear Stearns,Initiated,,Outperform,JPM
+2004-05-10,Prudential,Downgrade,Overweight,Neutral,JPM
+2004-01-07,Friedman Billings,Upgrade,Mkt Perform,Outperform,JPM
+2004-01-06,Prudential,Upgrade,Neutral,Overweight,JPM
+2003-10-03,UBS,Initiated,,Buy,JPM
+2003-01-08,UBS Warburg,Downgrade,Buy,Hold,JPM
+2002-09-18,AG Edwards,Downgrade,Buy,Hold,JPM
+2002-09-09,Merrill Lynch,Downgrade,Buy,Neutral,JPM
+2002-07-18,Merrill Lynch,Downgrade,NT Strong Buy,NT Buy,JPM
+2002-04-15,Prudential,Upgrade,Sell,Hold,JPM
+2002-03-19,Friedman Billings,Initiated,,Accumulate,JPM
+2002-03-07,AG Edwards,Downgrade,Strong Buy,Buy,JPM
+2002-03-06,Deutsche Bc Alex. Br,Upgrade,Buy,Strong Buy,JPM
+2002-02-25,Wachovia Sec,Downgrade,Mkt Perform,Underperform,JPM
+2001-11-27,USB Piper Jaffray,Upgrade,Neutral,Buy,JPM
+2001-07-13,Raymond James,Initiated,,Mkt Perform,JPM
+2001-07-11,USB Piper Jaffray,Initiated,,Neutral,JPM
+2001-06-19,First Union Sec,Initiated,,Mkt Perform,JPM
+2001-06-07,Keefe Bruyette,Downgrade,Outperform,Mkt Perform,JPM
+2001-05-14,Goldman Sachs,Initiated,,Mkt Outperform,JPM
+2001-05-11,Bear Stearns,Initiated,,Attractive,JPM
+2001-05-07,Prudential,Downgrade,Hold,Sell,JPM
+2001-03-08,Prudential,Initiated,,Hold,JPM
+2000-11-13,Wasserstein Perella,Downgrade,Buy,Hold,JPM
+2000-09-13,Deutsche Bc Alex. Br,Downgrade,Buy,Market Perform,JPM
+2000-08-30,ING Barings,Upgrade,Hold,Buy,JPM
+2000-07-14,Merrill Lynch,Upgrade,NT Accum,NT Buy,JPM
+2000-07-14,CIBC Wrld Mkts,Upgrade,Hold,Buy,JPM
+2000-07-06,Wasserstein Perella,Initiated,,Buy,JPM
+2000-06-13,Deutsche Bc Alex. Br,Initiated,,Buy,JPM
+2000-04-25,Warburg Dillon Read,Initiated,,Hold,JPM
+2000-03-14,Merrill Lynch,Upgrade,NT Neutral,NT Accum,JPM
+1999-09-02,Schroder & Co,Downgrade,Outperform,Perform-In-Line,JPM
+1999-08-03,ING Barings,Initiated,,Hold,JPM
+1999-05-24,CSFB,Downgrade,Hold,Sell,JPM
+1999-04-16,Friedman Billings,Upgrade,Accumulate,Buy,JPM
+1999-04-14,Merrill Lynch,Upgrade,LT Accumulate,LT Buy,JPM
+1999-01-21,Schroder & Co,Upgrade,Perform In Line,Outperform,JPM
+1998-10-05,Merrill Lynch,Downgrade,NT Accm/LT Buy,NT Ntrl/LT Accm,JPM
+1998-09-07,CIBC Oppenheimer,Downgrade,Strong Buy,Hold,JPM
+1998-09-04,CIBC Oppenheimer,Downgrade,Strong Buy,Hold,JPM
+1998-03-25,Friedmann Billings,Upgrade,Hold,Accumulate,JPM
+1998-03-17,Brown Brothers,Downgrade,LT Outperform,Mkt Perform,JPM
+1998-02-25,Friedman Billings,Downgrade,Buy,Hold,JPM
+2014-10-22,Gabelli & Co,Downgrade,Buy,Hold,KO
+2014-03-04,UBS,Initiated,,Neutral,KO
+2013-12-02,Standpoint Research,Initiated,,Sell,KO
+2013-11-26,RBC Capital Mkts,Initiated,,Outperform,KO
+2013-01-10,Argus,Downgrade,Buy,Hold,KO
+2012-04-03,Stifel Nicolaus,Downgrade,Buy,Hold,KO
+2012-01-11,UBS,Downgrade,Buy,Neutral,KO
+2010-03-04,UBS,Upgrade,Neutral,Buy,KO
+2010-01-08,JP Morgan,Downgrade,Overweight,Neutral,KO
+2009-10-07,Deutsche Securities,Upgrade,Hold,Buy,KO
+2009-09-29,Citigroup,Initiated,,Buy,KO
+2009-03-09,Credit Suisse,Upgrade,Neutral,Outperform,KO
+2008-11-18,UBS,Downgrade,Buy,Neutral,KO
+2008-10-06,Deutsche Securities,Downgrade,Buy,Hold,KO
+2008-08-28,Credit Suisse,Downgrade,Outperform,Neutral,KO
+2008-06-10,Deutsche Securities,Upgrade,Hold,Buy,KO
+2008-02-08,Bear Stearns,Upgrade,Peer Perform,Outperform,KO
+2007-11-14,Credit Suisse,Initiated,,Outperform,KO
+2007-10-09,Deutsche Securities,Downgrade,Buy,Hold,KO
+2007-02-26,Deutsche Securities,Upgrade,Hold,Buy,KO
+2007-02-16,Goldman Sachs,Upgrade,Neutral,Buy,KO
+2006-06-09,Bear Stearns,Upgrade,Peer Perform,Outperform,KO
+2006-02-17,Prudential,Initiated,,Neutral,KO
+2006-01-12,Goldman Sachs,Downgrade,Outperform,In-Line,KO
+2005-12-01,Stifel Nicolaus,Initiated,,Outperform/Buy,KO
+2005-10-31,Bear Stearns,Downgrade,Outperform,Peer Perform,KO
+2005-09-06,Banc of America Sec,Upgrade,Neutral,Buy,KO
+2005-08-19,UBS,Upgrade,Neutral,Buy,KO
+2005-03-16,UBS,Upgrade,Reduce,Neutral,KO
+2004-09-15,Merrill Lynch,Downgrade,Buy,Neutral,KO
+2004-09-10,Legg Mason,Upgrade,Hold,Buy,KO
+2004-09-10,UBS,Downgrade,Buy,Reduce,KO
+2004-09-08,CSFB,Downgrade,Outperform,Neutral,KO
+2004-07-23,Deutsche Securities,Downgrade,Buy,Hold,KO
+2004-05-27,UBS,Upgrade,Neutral,Buy,KO
+2004-04-22,Morgan Stanley,Downgrade,Overweight,Equal-weight,KO
+2004-03-29,Bear Stearns,Upgrade,Peer Perform,Outperform,KO
+2004-03-15,Bernstein,Upgrade,Mkt Perform,Outperform,KO
+2004-02-27,UBS,Downgrade,Buy,Neutral,KO
+2004-02-20,Bear Stearns,Downgrade,Outperform,Peer Perform,KO
+2003-10-15,JP Morgan,Upgrade,Neutral,Overweight,KO
+2003-09-16,Thomas Weisel,Downgrade,Outperform,Peer Perform,KO
+2003-05-09,Bear Stearns,Upgrade,Peer Perform,Outperform,KO
+2003-05-07,Morgan Stanley,Upgrade,Equal-weight,Overweight,KO
+2003-04-16,Legg Mason,Downgrade,Buy,Hold,KO
+2003-02-11,Salomon Smth Brny,Initiated,,In-line,KO
+2002-10-21,Thomas Weisel,Upgrade,Attractive,Buy,KO
+2002-09-19,UBS Warburg,Downgrade,Strong Buy,Buy,KO
+2002-06-28,Legg Mason,Initiated,,Buy,KO
+2002-03-25,CSFB,Upgrade,Hold,Buy,KO
+2002-01-29,ABN AMRO,Downgrade,Buy,Add,KO
+2002-01-18,Prudential,Initiated,,Hold,KO
+2002-01-07,JP Morgan,Downgrade,LT Buy,Mkt Perform,KO
+2001-11-13,Thomas Weisel,Initiated,,Attractive,KO
+2001-10-19,UBS Warburg,Upgrade,Hold,Strong Buy,KO
+2001-10-04,Morgan Stanley,Initiated,,Neutral,KO
+2001-08-09,CSFB,Initiated,,Hold,KO
+2001-06-25,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,KO
+2001-05-18,ABN AMRO,Initiated,,Buy,KO
+2001-05-09,Banc of America Sec,Initiated,,Mkt Perform,KO
+2001-02-21,Sanford Bernstein,Downgrade,Outperform,Mkt Perform,KO
+2001-02-21,Goldman Sachs,Downgrade,Recomm List,Mkt Outperform,KO
+2000-11-21,Deutsche Bc Alex. Br,Initiated,,Buy,KO
+2000-11-20,Salomon Smth Brny,Downgrade,Buy,Outperform,KO
+2000-09-06,CSFB,Initiated,,Buy,KO
+2000-08-08,Banc of America Sec,Initiated,,Buy,KO
+2000-07-07,ING Barings,Initiated,,Buy,KO
+2000-06-28,UBS Warburg,Downgrade,Strong Buy,Hold,KO
+2000-06-15,Salomon Smth Brny,Upgrade,Outperform,Buy,KO
+2000-05-11,Warburg Dillon Read,Initiated,,Strong Buy,KO
+2000-05-09,Goldman Sachs,Upgrade,Market Perform,Recommended List,KO
+2000-03-01,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Strong Buy,KO
+2000-01-26,Deutsche Bc Alex. Br,Initiated,,Mkt Perform,KO
+2000-01-14,Warburg Dillon Read,Upgrade,Hold,Strong Buy,KO
+2000-01-13,PaineWebber,Initiated,,Buy,KO
+2000-01-11,CSFB,Upgrade,Buy,Strong Buy,KO
+1999-12-09,Banc of America Sec,Upgrade,Market Perform,Buy,KO
+1999-12-08,Schroder & Co,Upgrade,Outperform,Outperf. Signif.,KO
+1999-12-07,DLJ,Downgrade,Buy,Market Perform,KO
+1999-12-06,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,KO
+1999-12-06,AG Edwards,Downgrade,Buy,Maintain Position,KO
+1999-11-23,Lehman Brothers,Upgrade,Outperform,Buy,KO
+1999-11-22,Merrill Lynch,Upgrade,NT Accum,NT Buy,KO
+1999-10-05,AG Edwards,Upgrade,Maintain Position,Buy,KO
+1999-07-16,Brown Brothers,Upgrade,Avoid,ST Neutral,KO
+1999-07-07,Banc of America Sec,Initiated,,Hold,KO
+1999-07-01,Salomon Smth Brny,Upgrade,Neutral,Outperform,KO
+1999-04-22,Brown Bros,Downgrade,Neutral,Avoi,KO
+1999-04-13,Merrill Lynch,Upgrade,NT Neutral,NT Accumulate,KO
+1999-03-30,Goldman Sachs,Downgrade,Recomm. List,Mkt Perform,KO
+1999-03-30,Salomon Smth Brny,Downgrade,Buy,Neutral,KO
+1999-03-11,DLJ,Upgrade,Mkt Perform,Buy,KO
+1998-12-14,Prudential,Upgrade,Accumulate,Strong Buy,KO
+1998-12-11,Salomon Smth Brny,Upgrade,Neutral,Buy,KO
+1998-08-27,Merrill Lynch,Downgrade,NT Accumulate,NT Neutral,KO
+1998-07-16,Lehman Bros,Downgrade,Buy,Outperform,KO
+2014-07-23,Robert W. Baird,Downgrade,Outperform,Neutral,MCD
+2014-05-28,Standpoint Research,Initiated,,Strong Sell,MCD
+2014-01-08,UBS,Initiated,,Buy,MCD
+2013-11-08,RBC Capital Mkts,Initiated,,Sector Perform,MCD
+2013-07-16,Stifel,Initiated,,Hold,MCD
+2012-04-25,Argus,Downgrade,Buy,Hold,MCD
+2012-01-25,Oppenheimer,Downgrade,Outperform,Perform,MCD
+2011-08-18,Oppenheimer,Upgrade,Perform,Outperform,MCD
+2011-01-18,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,MCD
+2010-04-14,Janney Mntgmy Scott,Upgrade,Neutral,Buy,MCD
+2010-01-19,Credit Suisse,Upgrade,Neutral,Outperform,MCD
+2009-11-04,Janney Mntgmy Scott,Initiated,,Neutral,MCD
+2009-09-25,Bernstein,Initiated,,Outperform,MCD
+2009-03-13,Robert W. Baird,Initiated,,Outperform,MCD
+2009-03-05,Jefferies & Co,Initiated,,Hold,MCD
+2008-12-05,Citigroup,Initiated,,Hold,MCD
+2008-11-17,UBS,Upgrade,Neutral,Buy,MCD
+2008-07-24,Deutsche Securities,Downgrade,Buy,Hold,MCD
+2008-07-11,Banc of America Sec,Initiated,,Neutral,MCD
+2008-01-29,Bear Stearns,Downgrade,Outperform,Peer Perform,MCD
+2007-11-29,Stifel Nicolaus,Initiated,,Buy,MCD
+2007-09-25,Credit Suisse,Initiated,,Neutral,MCD
+2007-08-21,Matrix Research,Upgrade,Hold,Buy,MCD
+2007-06-08,Deutsche Securities,Upgrade,Hold,Buy,MCD
+2007-01-17,Prudential,Initiated,,Neutral,MCD
+2006-10-17,Deutsche Securities,Initiated,,Hold,MCD
+2006-09-14,RBC Capital Mkts,Initiated,,Sector Perform,MCD
+2006-07-18,Goldman Sachs,Upgrade,Neutral,Buy,MCD
+2006-05-17,Citigroup,Initiated,,Buy,MCD
+2006-01-19,Piper Jaffray,Upgrade,Market Perform,Outperform,MCD
+2006-01-19,Jefferies & Co,Initiated,,Hold,MCD
+2005-09-07,Bear Stearns,Upgrade,Peer Perform,Outperform,MCD
+2005-04-22,AG Edwards,Upgrade,Hold,Buy,MCD
+2005-03-09,CSFB,Downgrade,Outperform,Neutral,MCD
+2005-03-07,Prudential,Upgrade,Neutral,Overweight,MCD
+2005-02-18,Goldman Sachs,Initiated,,In-Line,MCD
+2005-02-01,Piper Jaffray,Downgrade,Outperform,Market Perform,MCD
+2005-01-24,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,MCD
+2005-01-07,Legg Mason,Initiated,,Hold,MCD
+2004-11-03,AG Edwards,Downgrade,Buy,Hold,MCD
+2004-10-20,Bear Stearns,Downgrade,Outperform,Peer Perform,MCD
+2004-06-02,Prudential,Downgrade,Overweight,Neutral,MCD
+2004-04-28,Piper Jaffray,Upgrade,Market Perform,Outperform,MCD
+2004-04-14,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,MCD
+2004-01-29,AG Edwards,Upgrade,Hold,Buy,MCD
+2003-12-29,JP Morgan,Upgrade,Underweight,Overweight,MCD
+2003-11-21,UBS,Initiated,,Buy,MCD
+2003-11-04,SG Cowen,Upgrade,Outperform,Strong Buy,MCD
+2003-10-07,Smith Barney Citigroup,Upgrade,Hold,Buy,MCD
+2003-09-23,SunTrust Rbsn Humphrey,Upgrade,Equal Weight,Overweight,MCD
+2003-09-04,JMP Securities,Initiated,,Mkt Perform,MCD
+2003-08-27,Prudential,Initiated,,Buy,MCD
+2003-08-14,Wachovia,Downgrade,Outperform,Mkt Perform,MCD
+2003-08-12,Morgan Stanley,Initiated,,Equal-weight,MCD
+2003-07-31,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,MCD
+2003-07-18,Bear Stearns,Upgrade,Peer Perform,Outperform,MCD
+2003-06-06,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,MCD
+2003-05-21,Lehman Brothers,Upgrade,Equal-weight,Overweight,MCD
+2003-04-29,Smith Barney Citigroup,Upgrade,Underperform,In-line,MCD
+2003-04-08,CSFB,Upgrade,Neutral,Outperform,MCD
+2003-01-24,Goldman Sachs,Upgrade,Underperform,In-Line,MCD
+2002-12-17,Lehman Brothers,Upgrade,Underweight,Equal-weight,MCD
+2002-10-22,Banc of America Sec,Upgrade,Mkt Perform,Buy,MCD
+2002-09-18,Bear Stearns,Downgrade,Outperform,Peer Perform,MCD
+2002-09-18,Wachovia Sec,Downgrade,Strong Buy,Buy,MCD
+2002-09-18,SunTrust Rbsn Humphrey,Downgrade,Buy,Neutral,MCD
+2002-09-16,Morgan Stanley,Upgrade,Underweight,Equal-weight,MCD
+2002-07-19,SG Cowen,Initiated,,Buy,MCD
+2002-06-04,CIBC Wrld Mkts,Initiated,,Hold,MCD
+2002-04-19,Bear Stearns,Upgrade,Neutral,Buy,MCD
+2002-03-25,JP Morgan,Downgrade,LT Buy,Mkt Perform,MCD
+2002-03-12,Morgan Stanley,Initiated,,Neutral,MCD
+2002-01-18,Goldman Sachs,Initiated,,Mkt Perform,MCD
+2002-01-15,UBS Warburg,Initiated,,Strong Buy,MCD
+2001-12-11,Lehman Brothers,Downgrade,Strong Buy,Mkt Perform,MCD
+2001-10-19,Salomon Smth Brny,Downgrade,Buy,Neutral,MCD
+2001-10-15,Deutsche Bc Alex. Br,Upgrade,Buy,Strong Buy,MCD
+2001-07-23,Merrill Lynch,Upgrade,NT Accum,NT Buy,MCD
+2001-06-18,JP Morgan,Downgrade,Buy,LT Buy,MCD
+2001-03-29,First Union Sec,Upgrade,Buy,Strong Buy,MCD
+2001-03-16,Banc of America Sec,Initiated,,Mkt Perform,MCD
+2001-03-14,Merrill Lynch,Downgrade,NT Buy,NT Accum,MCD
+2001-01-17,Deutsche Bc Alex. Br,Initiated,,Buy,MCD
+2001-01-17,First Union Sec,Initiated,,Buy,MCD
+2000-10-16,CSFB,Initiated,,Hold,MCD
+2000-09-14,Banc of America Sec,Downgrade,Buy,Market Perform,MCD
+2000-07-31,AG Edwards,Upgrade,Maintain Position,Accumulate,MCD
+2000-07-26,JP Morgan,Upgrade,LT Buy,Buy,MCD
+2000-07-26,Banc of America Sec,Upgrade,Market Perform,Buy,MCD
+2000-06-12,Robertson Stephens,Downgrade,Buy,LT Attractive,MCD
+2000-06-12,Bear Stearns,Downgrade,Buy,Neutral,MCD
+2000-04-13,JP Morgan,Downgrade,Buy,LT Buy,MCD
+2000-03-28,Salomon Smth Brny,Initiated,,Buy,MCD
+2000-03-15,JP Morgan,Initiated,,Buy,MCD
+2000-02-03,Robertson Stephens,Upgrade,LT Attractive,Buy,MCD
+2000-01-31,Goldman Sachs,Upgrade,Market Outperform,Recommended List,MCD
+1999-12-02,Banc of America Sec,Downgrade,Buy,Market Perform,MCD
+1999-10-22,First Union Sec,Downgrade,Buy,Hold,MCD
+1999-07-09,Schroder & Co,Upgrade,Perform-In-Line,Outperform,MCD
+1999-06-30,Deutsche Bc Alex. Br,Initiated,,Buy,MCD
+1999-04-14,BB Rbrtsn Stphns,Initiated,,LT Attractive,MCD
+1999-03-19,NB Montgomery,Initiated,,Buy,MCD
+1999-03-08,Schroder & Co,Downgrade,Outperform,Perform In Line,MCD
+1999-02-10,Schroder & Co,Initiated,,Outperform,MCD
+1998-10-20,DLJ,Downgrade,Buy,Mkt Perform,MCD
+1998-10-05,Merrill Lynch,Upgrade,NT Accumulate,NT Buy,MCD
+1998-10-02,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,MCD
+1998-06-18,Goldman Sachs,Upgrade,Mkt Performer,Mkt Outperform,MCD
+1998-04-20,Lehman Bros,Upgrade,Outperform,Buy,MCD
+1998-03-30,DLJ,Upgrade,Mkt Perform,Buy,MCD
+1998-03-27,Salomon Smth Brny,Upgrade,Neutral,Buy,MCD
+1998-03-27,Bear Stearns,Upgrade,Attractive,Buy,MCD
+1998-03-26,JP Morgan,Initiated,,Mkt Performer,MCD
+1998-03-26,CS First Boston,Upgrade,Buy,Strong Buy,MCD
+2015-01-22,UBS,Initiated,,Buy,MMM
+2014-11-25,RBC Capital Mkts,Initiated,,Underperform,MMM
+2014-09-17,Stifel,Initiated,,Hold,MMM
+2014-07-08,Argus,Upgrade,Hold,Buy,MMM
+2011-10-27,Argus,Downgrade,Buy,Hold,MMM
+2011-10-14,Barclays Capital,Initiated,,Equal Weight,MMM
+2010-04-28,Barclays Capital,Upgrade,Equal Weight,Overweight,MMM
+2010-02-11,Bernstein,Upgrade,Mkt Perform,Outperform,MMM
+2009-12-09,Citigroup,Upgrade,Hold,Buy,MMM
+2009-08-13,Hilliard Lyons,Downgrade,Buy,Long-term Buy,MMM
+2009-07-07,Jefferies,Initiated,,,MMM
+2009-07-07,FBR Capital,Initiated,,,MMM
+2009-04-27,Barclays Capital,Upgrade,Underweight,Equal Weight,MMM
+2009-02-06,Bernstein,Initiated,,Underperform,MMM
+2009-02-02,Argus,Downgrade,Buy,Hold,MMM
+2008-12-09,Barclays Capital,Downgrade,Equal Weight,Underweight,MMM
+2008-12-02,Citigroup,Downgrade,Hold,Sell,MMM
+2008-04-25,Sterne Agee,Downgrade,Buy,Hold,MMM
+2008-01-30,Hilliard Lyons,Upgrade,Long-term Buy,Buy,MMM
+2008-01-29,Sterne Agee,Upgrade,Hold,Buy,MMM
+2007-12-11,Banc of America Sec,Initiated,,Neutral,MMM
+2007-09-28,UBS,Initiated,,Buy,MMM
+2007-07-27,Hilliard Lyons,Downgrade,Buy,Long-term Buy,MMM
+2007-04-26,Prudential,Upgrade,Neutral,Overweight,MMM
+2007-02-13,Soleil,Upgrade,Hold,Buy,MMM
+2006-12-08,Prudential,Downgrade,Overweight,Neutral,MMM
+2006-07-25,Soleil,Downgrade,Buy,Hold,MMM
+2006-07-07,JP Morgan,Upgrade,Neutral,Overweight,MMM
+2006-03-06,AG Edwards,Downgrade,Buy,Hold,MMM
+2006-03-01,Matrix Research,Upgrade,Buy,Strong Buy,MMM
+2006-01-25,Longbow,Downgrade,Buy,Neutral,MMM
+2005-08-12,Banc of America Sec,Initiated,,Neutral,MMM
+2005-07-01,Morgan Stanley,Downgrade,Overweight,Equal-weight,MMM
+2005-02-23,Smith Barney Citigroup,Downgrade,Buy,Hold,MMM
+2005-02-15,AG Edwards,Initiated,,Buy,MMM
+2004-11-30,CSFB,Initiated,,Outperform,MMM
+2004-10-19,Goldman Sachs,Upgrade,In-Line,Outperform,MMM
+2004-10-18,Prudential,Downgrade,Overweight,Neutral,MMM
+2004-03-16,Buckingham Research,Upgrade,Neutral,Accumulate,MMM
+2003-12-18,McDonald Invst,Downgrade,Buy,Hold,MMM
+2003-10-03,Lehman Brothers,Upgrade,Equal-weight,Overweight,MMM
+2003-09-26,Banc of America Sec,Upgrade,Neutral,Buy,MMM
+2003-08-14,Smith Barney Citigroup,Downgrade,Outperform,In-line,MMM
+2003-06-06,Smith Barney Citigroup,Upgrade,In-line,Outperform,MMM
+2003-04-25,Banc of America Sec,Downgrade,Buy,Neutral,MMM
+2003-04-22,CSFB,Downgrade,Outperform,Neutral,MMM
+2002-11-26,Merrill Lynch,Initiated,,Neutral,MMM
+2002-09-13,Salomon Smth Brny,Initiated,,In-line,MMM
+2002-09-04,Deutsche Securities,Initiated,,Buy,MMM
+2002-06-26,JP Morgan,Initiated,,Mkt Perform,MMM
+2002-04-05,Salomon Smth Brny,Upgrade,Neutral,Outperform,MMM
+2002-04-05,CSFB,Upgrade,Hold,Buy,MMM
+2002-03-28,CSFB,Initiated,,Hold,MMM
+2002-01-17,McDonald Invst,Upgrade,Hold,Buy,MMM
+2001-09-27,Prudential,Initiated,,Buy,MMM
+2001-09-11,UBS Warburg,Upgrade,Buy,Strong Buy,MMM
+2001-06-20,ABN AMRO,Downgrade,Buy,Add,MMM
+2001-01-17,SG Cowen,Downgrade,Strong Buy,Neutral,MMM
+2000-12-20,CE Unterberg Towbin,Downgrade,Buy,Hold,MMM
+2000-12-19,McDonald Invst,Initiated,,Hold,MMM
+2000-12-07,ABN AMRO,Initiated,,Buy,MMM
+2000-10-30,Lehman Brothers,Initiated,,Neutral,MMM
+2000-09-15,UBS Warburg,Initiated,,Buy,MMM
+2000-09-06,CSFB,Initiated,,Buy,MMM
+2000-04-25,Prudential,Downgrade,Strong Buy,Accumulate,MMM
+2000-01-27,Banc of America Sec,Upgrade,Underperform,Market Perform,MMM
+2000-01-26,Prudential,Upgrade,Accumulate,Strong Buy,MMM
+2000-01-26,Merrill Lynch,Upgrade,NT Accum,NT Buy,MMM
+2000-01-12,Mrgn Stnly Dn Wttr,Initiated,,Outperform,MMM
+2000-01-05,Prudential,Upgrade,Hold,Accumulate,MMM
+1999-10-25,SG Cowen,Upgrade,Neutral,Strong Buy,MMM
+1999-08-25,FAC/Eqts First Albany,Downgrade,Accumulate,Neutral,MMM
+1999-08-13,Merrill Lynch,Initiated,,NT Accum/LT Buy,MMM
+1999-08-02,Banc of America Sec,Downgrade,Hold,Underperform,MMM
+1999-05-06,NB Montgomery,Initiated,,Hold,MMM
+1999-05-05,Schroder & Co,Downgrade,Outperform,Perform In Line,MMM
+1999-02-02,Prudential,Downgrade,Accumulate,Hold,MMM
+1999-01-26,FAC/Eqts Fst Albany,Upgrade,Neutral,Accumulate,MMM
+1998-12-17,FAC/Eqts Fst Albany,Downgrade,Buy,Neutral,MMM
+1998-10-21,DLJ,Downgrade,Buy,Mkt Perform,MMM
+1998-06-10,Mgn Stnly Dn Witter,Downgrade,Outperform,Neutral,MMM
+1998-04-29,FAC/Eqts Fst Albany,Upgrade,Neutral,Buy,MMM
+1998-03-16,Prudential,Upgrade,Hold,Buy,MMM
+2012-11-20,MKM Partners,Upgrade,Neutral,Buy,MRK
+2012-07-13,MP Advisors,Upgrade,Market Perform,Outperform,MRK
+2012-02-03,MKM Partners,Downgrade,Buy,Neutral,MRK
+2011-11-29,MKM Partners,Initiated,,Buy,MRK
+2010-01-13,Credit Suisse,Upgrade,Neutral,Outperform,MRK
+2009-11-09,Leerink Swann,Upgrade,Mkt Perform,Outperform,MRK
+2009-03-20,Cowen & Co,Upgrade,Neutral,Outperform,MRK
+2009-03-13,Bernstein,Upgrade,Mkt Perform,Outperform,MRK
+2008-10-17,UBS,Upgrade,Neutral,Buy,MRK
+2008-09-10,Bernstein,Downgrade,Outperform,Mkt Perform,MRK
+2008-07-22,Leerink Swann,Downgrade,Outperform,Mkt Perform,MRK
+2008-07-18,Citigroup,Initiated,,Buy,MRK
+2008-07-07,UBS,Downgrade,Buy,Neutral,MRK
+2008-06-25,JP Morgan,Initiated,,Overweight,MRK
+2008-01-28,UBS,Upgrade,Neutral,Buy,MRK
+2007-10-24,Bernstein,Initiated,,Outperform,MRK
+2007-09-13,Banc of America Sec,Upgrade,Neutral,Buy,MRK
+2007-08-06,Cowen & Co,Upgrade,Neutral,Outperform,MRK
+2007-07-12,AG Edwards,Upgrade,Hold,Buy,MRK
+2007-05-29,HSBC Securities,Upgrade,Underweight,Neutral,MRK
+2007-04-13,BMO Capital Markets,Initiated,,Outperform,MRK
+2007-04-13,Goldman Sachs,Upgrade,Sell,Neutral,MRK
+2007-02-26,Citigroup,Upgrade,Hold,Buy,MRK
+2007-01-03,Bear Stearns,Upgrade,Peer Perform,Outperform,MRK
+2006-11-30,HSBC Securities,Downgrade,Neutral,Underweight,MRK
+2006-08-21,Lehman Brothers,Upgrade,Equal-weight,Overweight,MRK
+2006-02-23,Friedman Billings,Downgrade,Mkt Perform,Underperform,MRK
+2006-02-03,Leerink Swann,Upgrade,Mkt Perform,Outperform,MRK
+2006-01-27,HSBC Securities,Initiated,,Neutral,MRK
+2006-01-05,Goldman Sachs,Downgrade,In-Line,Underperform,MRK
+2005-12-21,Matrix Research,Downgrade,Hold,Sell,MRK
+2005-12-19,Deutsche Securities,Upgrade,Hold,Buy,MRK
+2005-12-12,Hilliard Lyons,Downgrade,Long-term Buy,Neutral,MRK
+2005-10-28,Morgan Stanley,Upgrade,Equal-weight,Overweight,MRK
+2005-09-29,Banc of America Sec,Initiated,,Neutral,MRK
+2005-09-07,Bear Stearns,Initiated,,Peer Perform,MRK
+2005-08-22,CSFB,Upgrade,Underperform,Neutral,MRK
+2005-06-13,Friedman Billings,Downgrade,Mkt Perform,Underperform,MRK
+2005-04-01,Caris & Company,Initiated,,Average,MRK
+2005-02-22,Sun Trust Rbsn Humphrey,Upgrade,Neutral,Buy,MRK
+2004-12-15,Raymond James,Upgrade,Mkt Perform,Strong Buy,MRK
+2004-12-13,JP Morgan,Initiated,,Neutral,MRK
+2004-11-01,Prudential,Downgrade,Overweight,Neutral,MRK
+2004-07-16,Deutsche Securities,Initiated,,Hold,MRK
+2004-06-16,Schwab Soundview,Initiated,,Neutral,MRK
+2004-04-15,Harris Nesbitt Gerard,Initiated,,Neutral,MRK
+2004-03-15,Thomas Weisel,Upgrade,Peer Perform,Outperform,MRK
+2004-03-04,Caris & Company,Initiated,,Average,MRK
+2004-01-12,CSFB,Downgrade,Neutral,Underperform,MRK
+2003-11-21,Friedman Billings,Downgrade,Outperform,Mkt Perform,MRK
+2003-11-21,Morgan Stanley,Downgrade,Overweight,Equal-weight,MRK
+2003-11-12,Prudential,Upgrade,Underweight,Overweight,MRK
+2003-07-14,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,MRK
+2003-05-23,Friedman Billings,Upgrade,Mkt Perform,Outperform,MRK
+2003-04-23,Goldman Sachs,Downgrade,Outperform,In-Line,MRK
+2003-03-05,First Albany,Initiated,,Neutral,MRK
+2003-01-30,Banc of America Sec,Upgrade,Neutral,Buy,MRK
+2003-01-28,JP Morgan,Upgrade,Underweight,Neutral,MRK
+2002-12-04,Raymond James,Downgrade,Mkt Perform,Underperform,MRK
+2002-12-03,Morgan Stanley,Upgrade,Equal-weight,Overweight,MRK
+2002-12-03,Merrill Lynch,Upgrade,Sell,Neutral,MRK
+2002-12-03,Merrill Lynch,Downgrade,Buy,Sell,MRK
+2002-10-28,Banc of America Sec,Upgrade,Mkt Perform,Buy,MRK
+2002-10-21,UBS Warburg,Downgrade,Buy,Hold,MRK
+2002-10-09,Raymond James,Downgrade,Strong Buy,Mkt Perform,MRK
+2002-09-13,SunTrust Rbsn Humphrey,Initiated,,Neutral,MRK
+2002-08-22,Thomas Weisel,Initiated,,Mkt Perform,MRK
+2002-07-08,Merrill Lynch,Downgrade,LT Buy,LT Neutral,MRK
+2002-06-11,Lehman Brothers,Downgrade,Strong Buy,Buy,MRK
+2002-04-12,Gerard Klauer Mattison,Upgrade,Neutral,Buy,MRK
+2002-04-09,Fulcrum,Initiated,,Sell,MRK
+2002-03-20,Gruntal & Co,Upgrade,NT Mkt Performer,NT Mkt Outperformer,MRK
+2002-03-15,Goldman Sachs,Downgrade,Recomm List,Mkt Outperform,MRK
+2002-03-05,Gerard Klauer Mattison,Initiated,,Neutral,MRK
+2002-01-03,SG Cowen,Downgrade,Buy,Neutral,MRK
+2001-12-12,ABN AMRO,Downgrade,Buy,Add,MRK
+2001-12-12,CSFB,Downgrade,Buy,Hold,MRK
+2001-07-18,Dain Rauscher Wessels,Upgrade,Neutral,Buy,MRK
+2001-06-25,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,MRK
+2001-06-22,CIBC Wrld Mkts,Downgrade,Buy,Hold,MRK
+2001-06-22,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,MRK
+2001-06-22,Tucker Anthny Sutro,Downgrade,Buy,Mkt Perform,MRK
+2001-06-13,ABN AMRO,Initiated,,Buy,MRK
+2001-05-23,Prudential,Initiated,,Hold,MRK
+2001-04-23,Raymond James,Upgrade,Mkt Perform,Strong Buy,MRK
+2001-04-20,Merrill Lynch,Downgrade,NT Accum,NT Neutral,MRK
+2001-01-24,SG Cowen,Upgrade,Buy,Strong Buy,MRK
+2001-01-23,Merrill Lynch,Downgrade,NT Buy,NT Accum,MRK
+2000-12-13,Salomon Smth Brny,Downgrade,Outperform,Neutral,MRK
+2000-11-30,CSFB,Initiated,,Buy,MRK
+2000-11-29,Goldman Sachs,Initiated,,Recomm List,MRK
+2000-11-08,Lehman Brothers,Upgrade,Outperform,Buy,MRK
+2000-10-30,AG Edwards,Downgrade,Accumulate,Maintain Position,MRK
+2000-10-23,Salomon Smth Brny,Upgrade,Neutral,Outperform,MRK
+2000-10-20,Merrill Lynch,Upgrade,NT Accum,NT Buy,MRK
+2000-09-05,Banc of America Sec,Downgrade,Strong Buy,Market Perform,MRK
+2000-07-25,Sutro & Co,Upgrade,Hold,Accumulate,MRK
+2000-07-18,ING Barings,Initiated,,Hold,MRK
+2000-05-04,Robertson Stephens,Initiated,,Mkt Performer,MRK
+2000-04-17,DLJ,Downgrade,Top Pick,Buy,MRK
+2000-03-09,Banc of America Sec,Upgrade,Buy,Strong Buy,MRK
+2000-02-10,Sutro & Co,Downgrade,Buy,Hold,MRK
+1999-12-08,Dain Rauscher Wessels,Initiated,,Buy,MRK
+1999-12-02,Wasserstein Perella,Initiated,,Hold,MRK
+1999-11-24,Banc of America Sec,Upgrade,Market Perform,Buy,MRK
+1999-10-12,Deutsche Bc Alex. Br,Initiated,,Buy,MRK
+1999-09-30,Schroder & Co,Initiated,,Outperform,MRK
+1999-09-22,Goldman Sachs,Initiated,,Recommended List,MRK
+1999-08-05,Brown Brothers,Upgrade,Avoid,ST Neutral,MRK
+1999-04-16,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,MRK
+1999-04-13,Mrgn Stnly Dn Wttr,Initiated,,Neutral,MRK
+1999-02-02,PaineWebber,Upgrade,Neutral,Attractive,MRK
+1999-01-27,BT Alex. Brown,Upgrade,Buy,Strong Buy,MRK
+1999-01-25,CIBC Oppenheimer,Downgrade,Strong Buy,Buy,MRK
+1998-12-10,Gruntal & Co,Upgrade,Buy,Strong Buy,MRK
+1998-12-10,Deutsche Bank,Downgrade,Buy,Accumulate,MRK
+1998-12-10,Warburg Dlln Rd,Downgrade,Buy,Hold,MRK
+1998-10-20,Vector Securities,Downgrade,Attractive,Neutral,MRK
+1998-07-22,Gruntal & Co,Downgrade,Strong Buy,Buy,MRK
+1998-07-22,ABN-AMRO,Downgrade,Buy,Hold,MRK
+1998-07-01,Schroder & Co,Downgrade,Outperform,Perform In Line,MRK
+1998-02-25,ABN/Amro,Initiated,,Buy,MRK
+2015-01-27,MKM Partners,Downgrade,Buy,Neutral,MSFT
+2014-10-09,BMO Capital Markets,Initiated,,Market Perform,MSFT
+2014-06-05,FBR Capital,Upgrade,Mkt Perform,Outperform,MSFT
+2014-01-23,Deutsche Bank,Upgrade,Hold,Buy,MSFT
+2014-01-10,Barclays,Upgrade,Equal Weight,Overweight,MSFT
+2013-08-13,Stifel,Downgrade,Buy,Hold,MSFT
+2013-04-30,Standpoint Research,Downgrade,Buy,Hold,MSFT
+2013-01-04,Argus,Downgrade,Buy,Hold,MSFT
+2012-12-14,BMO Capital Markets,Initiated,,Market Perform,MSFT
+2012-12-12,Standpoint Research,Upgrade,Hold,Buy,MSFT
+2012-08-20,Longbow,Initiated,,Buy,MSFT
+2012-07-20,Griffin Securities,Initiated,,Buy,MSFT
+2012-04-10,MKM Partners,Initiated,,Neutral,MSFT
+2012-03-16,Argus,Upgrade,Hold,Buy,MSFT
+2011-12-06,Barclays Capital,Initiated,,Equal Weight,MSFT
+2011-09-09,Standpoint Research,Downgrade,Buy,Hold,MSFT
+2011-02-17,Collins Stewart,Initiated,,Buy,MSFT
+2011-01-07,Standpoint Research,Downgrade,Buy,Hold,MSFT
+2010-10-25,FBR Capital,Downgrade,Outperform,Mkt Perform,MSFT
+2010-09-13,Standpoint Research,Initiated,,Buy,MSFT
+2010-07-23,The Benchmark Company,Upgrade,Sell,Hold,MSFT
+2010-05-27,FBR Capital,Upgrade,Mkt Perform,Outperform,MSFT
+2010-04-16,Janney Mntgmy Scott,Initiated,,Neutral,MSFT
+2010-04-08,Soleil,Initiated,,Buy,MSFT
+2010-02-17,Citigroup,Initiated,,Buy,MSFT
+2009-11-13,UBS,Initiated,,Buy,MSFT
+2009-10-27,Argus,Upgrade,Sell,Hold,MSFT
+2009-09-14,Auriga U.S.A,Upgrade,Hold,Buy,MSFT
+2009-08-18,AmTech Research,Upgrade,Neutral,Buy,MSFT
+2009-07-24,FBR Capital,Downgrade,Outperform,Mkt Perform,MSFT
+2009-04-13,AmTech Research,Initiated,,Neutral,MSFT
+2009-04-07,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,MSFT
+2009-03-31,Davenport,Upgrade,Neutral,Buy,MSFT
+2009-03-27,Auriga U.S.A,Initiated,,Hold,MSFT
+2009-01-23,Davenport,Downgrade,Buy,Neutral,MSFT
+2008-11-21,Oppenheimer,Upgrade,Perform,Outperform,MSFT
+2008-11-18,Caris & Company,Initiated,,Average,MSFT
+2008-10-16,Canaccord Adams,Downgrade,Buy,Hold,MSFT
+2008-07-28,Edward Jones,Upgrade,Hold,Buy,MSFT
+2008-07-28,Collins Stewart,Initiated,,Buy,MSFT
+2008-07-11,Credit Suisse,Initiated,,Outperform,MSFT
+2008-03-06,Cross Research,Initiated,,Hold,MSFT
+2008-03-05,Jefferies & Co,Initiated,,Buy,MSFT
+2008-03-04,AmTech Research,Initiated,,Buy,MSFT
+2008-02-11,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,MSFT
+2008-01-31,Stanford Research,Initiated,,Buy,MSFT
+2008-01-22,DA Davidson,Upgrade,Neutral,Buy,MSFT
+2007-09-06,Deutsche Securities,Initiated,,Buy,MSFT
+2007-05-07,Davenport,Downgrade,Buy,Neutral,MSFT
+2007-04-27,CIBC Wrld Mkts,Upgrade,Sector Underperform,Sector Perform,MSFT
+2007-02-02,Banc of America Sec,Upgrade,Neutral,Buy,MSFT
+2007-01-24,DA Davidson,Downgrade,Buy,Neutral,MSFT
+2006-11-20,Credit Suisse,Upgrade,Neutral,Outperform,MSFT
+2006-08-01,Prudential,Initiated,,Overweight,MSFT
+2006-07-28,Canaccord Adams,Upgrade,Hold,Buy,MSFT
+2006-06-20,DA Davidson,Initiated,,Buy,MSFT
+2006-05-30,Caris & Company,Downgrade,Above Average,Average,MSFT
+2006-04-28,Caris & Company,Downgrade,Buy,Above Average,MSFT
+2006-04-28,Lehman Brothers,Downgrade,Overweight,Equal-weight,MSFT
+2006-04-28,Canaccord Adams,Downgrade,Buy,Hold,MSFT
+2006-04-28,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Underperform,MSFT
+2006-04-28,Morgan Stanley,Downgrade,Overweight,Equal-weight,MSFT
+2006-04-25,Citigroup,Initiated,,Hold,MSFT
+2006-03-15,RBC Capital Mkts,Initiated,,Outperform,MSFT
+2006-01-06,CSFB,Downgrade,Outperform,Neutral,MSFT
+2005-12-23,Soleil,Initiated,,Buy,MSFT
+2005-10-28,CSFB,Upgrade,Neutral,Outperform,MSFT
+2005-05-10,Banc of America Sec,Initiated,,Buy,MSFT
+2005-05-04,CSFB,Initiated,,Neutral,MSFT
+2004-09-10,AG Edwards,Initiated,,Buy,MSFT
+2004-08-03,Caris & Company,Initiated,,Buy,MSFT
+2004-06-24,Banc of America Sec,Upgrade,Neutral,Buy,MSFT
+2004-06-10,Schwab Soundview,Initiated,,Neutral,MSFT
+2004-03-09,Banc of America Sec,Initiated,,Neutral,MSFT
+2004-01-05,SG Cowen,Upgrade,Outperform,Strong Buy,MSFT
+2003-12-19,JP Morgan,Initiated,,Overweight,MSFT
+2003-12-08,Soundview Technology,Upgrade,Neutral,Outperform,MSFT
+2003-10-31,Oppenheimer,Initiated,,Buy,MSFT
+2003-10-24,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,MSFT
+2003-09-26,Prudential,Initiated,,Overweight,MSFT
+2003-09-17,Wachovia,Initiated,,Outperform,MSFT
+2003-08-25,Smith Barney Citigroup,Initiated,,Outperform,MSFT
+2003-07-02,Merrill Lynch,Upgrade,Neutral,Buy,MSFT
+2003-05-21,Fulcrum,Upgrade,Neutral,Buy,MSFT
+2003-04-30,CSFB,Initiated,,Neutral,MSFT
+2003-04-15,Fulcrum,Initiated,,Neutral,MSFT
+2003-04-11,First Albany,Downgrade,Strong Buy,Buy,MSFT
+2003-04-09,SG Cowen,Upgrade,Mkt Perform,Outperform,MSFT
+2003-04-01,UBS Warburg,Initiated,,Buy,MSFT
+2003-02-26,Deutsche Securities,Upgrade,Hold,Buy,MSFT
+2003-02-14,Bear Stearns,Initiated,,Outperform,MSFT
+2003-01-22,USB Piper Jaffray,Initiated,,Outperform,MSFT
+2002-12-12,Wachovia Sec,Initiated,,Buy,MSFT
+2002-11-22,Investec,Initiated,,Hold,MSFT
+2002-11-19,Raymond James,Downgrade,Outperform,Mkt Perform,MSFT
+2002-10-11,Wells Fargo Sec,Initiated,,Buy,MSFT
+2002-08-30,Raymond James,Initiated,,,MSFT
+2002-08-22,Salomon Smth Brny,Upgrade,Neutral,Outperform,MSFT
+2002-07-24,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,MSFT
+2002-05-01,Banc of America Sec,Initiated,,Buy,MSFT
+2002-04-19,First Albany,Upgrade,Buy,Strong Buy,MSFT
+2002-04-19,Merrill Lynch,Upgrade,NT Neutral,NT Buy,MSFT
+2002-04-04,AG Edwards,Upgrade,Hold,Buy,MSFT
+2002-01-18,Pacific Crest,Downgrade,Strong Buy,Buy,MSFT
+2002-01-07,ABN AMRO,Upgrade,Add,Buy,MSFT
+2001-12-06,FAC/Eqts First Albany,Initiated,,Buy,MSFT
+2001-11-21,Salomon Smth Brny,Downgrade,Outperform,Neutral,MSFT
+2001-10-17,AG Edwards,Downgrade,Buy,Hold,MSFT
+2001-10-10,SoundView Technology,Downgrade,Strong Buy,Buy,MSFT
+2001-10-04,AG Edwards,Downgrade,Strong Buy,Buy,MSFT
+2001-09-25,Deutsche Bc Alex. Br,Initiated,,Buy,MSFT
+2001-09-25,Bernstein,Initiated,,Outperform,MSFT
+2001-09-24,Thomas Weisel,Downgrade,Strong Buy,Buy,MSFT
+2001-09-20,Dain Rauscher Wessels,Initiated,,Buy,MSFT
+2001-08-03,McDonald Invst,Initiated,,Buy,MSFT
+2001-07-20,Salomon Smth Brny,Downgrade,Buy,Outperform,MSFT
+2001-07-12,Pacific Crest,Upgrade,Buy,Strong Buy,MSFT
+2001-07-12,CSFB,Upgrade,Buy,Strong Buy,MSFT
+2001-06-28,JP Morgan,Upgrade,LT Buy,Buy,MSFT
+2001-06-14,Prudential,Initiated,,Buy,MSFT
+2001-04-20,Thomas Weisel,Upgrade,Mkt Perform,Strong Buy,MSFT
+2001-04-20,Salomon Smth Brny,Upgrade,Outperform,Buy,MSFT
+2001-04-20,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,MSFT
+2001-03-21,Banc of America Sec,Initiated,,Mkt Perform,MSFT
+2001-03-09,WF Van Kasper,Downgrade,Strong Buy,Buy,MSFT
+2001-02-08,Merrill Lynch,Downgrade,LT Buy,LT Accum,MSFT
+2001-02-02,CSFB,Initiated,,Buy,MSFT
+2001-01-30,Pacific Crest,Initiated,,Buy,MSFT
+2000-12-15,Robertson Stephens,Downgrade,Buy,LT Attractive,MSFT
+2000-12-15,Dresdner Klnwrt Bnsn,Downgrade,Buy,Hold,MSFT
+2000-12-13,Prudential,Downgrade,Accumulate,Hold,MSFT
+2000-12-08,ING Barings,Downgrade,Strong Buy,Buy,MSFT
+2000-11-21,Dresdner Klnwrt Bnsn,Initiated,,Buy,MSFT
+2000-10-24,Salomon Smth Brny,Initiated,,Outperform,MSFT
+2000-10-04,Tucker Anthny Clry,Initiated,,Buy,MSFT
+2000-10-03,AG Edwards,Upgrade,Accumulate,Buy,MSFT
+2000-07-19,SG Cowen,Downgrade,Buy,Neutral,MSFT
+2000-07-19,Prudential,Downgrade,Strong Buy,Accumulate,MSFT
+2000-06-21,CIBC Wrld Mkts,Upgrade,Hold,Buy,MSFT
+2000-04-24,Goldman Sachs,Downgrade,Recommended List,Market Outperform,MSFT
+2000-04-24,SG Cowen,Downgrade,Strong Buy,Buy,MSFT
+2000-04-24,Thomas Weisel,Downgrade,Buy,Market Perform,MSFT
+2000-04-03,CIBC Wrld Mkts,Downgrade,Buy,Hold,MSFT
+2000-03-08,Deutsche Bc Alex. Br,Initiated,,Buy,MSFT
+2000-01-27,ING Barings,Initiated,,Strong Buy,MSFT
+2000-01-05,Prudential,Upgrade,Accumulate,Strong Buy,MSFT
+1999-11-08,Volpe Brown Whelan,Downgrade,Strong Buy,Buy,MSFT
+1999-10-29,CIBC Wrld Mkts,Initiated,,Buy,MSFT
+1999-10-20,SG Cowen,Upgrade,Buy,Strong Buy,MSFT
+1999-10-20,AG Edwards,Upgrade,Maintain Position,Accumulate,MSFT
+1999-07-20,Prudential,Upgrade,Hold,Accumulate,MSFT
+1999-05-26,Merrill Lynch,Initiated,,NT Acc/LT Buy,MSFT
+1999-05-26,Raymond James,Initiated,,Buy,MSFT
+1999-04-21,Prudential,Downgrade,Accumulate,Hold,MSFT
+1999-04-05,Advest Inc,Initiated,,Buy,MSFT
+1999-03-09,Cowen & Co,Downgrade,Strong Buy,Buy,MSFT
+1999-01-14,Prudential,Initiated,,Accumulate,MSFT
+1998-12-11,JP Morgan,Initiated,,Buy,MSFT
+1998-06-24,AG Edwards,Upgrade,Reduce,Maintain,MSFT
+1998-06-12,LaSalle Street Sec,Initiated,,Buy/Core,MSFT
+1998-05-19,DLJ,Initiated,,Buy,MSFT
+1998-04-23,EVEREN Sec.,Upgrade,Mkt Perform,Mkt Outperform,MSFT
+2014-12-08,Telsey Advisory Group,Downgrade,Outperform,Market Perform,NKE
+2014-11-18,BB&T Capital Mkts,Initiated,,Hold,NKE
+2014-11-07,FBR Capital,Initiated,,Mkt Perform,NKE
+2014-09-26,Janney,Upgrade,Neutral,Buy,NKE
+2014-04-08,Stifel,Upgrade,Hold,Buy,NKE
+2013-10-01,Argus,Upgrade,Hold,Buy,NKE
+2013-09-27,Stifel,Downgrade,Buy,Hold,NKE
+2013-06-25,Deutsche Bank,Initiated,,Buy,NKE
+2012-12-21,Janney,Downgrade,Buy,Neutral,NKE
+2012-11-29,HSBC Securities,Upgrade,Neutral,Overweight,NKE
+2012-07-02,Argus,Downgrade,Buy,Hold,NKE
+2012-06-29,DA Davidson,Downgrade,Buy,Neutral,NKE
+2012-06-29,Robert W. Baird,Downgrade,Outperform,Neutral,NKE
+2012-06-14,McAdams Wright Ragen,Upgrade,Sell,Hold,NKE
+2012-04-20,The Benchmark Company,Initiated,,Buy,NKE
+2012-03-12,McAdams Wright Ragen,Downgrade,Hold,Sell,NKE
+2012-01-31,Argus,Upgrade,Hold,Buy,NKE
+2011-09-07,Canaccord Genuity,Initiated,,Hold,NKE
+2011-09-06,HSBC Securities,Downgrade,Overweight,Neutral,NKE
+2011-03-18,McAdams Wright Ragen,Upgrade,Hold,Buy,NKE
+2010-09-27,Argus,Downgrade,Buy,Hold,NKE
+2010-05-25,Argus,Upgrade,Hold,Buy,NKE
+2010-03-25,HSBC Securities,Upgrade,Neutral,Overweight,NKE
+2010-03-18,FBR Capital,Upgrade,Mkt Perform,Outperform,NKE
+2009-12-18,Avondale,Upgrade,Mkt Underperform,Mkt Perform,NKE
+2009-09-30,Sterne Agee,Upgrade,Sell,Neutral,NKE
+2009-09-11,Avondale,Initiated,,Mkt Underperform,NKE
+2009-07-15,UBS,Initiated,,Neutral,NKE
+2009-06-26,Argus,Downgrade,Buy,Hold,NKE
+2009-06-25,McAdams Wright Ragen,Upgrade,Hold,Buy,NKE
+2009-06-25,Susquehanna Financial,Downgrade,Positive,Neutral,NKE
+2009-06-05,Robert W. Baird,Upgrade,Neutral,Outperform,NKE
+2009-06-05,BB&T Capital Mkts,Initiated,,Buy,NKE
+2009-06-04,Oppenheimer,Initiated,,Perform,NKE
+2009-05-29,Standpoint Research,Downgrade,Buy,Hold,NKE
+2009-05-12,Sterne Agee,Downgrade,Neutral,Sell,NKE
+2009-04-14,Robert W. Baird,Initiated,,Neutral,NKE
+2009-04-13,McAdams Wright Ragen,Downgrade,Buy,Hold,NKE
+2009-03-03,McAdams Wright Ragen,Upgrade,Hold,Buy,NKE
+2008-12-10,Banc of America Sec,Downgrade,Buy,Neutral,NKE
+2008-10-22,Stifel Nicolaus,Initiated,,Hold,NKE
+2008-08-14,Sterne Agee,Initiated,,Hold,NKE
+2008-07-21,HSBC Securities,Downgrade,Overweight,Neutral,NKE
+2008-07-15,Susquehanna Financial,Upgrade,Neutral,Positive,NKE
+2008-04-25,McAdams Wright Ragen,Downgrade,Buy,Hold,NKE
+2008-03-17,Caris & Company,Downgrade,Buy,Above Average,NKE
+2008-01-30,JP Morgan,Upgrade,Neutral,Overweight,NKE
+2007-06-11,HSBC Securities,Upgrade,Neutral,Overweight,NKE
+2007-06-08,Banc of America Sec,Downgrade,Buy,Neutral,NKE
+2007-04-10,Matrix Research,Downgrade,Buy,Hold,NKE
+2006-10-06,Matrix Research,Downgrade,Strong Buy,Buy,NKE
+2006-09-27,CIBC Wrld Mkts,Initiated,,Sector Outperform,NKE
+2006-03-07,Susquehanna Financial,Downgrade,Positive,Neutral,NKE
+2006-02-06,UBS,Upgrade,Neutral,Buy,NKE
+2005-12-14,Citigroup,Initiated,,Buy,NKE
+2005-11-21,JP Morgan,Downgrade,Overweight,Neutral,NKE
+2005-09-27,CSFB,Initiated,,Outperform,NKE
+2005-09-21,Hillard Lyons,Upgrade,Neutral,Long-term Buy,NKE
+2005-06-22,Morgan Stanley,Initiated,,Overweight,NKE
+2005-06-02,Caris & Company,Initiated,,Buy,NKE
+2005-02-08,Merrill Lynch,Downgrade,Buy,Neutral,NKE
+2004-12-21,Prudential,Initiated,,Neutral,NKE
+2003-11-25,Merrill Lynch,Upgrade,Neutral,Buy,NKE
+2003-11-25,Thomas Weisel,Initiated,,Outperform,NKE
+2003-09-19,Wells Fargo Sec,Upgrade,Hold,Buy,NKE
+2003-06-27,Merrill Lynch,Downgrade,Buy,Neutral,NKE
+2003-06-02,Wells Fargo Sec,Downgrade,Buy,Hold,NKE
+2003-05-21,Banc of America Sec,Initiated,,Buy,NKE
+2002-07-16,Merrill Lynch,Upgrade,NT Buy,NT Strong Buy,NKE
+2002-07-01,DA Davidson,Upgrade,Neutral,Buy,NKE
+2002-06-28,Salomon Smth Brny,Upgrade,Outperform,Buy,NKE
+2002-04-03,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,NKE
+2002-02-27,DA Davidson,Initiated,,Neutral,NKE
+2001-12-21,WF Van Kasper,Upgrade,Mkt Perform,Buy,NKE
+2001-12-21,RBC Dain Rauscher,Upgrade,Buy,Strong Buy,NKE
+2001-12-14,WF Van Kasper,Downgrade,Buy,Mkt Perform,NKE
+2001-12-06,RBC Dain Rauscher,Upgrade,Neutral,Buy,NKE
+2001-09-21,CSFB,Upgrade,Hold,Buy,NKE
+2001-07-02,Morgan Stanley,Initiated,,Outperform,NKE
+2001-06-21,WF Van Kasper,Upgrade,Mkt Perform,Buy,NKE
+2001-03-28,UBS PaineWebber,Initiated,,Hold,NKE
+2001-03-21,Banc of America Sec,Upgrade,Buy,Strong Buy,NKE
+2001-02-27,CSFB,Downgrade,Buy,Hold,NKE
+2001-02-27,Merrill Lynch,Downgrade,NT Accum,NT Neutral,NKE
+2001-02-27,WF Van Kasper,Downgrade,Buy,Mkt Perform,NKE
+2001-01-19,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,NKE
+2001-01-03,Banc of America Sec,Downgrade,Strong Buy,Buy,NKE
+2000-09-15,FS Van Kasper,Downgrade,Strong Buy,Buy,NKE
+2000-04-07,DLJ,Upgrade,Market Perform,Buy,NKE
+2000-03-27,Banc of America Sec,Upgrade,Buy,Strong Buy,NKE
+2000-03-22,CSFB,Initiated,,Buy,NKE
+2000-02-09,FS Van Kasper,Upgrade,Buy,Strong Buy,NKE
+2000-02-09,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,NKE
+2000-02-09,Thomas Weisel,Downgrade,Strong Buy,Market Perform,NKE
+2000-02-08,Merrill Lynch,Downgrade,NT Buy,NT Accum,NKE
+2000-02-08,DLJ,Downgrade,Top Pick,Market Perform,NKE
+2000-02-08,Banc of America Sec,Downgrade,Strong Buy,Buy,NKE
+1999-12-17,Merrill Lynch,Upgrade,NT Accum,NT Buy,NKE
+1999-12-17,JP Morgan,Upgrade,LT Buy,Buy,NKE
+1999-11-17,Lehman Brothers,Initiated,,Buy,NKE
+1999-11-15,FS Van Kasper,Downgrade,Strong Buy,Buy,NKE
+1999-11-03,Goldman Sachs,Downgrade,Recommended List,Market Outperform,NKE
+1999-08-03,Thomas Weisel,Upgrade,Buy,Strong Buy,NKE
+1999-05-26,FS Van Kasper,Upgrade,Buy,Strong Buy,NKE
+1999-05-11,Goldman Sachs,Upgrade,Mkt Outperform,Recomm. List,NKE
+1999-05-04,Salomon Smth Brny,Initiated,,Outperform,NKE
+1999-04-21,Dain Rauscher,Initiated,,Strong Buy,NKE
+1999-04-05,DLJ,Upgrade,Buy,Top Pick,NKE
+1999-03-19,Hambrecht & Quist,Upgrade,Hold,Buy,NKE
+1999-03-19,BT Alex. Brown,Upgrade,Outperform,Buy,NKE
+1999-03-08,NB Montgomery,Upgrade,Hold,Buy,NKE
+1999-02-08,BB Rbrtsn Stphns,Upgrade,LT Attractive,Buy,NKE
+1999-02-05,Sutro & Co,Initiated,,Accumulate,NKE
+1999-02-01,DLJ,Upgrade,Mkt Perform,Buy,NKE
+1998-12-14,Salomon Smth Brny,Upgrade,Neutral,Buy,NKE
+1998-12-03,BT Alex. Brown,Downgrade,Buy,Mkt Perform,NKE
+1998-11-19,NB Montgomery,Downgrade,Buy,Hold,NKE
+1998-11-02,Gruntal & Co,Downgrade,Buy,Hold,NKE
+1998-09-18,Merrill Lynch,Upgrade,NT Neutral,NT Accumulate,NKE
+1998-09-18,Gruntal & Co,Upgrade,Hold,Buy,NKE
+1998-08-13,DLJ,Downgrade,Buy,Mkt Perform,NKE
+1998-07-01,Mgn Stnly Dn Witter,Upgrade,Neutral,Strong Buy,NKE
+1998-07-01,Goldman Sachs,Upgrade,Mkt Perform,Mkt Outperform,NKE
+1998-07-01,DLJ,Upgrade,Mkt Perform,Buy,NKE
+1998-07-01,BT Alex. Brown,Upgrade,Mkt Perform,Buy,NKE
+2013-07-02,Standpoint Research,Downgrade,Hold,Sell,PFE
+2012-11-27,MKM Partners,Downgrade,Buy,Neutral,PFE
+2011-11-01,Standpoint Research,Downgrade,Buy,Hold,PFE
+2011-10-07,MKM Partners,Initiated,,Buy,PFE
+2011-08-10,Argus,Upgrade,Hold,Buy,PFE
+2011-08-05,Standpoint Research,Upgrade,Hold,Buy,PFE
+2011-03-14,Standpoint Research,Downgrade,Buy,Hold,PFE
+2010-11-03,Argus,Downgrade,Buy,Hold,PFE
+2010-05-21,Jefferies,Initiated,,Buy,PFE
+2009-04-27,Standpoint Research,Initiated,,Buy,PFE
+2009-02-12,Leerink Swann,Upgrade,Mkt Perform,Outperform,PFE
+2009-02-09,UBS,Upgrade,Neutral,Buy,PFE
+2009-02-02,Credit Suisse,Upgrade,Neutral,Outperform,PFE
+2008-12-11,Soleil,Initiated,,Buy,PFE
+2008-12-03,Argus,Upgrade,Hold,Buy,PFE
+2008-11-14,Banc of America Sec,Initiated,,Buy,PFE
+2008-10-20,Barclays Capital,Upgrade,Equal Weight,Overweight,PFE
+2008-06-27,AmTech Research,Initiated,,Buy,PFE
+2008-06-25,JP Morgan,Initiated,,Neutral,PFE
+2008-02-29,Lehman Brothers,Upgrade,Underweight,Equal-weight,PFE
+2007-10-24,Bernstein,Initiated,,Mkt Perform,PFE
+2007-07-18,HSBC Securities,Downgrade,Overweight,Neutral,PFE
+2007-04-23,Prudential,Downgrade,Overweight,Neutral,PFE
+2007-04-13,BMO Capital Markets,Initiated,,Market Perform,PFE
+2007-01-23,Bear Stearns,Downgrade,Outperform,Peer Perform,PFE
+2006-12-04,Lehman Brothers,Downgrade,Overweight,Underweight,PFE
+2006-12-04,JP Morgan,Downgrade,Overweight,Neutral,PFE
+2006-12-01,Cowen & Co,Upgrade,Underperform,Neutral,PFE
+2006-10-24,UBS,Downgrade,Buy,Neutral,PFE
+2006-09-06,HSBC Securities,Upgrade,Neutral,Overweight,PFE
+2006-02-23,Friedman Billings,Upgrade,Mkt Perform,Outperform,PFE
+2006-02-13,Bernstein,Downgrade,Outperform,Mkt Perform,PFE
+2006-02-08,Prudential,Upgrade,Neutral,Overweight,PFE
+2005-12-19,Caris & Company,Upgrade,Average,Above Average,PFE
+2005-10-31,Bernstein,Upgrade,Mkt Perform,Outperform,PFE
+2005-10-21,Friedman Billings,Downgrade,Outperform,Mkt Perform,PFE
+2005-09-29,Banc of America Sec,Initiated,,Buy,PFE
+2005-09-07,Bear Stearns,Initiated,,Outperform,PFE
+2005-04-06,Morgan Stanley,Upgrade,Equal-weight,Overweight,PFE
+2005-04-01,Caris & Company,Initiated,,Average,PFE
+2004-12-17,First Albany,Downgrade,Strong Buy,Neutral,PFE
+2004-12-13,JP Morgan,Initiated,,Overweight,PFE
+2004-12-06,Merrill Lynch,Downgrade,Buy,Neutral,PFE
+2004-10-06,Friedman Billings,Upgrade,Mkt Perform,Outperform,PFE
+2004-09-20,Morgan Stanley,Downgrade,Overweight,Equal-weight,PFE
+2004-07-26,Friedman Billings,Downgrade,Outperform,Mkt Perform,PFE
+2004-07-16,UBS,Initiated,,Buy,PFE
+2004-06-16,Schwab Soundview,Initiated,,Neutral,PFE
+2004-04-15,Harris Nesbitt Gerard,Initiated,,Outperform,PFE
+2004-03-23,Oppenheimer,Upgrade,Neutral,Buy,PFE
+2004-03-04,Caris & Company,Initiated,,Buy,PFE
+2004-01-23,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,PFE
+2004-01-14,Bernstein,Downgrade,Outperform,Mkt Perform,PFE
+2004-01-05,Morgan Stanley,Upgrade,Equal-weight,Overweight,PFE
+2003-10-23,AG Edwards,Downgrade,Buy,Hold,PFE
+2003-08-21,Smith Barney Citigroup,Downgrade,Outperform,In-line,PFE
+2003-07-16,Thomas Weisel,Downgrade,Outperform,Peer Perform,PFE
+2003-05-06,William Blair,Initiated,,Outperform,PFE
+2003-04-24,Gerard Klauer Mattison,Downgrade,Neutral,Underperform,PFE
+2003-03-05,First Albany,Initiated,,Strong Buy,PFE
+2002-11-05,Bernstein,Upgrade,Mkt Perform,Outperform,PFE
+2002-09-13,SunTrust Rbsn Humphrey,Initiated,,Outperform,PFE
+2002-08-22,Thomas Weisel,Initiated,,Buy,PFE
+2002-07-16,Fulcrum,Downgrade,Buy,Sell,PFE
+2002-07-16,Deutsche Securities,Upgrade,Buy,Strong Buy,PFE
+2002-04-25,Raymond James,Upgrade,Mkt Perform,Strong Buy,PFE
+2002-04-09,Fulcrum,Initiated,,Buy,PFE
+2002-01-25,Goldman Sachs,Upgrade,Mkt Perform,Mkt Outperform,PFE
+2001-12-17,Gerard Klauer Mattison,Initiated,,Neutral,PFE
+2001-07-11,Bernstein,Downgrade,Outperform,Mkt Perform,PFE
+2001-05-23,Prudential,Initiated,,Strong Buy,PFE
+2001-04-19,Dresdner Klnwrt Wass,Upgrade,Add,Buy,PFE
+2001-01-05,UBS Warburg,Upgrade,Buy,Strong Buy,PFE
+2000-12-11,Robertson Stephens,Initiated,,Buy,PFE
+2000-11-30,CSFB,Initiated,,Buy,PFE
+2000-11-29,Goldman Sachs,Initiated,,Mkt Perform,PFE
+2000-11-09,Raymond James,Initiated,,Mkt Perform,PFE
+2000-07-25,Deutsche Bc Alex. Br,Downgrade,Strong Buy,Mkt Perform,PFE
+2000-07-18,ING Barings,Initiated,,Buy,PFE
+2000-06-26,Dain Rauscher Wessels,Downgrade,Strong Buy,Buy,PFE
+2000-05-08,Lehman Brothers,Upgrade,Neutral,Buy,PFE
+2000-05-04,ABN AMRO,Upgrade,Hold,Outperform,PFE
+2000-04-19,Dain Rauscher Wessels,Upgrade,Neutral,Strong Buy,PFE
+2000-04-18,Deutsche Bc Alex. Br,Upgrade,Buy,Strong Buy,PFE
+2000-04-17,DLJ,Upgrade,Market Perform,Buy,PFE
+2000-04-03,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,PFE
+2000-03-08,Banc of America Sec,Upgrade,Buy,Strong Buy,PFE
+2000-02-07,Mrgn Stnly Dn Wttr,Upgrade,Neutral,Outperform,PFE
+2000-01-14,Gruntal & Co,Upgrade,NT Mkt Performer,NT Outperformer,PFE
+2000-01-13,PaineWebber,Upgrade,Neutral,Attractive,PFE
+2000-01-13,Deutsche Bc Alex. Br,Upgrade,Mkt Underperform,Mkt Perform,PFE
+1999-12-17,Banc of America Sec,Upgrade,Market Perform,Buy,PFE
+1999-12-08,Dain Rauscher Wessels,Initiated,,Neutral,PFE
+1999-12-02,Wasserstein Perella,Initiated,,Hold,PFE
+1999-11-29,Salomon Smth Brny,Upgrade,Neutral,Buy,PFE
+1999-11-05,ING Barings,Upgrade,Hold,Buy,PFE
+1999-11-05,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Underperform,PFE
+1999-11-05,Gruntal & Co,Downgrade,NT Outperformer,NT Mkt Performer,PFE
+1999-10-25,PaineWebber,Downgrade,Buy,Neutral,PFE
+1999-10-19,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,PFE
+1999-10-12,Deutsche Bc Alex. Br,Initiated,,Mkt Perform,PFE
+1999-09-30,Schroder & Co,Initiated,,Outperf. Signif.,PFE
+1999-09-22,Goldman Sachs,Initiated,,Market Outperform,PFE
+1999-06-10,ABN AMRO,Downgrade,Buy,Outperform,PFE
+1999-06-10,Banc of America Sec,Downgrade,Buy,Hold,PFE
+1999-06-10,Salomon Smth Brny,Downgrade,Buy,Neutral,PFE
+1999-04-13,Mrgn Stnly Dn Wttr,Initiated,,Neutral,PFE
+1999-02-19,Merrill Lynch,Downgrade,NT Buy,NT Accumulate,PFE
+1998-10-08,PaineWebber,Upgrade,Attractive,Buy,PFE
+1998-09-07,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Hold,PFE
+1998-09-04,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Hold,PFE
+1998-04-30,CS First Boston,Downgrade,Buy,Hold,PFE
+1998-04-20,PaineWebber,Upgrade,Neutral,Attractive,PFE
+1998-03-03,Brown Brothers,Initiated,,LT Mkt Perform,PFE
+1998-02-25,ABN/Amro,Initiated,,Buy,PFE
+1998-02-24,Schroder & Co,Downgrade,Outprfrm Signif,Outperform,PFE
+1998-02-24,Gruntal & Co,Downgrade,Strong Buy,Buy,PFE
+2014-03-04,UBS,Initiated,,Neutral,PG
+2014-01-31,Standpoint Research,Upgrade,Sell,Hold,PG
+2013-11-26,RBC Capital Mkts,Initiated,,Sector Perform,PG
+2013-05-24,Standpoint Research,Downgrade,Hold,Sell,PG
+2013-05-24,UBS,Upgrade,Neutral,Buy,PG
+2013-04-25,B. Riley & Co.,Downgrade,Buy,Neutral,PG
+2012-06-27,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,PG
+2012-06-20,Hilliard Lyons,Downgrade,Long-term Buy,Neutral,PG
+2012-04-30,Oppenheimer,Downgrade,Outperform,Perform,PG
+2012-01-30,UBS,Downgrade,Buy,Neutral,PG
+2012-01-23,Stifel Nicolaus,Downgrade,Buy,Hold,PG
+2011-09-20,Hilliard Lyons,Initiated,,Long-term Buy,PG
+2011-04-29,Deutsche Bank,Upgrade,Hold,Buy,PG
+2010-08-09,Argus,Upgrade,Hold,Buy,PG
+2010-07-01,Standpoint Research,Downgrade,Buy,Hold,PG
+2010-06-03,Stifel Nicolaus,Initiated,,Buy,PG
+2010-02-12,Credit Suisse,Initiated,,Outperform,PG
+2010-01-11,BMO Capital Markets,Downgrade,Outperform,Market Perform,PG
+2009-09-25,Jefferies & Co,Initiated,,Buy,PG
+2009-09-18,Citigroup,Upgrade,Hold,Buy,PG
+2009-05-20,Barclays Capital,Upgrade,Equal Weight,Overweight,PG
+2009-04-22,RBC Capital Mkts,Initiated,,Sector Perform,PG
+2009-04-20,Sun Trust Rbsn Humphrey,Upgrade,Neutral,Buy,PG
+2009-02-02,Caris & Company,Downgrade,Above Average,Average,PG
+2009-01-15,Bernstein,Downgrade,Outperform,Mkt Perform,PG
+2008-10-16,Caris & Company,Initiated,,Above Average,PG
+2008-07-16,BMO Capital Markets,Downgrade,Outperform,Market Perform,PG
+2008-04-17,Deutsche Securities,Downgrade,Buy,Hold,PG
+2007-11-29,Credit Suisse,Initiated,,Neutral,PG
+2007-10-25,Wachovia,Initiated,,Outperform,PG
+2007-10-08,Sun Trust Rbsn Humphrey,Downgrade,Buy,Neutral,PG
+2007-08-28,BMO Capital Markets,Initiated,,Outperform,PG
+2007-06-07,Lehman Brothers,Downgrade,Overweight,Equal-weight,PG
+2007-05-08,Bernstein,Initiated,,Outperform,PG
+2007-03-22,Bear Stearns,Upgrade,Peer Perform,Outperform,PG
+2007-03-15,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,PG
+2007-01-17,Goldman Sachs,Upgrade,Neutral,Buy,PG
+2006-11-20,HSBC Securities,Upgrade,Neutral,Overweight,PG
+2006-09-07,Sun Trust Rbsn Humphrey,Upgrade,Neutral,Buy,PG
+2006-07-13,UBS,Initiated,,Buy,PG
+2006-06-19,Lehman Brothers,Upgrade,Equal-weight,Overweight,PG
+2005-12-21,Lehman Brothers,Initiated,,Equal-weight,PG
+2005-10-14,Goldman Sachs,Initiated,,In-Line,PG
+2005-10-04,Citigroup,Downgrade,Buy,Hold,PG
+2005-08-17,Sun Trust Rbsn Humphrey,Initiated,,Neutral,PG
+2005-07-11,Prudential,Upgrade,Neutral,Overweight,PG
+2005-04-05,Bear Stearns,Initiated,,Peer Perform,PG
+2005-02-23,UBS,Upgrade,Neutral,Buy,PG
+2005-01-28,Morgan Stanley,Upgrade,Equal-weight,Overweight,PG
+2005-01-24,UBS,Downgrade,Buy,Neutral,PG
+2005-01-12,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,PG
+2004-12-15,Fulcrum,Initiated,,Buy,PG
+2004-11-08,Marquis Investment Research,Initiated,,Hold,PG
+2004-05-03,Prudential,Downgrade,Overweight,Neutral,PG
+2004-04-14,Banc of America Sec,Downgrade,Buy,Neutral,PG
+2003-12-03,JP Morgan,Initiated,,Neutral,PG
+2003-10-08,CSFB,Initiated,,Neutral,PG
+2003-09-12,Morgan Stanley,Initiated,,Equal-weight,PG
+2003-05-13,Deutsche Securities,Initiated,,Buy,PG
+2002-12-05,Banc of America Sec,Upgrade,Mkt Perform,Buy,PG
+2002-09-27,CIBC Wrld Mkts,Initiated,,Sector Outperform,PG
+2002-07-22,UBS Warburg,Upgrade,Buy,Strong Buy,PG
+2002-06-12,Merrill Lynch,Upgrade,NT Buy/LT Buy,NT Strong Buy/LT Strong Buy,PG
+2002-05-21,UBS Warburg,Downgrade,Strong Buy,Buy,PG
+2002-04-26,Fulcrum,Initiated,,Buy,PG
+2002-02-28,ABN AMRO,Initiated,,Buy,PG
+2002-01-31,Prudential,Upgrade,Hold,Buy,PG
+2002-01-31,CSFB,Upgrade,Hold,Buy,PG
+2001-12-12,JP Morgan,Upgrade,LT Buy,Buy,PG
+2001-12-12,Lehman Brothers,Upgrade,Mkt Perform,Strong Buy,PG
+2001-10-30,Salomon Smth Brny,Upgrade,Outperform,Buy,PG
+2001-09-24,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,PG
+2001-08-08,Lehman Brothers,Downgrade,Buy,Mkt Perform,PG
+2001-06-06,Lehman Brothers,Upgrade,Mkt Perform,Buy,PG
+2001-05-21,Banc of America Sec,Downgrade,Buy,Mkt Perform,PG
+2001-05-01,Salomon Smth Brny,Upgrade,Neutral,Outperform,PG
+2001-03-05,Banc of America Sec,Upgrade,Mkt Perform,Buy,PG
+2001-02-02,UBS Warburg,Upgrade,Buy,Strong Buy,PG
+2000-12-15,Lehman Brothers,Initiated,,Neutral,PG
+2000-11-30,Mrgn Stnly Dn Wttr,Initiated,,Neutral,PG
+2000-10-05,Merrill Lynch,Upgrade,NT Neutral,NT Accum,PG
+2000-09-28,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,PG
+2000-07-14,UBS Warburg,Initiated,,Buy,PG
+2000-06-13,PaineWebber,Initiated,,Attractive,PG
+2000-04-26,AG Edwards,Downgrade,Accumulate,Maintain Position,PG
+2000-04-25,Banc of America Sec,Downgrade,Buy,Market Perform,PG
+2000-04-04,DLJ,Upgrade,Market Perform,Buy,PG
+2000-03-14,Deutsche Bc Alex. Br,Initiated,,Mkt Perform,PG
+2000-03-08,Prudential,Downgrade,Strong Buy,Hold,PG
+2000-03-07,Banc of America Sec,Downgrade,Strong Buy,Buy,PG
+2000-03-07,DLJ,Downgrade,Top Pick,Market Perform,PG
+2000-03-07,JP Morgan,Downgrade,Buy,LT Buy,PG
+2000-03-07,Merrill Lynch,Downgrade,NT Accum,NT Neutral,PG
+2000-03-07,CSFB,Downgrade,Buy,Hold,PG
+2000-03-07,Mrgn Stnly Dn Wttr,Downgrade,Outperform,Neutral,PG
+2000-02-29,AG Edwards,Upgrade,Maintain Position,Accumulate,PG
+2000-01-26,Banc of America Sec,Upgrade,Buy,Strong Buy,PG
+2000-01-10,Schroder & Co,Downgrade,Outperform,Perform-In-Line,PG
+2000-01-06,Prudential,Upgrade,Accumulate,Strong Buy,PG
+1999-11-16,Prudential,Initiated,,Accumulate,PG
+1999-11-02,CSFB,Initiated,,Buy,PG
+1999-08-24,PaineWebber,Upgrade,Neutral,Attractive,PG
+1999-07-30,Bear Stearns,Upgrade,Neutral,Buy,PG
+1999-07-12,Banc of America Sec,Upgrade,Hold,Buy,PG
+1999-05-20,Banc of America Sec,Initiated,,Hold,PG
+1999-03-09,Mrgn Stnly Dn Wttr,Initiated,,Outperform,PG
+1998-12-10,Goldman Sachs,Upgrade,Mkt Perform,Mkt Outperform,PG
+1998-12-09,Bear Stearns,Downgrade,Attractive,Neutral,PG
+1998-10-23,Schroder & Co,Upgrade,Perform In Line,Outperform,PG
+1998-10-23,Brown Brothers,Upgrade,ST Neutral,ST Buy,PG
+1998-10-16,NB Montgomery,Initiated,,Hold,PG
+1998-10-02,Salomon Smth Brny,Downgrade,Outperform,Neutral,PG
+1998-08-06,AG Edwards,Upgrade,Maintain,Accumulate,PG
+1998-07-31,Bear Stearns,Downgrade,Buy,Attractive,PG
+1998-07-30,PaineWebber,Downgrade,Attractive,Neutral,PG
+2013-06-10,Argus,Upgrade,Hold,Buy,T
+2013-05-17,Barclays,Initiated,,Equal Weight,T
+2013-04-24,FBR Capital,Downgrade,Outperform,Mkt Perform,T
+2012-11-15,National Securities,Initiated,,Neutral,T
+2012-09-14,Stifel Nicolaus,Downgrade,Buy,Hold,T
+2012-09-13,Hudson Square Research,Downgrade,Buy,Hold,T
+2012-03-29,Robert W. Baird,Downgrade,Outperform,Neutral,T
+2012-03-27,Canaccord Genuity,Initiated,,Hold,T
+2011-06-24,Kaufman Bros,Initiated,,Hold,T
+2011-03-28,Robert W. Baird,Upgrade,Neutral,Outperform,T
+2011-03-21,HSBC Securities,Upgrade,Neutral,Overweight,T
+2011-01-28,UBS,Downgrade,Buy,Neutral,T
+2010-08-11,Standpoint Research,Downgrade,Buy,Hold,T
+2010-07-26,Deutsche Bank,Upgrade,Hold,Buy,T
+2010-03-19,Standpoint Research,Initiated,,Buy,T
+2010-03-02,HSBC Securities,Downgrade,Overweight,Neutral,T
+2009-12-17,Deutsche Bank,Initiated,,Hold,T
+2009-10-23,Credit Suisse,Initiated,,Neutral,T
+2009-06-18,Pali Research,Initiated,,Sell,T
+2009-06-16,Barclays Capital,Downgrade,Overweight,Equal Weight,T
+2009-04-24,Piper Jaffray,Initiated,,Buy,T
+2009-04-24,Auriga U.S.A,Initiated,,Hold,T
+2009-03-05,UBS,Upgrade,Neutral,Buy,T
+2009-01-05,Bernstein,Downgrade,Outperform,Mkt Perform,T
+2008-10-08,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,T
+2008-07-24,JP Morgan,Downgrade,Overweight,Neutral,T
+2008-06-25,Bernstein,Upgrade,Mkt Perform,Outperform,T
+2008-06-16,UBS,Downgrade,Buy,Neutral,T
+2008-02-20,Credit Suisse,Downgrade,Outperform,Neutral,T
+2008-02-20,Robert W. Baird,Downgrade,Outperform,Neutral,T
+2008-01-25,Citigroup,Downgrade,Buy,Hold,T
+2007-10-18,Bernstein,Initiated,,Mkt Perform,T
+2007-07-12,Davenport,Upgrade,Neutral,Buy,T
+2007-05-16,Matrix Research,Upgrade,Buy,Strong Buy,T
+2007-04-16,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,T
+2007-03-08,AG Edwards,Upgrade,Hold,Buy,T
+2007-03-02,Stifel Nicolaus,Upgrade,Sell,Hold,T
+2007-01-05,Matrix Research,Downgrade,Strong Buy,Buy,T
+2006-10-19,Lehman Brothers,Upgrade,Equal-weight,Overweight,T
+2006-10-09,Citigroup,Upgrade,Hold,Buy,T
+2006-08-10,Matrix Research,Upgrade,Buy,Strong Buy,T
+2006-08-10,Deutsche Securities,Initiated,,Buy,T
+2006-07-27,HSBC Securities,Upgrade,Neutral,Overweight,T
+2006-07-26,Robert W. Baird,Upgrade,Neutral,Outperform,T
+2006-07-26,Stifel Nicolaus,Downgrade,Hold,Sell,T
+2006-07-18,Prudential,Initiated,,Overweight,T
+2006-07-05,Banc of America Sec,Upgrade,Neutral,Buy,T
+2006-06-01,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,T
+2006-05-16,Matrix Research,Upgrade,Buy,Strong Buy,T
+2006-05-05,Credit Suisse,Initiated,,Outperform,T
+2006-03-08,Morgan Stanley,Upgrade,Equal-weight,Overweight,T
+2006-03-06,Soleil,Downgrade,Buy,Hold,T
+2006-02-21,HSBC Securities,Downgrade,Overweight,Neutral,T
+2006-01-12,Prudential,Upgrade,Neutral,Overweight,T
+2005-11-18,UBS,Upgrade,Neutral,Buy,T
+2005-10-24,Prudential,Upgrade,Underweight,Market Perform,T
+2005-10-21,Friedman Billings,Upgrade,Underperform,Mkt Perform,T
+2005-10-19,Lehman Brothers,Upgrade,Equal-weight,Overweight,T
+2005-09-21,Hilliard Lyons,Upgrade,Neutral,Buy,T
+2005-09-15,Bear Sterns,Upgrade,Peer Perform,Outperform,T
+2015-01-06,FBR Capital,Downgrade,Outperform,Mkt Perform,TRV
+2014-12-11,UBS,Downgrade,Buy,Neutral,TRV
+2014-01-22,RBC Capital Mkts,Downgrade,Top Pick,Outperform,TRV
+2013-09-19,FBR Capital,Upgrade,Mkt Perform,Outperform,TRV
+2012-12-17,RBC Capital Mkts,Upgrade,Outperform,Top Pick,TRV
+2012-05-23,JMP Securities,Initiated,,Mkt Perform,TRV
+2011-01-28,Argus,Upgrade,Hold,Buy,TRV
+2010-10-26,Deutsche Bank,Downgrade,Hold,Sell,TRV
+2010-07-23,Oppenheimer,Downgrade,Outperform,Perform,TRV
+2010-03-09,Citigroup,Initiated,,Buy,TRV
+2009-10-21,RBC Capital Mkts,Initiated,,Outperform,TRV
+2009-10-15,Keefe Bruyette,Downgrade,Outperform,Mkt Perform,TRV
+2009-03-30,Fox Pitt,Upgrade,In Line,Outperform,TRV
+2009-02-05,Soleil,Initiated,,Buy,TRV
+2009-01-06,Bernstein,Downgrade,Outperform,Mkt Perform,TRV
+2008-09-16,Citigroup,Upgrade,Hold,Buy,TRV
+2008-01-30,Sandler O'Neill,Upgrade,Hold,Buy,TRV
+2007-12-13,Sandler O'Neill,Initiated,,Hold,TRV
+2007-11-16,Bernstein,Upgrade,Mkt Perform,Outperform,TRV
+2007-10-10,Banc of America Sec,Initiated,,Buy,TRV
+1998-10-06,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,TRV
+1998-10-05,CIBC Oppenheimer,Downgrade,Strong Buy,Hold,TRV
+1998-07-08,Merrill Lynch,Upgrade,Accumulate,Buy,TRV
+2014-01-21,Monness Crespi & Hardt,Downgrade,Neutral,Sell,UNH
+2014-01-07,Deutsche Bank,Upgrade,Hold,Buy,UNH
+2013-11-13,FBR Capital,Initiated,,Outperform,UNH
+2013-11-05,Monness Crespi & Hardt,Downgrade,Buy,Neutral,UNH
+2013-06-17,Standpoint Research,Downgrade,Buy,Hold,UNH
+2013-04-05,UBS,Initiated,,Buy,UNH
+2013-02-21,Oppenheimer,Upgrade,Perform,Outperform,UNH
+2012-06-20,Cantor Fitzgerald,Initiated,,Buy,UNH
+2011-03-31,Oppenheimer,Upgrade,Underperform,Perform,UNH
+2011-03-03,Stifel Nicolaus,Upgrade,Hold,Buy,UNH
+2011-01-13,Wedbush,Upgrade,Neutral,Outperform,UNH
+2010-11-15,Stifel Nicolaus,Downgrade,Buy,Hold,UNH
+2010-04-20,Wedbush,Initiated,,Neutral,UNH
+2010-03-23,Susquehanna Financial,Initiated,,Neutral,UNH
+2010-01-04,Citigroup,Upgrade,Hold,Buy,UNH
+2009-12-29,Standpoint Research,Downgrade,Buy,Hold,UNH
+2009-07-27,Credit Suisse,Upgrade,Neutral,Outperform,UNH
+2009-06-11,Oppenheimer,Downgrade,Perform,Underperform,UNH
+2009-01-07,Stifel Nicolaus,Upgrade,Hold,Buy,UNH
+2008-08-21,Banc of America Sec,Initiated,,Buy,UNH
+2008-07-03,UBS,Downgrade,Buy,Neutral,UNH
+2008-03-25,Credit Suisse,Downgrade,Outperform,Neutral,UNH
+2008-02-19,BMO Capital Markets,Upgrade,Market Perform,Outperform,UNH
+2008-01-07,Stifel Nicolaus,Downgrade,Buy,Hold,UNH
+2008-01-02,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,UNH
+2007-11-30,BMO Capital Markets,Initiated,,Market Perform,UNH
+2007-11-07,UBS,Upgrade,Neutral,Buy,UNH
+2007-10-19,JP Morgan,Downgrade,Overweight,Neutral,UNH
+2007-07-16,AG Edwards,Upgrade,Hold,Buy,UNH
+2007-05-07,Jefferies & Co,Initiated,,Hold,UNH
+2007-04-23,Jefferies & Co,Initiated,,Hold,UNH
+2007-03-29,UBS,Downgrade,Buy,Neutral,UNH
+2006-11-07,Credit Suisse,Initiated,,Outperform,UNH
+2006-08-10,AG Edwards,Downgrade,Buy,Hold,UNH
+2006-07-18,Deutsche Securities,Initiated,,Buy,UNH
+2006-01-06,AG Edwards,Initiated,,Buy,UNH
+2005-12-01,UBS,Initiated,,Buy,UNH
+2005-04-15,Banc of America Sec,Downgrade,Buy,Neutral,UNH
+2005-03-29,CIBC Wrld Mkts,Initiated,,Sector Outperform,UNH
+2005-01-20,Fulcrum,Upgrade,Neutral,Buy,UNH
+2004-12-06,Goldman Sachs,Downgrade,Outperform,In-Line,UNH
+2004-10-19,Fulcrum,Downgrade,Buy,Neutral,UNH
+2004-06-08,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,UNH
+2004-04-14,Sun Trust Rbsn Humphrey,Initiated,,Buy,UNH
+2003-10-15,CSFB,Initiated,,Outperform,UNH
+2003-10-01,Legg Mason,Initiated,,Buy,UNH
+2003-07-17,Goldman Sachs,Upgrade,In-Line,Outperform,UNH
+2003-06-20,Wachovia,Initiated,,Mkt Perform,UNH
+2003-04-16,Banc of America Sec,Initiated,,Buy,UNH
+2003-04-16,Fulcrum,Downgrade,Buy,Neutral,UNH
+2002-12-20,JP Morgan,Initiated,,Overweight,UNH
+2002-11-25,SG Cowen,Downgrade,Strong Buy,Mkt Perform,UNH
+2002-11-22,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,UNH
+2002-11-11,Banc of America Sec,Upgrade,Mkt Perform,Buy,UNH
+2002-10-16,Fulcrum,Downgrade,Buy,Neutral,UNH
+2002-10-11,Goldman Sachs,Initiated,,Mkt Outperform,UNH
+2002-09-17,Salomon Smth Brny,Initiated,,Outperform,UNH
+2002-05-08,Bernstein,Initiated,,Outperform,UNH
+2002-04-17,Fulcrum,Initiated,,Buy,UNH
+2001-12-19,Prudential,Upgrade,Hold,Buy,UNH
+2001-11-26,Salomon Smth Brny,Downgrade,Buy,Outperform,UNH
+2001-10-09,Deutsche Bc Alex. Br,Initiated,,Strong Buy,UNH
+2001-04-04,Salomon Smth Brny,Upgrade,Neutral,Outperform,UNH
+2000-11-20,Prudential,Downgrade,Strong Buy,Hold,UNH
+2000-10-31,JP Morgan,Initiated,,LT Buy,UNH
+2000-10-27,SG Cowen,Upgrade,Buy,Strong Buy,UNH
+2000-10-13,CSFB,Initiated,,Hold,UNH
+2000-10-04,Bear Stearns,Downgrade,Buy,Attractive,UNH
+2000-09-08,CIBC Wrld Mkts,Initiated,,Buy,UNH
+2000-08-29,USB Piper Jaffray,Initiated,,Strong Buy,UNH
+2000-07-18,Banc of America Sec,Downgrade,Buy,Market Perform,UNH
+2000-07-07,ABN AMRO,Downgrade,Buy,Hold,UNH
+2000-07-06,SG Cowen,Downgrade,Strong Buy,Buy,UNH
+2000-05-16,Chase H&Q,Initiated,,Strong Buy,UNH
+2000-05-05,Salomon Smth Brny,Upgrade,Outperform,Buy,UNH
+2000-04-13,Salomon Smth Brny,Downgrade,Buy,Outperform,UNH
+2000-02-10,CSFB,Upgrade,Hold,Buy,UNH
+1999-10-07,Lehman Brothers,Initiated,,Buy,UNH
+1999-08-05,Prudential,Upgrade,Accumulate,Strong Buy,UNH
+1999-08-05,PaineWebber,Upgrade,Neutral,Buy,UNH
+1999-08-05,JP Morgan,Upgrade,Long Term Buy,Buy,UNH
+1999-08-05,Advest Inc,Upgrade,Market Perform,Buy,UNH
+1999-08-04,Advest Inc,Upgrade,Market Perform,Buy,UNH
+1999-08-04,ING Barings,Upgrade,Buy,Strong Buy,UNH
+1999-07-26,Prudential,Initiated,,Accumulate,UNH
+1999-07-07,Bear Stearns,Initiated,,Attractive,UNH
+1999-07-01,JP Morgan,Initiated,,Long Term Buy,UNH
+1999-06-09,Goldman Sachs,Initiated,,Recomm. List,UNH
+1999-06-08,ING Barings,Downgrade,Strong Buy,Buy,UNH
+1999-05-25,Salomon Smth Brny,Initiated,,Buy,UNH
+1999-05-17,Mrgn Stnly Dn Wttr,Initiated,,Strong Buy,UNH
+1999-04-23,SG Cowen,Upgrade,Buy,Strong Buy,UNH
+1999-03-31,NB Montgomery,Initiated,,Hold,UNH
+1999-01-22,Merrill Lynch,Upgrade,NT Neutral,NT Accumulate,UNH
+1998-12-16,Vector Securities,Initiated,,Buy,UNH
+1998-10-08,DLJ,Downgrade,Buy,Mkt Perform,UNH
+1998-09-30,BT Alex. Brown,Initiated,,Buy,UNH
+1998-09-10,ING Barings Fm Selz,Upgrade,Hold,Strong Buy,UNH
+1998-08-31,Warburg Dlln Rd,Upgrade,Hold,Buy,UNH
+1998-08-13,ABN/Amro,Upgrade,Hold,Buy,UNH
+1998-08-11,CS First Boston,Downgrade,Strong Buy,Hold,UNH
+1998-08-07,SG Cowen & Co,Downgrade,Strong Buy,Buy,UNH
+1998-08-07,BA Rbrtsn Stphns,Downgrade,Buy,LT Attractive,UNH
+1998-08-06,Merrill Lynch,Downgrade,NT Buy,NT Neutral,UNH
+1998-06-30,DLJ,Downgrade,Recomm. List,Buy,UNH
+1998-06-16,PaineWebber,Initiated,,Neutral,UNH
+1998-05-01,ABN AMRO,Downgrade,Buy,Hold,UNH
+1998-04-21,Lehman Bros,Initiated,,Outperform,UNH
+1998-04-08,Goldman Sachs,Initiated,,Recomm. List,UNH
+1998-02-24,CS First Boston,Upgrade,Hold,Strong Buy,UNH
+2014-09-17,Stifel,Initiated,,Hold,UTX
+2012-09-28,Oppenheimer,Downgrade,Outperform,Perform,UTX
+2012-04-25,Argus,Upgrade,Hold,Buy,UTX
+2011-12-29,Argus,Downgrade,Buy,Hold,UTX
+2011-02-07,Argus,Upgrade,Hold,Buy,UTX
+2010-10-20,Standpoint Research,Downgrade,Buy,Hold,UTX
+2010-09-27,Argus,Downgrade,Buy,Hold,UTX
+2010-09-08,RBC Capital Mkts,Initiated,,Outperform,UTX
+2009-09-23,Wells Fargo,Initiated,,Outperform,UTX
+2009-01-23,Bernstein,Downgrade,Outperform,Mkt Perform,UTX
+2008-12-08,Cowen & Co,Downgrade,Outperform,Neutral,UTX
+2008-09-03,UBS,Upgrade,Neutral,Buy,UTX
+2007-12-11,Banc of America Sec,Initiated,,Neutral,UTX
+2007-10-11,KeyBanc Capital Mkts,Downgrade,Buy,Hold,UTX
+2007-09-14,Bernstein,Upgrade,Mkt Perform,Outperform,UTX
+2007-04-24,Matrix Research,Initiated,,Strong Buy,UTX
+2007-03-26,Credit Suisse,Upgrade,Neutral,Outperform,UTX
+2006-01-10,CSFB,Downgrade,Outperform,Neutral,UTX
+2005-12-16,CIBC Wrld Mkts,Upgrade,Sector Perform,Sector Outperform,UTX
+2005-12-12,Morgan Stanley,Upgrade,Equal-weight,Overweight,UTX
+2005-09-20,Deutsche Securities,Initiated,,Buy,UTX
+2005-09-13,Wachovia,Initiated,,Outperform,UTX
+2005-08-12,Banc of America Sec,Upgrade,Neutral,Buy,UTX
+2005-03-31,CIBC Wrld Mkts,Initiated,,Sector Perform,UTX
+2005-01-10,Jefferies & Co,Initiated,,Buy,UTX
+2004-09-22,JP Morgan,Upgrade,Neutral,Overweight,UTX
+2004-07-26,Smith Barney Citigroup,Upgrade,Hold,Buy,UTX
+2004-06-23,JP Morgan,Downgrade,Overweight,Neutral,UTX
+2004-05-21,CSFB,Initiated,,Outperform,UTX
+2004-04-29,Banc of America Sec,Initiated,,Neutral,UTX
+2004-04-07,KeyBanc Capital Mkts / McDonald,Upgrade,Hold,Buy,UTX
+2004-03-19,McDonald Invst,Downgrade,Buy,Hold,UTX
+2004-03-15,Deutsche Securities,Upgrade,Hold,Buy,UTX
+2004-01-27,Banc of America Sec,Initiated,,Buy,UTX
+2003-12-23,AG Edwards,Upgrade,Hold,Buy,UTX
+2003-12-12,Prudential,Upgrade,Neutral,Overweight,UTX
+2003-06-03,Prudential,Upgrade,Hold,Buy,UTX
+2003-03-25,Soundview Technology,Initiated,,Outperform,UTX
+2003-01-17,Salomon Smth Brny,Upgrade,Underperform,In-line,UTX
+2002-06-21,Merrill Lynch,Downgrade,NT Strong Buy,NT Buy,UTX
+2002-04-17,CSFB,Downgrade,Buy,Hold,UTX
+2002-03-05,AG Edwards,Downgrade,Buy,Hold,UTX
+2002-02-12,McDonald Invst,Upgrade,Hold,Buy,UTX
+2002-02-04,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,UTX
+2002-01-14,Wachovia Sec,Downgrade,Strong Buy,Buy,UTX
+2001-12-14,AG Edwards,Upgrade,Hold,Buy,UTX
+2001-12-07,McDonald Invst,Initiated,,Hold,UTX
+2001-11-15,AG Edwards,Downgrade,Buy,Hold,UTX
+2001-10-17,SG Cowen,Downgrade,Buy,Neutral,UTX
+2001-10-17,Morgan Stanley,Downgrade,Strong Buy,Outperform,UTX
+2001-10-17,AG Edwards,Downgrade,Strong Buy,Buy,UTX
+2001-10-16,SG Cowen,Downgrade,Buy,Neutral,UTX
+2001-09-20,Salomon Smth Brny,Downgrade,Buy,Neutral,UTX
+2001-09-19,AG Edwards,Upgrade,Maintain Position,Buy,UTX
+2001-09-18,SG Cowen,Downgrade,Strong Buy,Buy,UTX
+2001-08-01,ABN AMRO,Initiated,,Add,UTX
+2001-07-02,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,UTX
+2001-04-10,UBS Warburg,Downgrade,Buy,Hold,UTX
+2000-09-07,JP Morgan,Initiated,,Buy,UTX
+2000-06-14,First Union Sec,Initiated,,Strong Buy,UTX
+2000-02-17,Merrill Lynch,Upgrade,NT Accum,NT Buy,UTX
+2000-02-15,Salomon Smth Brny,Upgrade,Outperform,Buy,UTX
+1999-12-01,Mrgn Stnly Dn Wttr,Initiated,,Strong Buy,UTX
+1999-10-20,Merrill Lynch,Upgrade,LT Accum,LT Buy,UTX
+1999-10-14,PaineWebber,Initiated,,Attractive,UTX
+1999-09-22,Brown Brothers,Upgrade,ST Neutral,ST Buy,UTX
+1999-06-30,CIBC World Markets,Upgrade,Hold,Buy,UTX
+1999-06-17,Banc of America Sec,Initiated,,Buy,UTX
+1999-01-22,CIBC Oppenheimer,Downgrade,Buy,Hold,UTX
+1999-01-06,CS First Boston,Initiated,,Buy,UTX
+1998-05-13,PaineWebber,Downgrade,Buy,Attractive,UTX
+2015-01-30,FBR Capital,Downgrade,Outperform,Mkt Perform,V
+2014-11-12,Topeka Capital Markets,Initiated,,Hold,V
+2014-10-31,Argus,Upgrade,Hold,Buy,V
+2014-10-30,FBR Capital,Upgrade,Mkt Perform,Outperform,V
+2014-04-14,Pacific Crest,Initiated,,Outperform,V
+2014-04-14,Robert W. Baird,Upgrade,Neutral,Outperform,V
+2013-03-01,Argus,Downgrade,Buy,Hold,V
+2013-02-21,UBS,Upgrade,Sell,Neutral,V
+2013-01-18,Robert W. Baird,Downgrade,Outperform,Neutral,V
+2012-07-09,UBS,Downgrade,Neutral,Sell,V
+2012-03-01,UBS,Initiated,,Neutral,V
+2011-10-27,FBR Capital,Downgrade,Outperform,Mkt Perform,V
+2011-10-07,Deutsche Bank,Initiated,,Buy,V
+2010-12-17,Wedbush,Initiated,,Neutral,V
+2010-06-01,Stifel Nicolaus,Upgrade,Hold,Buy,V
+2010-05-14,Stifel Nicolaus,Downgrade,Buy,Hold,V
+2010-04-16,FBR Capital,Initiated,,Outperform,V
+2010-02-02,Bernstein,Initiated,,Outperform,V
+2009-12-21,Thomas Weisel,Initiated,,Overweight,V
+2009-12-14,Robert W. Baird,Upgrade,Neutral,Outperform,V
+2009-12-04,Oppenheimer,Initiated,,Outperform,V
+2009-11-06,Argus,Upgrade,Hold,Buy,V
+2009-10-12,Credit Suisse,Upgrade,Neutral,Outperform,V
+2009-08-25,Jefferies & Co,Initiated,,Buy,V
+2009-07-30,Sun Trust Rbsn Humphrey,Downgrade,Buy,Neutral,V
+2009-04-15,RBC Capital Mkts,Initiated,,Top Pick,V
+2009-03-12,Susquehanna Financial,Initiated,,Positive,V
+2009-02-20,Robert W. Baird,Initiated,,Neutral,V
+2009-01-23,Citigroup,Initiated,,Hold,V
+2009-01-16,KeyBanc Capital Mkts,Downgrade,Buy,Hold,V
+2008-12-10,Cowen & Co,Downgrade,Outperform,Underperform,V
+2008-10-14,Morgan Keegan,Upgrade,Mkt Perform,Outperform,V
+2008-08-26,William Blair,Initiated,,Outperform,V
+2008-07-29,KeyBanc Capital Mkts,Initiated,,Buy,V
+2008-06-24,Avondale,Downgrade,Mkt Outperform,Mkt Perform,V
+2008-05-08,Morgan Keegan,Initiated,,Mkt Perform,V
+2008-05-01,Lehman Brothers,Initiated,,Equal-Weight,V
+2008-04-28,Fox Pitt,Initiated,,In Line,V
+2008-04-28,JP Morgan,Initiated,,Overweight,V
+2008-04-28,Piper Jaffray,Initiated,,Neutral,V
+2008-04-28,RBC Capital Mkts,Initiated,,Outperform,V
+2008-04-28,Sun Trust Rbsn Humphrey,Initiated,,Buy,V
+2008-04-28,Citigroup,Initiated,,Hold,V
+2008-04-28,UBS,Initiated,,Buy,V
+2008-04-14,Deutsche Securities,Initiated,,Buy,V
+2008-04-14,Cowen & Co,Initiated,,Outperform,V
+2008-04-14,Keefe Bruyette,Initiated,,Outperform,V
+2008-04-11,Stifel Nicolaus,Initiated,,Buy,V
+2008-03-20,Avondale Partners,Initiated,,Mkt Outperform,V
+2015-01-21,Barclays,Downgrade,Overweight,Equal Weight,VZ
+2014-12-09,Robert W. Baird,Downgrade,Outperform,Neutral,VZ
+2014-07-24,FBR Capital,Upgrade,Mkt Perform,Outperform,VZ
+2014-01-22,Pacific Crest,Downgrade,Outperform,Sector Perform,VZ
+2013-10-18,Deutsche Bank,Upgrade,Hold,Buy,VZ
+2013-09-04,Robert W. Baird,Upgrade,Neutral,Outperform,VZ
+2013-05-17,Barclays,Initiated,,Overweight,VZ
+2013-01-23,Canaccord Genuity,Upgrade,Hold,Buy,VZ
+2013-01-14,UBS,Downgrade,Buy,Neutral,VZ
+2012-11-15,National Securities,Initiated,,Buy,VZ
+2012-09-14,Stifel Nicolaus,Downgrade,Buy,Hold,VZ
+2012-03-29,Robert W. Baird,Downgrade,Outperform,Neutral,VZ
+2012-03-27,Canaccord Genuity,Initiated,,Hold,VZ
+2011-03-28,Robert W. Baird,Upgrade,Neutral,Outperform,VZ
+2011-01-12,Deutsche Bank,Downgrade,Buy,Hold,VZ
+2010-10-12,Argus,Upgrade,Hold,Buy,VZ
+2010-07-01,Standpoint Research,Downgrade,Buy,Hold,VZ
+2010-03-19,Standpoint Research,Initiated,,Buy,VZ
+2010-02-09,Bernstein,Upgrade,Underperform,Mkt Perform,VZ
+2010-01-28,Argus,Downgrade,Buy,Hold,VZ
+2010-01-27,FBR Capital,Downgrade,Outperform,Mkt Perform,VZ
+2009-12-17,Deutsche Bank,Initiated,,Buy,VZ
+2009-10-27,Wells Fargo,Upgrade,Market Perform,Outperform,VZ
+2009-10-23,Credit Suisse,Initiated,,Outperform,VZ
+2009-09-16,UBS,Downgrade,Buy,Neutral,VZ
+2009-06-18,Pali Research,Initiated,,Buy,VZ
+2009-04-24,Piper Jaffray,Initiated,,Neutral,VZ
+2009-04-24,Auriga U.S.A,Initiated,,Buy,VZ
+2009-02-27,RBC Capital Mkts,Upgrade,Sector Perform,Outperform,VZ
+2009-01-05,Bernstein,Downgrade,Mkt Perform,Underperform,VZ
+2008-06-16,UBS,Downgrade,Buy,Neutral,VZ
+2008-02-20,Credit Suisse,Downgrade,Outperform,Neutral,VZ
+2008-01-11,Davenport,Upgrade,Neutral,Buy,VZ
+2007-10-18,Bernstein,Initiated,,Mkt Perform,VZ
+2007-07-31,UBS,Upgrade,Neutral,Buy,VZ
+2007-05-18,Citigroup,Upgrade,Sell,Buy,VZ
+2007-05-01,Prudential,Upgrade,Underweight,Neutral,VZ
+2006-11-29,AG Edwards,Upgrade,Hold,Buy,VZ
+2006-11-21,Credit Suisse,Upgrade,Neutral,Outperform,VZ
+2006-11-08,Bernstein,Downgrade,Outperform,Mkt Perform,VZ
+2006-10-31,UBS,Downgrade,Buy,Neutral,VZ
+2006-10-19,Lehman Brothers,Upgrade,Equal-weight,Overweight,VZ
+2006-10-09,Citigroup,Downgrade,Hold,Sell,VZ
+2006-10-04,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,VZ
+2006-09-26,AG Edwards,Downgrade,Buy,Hold,VZ
+2006-08-15,Rochdale Securities,Downgrade,Buy,Hold,VZ
+2006-08-10,Deutsche Securities,Initiated,,Buy,VZ
+2006-07-18,Prudential,Initiated,,Underweight,VZ
+2006-05-05,Credit Suisse,Initiated,,Neutral,VZ
+2006-02-21,HSBC Securities,Upgrade,Neutral,Overweight,VZ
+2006-01-10,Bear Stearns,Upgrade,Peer Perform,Outperform,VZ
+2005-08-24,Wachovia,Upgrade,Underperform,Mkt Perform,VZ
+2005-05-04,CIBC Wrld Mkts,Downgrade,Sector Outperform,Sector Perform,VZ
+2005-03-03,Wachovia,Initiated,,Underperform,VZ
+2005-01-21,Deutsche Securities,Upgrade,Hold,Buy,VZ
+2005-01-20,Smith Barney Citigroup,Downgrade,Buy,Hold,VZ
+2005-01-19,Morgan Stanley,Downgrade,Overweight,Equal-weight,VZ
+2005-01-13,CSFB,Downgrade,Outperform,Neutral,VZ
+2005-01-13,Robert W. Baird,Downgrade,Outperform,Neutral,VZ
+2005-01-12,Goldman Sachs,Downgrade,Outperform,In-Line,VZ
+2004-10-28,Morgan Keegan,Upgrade,Mkt Perform,Outperform,VZ
+2004-09-15,Deutsche Securities,Downgrade,Buy,Hold,VZ
+2004-08-31,Buckingham Research,Initiated,,Accumulate,VZ
+2004-07-28,Robert W. Baird,Upgrade,Neutral,Outperform,VZ
+2004-07-23,UBS,Upgrade,Neutral,Buy,VZ
+2004-06-14,Kaufman Bros,Upgrade,Hold,Buy,VZ
+2004-03-03,AG Edwards,Upgrade,Hold,Buy,VZ
+2004-02-24,Morgan Stanley,Upgrade,Equal-weight,Overweight,VZ
+2003-12-16,Banc of America Sec,Upgrade,Neutral,Buy,VZ
+2003-11-07,JP Morgan,Initiated,,Neutral,VZ
+2003-10-22,Deutsche Securities,Upgrade,Hold,Buy,VZ
+2003-10-21,Wachovia,Upgrade,Underperform,Mkt Perform,VZ
+2003-09-24,Morgan Keegan,Downgrade,Outperform,Mkt Perform,VZ
+2003-07-14,Kaufman Bros,Initiated,,Sell,VZ
+2003-07-01,Smith Barney Citigroup,Initiated,,Outperform,VZ
+2003-06-13,Friedman Billings,Upgrade,Underperform,Outperform,VZ
+2003-06-13,Thomas Weisel,Downgrade,Outperform,Peer Perform,VZ
+2003-05-02,Robert W. Baird,Initiated,,Neutral,VZ
+2003-04-23,Morgan Keegan,Upgrade,Mkt Perform,Outperform,VZ
+2003-04-17,Banc of America Sec,Initiated,,Neutral,VZ
+2003-04-03,Morgan Stanley,Downgrade,Overweight,Equal-weight,VZ
+2003-02-21,CSFB,Upgrade,Neutral,Outperform,VZ
+2003-02-14,Fulcrum,Initiated,,Neutral,VZ
+2003-01-30,Soundview Technology,Upgrade,Neutral,Outperform,VZ
+2003-01-29,Morgan Stanley,Upgrade,Equal-weight,Overweight,VZ
+2003-01-29,Lehman Brothers,Upgrade,Equal-weight,Overweight,VZ
+2003-01-28,Legg Mason,Upgrade,Sell,Hold,VZ
+2003-01-27,UBS Warburg,Upgrade,Reduce,Neutral,VZ
+2003-01-24,Deutsche Securities,Upgrade,Hold,Buy,VZ
+2003-01-24,AG Edwards,Upgrade,Sell,Hold,VZ
+2003-01-14,CSFB,Initiated,,Neutral,VZ
+2003-01-08,AG Edwards,Downgrade,Hold,Sell,VZ
+2003-01-08,Legg Mason,Downgrade,Hold,Sell,VZ
+2003-01-08,UBS Warburg,Downgrade,Hold,Reduce,VZ
+2003-01-07,Lazard Freres,Downgrade,Hold,Sell,VZ
+2002-11-22,Deutsche Securities,Initiated,,Sell,VZ
+2002-11-21,RBC Capital Mkts,Initiated,,Outperform,VZ
+2002-11-11,Morgan Keegan,Initiated,,Mkt Perform,VZ
+2002-11-06,Credit Lyonnais Sec,Downgrade,Add,Hold,VZ
+2002-11-04,Legg Mason,Downgrade,Buy,Hold,VZ
+2002-11-01,Lehman Brothers,Downgrade,Overweight,Equal-weight,VZ
+2002-10-23,Morgan Stanley,Downgrade,Overweight,Equal-weight,VZ
+2002-10-23,Bear Stearns,Downgrade,Outperform,Peer Perform,VZ
+2002-10-17,Credit Lyonnais Sec,Initiated,,Add,VZ
+2002-10-08,Thomas Weisel,Upgrade,Mkt Perform,Attractive,VZ
+2002-10-01,Prudential,Initiated,,Hold,VZ
+2002-08-20,UBS Warburg,Downgrade,Buy,Hold,VZ
+2002-08-01,Raymond James,Upgrade,Underperform,Mkt Perform,VZ
+2002-08-01,Legg Mason,Upgrade,Hold,Buy,VZ
+2002-07-23,Dresdner Klnwrt Wass,Downgrade,Add,Hold,VZ
+2002-07-22,Merrill Lynch,Downgrade,LT Buy,LT Neutral,VZ
+2002-07-17,Raymond James,Initiated,,Underperform,VZ
+2002-04-24,Dresdner Klnwrt Wass,Downgrade,Buy,Add,VZ
+2002-04-11,Merrill Lynch,Downgrade,NT Strong Buy/LT Strong Buy,NT Neutral/LT Buy,VZ
+2002-04-09,Legg Mason,Downgrade,Strong Buy,Buy,VZ
+2002-01-04,Thomas Weisel,Upgrade,Mkt Perform,Attractive,VZ
+2001-12-21,USB Piper Jaffray,Initiated,,Market Perform,VZ
+2001-12-19,JP Morgan,Initiated,,LT Buy,VZ
+2001-12-11,UBS Warburg,Initiated,,Buy,VZ
+2001-11-16,Robertson Stephens,Initiated,,Mkt Perform,VZ
+2001-11-05,BB&T Capital Mkts,Downgrade,Strong Buy,LT Buy,VZ
+2001-10-16,Jefferies & Co,Initiated,,Accumulate,VZ
+2001-09-25,Deutsche Bc Alex. Br,Upgrade,Buy,Strong Buy,VZ
+2001-09-17,McDonald Invst,Initiated,,Buy,VZ
+2001-09-05,SoundView Technology,Initiated,,Buy,VZ
+2001-05-24,Prudential,Initiated,,Strong Buy,VZ
+2001-04-25,AG Edwards,Downgrade,Accumulate,Maintain Position,VZ
+2001-04-12,Thomas Weisel,Initiated,,Mkt Perform,VZ
+2001-03-15,AG Edwards,Upgrade,Maintain Position,Accumulate,VZ
+2001-02-02,CSFB,Downgrade,Strong Buy,Buy,VZ
+2001-01-19,Dresdner Klnwrt Bnsn,Upgrade,Add,Buy,VZ
+2000-10-31,AG Edwards,Downgrade,Accumulate,Maintain Position,VZ
+2000-08-09,Deutsche Bc Alex. Br,Initiated,,Buy,VZ
+2000-08-09,Dresdner Klnwrt Bnsn,Downgrade,Buy,Add,VZ
+2000-08-09,Legg Mason,Upgrade,Buy,Strong Buy,VZ
+2000-07-21,AG Edwards,Upgrade,Accumulate,Buy,VZ
+2000-07-19,Legg Mason,Downgrade,Strong Buy,Buy,VZ
+2000-07-05,AG Edwards,Initiated,,Accumulate,VZ
+2015-02-20,Barclays,Downgrade,Overweight,Equal Weight,WMT
+2014-12-04,UBS,Downgrade,Buy,Neutral,WMT
+2014-11-14,BMO Capital Markets,Downgrade,Market Perform,Underperform,WMT
+2014-10-10,Gilford Securities,Upgrade,Neutral,Buy,WMT
+2014-05-28,Standpoint Research,Initiated,,Strong Sell,WMT
+2014-02-21,Gilford Securities,Downgrade,Buy,Neutral,WMT
+2013-04-16,UBS,Initiated,,Buy,WMT
+2012-08-06,Stifel Nicolaus,Upgrade,Hold,Buy,WMT
+2012-04-25,Argus,Downgrade,Buy,Hold,WMT
+2011-12-07,UBS,Initiated,,Neutral,WMT
+2011-10-04,Standpoint Research,Downgrade,Buy,Hold,WMT
+2011-02-10,UBS,Downgrade,Buy,Neutral,WMT
+2010-07-27,Stifel Nicolaus,Downgrade,Buy,Hold,WMT
+2010-05-28,MKM Partners,Initiated,,Neutral,WMT
+2010-03-15,Citigroup,Upgrade,Hold,Buy,WMT
+2010-02-03,Stifel Nicolaus,Upgrade,Hold,Buy,WMT
+2009-10-15,Standpoint Research,Initiated,,Buy,WMT
+2009-09-30,Bernstein,Initiated,,Mkt Perform,WMT
+2009-09-21,HSBC Securities,Initiated,,Overweight,WMT
+2009-08-17,Rochdale Securities,Upgrade,Hold,Buy,WMT
+2009-01-21,Credit Suisse,Downgrade,Outperform,Neutral,WMT
+2008-11-24,William Blair,Upgrade,Mkt Perform,Outperform,WMT
+2008-09-11,Edward Jones,Downgrade,Buy,Hold,WMT
+2008-06-03,Morgan Keegan,Upgrade,Mkt Perform,Outperform,WMT
+2008-02-20,BMO Capital Markets,Downgrade,Outperform,Market Perform,WMT
+2007-11-02,BMO Capital Markets,Initiated,,Outperform,WMT
+2007-10-25,Rochdale Securities,Downgrade,Buy,Hold,WMT
+2007-10-19,Bernstein,Initiated,,Mkt Perform,WMT
+2007-10-12,Jefferies & Co,Initiated,,Buy,WMT
+2007-09-27,Rochdale Securities,Upgrade,Hold,Buy,WMT
+2007-06-04,Wachovia,Upgrade,Mkt Perform,Outperform,WMT
+2007-06-04,JP Morgan,Upgrade,Neutral,Overweight,WMT
+2007-06-04,HSBC Securities,Upgrade,Neutral,Overweight,WMT
+2007-01-08,Goldman Sachs,Downgrade,Buy,Neutral,WMT
+2006-10-13,Prudential,Initiated,,Neutral,WMT
+2006-09-19,Wachovia,Initiated,,Mkt Perform,WMT
+2006-05-25,Banc of America Sec,Upgrade,Neutral,Buy,WMT
+2006-01-27,JP Morgan,Downgrade,Overweight,Neutral,WMT
+2006-01-24,Goldman Sachs,Upgrade,In-Line,Outperform,WMT
+2006-01-13,Banc of America Sec,Initiated,,Neutral,WMT
+2005-12-13,UBS,Initiated,,Neutral,WMT
+2005-07-05,Oppenheimer,Upgrade,Neutral,Buy,WMT
+2005-04-26,Marquis Investment Research,Initiated,,Buy,WMT
+2005-04-13,Prudential,Upgrade,Underweight,Neutral,WMT
+2005-04-07,AG Edwards,Downgrade,Buy,Hold,WMT
+2004-12-08,Goldman Sachs,Downgrade,Outperform,In-Line,WMT
+2004-11-29,Oppenheimer,Downgrade,Buy,Neutral,WMT
+2004-11-17,Prudential,Downgrade,Neutral,Underweight,WMT
+2004-09-27,Banc of America Sec,Upgrade,Neutral,Buy,WMT
+2004-09-21,FTN Midwest,Upgrade,Neutral,Buy,WMT
+2004-07-09,KeyBanc Capital Mkts / McDonald,Downgrade,Buy,Hold,WMT
+2004-06-28,Fulcrum,Upgrade,Neutral,Buy,WMT
+2004-06-15,Fulcrum,Initiated,,Neutral,WMT
+2004-04-01,Merrill Lynch,Downgrade,Buy,Neutral,WMT
+2004-02-20,Buckingham Research,Upgrade,Neutral,Accumulate,WMT
+2004-02-19,Goldman Sachs,Upgrade,In-Line,Outperform,WMT
+2004-02-19,AG Edwards,Upgrade,Hold,Buy,WMT
+2004-02-05,Lazard Freres,Upgrade,Hold,Buy,WMT
+2004-02-04,Oppenheimer,Upgrade,Neutral,Buy,WMT
+2003-12-18,UBS,Upgrade,Neutral,Buy,WMT
+2003-11-14,USB Piper Jaffray,Downgrade,Outperform,Market Perform,WMT
+2003-11-13,UBS,Downgrade,Buy,Neutral,WMT
+2003-11-12,Buckingham Research,Downgrade,Accumulate,Neutral,WMT
+2003-09-17,UBS,Initiated,,Buy,WMT
+2003-09-08,Bernstein,Downgrade,Outperform,Mkt Perform,WMT
+2003-09-05,Banc of America Sec,Downgrade,Buy,Neutral,WMT
+2003-08-13,AG Edwards,Downgrade,Buy,Hold,WMT
+2003-06-09,Deutsche Securities,Initiated,,Buy,WMT
+2003-06-06,Deutsche Securities,Initiated,,Buy,WMT
+2003-04-14,Banc of America Sec,Initiated,,Buy,WMT
+2003-04-11,Prudential,Downgrade,Buy,Hold,WMT
+2003-03-25,CIBC Wrld Mkts,Initiated,,Sector Outperform,WMT
+2002-11-06,Bear Stearns,Initiated,,Peer Perform,WMT
+2002-10-30,Goldman Sachs,Downgrade,Recomm List,Mkt Perform,WMT
+2002-09-13,Lehman Brothers,Initiated,,Overweight,WMT
+2002-08-14,McDonald Invst,Upgrade,Hold,Buy,WMT
+2002-08-12,WR Hambrecht,Downgrade,Buy,Hold,WMT
+2002-05-14,WR Hambrecht,Initiated,,Buy,WMT
+2002-04-09,Salomon Smth Brny,Initiated,,Buy,WMT
+2002-04-08,Salomon Smth Brny,Initiated,,Buy,WMT
+2002-04-01,Merrill Lynch,Downgrade,NT Strong Buy,NT Buy,WMT
+2002-04-01,UBS Warburg,Downgrade,Strong Buy,Buy,WMT
+2002-01-22,Bernstein,Upgrade,Mkt Perform,Outperform,WMT
+2002-01-09,JP Morgan,Downgrade,Buy,LT Buy,WMT
+2001-12-11,USB Piper Jaffray,Initiated,,Buy,WMT
+2001-09-26,JP Morgan,Upgrade,LT Buy,Buy,WMT
+2001-09-25,UBS Warburg,Upgrade,Hold,Strong Buy,WMT
+2001-09-20,Goldman Sachs,Upgrade,Mkt Outperform,Recomm List,WMT
+2001-09-18,AG Edwards,Upgrade,Maintain Position,Accumulate,WMT
+2001-08-09,McDonald Invst,Downgrade,Buy,Hold,WMT
+2001-03-30,Banc of America Sec,Upgrade,Mkt Perform,Buy,WMT
+2001-03-26,Robertson Stephens,Upgrade,LT Attractive,Buy,WMT
+2001-02-28,Robinson Humphrey,Initiated,,Outperform,WMT
+2001-01-17,Lazard Freres,Initiated,,Outperform,WMT
+2000-12-12,Banc of America Sec,Initiated,,Mkt Perform,WMT
+2000-11-27,McDonald Invst,Initiated,,Buy,WMT
+2000-09-20,Bear Stearns,Initiated,,Buy,WMT
+2000-09-11,Banc of America Sec,Initiated,,Buy,WMT
+2000-08-15,DLJ,Downgrade,Buy,Market Perform,WMT
+2000-07-28,UBS Warburg,Initiated,,Hold,WMT
+2000-07-10,Prudential,Upgrade,Hold,Strong Buy,WMT
+2000-06-27,Robertson Stephens,Initiated,,LT Attractive,WMT
+2000-05-08,AG Edwards,Downgrade,Accumulate,Maintain Position,WMT
+2000-05-03,Goldman Sachs,Downgrade,Recommended List,Market Outperform,WMT
+2000-03-02,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,WMT
+2000-01-21,JP Morgan,Initiated,,LT Buy,WMT
+1999-12-09,Schroder & Co,Downgrade,Outperform,Perform-In-Line,WMT
+1999-11-09,Merrill Lynch,Upgrade,NT Accum,NT Buy,WMT
+1999-08-25,Merrill Lynch,Downgrade,NT Buy,NT Accum,WMT
+1999-04-29,Prudential,Downgrade,Accumulate,Hold,WMT
+1998-10-19,Goldman Sachs,Upgrade,Mkt Outperform,Recomm. List,WMT
+1998-09-29,BT Alex. Brown,Upgrade,Mkt Perform,Strong Buy,WMT
+1998-09-15,Prudential,Upgrade,Hold,Accumulate,WMT
+2015-02-09,Argus,Downgrade,Buy,Hold,XOM
+2015-02-02,Scotia Howard Weil,Downgrade,Sector Outperform,Sector Perform,XOM
+2014-12-19,BMO Capital Markets,Upgrade,Underperform,Market Perform,XOM
+2014-07-25,Barclays,Downgrade,Equal Weight,Underweight,XOM
+2014-06-10,Deutsche Bank,Initiated,,Hold,XOM
+2014-01-08,Howard Weil,Upgrade,Sector Perform,Sector Outperform,XOM
+2013-12-13,RBC Capital Mkts,Initiated,,Outperform,XOM
+2013-12-06,HSBC Securities,Initiated,,Underweight,XOM
+2013-11-11,Argus,Upgrade,Hold,Buy,XOM
+2013-04-02,Oppenheimer,Downgrade,Outperform,Perform,XOM
+2012-10-11,Dahlman Rose,Initiated,,Buy,XOM
+2012-07-27,UBS,Downgrade,Buy,Neutral,XOM
+2012-02-01,Argus,Downgrade,Buy,Hold,XOM
+2012-01-17,Howard Weil,Downgrade,Market Outperform,Market Perform,XOM
+2011-01-14,Standpoint Research,Downgrade,Buy,Hold,XOM
+2011-01-06,Oppenheimer,Upgrade,Perform,Outperform,XOM
+2010-12-14,Jefferies,Initiated,,Hold,XOM
+2010-10-22,Standpoint Research,Initiated,,Buy,XOM
+2010-09-14,RBC Capital Mkts,Downgrade,Outperform,Sector Perform,XOM
+2010-09-13,Deutsche Bank,Downgrade,Buy,Hold,XOM
+2010-02-08,Collins Stewart,Upgrade,Hold,Buy,XOM
+2009-11-17,Barclays Capital,Upgrade,Equal Weight,Overweight,XOM
+2009-04-14,Oppenheimer,Downgrade,Outperform,Perform,XOM
+2009-03-27,Benchmark,Downgrade,Hold,Sell,XOM
+2009-03-16,Citigroup,Initiated,,Buy,XOM
+2009-02-23,Deutsche Securities,Upgrade,Hold,Buy,XOM
+2009-02-19,Barclays Capital,Downgrade,Overweight,Equal Weight,XOM
+2009-02-19,Bernstein,Downgrade,Outperform,Mkt Perform,XOM
+2009-01-28,UBS,Downgrade,Buy,Neutral,XOM
+2008-11-04,Credit Suisse,Downgrade,Outperform,Neutral,XOM
+2008-10-20,Oppenheimer,Upgrade,Perform,Outperform,XOM
+2008-07-02,Bernstein,Upgrade,Mkt Perform,Outperform,XOM
+2008-03-14,Credit Suisse,Upgrade,Neutral,Outperform,XOM
+2007-11-20,UBS,Upgrade,Neutral,Buy,XOM
+2007-08-06,Oppenheimer,Downgrade,Buy,Neutral,XOM
+2007-07-30,AG Edwards,Upgrade,Hold,Buy,XOM
+2007-04-24,AG Edwards,Downgrade,Buy,Hold,XOM
+2007-04-23,Deutsche Securities,Downgrade,Buy,Hold,XOM
+2007-01-05,Lehman Brothers,Downgrade,Overweight,Equal-weight,XOM
+2006-12-18,Friedman Billings,Downgrade,Outperform,Mkt Perform,XOM
+2006-10-10,Goldman Sachs,Downgrade,Buy,Neutral,XOM
+2006-07-31,JP Morgan,Upgrade,Neutral,Overweight,XOM
+2006-03-03,Friedman Billings,Upgrade,Mkt Perform,Outperform,XOM
+2006-01-17,UBS,Initiated,,Neutral,XOM
+2006-01-04,Banc of America Sec,Upgrade,Neutral,Buy,XOM
+2005-11-18,Prudential,Initiated,,Overweight,XOM
+2005-09-28,Friedman Billings,Downgrade,Outperform,Mkt Perform,XOM
+2005-09-27,JP Morgan,Downgrade,Overweight,Neutral,XOM
+2005-09-16,Deutsche Securities,Upgrade,Hold,Buy,XOM
+2005-05-31,JP Morgan,Upgrade,Neutral,Overweight,XOM
+2005-05-31,Smith Barney Citigroup,Upgrade,Hold,Buy,XOM
+2005-05-17,AG Edwards,Upgrade,Hold,Buy,XOM
+2005-03-03,Bernstein,Downgrade,Outperform,Mkt Perform,XOM
+2005-02-25,Prudential,Upgrade,Neutral,Overweight,XOM
+2005-02-07,AG Edwards,Downgrade,Buy,Hold,XOM
+2005-02-07,Smith Barney Citigroup,Upgrade,Sell,Hold,XOM
+2005-02-01,Bear Stearns,Upgrade,Peer Perform,Outperform,XOM
+2004-11-19,Banc of America Sec,Initiated,,Neutral,XOM
+2004-11-04,Deutsche Securities,Upgrade,Hold,Buy,XOM
+2004-05-14,Bernstein,Upgrade,Mkt Perform,Outperform,XOM
+2004-05-11,AG Edwards,Upgrade,Hold,Buy,XOM
+2004-03-02,Smith Barney Citigroup,Initiated,,Sell,XOM
+2004-01-12,Prudential,Upgrade,Underweight,Neutral,XOM
+2004-01-08,Robert W. Baird,Downgrade,Outperform,Neutral,XOM
+2003-11-11,Goldman Sachs,Upgrade,In-Line,Outperform,XOM
+2003-10-22,JP Morgan,Downgrade,Overweight,Neutral,XOM
+2003-08-27,Banc of America Sec,Upgrade,Neutral,Buy,XOM
+2003-07-31,JP Morgan,Upgrade,Neutral,Overweight,XOM
+2003-06-16,Deutsche Securities,Downgrade,Buy,Hold,XOM
+2003-05-16,UBS Warburg,Initiated,,Buy,XOM
+2003-01-06,Robert W. Baird,Upgrade,Neutral,Outperform,XOM
+2002-12-05,First Albany,Downgrade,Underperform,Sell,XOM
+2002-08-12,Deutsche Securities,Downgrade,Buy,Mkt Perform,XOM
+2002-07-24,Banc of America Sec,Upgrade,Buy,Strong Buy,XOM
+2002-07-22,McDonald Invst,Upgrade,Hold,Buy,XOM
+2002-07-18,Fahnestock,Upgrade,Neutral,Buy,XOM
+2002-04-24,Robert W. Baird,Upgrade,Mkt Perform,Mkt Outperform,XOM
+2002-04-19,JP Morgan,Initiated,,Buy,XOM
+2002-04-12,Deutsche Securities,Initiated,,Buy,XOM
+2002-01-24,Fahnestock,Downgrade,Buy,Hold,XOM
+2002-01-24,Goldman Sachs,Downgrade,Mkt Outperform,Mkt Perform,XOM
+2002-01-23,Fahnestock,Downgrade,Buy,Hold,XOM
+2001-11-16,Deutsche Bc Alex. Br,Downgrade,Buy,Mkt Perform,XOM
+2001-10-29,Banc of America Sec,Downgrade,Strong Buy,Buy,XOM
+2001-10-17,FAC/Eqts First Albany,Initiated,,Underperform,XOM
+2001-09-25,CSFB,Downgrade,Buy,Hold,XOM
+2001-09-24,Banc of America Sec,Upgrade,Buy,Strong Buy,XOM
+2001-08-23,Robert W. Baird,Upgrade,Mkt Perform,Mkt Outperform,XOM
+2001-06-08,Robert W. Baird,Downgrade,Mkt Outperform,Mkt Perform,XOM
+2001-05-08,CIBC Wrld Mkts,Initiated,,Buy,XOM
+2001-04-24,Robert W. Baird,Upgrade,Mkt Perform,Mkt Outperform,XOM
+2001-03-30,Dresdner Klnwrt Wass,Initiated,,Add,XOM
+2001-02-14,Goldman Sachs,Downgrade,Recomm List,Mkt Outperform,XOM
+2001-01-31,Prudential,Upgrade,Hold,Accumulate,XOM
+2001-01-31,Lehman Brothers,Upgrade,Mkt Perform,Strong Buy,XOM
+2001-01-18,Deutsche Bc Alex. Br,Initiated,,Buy,XOM
+2001-01-03,Prudential,Downgrade,Accumulate,Hold,XOM
+2000-10-13,McDonald Invst,Downgrade,Buy,Hold,XOM
+2000-10-12,Sanford Bernstein,Downgrade,Outperform,Mkt Perform,XOM
+2000-09-21,UBS Warburg,Downgrade,Buy,Hold,XOM
+2000-08-24,Mrgn Stnly Dn Wttr,Downgrade,Strong Buy,Outperform,XOM
+2000-07-27,CIBC Wrld Mkts,Upgrade,Hold,Buy,XOM
+2000-07-26,Mrgn Stnly Dn Wttr,Upgrade,Outperform,Strong Buy,XOM
+2000-07-12,ABN AMRO,Upgrade,Hold,Buy,XOM
+2000-05-31,Prudential,Initiated,,Hold,XOM
+2000-05-19,Dain Rauscher Wessels,Initiated,,Strong Buy,XOM
+2000-05-11,Deutsche Bc Alex. Br,Upgrade,Mkt Perform,Buy,XOM
+2000-03-31,Schroder & Co,Downgrade,Outperform,Perform-In-Line,XOM
+2000-02-17,AG Edwards,Downgrade,Accumulate,Maintain Position,XOM
+1999-12-07,Goldman Sachs,Initiated,,Recommended List,XOM
+1999-12-07,Goldman Sachs,Upgrade,Trading Buy,Recommended List,XOM

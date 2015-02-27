@@ -1,4 +1,11 @@
-see if its possible to classify pos/neg based on upgrade/downgrade
-try MultinominalNB and tf-idf stuff
+merge opinions with prices
+	super impose on none merged
+	do classified and continuous
+check performance of algo
+comment on stanford paper
+investigate auto correlation
+disasters
+
+abstract
 
 train nn

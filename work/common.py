@@ -97,3 +97,8 @@ def encode_opinions(opinions):
     opinions = pd.concat([opinions, one_hot], axis=1)
     opinions = opinions.groupby([opinions.index, 'Ticker']).sum()
     return opinions
+
+
+def rdiff(series, window):
+    f = lambda items: (items[-1] - items[0]) / float(items[0])
+    return pd.rolling_apply(series, window, f).dropna()

@@ -1,0 +1,20 @@
+this report is an analsysis of existing methods of stock market prediction and an exploration of various new methods.
+
+we look at the dow jones as a representative bundle of stocks for the market as a whole and attempt to predict price movements on a daily basis
+
+three methodologies are evaluated. 
+
+First we look at fundamental analysis which is the analysis of company performance an attempt to determine the intrinsic value of a stock
+
+Second we look at technical analysis in an attempt to find and exploit trends within the stock price 
+
+Finally we take an approach based in machine learning methods where we explore the effectiveness of various [features] 
+
+Throughout the report, we keep in mind the efficient market hypotheses and go on to provide evidence of the weak form of this law, that stock price cannot be determined via price alone but is open to prediction via external data sources
+
+We conclude that there is long term information to be found through fundamental analysis
+
+We conclude that there is little to no value to be found in technical analysis and point out a very common flaw in the methodology of practitioners of this approach
+
+We show that machine learning can be successfully applied  by drawing data from external sources
+

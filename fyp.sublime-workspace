@@ -266,24 +266,6 @@
 				"buffer_size": 4827,
 				"line_ending": "Unix"
 			}
-		},
-		{
-			"file": "data/disaster-table.html",
-			"settings":
-			{
-				"buffer_size": 1451693,
-				"line_ending": "Unix",
-				"name": "def offsetPrices(prices, days):"
-			}
-		},
-		{
-			"contents": "['start','end','country','countryISO','location','type','subtype','deaths','affected','damage','disasterid']",
-			"settings":
-			{
-				"buffer_size": 108,
-				"line_ending": "Unix",
-				"name": "['start','end','country','countryISO','location','"
-			}
 		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
@@ -336,6 +318,8 @@
 	],
 	"file_history":
 	[
+		"/home/mark/Desktop/tesst.rb",
+		"/home/mark/workspace/final-year-project/data/disaster-table.html",
 		"/home/mark/workspace/misc/lichess-player-ratings/lichess-player-ratings.py",
 		"/home/mark/anaconda/lib/python2.7/site-packages/pandas/tools/merge.py",
 		"/home/mark/anaconda/lib/python2.7/site-packages/pandas/tools/merge.pyc",
@@ -528,7 +512,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -544,8 +528,8 @@
 						"selection":
 						[
 							[
-								4827,
-								4827
+								3670,
+								3670
 							]
 						],
 						"settings":
@@ -555,69 +539,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1335.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "data/disaster-table.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1451693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23844,
-								23844
-							]
-						],
-						"settings":
-						{
-							"auto_name": "def offsetPrices(prices, days):",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 11556.0,
+						"translation.y": 1179.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								108,
-								108
-							]
-						],
-						"settings":
-						{
-							"auto_name": "['start','end','country','countryISO','location','",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

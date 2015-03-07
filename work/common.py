@@ -91,6 +91,26 @@ def load_quandl_prices(dataset, start, transform='rdiff'):
         return prices
 
 
+def load_quandl_absolute_prices(dataset, start):
+    cache_file = '../data/absolute-prices-cache.csv'
+    if os.path.exists(cache_file):
+        print 'Loading prices from cache'
+        return pd.read_csv(cache_file, index_col=0, parse_dates=True)
+    else:
+        prices = pd.DataFrame()
+        quandl_auth = 'pdRRzNygCjs_YY5Y2MVe'
+        for index, row in dataset.iterrows():
+            print 'Downloading prices for', row['Ticker']
+            all_price_data = Quandl.get(
+                row['Code'], trim_start=start, authtoken=quandl_auth)
+            close_price_data = all_price_data[['Close']]
+            close_price_data['Ticker'] = row['Ticker']
+
+            prices = prices.append(close_price_data)
+        prices.to_csv(cache_file)
+        return prices
+
+
 def encode_opinions(opinions):
     one_hot = pd.get_dummies(opinions['To'], 'opinion', '_')
     opinions = opinions.drop('To', axis=1)

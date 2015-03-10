@@ -1,6 +1,8 @@
 import csv
 import math
 import pandas as pd
+from datetime import datetime
+from datetime import timedelta
 
 spy_list_loc = '/home/mark/workspace/final-year-project/data/SP500.csv'
 returns_loc = '/home/mark/workspace/final-year-project/data/fundamentals/annual-returns/'
@@ -15,17 +17,17 @@ successful_parses = 0
 
 for symbol in symbols:
     symbol_parsed = False
-    
-    years = [str(year) + '1231' for year in range(1990, 2014)]    
+
+    years = [datetime(x, 12, 31) for x in range(2000, 2014)]
     ratios = pd.DataFrame.from_csv(ratios_loc + symbol + '.csv')
-    returns = pd.DataFrame.from_csv(returns_loc + symbol + '.csv', header=None)        
-     
-    for i, year in enumerate(years[:-1]):
+    returns = pd.DataFrame.from_csv(returns_loc + symbol + '.csv', header=None)
+
+    for i in range(len(years)):
         try:
-            pe = ratios.ix[years[i]]['Current PE Ratio'].values[0]
-            returns = returns.ix[years[i+1]].values[0]
-            if not (math.isnan(pe) or math.isnan(returns)):            
-                pe_returns.append([symbol, pe, returns])
+            pe = ratios.ix[years[i]]['Current PE Ratio']
+            year_returns = returns.ix[years[i + 1]].values[0]
+            if not (math.isnan(pe) or math.isnan(year_returns)):
+                pe_returns.append([symbol, pe, year_returns])
             symbol_parsed = True
         except Exception, e:
             pass

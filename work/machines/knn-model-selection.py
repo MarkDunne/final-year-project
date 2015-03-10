@@ -62,8 +62,8 @@ def bias_variance_tradeoff():
     plt.xlabel("Number Neighbours")
     plt.ylabel("MSE")
     
-    plt.fill_between(neighbours, mses_train - std_train, mses_train + std_train, alpha=0.1, color="g")
-    plt.fill_between(neighbours, mses_test - std_test, mses_test + std_test, alpha=0.1, color="r")
+    plt.fill_between(neighbours, mses_train - std_train, mses_train + std_train, alpha=0.1, color="r")
+    plt.fill_between(neighbours, mses_test - std_test, mses_test + std_test, alpha=0.1, color="g")
     
     plt.plot(neighbours, mses_train, 'o-', color="g", label="Training error")                     
     plt.plot(neighbours, mses_test, 'o-', color="r", label="Testing error")  
@@ -85,4 +85,4 @@ def learning_curve():
     fig.show()
     
 if __name__ == "__main__":
-    test_classifier()    
+    bias_variance_tradeoff()    

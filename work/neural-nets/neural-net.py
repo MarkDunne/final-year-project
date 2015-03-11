@@ -33,16 +33,16 @@ train_errors = np.array([])
 test_errors = np.array([])
 
 for i in range(10):
-    print 'round', i+1
-    trainer.trainEpochs(5)    
+    print 'round', i + 1
+    trainer.trainEpochs(5)
 
-    train_error = trainer.testOnData(trainset)    
+    train_error = trainer.testOnData(trainset)
     test_error = trainer.testOnData(testset)
 
-    epochs = np.append(epochs, trainer.totalepochs)        
-    train_errors = np.append(train_errors, train_error)        
+    epochs = np.append(epochs, trainer.totalepochs)
+    train_errors = np.append(train_errors, train_error)
     test_errors = np.append(test_errors, test_error)
-        
+
     print 'train error', train_error
     print 'test error', test_error
 
@@ -50,7 +50,7 @@ for i in range(10):
 plt.title("Learning rate for 5-20-1 Neural Net")
 plt.xlabel("Epoch")
 plt.ylabel("MSE")
-plt.plot(epochs, train_errors, 'o-', color="g", label="Training error")                     
+plt.plot(epochs, train_errors, 'o-', color="g", label="Training error")
 plt.plot(epochs, test_errors, 'o-', color="r", label="Testing error")
 plt.legend(loc="best")
-plt.show()     
+plt.show()

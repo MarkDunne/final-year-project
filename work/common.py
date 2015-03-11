@@ -95,7 +95,7 @@ def load_quandl_absolute_prices(dataset, start):
     cache_file = '../data/absolute-prices-cache.csv'
     if os.path.exists(cache_file):
         print 'Loading prices from cache'
-        return pd.read_csv(cache_file, index_col=0, parse_dates=True)
+        return pd.read_csv(cache_file, index_col=[0, 1], parse_dates=True)
     else:
         prices = pd.DataFrame()
         quandl_auth = 'pdRRzNygCjs_YY5Y2MVe'

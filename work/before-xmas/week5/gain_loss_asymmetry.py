@@ -63,7 +63,7 @@ for i in range(n):
 
 
 n, bins, patches = P.hist(gains, best_number_of_bins(gains), normed=1)
-P.setp(patches, 'facecolor', 'g', 'alpha', 0.5)
+P.setp(patches, 'facecolor', 'g', 'alpha', 0.2)
 
 (mu, sigma) = norm.fit(gains)
 y = mlab.normpdf(bins, mu, sigma)
@@ -71,8 +71,8 @@ l = P.plot(bins, y, 'g--', linewidth=2, label='Days to gain 5% value')
 
 
 n, bins, patches = P.hist(
-    loses, best_number_of_bins(loses), normed=1, histtype='stepfilled')
-P.setp(patches, 'facecolor', 'r', 'alpha', 0.5)
+    loses, best_number_of_bins(loses), normed=1, histtype='step')
+P.setp(patches, 'facecolor', 'r', 'alpha', 0.2)
 
 (mu, sigma) = norm.fit(loses)
 y = mlab.normpdf(bins, mu, sigma)

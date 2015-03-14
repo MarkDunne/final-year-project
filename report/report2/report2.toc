@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Project Focus}{2}
+\contentsline {chapter}{\numberline {2}Data}{3}
+\contentsline {section}{\numberline {2.1}Data Sources}{3}
+\contentsline {chapter}{\numberline {3}Considerations in approaching the problem}{4}
+\contentsline {section}{\numberline {3.1}Random Walk Hypothesis}{4}
+\contentsline {subsection}{\numberline {3.1.1}Qualitative Visual Similarity to Random pattern}{4}
+\contentsline {subsection}{\numberline {3.1.2}Quantitative Difference to Random pattern}{4}
+\contentsline {section}{\numberline {3.2}Efficient market hypothesis}{5}
+\contentsline {paragraph}{Weak-form Efficient Market Hypothesis}{5}
+\contentsline {paragraph}{Semi-Strong Efficient Market Hypothesis}{5}
+\contentsline {paragraph}{Strong form Efficient Market Hypothesis}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {section}{\numberline {3.3}Self Defeating Success}{6}
+\contentsline {section}{\numberline {3.4}Conclusions}{6}

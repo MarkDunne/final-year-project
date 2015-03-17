@@ -13,3 +13,9 @@
 \contentsline {paragraph}{}{5}
 \contentsline {section}{\numberline {3.3}Self Defeating Success}{6}
 \contentsline {section}{\numberline {3.4}Conclusions}{6}
+\contentsline {chapter}{\numberline {4}Attacking the problem - Fundamental Analysis}{7}
+\contentsline {section}{\numberline {4.1}Fundamental Analysis limitations}{7}
+\contentsline {section}{\numberline {4.2}Price to Earnings ratio}{8}
+\contentsline {section}{\numberline {4.3}Price to Book ratio}{8}
+\contentsline {section}{\numberline {4.4}Conclustion}{9}
+\contentsline {chapter}{\numberline {5}Technical Analysis}{10}

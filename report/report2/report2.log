@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  14 MAR 2015 17:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.1.18)  17 MAR 2015 01:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -527,24 +527,32 @@ Chapter 2.
 Chapter 3.
 [4
 
-] [5] [6] (./report2.aux) ) 
+] [5] [6]
+Chapter 4.
+[7
+
+] [8] [9]
+Chapter 5.
+[10
+
+] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
  3048 strings out of 494985
  39029 string characters out of 6180356
- 96592 words of memory out of 5000000
+ 97592 words of memory out of 5000000
  6197 multiletter control sequences out of 15000+600000
  59234 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  37i,6n,28p,780b,190s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr
-/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/
-lmr17.pfb>
-Output written on report2.pdf (8 pages, 142849 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/t
+exmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pf
+b>
+Output written on report2.pdf (12 pages, 151285 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

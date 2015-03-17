@@ -111,6 +111,66 @@ This is the same reason for the lack of academic papers on the topic of successf
 
 The three preceding ideas ask us to keep an open mind on stock market prediction. It is possible that we will not be able to do it profitably.
 
+\chapter{Attacking the problem - Fundamental Analysis}
+
+The first approach we take at solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 
+
+It should be noted that Fundamental Analysis is compatible with the weak form of the efficient market hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
+
+Fundamental Analysis attempts to predict long term price movements, i.e on a year to year basis. [todo expand]
+
+\section{Fundamental Analysis limitations}
+
+There is an obvious pattern with fundamental Analysis. We are trying to find the quantify the true value of a company when almost every company has in some way or another some purely qualitative value
+
+Fundamental Analysis methods does not attempt to capture, and so it difficult to build a software solution to do so. This leaves a large gap in knowledge an algorithm could learn about a company. How should it quantify the value of a brand, the size of its customer base, or a competitive advantage?
+
+These are three examples of some of the many things that a human investor might take into account when deciding who to invest in, but they are untouchable within the scope of this project. 
+
+Instead, we are limited to purely quantitative company metrics. We will look at two of the most common metrics, Price to Earnings ratio and Price to Book ratio.
+
+\section{Price to Earnings ratio}
+
+The first metric for the value of a company that we will look at is the Price to Earnings ratio. The price to earnings ratio is calculated as
+
+[todo show pe ratio formula]
+
+Informally, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might translate to high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. There should then be a relationship between high P/E ratio and high returns in the following year.
+
+To investigate this relationship, we plotted the P/E ratio for of 450 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
+
+[todo pe graph]
+
+The best fit line was calculated using the standard Least Squares method. If the P/E ratio was indeed predictive, we might have expected a steeper slope in the best fit line, but we can see that there is a very weak correlation at best. It should also be noted that the more we remove outliers, the lower the slope becomes. This indicates that the the line is probably being pulled up by outliers rather than an actual correlation in the data. 
+
+We can also see that the vast majority of the data points are concentrated in one area, without any obvious pattern. It is clear that this data should not be used for prediction.
+
+\section{Price to Book ratio}
+
+The second metric for the value of a company that we will look at is the Price to Book ratio. The price to Book ratio is calculated as
+
+[todo show pb ratio formula]
+
+Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. There should then be a relationship between high P/B ratio and low returns in the following year. 
+
+To investigate this relationship, we plotted the P/E ratio for of 350 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
+
+[todo show pb graph]
+
+The best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the oposite of what we might have predicted. The data suggests that a high P/B ratio is mildly [todo better word] predictive of a high growth in the stock price. Although this may be counter to what literature might suggest, it the data itself may not be an error. A high P/B ratio could be a better signal of investor confidence than what P/E ratio was and so we can carry over the logic from P/E ratio and apply it to the P/B ratio. 
+
+However, as previously mentioned this finding runs directly apposed to the literature on the subject [todo backup]. We must therefore be somewhat sceptical of using this feature for prediction. 
+
+\section{Conclustion}
+
+We evaluated two Fundamental Analysis metrics for their predictive value, and found only tenuous relationships.  
+
+These predictions are also very long term, looking one year into the future. Predictions on this time scale were not the focus of the project, instead we wanted to focus on predicting daily trends in the market.
+
+It is because of these issues that we moved on from Fundamental Analysis.
+
+\chapter{Technical Analysis}
+
+
 
 \end{document}
-

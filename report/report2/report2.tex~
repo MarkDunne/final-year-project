@@ -6,12 +6,17 @@
 \usepackage{amsthm}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{float}
+
+\abovedisplayskip=12pt plus 3pt minus 9pt
+\abovedisplayshortskip=0pt plus 3pt
+\belowdisplayskip=12pt plus 3pt minus 9pt
+\belowdisplayshortskip=7pt plus 3pt minus 4pt
 
 \title{Stock Market Prediction}
 \author{Mark Dunne}
 
 \begin{document}
-
 \maketitle
 
 \begin{abstract}
@@ -36,7 +41,9 @@ how many people do this all the time
 
 The project and report is primarily a data analytics project and so will focus on the accuracy of the prediction of the stock market, rather than trying to profit from it. Although later when we will build on top of predictive models to attempt to profit from them, this is not the focus of the project.
 
-\chapter{Data}
+\chapter{Data and Tools}
+
+\section{Data Used}
 
 For this project, we chose the Dow Jones and its components as a representitive bundle of stocks. The dow jones is a large index traded on the New York stock exchange. It is a prices-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publically traded companies, leaders in each of their own sectors. The index covers many different sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
 
@@ -44,11 +51,27 @@ We wanted to use a set of companies already picked by someone else so that we do
 
 The dow jones was chosen because it is well known, and has a relatively small number of compontents when compared to indices such as the S\&P 500 which has over 500 components at the time of writing. 
 
-This small but representitiive set allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypothesis laid out in this report, we were able to extract many datasets, the smallest containing [todo find smallest num examples] examples.
+This small but representitiive set allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypothesis laid out in this report, we were able to extract datasets many thousands of examples in size.
 
 \section{Data Sources}
 
 Used quandl
+
+\section{Tools}
+\subsubsection{Python and associated packages}
+
+Python was the language of choice for this project. This was an easy decision for the following reasons.
+
+\begin{enumerate}
+  \item Python as a language has an enourmous community behind it. Any problems that might be encountered on the way can be easily solved with a trip to Stack Overflow. Python is amoung the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
+  
+  \item Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available, performant and well documented. Packages such as these can dramatically reduce and simplify the code needed to write a given program. This makes iteration quick.
+
+  \item Python as a language is forgiving and allows for programs that look like pseudo code. This is useful when pseudo code given in academic papers needs to be implemented and tested. Using Python, this step is usually reasonably trivial.
+
+\end{enumerate}
+
+However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.
 
 \chapter{Considerations in approaching the problem}
 
@@ -56,27 +79,57 @@ Throughout the project, there are a couple of things that should be kept in mind
 
 \section{Random Walk Hypothesis}
 
-The random walk hypothesis sets out the bleakest view of the predictibility of the stock market. The hypothesis says that the market price of a stock is essentially random. The hypothesis implies that any attempt to predict the stock market will inevitablyy fail. 
+The random walk hypothesis sets out the bleakest view of the predictibility of the stock market. The hypothesis says that the market price of a stock is essentially random. The hypothesis implies that any attempt to predict the stock market will inevitably fail. 
 
-The term was popularized by [todo find sources]. He compared the stock market to a coin flip and asked students to try and predict the movements of the coin flip. some believed they could.
+The term was popularized by \citet{malkiel1999random}. He compared the stock market to a coin flip and asked students to try and predict the movements of the coin flip. some believed they could.
 
-\subsection{Qualitative Visual Similarity to Random pattern}
+\subsection{Qualitative Similarity to Random pattern}
 
-The stock market certainly looks random to the eye of any human observer. To demonstrate this, we generated a random process with similar visual characteristics to the dow jones index
+The stock market can certainly looks random to the eye of a casual observer. To demonstrate this, we generated a random process with similar visual characteristics to the Dow Jones index.
 
-[todo outline generations functions]
+We created a perfectly random process that had striking visual similarity to real stock market data using the following simple formula.
 
-[todo plot graphs]
+\begin{align*}
+	a_{n} = a_{n-1} * \rho + q_{n}\\
+	b_{n} = b_{n-1} + \rho * r_{n}\\
+	f(n) = a_{n} + b_{n}\\
+\end{align*}
+
+$\rho$ was given a value between 0.995 and 1, while $q$ and $r$ are random values taken from a standard normal distribution.
+
+We can then compare this random process to a real piece of market data.
+
+\begin{figure}[H]
+	\caption{Example of random pattern generated}
+	\centerline{\includegraphics[width=\textwidth]{vis/random-process.png}}
+	\label{fig:random-process}
+\end{figure}
+
+\begin{figure}[H]
+	\caption{Centered APPL stock price, some time after 2010}
+	\centerline{\includegraphics[width=\textwidth]{vis/appl.png}}
+	\label{fig:appl-process}
+\end{figure}
+
+Presented with both of these diagrams, and without the aid of time scales or actual prices, most people found it impossible to differentiate the diagrams. Using visual inspection alone, either of these diagrams could just as likely be a real piece of stock market data.
+
+This gives us pause as there is little point in continuing if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when take external variables into account.
 
 \subsection{Quantitative Difference to Random pattern}
 
-The above section gives us pause when attempting to predict the stock market. If the market is random, then there is nothing to predict. This would leave nothing to do for the rest of the project. However, it can be demonstrated that stock data is indeed fundamentally different to random data.
+We will first show that the way in which markets move is fundamentally different to the way one would expect them to move if they were random.
 
-[todo plot random difference]
+\citep{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones and how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
 
-On every day from the year 2000 to 2014, we sysimulated an investment on the dow jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows 2 overlaid histograms detailing how long it took for an investment to lose of gain 5\%.
+On every day from the year 2000 to 2014, we simulated an investment on the Dow Jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows 2 overlaid histograms detailing how long it took for an investment to lose of gain 5\%.
 
-What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards.
+\begin{figure}[H]
+	\caption{Gain-Loss Asymmetry on the Dow Jones}
+	\centerline{\includegraphics[width=\textwidth]{vis/gain_loss_asymmetry.png}}
+	\label{fig:gain-loss-asymm}
+\end{figure}
+
+What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings described earlier.
 
 This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
 
@@ -115,6 +168,8 @@ The three preceding ideas ask us to keep an open mind on stock market prediction
 
 The first approach we take at solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 
 
+\citet{graham1934security} laid the groundwork for the field with the book \textit{Security Analysis}. He encouraged would-be investors to estimate the intrinsic value of a stock before buying or selling based on trends, a novel idea at the time. It stands as testament to his approach that his only A+ student was Warren Buffet who methodically applied the strategy and has enjoyed renowned success since \cite{schroeder2008snowball}. This gives us some hope, but we should be cautious and remember that the economy might behave differently today than it did before.
+
 It should be noted that Fundamental Analysis is compatible with the weak form of the efficient market hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
 
 Fundamental Analysis attempts to predict long term price movements, i.e on a year to year basis. [todo expand]
@@ -125,13 +180,19 @@ We will look at two of the most common metrics used in fundamental analysis, Pri
 
 The first metric for the value of a company that we will look at is the Price to Earnings ratio. The price to earnings ratio is calculated as
 
-[todo show pe ratio formula]
+\begin{math}
+	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Earnings Per Share}}
+\end{math}
 
-Informally, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might translate to high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. There should then be a relationship between high P/E ratio and high returns in the following year.
+Roughly speaking, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might translate to high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. There should then be a relationship between high P/E ratio and high returns in the following year.
 
-To investigate this relationship, we plotted the P/E ratio for of 450 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
+To investigate this relationship, we plotted the P/E ratio for of 456 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
 
-[todo pe graph]
+\begin{figure}[H]
+	\caption{Relationship between P/E Ratio and following year growth}
+	\centerline{\includegraphics[width=\textwidth]{vis/pe-ratio-abs.png}}
+	\label{fig:pe-abs}
+\end{figure}
 
 The best fit line was calculated using the standard Least Squares method. If the P/E ratio was indeed predictive, we might have expected a steeper slope in the best fit line, but we can see that there is a very weak correlation at best. It should also be noted that the more we remove outliers, the lower the slope becomes. This indicates that the the line is probably being pulled up by outliers rather than an actual correlation in the data. 
 
@@ -141,15 +202,21 @@ We can also see that the vast majority of the data points are concentrated in on
 
 The second metric for the value of a company that we will look at is the Price to Book ratio. The price to Book ratio is calculated as
 
-[todo show pb ratio formula]
+\begin{math}
+	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Book Value of Company}}
+\end{math}
 
 Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. There should then be a relationship between high P/B ratio and low returns in the following year. 
 
-To investigate this relationship, we plotted the P/E ratio for of 350 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
+To investigate this relationship, we plotted the P/E ratio for of 316 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
 
-[todo show pb graph]
+\begin{figure}[H]
+	\caption{Relationship between P/B Ratio and following year growth}
+	\centerline{\includegraphics[width=\textwidth]{vis/pb-ratio-abs.png}}
+	\label{fig:pb-abs}
+\end{figure}
 
-The best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the oposite of what we might have predicted. The data suggests that a high P/B ratio is mildly [todo better word] predictive of a high growth in the stock price. Although this may be counter to what literature might suggest, it the data itself may not be an error. A high P/B ratio could be a better signal of investor confidence than what P/E ratio was and so we can carry over the logic from P/E ratio and apply it to the P/B ratio. 
+Just as in the P/B diagram, the best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the oposite of what we might have predicted. The data suggests that a high P/B ratio is mildly [todo better word] predictive of a high growth in the stock price. Although this may be counter to what literature might suggest, it the data itself may not be an error. A high P/B ratio could be a better signal of investor confidence than what P/E ratio was and so we can carry over the logic from P/E ratio and apply it to the P/B ratio. 
 
 However, as previously mentioned this finding runs directly apposed to the literature on the subject [todo backup]. We must therefore be somewhat sceptical of using this feature for prediction. 
 
@@ -278,6 +345,9 @@ Above, we applied the correct methodology. First we split the data into test and
 \section{Technical Analysis - Conclusion}
 
 It might have been expected that given the popularity of Technical Analysis for stock market trading, that there might have been a more positive result. However, somewhat surprisingly, the data shows that there is little predictive value to be found in Technical Analysis. 
+
+\bibliography{report2}
+\bibliographystyle{plainnat}
 
 
 \end{document}

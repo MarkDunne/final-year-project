@@ -15,13 +15,13 @@
 \contentsline {chapter}{\numberline {4}Attacking the problem - Fundamental Analysis}{10}
 \contentsline {section}{\numberline {4.1}Price to Earnings ratio}{10}
 \contentsline {section}{\numberline {4.2}Price to Book ratio}{12}
-\contentsline {section}{\numberline {4.3}Fundamental Analysis limitations}{13}
-\contentsline {section}{\numberline {4.4}Fundamental Analysis - Conclustion}{13}
-\contentsline {chapter}{\numberline {5}Technical Analysis}{14}
-\contentsline {section}{\numberline {5.1}Broad families of Technical Analysis models}{14}
-\contentsline {section}{\numberline {5.2}Naive trading patterns}{14}
-\contentsline {section}{\numberline {5.3}Statistical trading patterns}{15}
-\contentsline {subsection}{\numberline {5.3.1}Evaluating the Moving Average Crossover model}{16}
-\contentsline {subsection}{\numberline {5.3.2}Additional Technical Analysis Models }{16}
-\contentsline {section}{\numberline {5.4}Common problems with technical analysis}{17}
-\contentsline {section}{\numberline {5.5}Technical Analysis - Conclusion}{17}
+\contentsline {section}{\numberline {4.3}Fundamental Analysis limitations}{14}
+\contentsline {section}{\numberline {4.4}Fundamental Analysis - Conclustion}{14}
+\contentsline {chapter}{\numberline {5}Technical Analysis}{16}
+\contentsline {section}{\numberline {5.1}Broad families of Technical Analysis models}{16}
+\contentsline {section}{\numberline {5.2}Naive trading patterns}{16}
+\contentsline {section}{\numberline {5.3}Statistical trading patterns}{18}
+\contentsline {subsection}{\numberline {5.3.1}Evaluating the Moving Average Crossover model}{19}
+\contentsline {subsection}{\numberline {5.3.2}Additional Technical Analysis Models}{20}
+\contentsline {section}{\numberline {5.4}Common problems with technical analysis}{21}
+\contentsline {section}{\numberline {5.5}Technical Analysis - Conclusion}{21}

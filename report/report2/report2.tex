@@ -9,7 +9,6 @@
 \usepackage{float}
 
 
-
 \title{Stock Market Prediction}
 \author{Mark Dunne}
 
@@ -22,7 +21,7 @@
 
 \begin{abstract}
 
-In this report we analyse existing, and explore new methods of stock market prediction. We take three different approaches at the problem; Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investors decisions. We demonstrate a common flaw in the methodology of Technical Analysis practitioners and show that it produces limited useful information. Based on our findings, an algorithmic trading algorithm is developed and entered into the Quantopian trading competition.
+In this report we analyse existing, and explore new methods of stock market prediction. We take three different approaches at the problem; Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investors decisions. We demonstrate a common flaw in the methodology of Technical Analysis practitioners and show that it produces limited useful information. Based on our findings, an algorithmic trading program is developed and entered into the Quantopian trading competition.
 
 \end{abstract}
 
@@ -30,17 +29,11 @@ In this report we analyse existing, and explore new methods of stock market pred
 
 \chapter{Introduction}
 
-My project was dealing with stock market prediction.
-
-This project was chosen because of the purity of the data analytics challenge it poses.
-
-about the stock market
-
-how many people do this all the time
+[todo]
 
 \section{Project Focus}
 
-The project and report is primarily a data analytics project and so will focus on the accuracy of the prediction of the stock market, rather than trying to profit from it. Although later when we will build on top of predictive models to attempt to profit from them, this is not the focus of the project.
+[todo]
 
 \chapter{Data and Tools}
 
@@ -56,7 +49,7 @@ This small but representitiive set allowed for a managable dataset given limited
 
 \section{Data Sources}
 
-Used quandl
+[todo]
 
 \section{Tools}
 \subsubsection{Python and associated packages}
@@ -82,7 +75,9 @@ Throughout the project, there are a couple of things that should be kept in mind
 
 The random walk hypothesis sets out the bleakest view of the predictibility of the stock market. The hypothesis says that the market price of a stock is essentially random. The hypothesis implies that any attempt to predict the stock market will inevitably fail. 
 
-The term was popularized by \citet{malkiel1999random}. He compared the stock market to a coin flip and asked students to try and predict the movements of the coin flip. some believed they could.
+The term was popularized by \citet{malkiel1999random}. Famously, he demonstrated that he was able to fool a stock market 'expert' into forcasting a fake market. He set up an experiment where he repeatedly tossed a coin. If the coin showed heads, he moved the price of a fictitious stock up, and if it showed tails then he moved it lower. He then took his random stock price chart to a supposed expert in stock forcasting, and asked for a prediction. The expert was fooled and recommended that he buy the stock immediately. 
+
+It is important for the purpose of this project to confront the Random Walk Hypothesis. If the market is truely random, there is little point in continuing. 
 
 \subsection{Qualitative Similarity to Random pattern}
 
@@ -91,14 +86,12 @@ The stock market can certainly looks random to the eye of a casual observer. To 
 We created a perfectly random process that had striking visual similarity to real stock market data using the following simple formula.
 
 \begin{align*}
-	a_{n} = a_{n-1} * \rho + q_{n}\\
-	b_{n} = b_{n-1} + \rho * r_{n}\\
-	f(n) = a_{n} + b_{n}\\
+	a_{x} = a_{x-1} * \rho + q_{x}\\
+	b_{x} = b_{x-1} + \rho * r_{x}\\
+	f(x) = a_{x} + b_{x}\\
 \end{align*}
 
-$\rho$ was given a value between 0.995 and 1, while $q$ and $r$ are random values taken from a standard normal distribution.
-
-We can then compare this random process to a real piece of market data.
+For the best results, $\rho$ was given a value between 0.995 and 1, while $q$ and $r$ are random values taken from a standard normal distribution. 
 
 \begin{figure}[H]
 	\caption{Example of random pattern generated}
@@ -106,15 +99,17 @@ We can then compare this random process to a real piece of market data.
 	\label{fig:random-process}
 \end{figure}
 
+We then compare this random process to a real piece of market data.
+
 \begin{figure}[H]
 	\caption{Centered APPL stock price, some time after 2010}
 	\centerline{\includegraphics[width=\textwidth]{vis/appl.png}}
 	\label{fig:appl-process}
 \end{figure}
 
-Presented with both of these diagrams, and without the aid of time scales or actual prices, most people found it impossible to differentiate the diagrams. Using visual inspection alone, either of these diagrams could just as likely be a real piece of stock market data.
+Presented with both of these diagrams, and without the aid of time scales or actual prices, most people would find it impossible to differentiate the diagrams. Using visual inspection alone, either of these diagrams could just as likely be a real piece of stock market data.
 
-This gives us pause as there is little point in continuing if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when take external variables into account.
+This gives us pause as there is little point in moving forward if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when take external variables into account.
 
 \subsection{Quantitative Difference to Random pattern}
 
@@ -156,9 +151,9 @@ Clearly, if we are to predict the stock market using only public information, we
 
 Finally there is the idea of a successful model ultimately leading to its own dimize. 
 
-The insight is that if there is a simple predictive model that anyone could find and apply for themselves, then over time all of the advantage will be traded and erroded away.
+The insight is that if there were a simple predictive model that anyone could apply and profit from themselves, then over time all of the advantage will be traded and erroded away.
 
-This is the same reason for the lack of academic papers on the topic of successfully predicting the market. If a successful model was made widely known, then it wouldn't take long until everyone tries to use it and the pattern ceases to exist.
+This is the same reason for the lack of academic papers on the topic of successfully predicting the market. If a successful model was made widely known, then it wouldn't take long until it wouldn't be successful any more.
 
 \section{Conclusions}
 
@@ -172,9 +167,7 @@ The first approach we take at solving the problem of market prediction is to use
 
 It should be noted that Fundamental Analysis is compatible with the weak form of the efficient market hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
 
-Fundamental Analysis attempts to predict long term price movements, i.e on a year to year basis. [todo expand]
-
-We will look at two of the most common metrics used in fundamental analysis, Price to Earnings ratio and Price to Book ratio.
+We will look at two of the most common metrics used in fundamental analysis, Price to Earnings ratio, and Price to Book ratio to try and predict long term price movements on a year to year basis. This is the typical prediction range for Fundamental Analysis.
 
 \section{Price to Earnings ratio}
 
@@ -186,7 +179,7 @@ The first metric for the value of a company that we will look at is the Price to
 	\\
 \end{math}
 
-Roughly speaking, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might translate to high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. There should then be a relationship between high P/E ratio and high returns in the following year.
+Roughly speaking, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might be a sign of high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. We should then expect to see be a relationship between high P/E ratio and high returns in the following year.
 
 To investigate this relationship, we plotted the P/E ratio for of 456 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
 
@@ -198,7 +191,15 @@ To investigate this relationship, we plotted the P/E ratio for of 456 companies 
 
 The best fit line was calculated using the standard Least Squares method. If the P/E ratio was indeed predictive, we might have expected a steeper slope in the best fit line, but we can see that there is a very weak correlation at best. It should also be noted that the more we remove outliers, the lower the slope becomes. This indicates that the the line is probably being pulled up by outliers rather than an actual correlation in the data. 
 
-We can also see that the vast majority of the data points are concentrated in one area, without any obvious pattern. It is clear that this data should not be used for prediction.
+We can investigate the data further using a boxplot. Figure \ref{fig:pe-box} divides companies into two categories. The first category, $Gain\ Companies$, are companies whose share price increased in a given year, and the second category, $Loss\ Companies$, are companies whose share price fell in a given year. The box plot shows the distribution of P/E Ratios for each category.
+
+\begin{figure}[H]
+	\caption{Investigation of P/E Ratio predictive value using Box plot}
+	\centerline{\includegraphics[width=\textwidth]{vis/pe_box.png}}
+	\label{fig:pe-box}
+\end{figure}
+
+If the P/E Ratio was predictive, we would have expected a noticable difference in the P/E Ratio distribution of companies whose share increased, and those whose share price decreased. However, this is not the case. It is clear they the P/E Ratio distribution between these categories is almost identical. We can therefore conclude that the P/E Ratio has little or no predictive value when it comes to estimating company performance for the following year.
 
 \section{Price to Book ratio}
 
@@ -210,7 +211,7 @@ The second metric for the value of a company that we will look at is the Price t
 	\\
 \end{math}
 
-Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. There should then be a relationship between high P/B ratio and low returns in the following year. 
+Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. We should then expect to see a relationship between high P/B ratio and low returns in the following year. 
 
 To investigate this relationship, we plotted the P/E ratio for of 316 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Below is a graph of this relationship.
 
@@ -220,9 +221,19 @@ To investigate this relationship, we plotted the P/E ratio for of 316 companies 
 	\label{fig:pb-abs}
 \end{figure}
 
-Just as in the P/B diagram, the best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the oposite of what we might have predicted. The data suggests that a high P/B ratio is mildly [todo better word] predictive of a high growth in the stock price. Although this may be counter to what literature might suggest, it the data itself may not be an error. A high P/B ratio could be a better signal of investor confidence than what P/E ratio was and so we can carry over the logic from P/E ratio and apply it to the P/B ratio. 
+Just as in the P/B diagram, the best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the opposite of what we might have expected. The data suggests that a high P/B ratio is somewhat  predictive of a high growth in the stock price. This is and unexpected result directly opposed to available literature on the subject \cite{jensen1997new}. 
 
-However, as previously mentioned this finding runs directly apposed to the literature on the subject [todo backup]. We must therefore be somewhat sceptical of using this feature for prediction. 
+One hypothesis is that a high P/B ratio could be a signal of investor confidence like the P/E Ratio and so might be able use the argument about how investor confidence could be a predictor of growth. More likely, we suspect, is that the data used does not control correctly for the expected growth in all companies over the studied time period, from 2000 to 2014. Even accounting for the Great Recession, the stock price of most companies in our dataset did grow from year to year. However, this does not fully explain why the slope of the P/B Ratio best fit line is greater than the slope of the P/E Ratio best fit line. One would have expected at least a lesser slope if the expected slope was an inverse relation. 
+
+To better understand the predictive value of the P/B Ratio we can use a box plot. Figure \ref{fig:pb-box} divides companies into two categories, exactly as in the earlier P/E Ratio example. The box plot shows the distribution of P/B Ratios for each category.
+
+\begin{figure}[H]
+	\caption{Investigation of P/B Ratio predictive value using Box plot}
+	\centerline{\includegraphics[width=\textwidth]{vis/pb_box.png}}
+	\label{fig:pb-box}
+\end{figure}
+
+It is evident that this diagram tells a very similar story to the P/E Ratio diagram. We can see that companies that grew and companies that shrank had an almost identical distribution of P/B Ratios. If it were predictive, we would have expected different distributions for each category. We can therefore conclude that the P/B Ratio also has little or no predictive value when it comes to estimating company performance for the following year.
 
 \section{Fundamental Analysis limitations}
 
@@ -236,11 +247,11 @@ Instead, we are limited to purely quantitative company metrics. We will look at 
 
 \section{Fundamental Analysis - Conclustion}
 
-We evaluated two Fundamental Analysis metrics for their predictive value, and found only tenuous relationships.  
+We evaluated two Fundamental Analysis metrics and found no conclusive proof of their predictive value.  
 
 These predictions are also very long term, looking one year into the future. Predictions on this time scale were not the focus of the project, instead we wanted to focus on predicting daily trends in the market.
 
-It is because of these issues that we moved on from Fundamental Analysis.
+Because of these issues that we moved away from Fundamental Analysis.
 
 \chapter{Technical Analysis}
 
@@ -261,79 +272,86 @@ The first family of technical analysis methods we will look at are those that do
 
 Amoung the most common of these patterns is the Head and Shoulders pattern, and it is one of the worst offenders of poor methodology in the technical analysis of stock market field.
 
-[todo graph of head and shoulders]
+\begin{figure}[H]
+	\caption{Head and Shoulders Pattern \cite{website:headshoulders}}
+	\centerline{\includegraphics[width=\textwidth]{vis/headshoulders.png}}
+	\label{fig:headshoulders}
+\end{figure}
 
 The diagram shows a bearish head and shoulders pattern. In this context, bearish is taken to mean falling share prices. The idea is that if a trader sees this pattern, they can expect the market price to then fall. To spot this pattern, a trader is supposed to look for two smaller peaks (the shoulders) surrounding a larger peak (the head). 
 
-However, it can be shown that the pattern does not, and indeed cannot, hold provide useful information. 
+However, it can be shown that the pattern does not, and indeed cannot, provide useful information. 
 
 The first issue is that the pattern cannot be identified until after it has happened. Not until the price falls away below the right shoulder, does it become apparent that a head and shoulders pattern has just occured. But this information needed to identify a the head and shoulders pattern is exactly what it was supposed to predict. This leaves no useful information for the trader. If the price were to rise after the right shoulder, it would not be a head and shoulders pattern. A common pattern here is that the investor does not see this as a case where the head and shoulders pattern failed, but instead a case where the head and shoulders pattern didn't exist. This is confirmation bias.
 
-Because of the lack of theorethical support, it is easy to find many additional problems with the head and shoulders pattern. The most obvious one is that at because we cannot identify the pattern until after the fact, we can never tell the way the market should move even if the pattern was predictive. Suppose we have observed a series market movements that appear to be similar to those in the diagram up to peak of the right shoulder. We have no way of telling whether the market will continue upwards, or follow the head and shoulders pattern downwards. If the pattern moved upwards when it was supposed to be at the right peak, the right peak could turn out to be a left should of another possible head and shoulders, or even a head peak.
+Because of the lack of theorethical support, it is easy to find many additional problems with the head and shoulders pattern. The most obvious one is that because we cannot identify the pattern until after the fact, we can never tell the way the market should move even if the pattern was predictive. Suppose we have observed a series market movements that appear to be similar to those in the diagram up to peak of the right shoulder. We have no way of telling whether the market will continue upwards, or follow the head and shoulders pattern downwards. If the pattern moved upwards when it was supposed to be at the right peak, the right peak could turn out to be a left should of another possible head and shoulders, or even a head peak.
 
-In short, it is impossible to get any useful information from the head and shoulders pattern. However this does not appear to stop attempting to use it. A casual investor doing an internet search about trading patterns will more than likely bump into a blog post or an apparently authoritive source telling them how to use this pattern, or one like it, to profit on the market. 
+In short, it is impossible to get any useful information from the head and shoulders pattern. However this does not appear to stop investors attempting to use it. A casual investor doing an internet search about trading patterns will more than likely bump into a blog post or an apparently authoritive source telling them how to use this pattern, or one like it, to profit on the market. 
 
-There is no shortage of similar patterns to be found in online literature.
-
-[todo picture of similar patterns]
-
-But all of these fall into the same problems as the head and shoulders pattern. All information available from these models is only useful in retrospect. 
+There is no shortage of similar patterns to be found in online literature, but almost all fall into the same problems as the head and shoulders pattern. All information available from these models is only useful in retrospect. 
 
 \section{Statistical trading patterns}
 
-Next, we move to technical analysis models that are sound in theory. 
+Next, we move to technical analysis models that are sound in theory. These models work on a statistical basis rather than patterns and make explicit predictions about the future. One of the simpliest and most common model of this type is the Moving Average Crossover strategy.
 
-These models work on a statistical basis rather than patterns and make explicit predictions about the future.
+The moving average crossover strategy relies on the interaction between two moving average calculations. One is a short moving average, and the other is a long moving average. The short moving average might be the mean price for the last 10 days, and the long moving average might be the mean price for the last 20 days for example. When the short moving average crosses under the long, this can be intrepreted as a negative signal that the market is trending downwards. Conversely if the short moving average crosses over the long, this can be intrepreted as a positive signal that the market is trending upwards. The points at where these events happen are called the crossover points and can be categorised into negative and positive crossovers points.
 
-The most common model of this type is the Moving Average Crossover strategy.
+\begin{figure}[H]
+	\caption{Moving Average Crossover}
+	\centerline{\includegraphics[width=\textwidth]{vis/macrossover.png}}
+	\label{fig:macrossover}
+\end{figure}
 
-The moving average crossover strategy relies on the interaction between two moving average calculations. One is a short moving average, and the other is a long moving average. When the short moving average crosses under the long, this is a negative signal that the market is trending downwards. Conversely if the short moving average crosses over the long, this is a positive signal that the market is trending upwards. The points at where these events happen are called the crossover points and can be categorised into negative and positive crossovers points.
+In figure \ref{fig:macrossover}, the red areas are where the short moving average is below the long moving average and the green areas are where the short moving average is above the long moving average. The diagram seems to give us hope for this strategy. The large green and red areas on the left of the diagram do indeed appear to be predictive of market upward and downward trends respectively. 
 
-[todo pic of ma crossover]
-
-In the diagram, the red areas are where the short moving average is below the long moving average and the green areas are where the short moving average is above the long moving average. The diagram seems to give us hope for this strategy. The large green and red areas on the left of the diagram do indeed appear to be predictive of market upward and downward trends respectively. 
-
-However, while it is attractive to look at the crossover points on the left of the diagram, one should not ignore the less significant crossover points on the right of the diagram. This are crossover points just as much as the ones on the left area but these are not predictive on market trends.
+However, while it is attractive to look at the crossover points on the left of the diagram, one should not ignore the less significant crossover points on the right of the diagram. This are crossover points just as much as the ones on the left area but these are not as predictive for market trends. We need to choose a long and short periods moving average to maximize the predictive value.
 
 \subsection{Evaluating the Moving Average Crossover model}
 
-To evaluate the predictive value moving average crossover model, we attempted to build a predictor using the crossover signal (negative or positive) as the single input feature and the market trend for the following day as the dependent variable we are trying to predict. 
+To evaluate the predictive value moving average crossover model, we attempted to build a predictor using these crossover signals (negative and positive) as the input features and the market trend for the following day as the dependent variable we are trying to predict. We performed a rigorous evaluation of long and short term pairs on a training set, and tested the winning long/short term pair against an independent test set.
 
-[todo collecting data]
+To perform this analysis, assembled a database of daily prices of all 30 companies in the Dow Jones from the year 2000 to 2014.
 
-For positive crossover events, we predicted that the market trend would be upwards the following day. For negative crossover events, we predicted that the market trend would be downwards the following day. 
+This data was then augmented with $49$ new moving average columns. The first of these columns contained the 1-day moving average price, the second contained the 2-day moving average price, etc., up to the 50-day moving average price. This precomputation of the moving averages greater increased the time taken to train the model.
 
-From this we were able to compare the predicted trend with the actual trend and calculate the accuracy of the model. 
+The data was split into a training and test set. For simplicity, we divided the data based on company. We chose 20 random companies and used them as the training set. The remaining 10 companies were used as a test set. This is similar to the single-holdout method, which under normal circumstances is not considered to be statistically credible. However there was sufficient data in this case for single-holdout to be viable. There were over 74,000 data points in the training set and over 38,000 in the test set.
 
-We built many simple models, to test as many combinations of short/long moving averages as possible. We choose short/long terms less than 50 because we wanted to predict short term movements. Some people that want to predict long term movements use much longer terms.
+The model itself was purposefully kept extremely simple so as to remain true to the intended usage of the moving average strategy. When a positive crossover occurred (short crosses over long), the model predicted the stock price would increase tomorrow, and when a negative crossover occurred it predicted the stock price would fall tomorrow. Deciding which long and short term periods to use can be seen as equivilent to finding the best hyperparameters for the model. This is model selection.
 
-[todo build simple predictor, need to have test/train split.]
+We perform a grid search over all possible long and short period pairs. For each period pair, we find the crossover the points between them. For each crossover point, we make a prediction based on its positivity or negativity, and compare tomorrows predicted trend against the actual trend. We can then calculate the accuracy of this short/long period pair and remember it if it is the best so far.
 
-this is error estimation. first split data up into test/training sets. Then find the best term pair on training set, evaluate that on test set.
+When we have iterated over all possible long and short pairs, we will have found the best period pair for predicting tomorrows trend in the training set. Table \ref{table:ma-test-results} displays the top 5 short and long period pairs and their test accuracy.
 
-Below is a table of some of the best results
 
-[table of results - columns = short, long, accuracy]
+\begin{center}
+    \begin{tabular}{l | l | l | l}
+    Rank & Short Period & Long Period & Test set accuracy \\ \hline
+    1 & 8 & 35 & 0.5229 \\ \hline
+    2 & 8 & 34 & 0.5219 \\ \hline
+    3 & 8 & 33 & 0.5127 \\ \hline
+    4 & 2 & 37 & 0.5073 \\ \hline
+    5 & 2 & 36 & 0.5016 
+    \label{table:ma-test-results}
+    \end{tabular}
+\end{center}
 
-Below is a confusion matrix of the best result
+The winning pair after model selection was $8$, and $35$ for the short and long period respectively. We then cross validated this against our test set. Our accuracy on the test set using the $8$, $35$ pair was 0.5157. This is slightly lower than our training score, as should be expected.
 
-[confusion matrix] 
+We can better understand what the model is doing by looking at the confusion matrix.
 
-Unfortunately, most crossover points are points like those on the right hand side of this diagram and not predictive. This is evident from the data presented above.
+\begin{figure}[H]
+	\caption{Cross-validation Confusion Matrix for Moving Average Strategy}
+	\centerline{\includegraphics[scale=0.75]{vis/ma_confusion.png}}
+	\label{fig:ma-confusion}
+\end{figure}
 
-\subsection{Additional Technical Analysis Models }
+We can now put into context how accurate the model is. We can see a slight increase in the numbers along the principle diagonal, indicating correct predictions. This gives us the slightly better than 0.5 accuracy score. But it is also obvious that the model isn't doing much better than a random predictor. We can quantify this using the Kappa Statistic, which compares the model's performance to a random version of itself based on the confusion matrix. This model scores a kappa of 0.0427, which is not significant. 
 
-As well as moving averages, we tried many of the common technical analysis models.
+We must conclude that the Moving Average Crossover is not predictive in any meaningful way.
 
-These included bollinger bands, momentum indicators and [todo something]
+\subsection{Additional Technical Analysis Models}
 
-[todo explain models]
-
-However all of these models suffered a faith similar to moving averages. Below is a table of their results
-
-[todo table of their results]
-
-Based on these results we can conclude that these models hold little to no predictive power for our dataset and time scale.
+[todo]
 
 \section{Common problems with technical analysis}
 
@@ -352,6 +370,5 @@ It might have been expected that given the popularity of Technical Analysis for 
 
 \bibliography{report2}
 \bibliographystyle{plainnat}
-
 
 \end{document}

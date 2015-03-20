@@ -8,15 +8,16 @@
 \usepackage{graphicx}
 \usepackage{float}
 
-\abovedisplayskip=12pt plus 3pt minus 9pt
-\abovedisplayshortskip=0pt plus 3pt
-\belowdisplayskip=12pt plus 3pt minus 9pt
-\belowdisplayshortskip=7pt plus 3pt minus 4pt
+
 
 \title{Stock Market Prediction}
 \author{Mark Dunne}
 
 \begin{document}
+
+\belowdisplayskip=12pt plus 3pt minus 9pt
+\belowdisplayshortskip=7pt plus 3pt minus 4pt
+
 \maketitle
 
 \begin{abstract}
@@ -119,7 +120,7 @@ This gives us pause as there is little point in continuing if the stock market i
 
 We will first show that the way in which markets move is fundamentally different to the way one would expect them to move if they were random.
 
-\citep{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones and how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
+\citet{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones and how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
 
 On every day from the year 2000 to 2014, we simulated an investment on the Dow Jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows 2 overlaid histograms detailing how long it took for an investment to lose of gain 5\%.
 
@@ -129,34 +130,33 @@ On every day from the year 2000 to 2014, we simulated an investment on the Dow J
 	\label{fig:gain-loss-asymm}
 \end{figure}
 
-What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings described earlier.
-
-This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
+What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings described earlier. This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
 
 \section{Efficient market hypothesis}
 
-Broadly, the efficient market says that the market is very efficient at correctly pricing products.
+Another concept to keep in mind while working on the project, was the Efficient Market Hypothesis. Informally, the efficient market says that the market is efficient at finding the correct price for the stock market.
 
 It comes in three flavors, however it is still a matter of debate which one, if any, are correct.
 
-\paragraph{Weak-form Efficient Market Hypothesis}
-The weak form of the hypothesis says that no one can profit from the stock market by looking at trends and patterns within the price of a product itself. It is important to note that this does not rule out profiting from predictions of the price of a product based on data external to the price. We will see examples of prediction based on both in sample and out of sample data, and provide evidence in support of the weak form.
+\begin{description}
+  \item[Weak-form Efficient Market Hypothesis] 
+  The weak form of the hypothesis says that no one can profit from the stock market by looking at trends and patterns within the price of a product itself. It is important to note that this does not rule out profiting from predictions of the price of a product based on data external to the price. We will see examples of prediction based on both in sample and out of sample data, and provide evidence in support of the weak form
+  
+  \item[Semi-Strong Efficient Market Hypothesis]
+  The Semi strong form rules out all methods of prediction, except for insider trading. This means that if we are only to use public domain information in our prediction attempt, the Semi-Strong form says that we will be unsuccessful. Later in the project, we will provide results are seem to be inline with this hypothesis but not as good as with the weak form.
+  
+  \item[Strong form Efficient Market Hypothesis]
+  The strong form says that no one can profit from predicting the market, not even insider traders.
+\end{description}
 
-\paragraph{Semi-Strong Efficient Market Hypothesis}
-The Semi strong form rules out all methods of prediction, except for insider trading. This means that if we are only to use public domain information in our prediction attempt, the Semi-Strong form says that we will be unsuccessful. Later in the project, we will provide results are seem to be inline with this hypothesis but not as good as with the weak form.
-
-\paragraph{Strong form Efficient Market Hypothesis}
-The strong form says that no one can profit from predicting the market, not even insider traders.
-
-\paragraph{}
 
 Clearly, if we are to predict the stock market using only public information, we must hope that at most the weak form of the efficient market hypothesis is true so that at least then we can use external data to predict the price of a product.
 
-\section{Self Defeating Success}
+\section{Self Defeating Strategies}
 
-Finally there is the idea of a successful predictive model ultimately leading to its own dimize. 
+Finally there is the idea of a successful model ultimately leading to its own dimize. 
 
-The idea here is that if there is a simple predictive model that anyone could find and apply for themselves, then over time all of the advantage will be traded and erroded away.
+The insight is that if there is a simple predictive model that anyone could find and apply for themselves, then over time all of the advantage will be traded and erroded away.
 
 This is the same reason for the lack of academic papers on the topic of successfully predicting the market. If a successful model was made widely known, then it wouldn't take long until everyone tries to use it and the pattern ceases to exist.
 
@@ -181,7 +181,9 @@ We will look at two of the most common metrics used in fundamental analysis, Pri
 The first metric for the value of a company that we will look at is the Price to Earnings ratio. The price to earnings ratio is calculated as
 
 \begin{math}
+  \\
 	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Earnings Per Share}}
+	\\
 \end{math}
 
 Roughly speaking, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might translate to high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. There should then be a relationship between high P/E ratio and high returns in the following year.
@@ -203,7 +205,9 @@ We can also see that the vast majority of the data points are concentrated in on
 The second metric for the value of a company that we will look at is the Price to Book ratio. The price to Book ratio is calculated as
 
 \begin{math}
+  \\
 	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Book Value of Company}}
+	\\
 \end{math}
 
 Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. There should then be a relationship between high P/B ratio and low returns in the following year. 

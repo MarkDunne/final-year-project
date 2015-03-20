@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report2"] 1426725633 "report2.aux" "report2.bbl" "report2" 1426725653
+["bibtex report2"] 1426811444 "report2.aux" "report2.bbl" "report2" 1426813139
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "report2.aux" 1426725653 4211 a0d0b886e06dc5635111f67642602c18 ""
+  "report2.aux" 1426813139 5294 7918a3f03a54384cf6e3883189f17971 ""
   "report2.bcf" 0 -1 0 ""
-  "report2.bib" 1426723774 2807 334f5ac2dfbf85793f5ab0a03598931b ""
+  "report2.bib" 1426804365 3334 584ecdc2e2c2d8eb8e27379b02036d4e ""
   (generated)
   "report2.blg"
   "report2.bbl"
-["pdflatex"] 1426725652 "report2.tex" "report2.pdf" "report2" 1426725653
+["pdflatex"] 1426813138 "report2.tex" "report2.pdf" "report2" 1426813139
   "/etc/texmf/web2c/texmf.cnf" 1420219559 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -101,17 +101,22 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1420221144 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1422470989 856648 ab0ae600a5d23f6967fd37f11971e1c4 ""
-  "report2.aux" 1426725653 4211 a0d0b886e06dc5635111f67642602c18 ""
-  "report2.bbl" 1426725633 1440 91c289e4021d0c6f847b411c8341382e "bibtex report2"
-  "report2.tex" 1426725650 27765 0302611fccc9698a559f35d7c46fb931 ""
-  "report2.toc" 1426725653 1971 7683309e3dd1dac202a3155ad028503f ""
+  "report2.aux" 1426813139 5294 7918a3f03a54384cf6e3883189f17971 ""
+  "report2.bbl" 1426811444 1856 6760fc9d1efa5f4fcfc1be6a02da3ebe "bibtex report2"
+  "report2.tex" 1426813136 32673 29a9acc0155170dafc35d550062b93d7 ""
+  "report2.toc" 1426813139 1970 b31826009a4a720997657614737a900c ""
   "vis/appl.png" 1425924751 12747 9f769a95586b569ef95b5fd28d66c6e7 ""
   "vis/gain_loss_asymmetry.png" 1425906840 49097 c0836d669c7e3e2eff39732dd14d12b4 ""
+  "vis/headshoulders.png" 1426804323 7755 6a30c3b08cb07a0e3b936512ec59f204 ""
+  "vis/ma_confusion.png" 1426810234 7711 668fc446c40daf962676ad7cd28cc074 ""
+  "vis/macrossover.png" 1425949647 51025 7c5d2618058ed228da9abf4d1367a872 ""
   "vis/pb-ratio-abs.png" 1425945482 36265 f99fc20b63859971d83fcda96c460216 ""
+  "vis/pb_box.png" 1426801815 13465 27184e3c7147c843515bdb513186f13f ""
   "vis/pe-ratio-abs.png" 1425945495 42120 f54a83b286f5adda21386050573cc48f ""
+  "vis/pe_box.png" 1426801476 13386 289875ae41da57da415c93b673873640 ""
   "vis/random-process.png" 1425924773 13633 2211942d0ee977962753af8f7ba14e27 ""
   (generated)
-  "report2.pdf"
   "report2.log"
   "report2.aux"
   "report2.toc"
+  "report2.pdf"

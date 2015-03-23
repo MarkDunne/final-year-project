@@ -35,7 +35,7 @@ data = pd.DataFrame.from_csv(data_loc)
 
 
 print 'reducing data'
-sample = np.random.randint(len(data), size=5000)
+sample = np.random.randint(len(data), size=15000)
 data = data.ix[sample]
 
 X = data[[0, 1, 2, 3, 4]].values

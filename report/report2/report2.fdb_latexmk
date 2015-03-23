@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex report2"] 1426811444 "report2.aux" "report2.bbl" "report2" 1426813139
+["bibtex report2"] 1427154336 "report2.aux" "report2.bbl" "report2" 1427154338
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "report2.aux" 1426813139 5294 7918a3f03a54384cf6e3883189f17971 ""
+  "report2.aux" 1427154337 6703 69303c6fa52ddc9dc718b7735e7c7c39 ""
   "report2.bcf" 0 -1 0 ""
   "report2.bib" 1426804365 3334 584ecdc2e2c2d8eb8e27379b02036d4e ""
   (generated)
   "report2.blg"
   "report2.bbl"
-["pdflatex"] 1426813138 "report2.tex" "report2.pdf" "report2" 1426813139
+["pdflatex"] 1427154336 "report2.tex" "report2.pdf" "report2" 1427154338
   "/etc/texmf/web2c/texmf.cnf" 1420219559 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -35,6 +35,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def" 1399675188 9097 3d740f5a942bdde0d974eb1398aae41c ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu" 1399675188 7405 c70c194719f79b7d070eeb68af109b09 ""
   "/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def" 1399675188 6275 ac89e3d1c95578574b0b11f34248899e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty" 1264379041 1311 063f8536a047a2d9cb1803321f793f37 ""
   "/usr/share/texlive/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty" 1254151804 14183 42a8fc761b806986eef292369afc2988 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty" 1399675188 7911 bf0a64f89bfb668c239ddf6324bf4afb ""
@@ -101,10 +102,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1420221144 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1422470989 856648 ab0ae600a5d23f6967fd37f11971e1c4 ""
-  "report2.aux" 1426813139 5294 7918a3f03a54384cf6e3883189f17971 ""
-  "report2.bbl" 1426811444 1856 6760fc9d1efa5f4fcfc1be6a02da3ebe "bibtex report2"
-  "report2.tex" 1426813136 32673 29a9acc0155170dafc35d550062b93d7 ""
-  "report2.toc" 1426813139 1970 b31826009a4a720997657614737a900c ""
+  "report2.aux" 1427154337 6703 69303c6fa52ddc9dc718b7735e7c7c39 ""
+  "report2.bbl" 1427154336 1856 6760fc9d1efa5f4fcfc1be6a02da3ebe "bibtex report2"
+  "report2.tex" 1427154324 43495 a6ce5693f42c0b3dd7b1966c8279f1ee ""
+  "report2.toc" 1427154337 2529 c527478b76132a022d3aeebeda379655 ""
+  "vis/50-learning-curve-15000.png" 1427153871 71283 cf76b6040b9a70c6084b729e5ba51b06 ""
   "vis/appl.png" 1425924751 12747 9f769a95586b569ef95b5fd28d66c6e7 ""
   "vis/gain_loss_asymmetry.png" 1425906840 49097 c0836d669c7e3e2eff39732dd14d12b4 ""
   "vis/headshoulders.png" 1426804323 7755 6a30c3b08cb07a0e3b936512ec59f204 ""
@@ -114,9 +116,10 @@
   "vis/pb_box.png" 1426801815 13465 27184e3c7147c843515bdb513186f13f ""
   "vis/pe-ratio-abs.png" 1425945495 42120 f54a83b286f5adda21386050573cc48f ""
   "vis/pe_box.png" 1426801476 13386 289875ae41da57da415c93b673873640 ""
+  "vis/prices-bias-variance.png" 1426019371 60526 3a95e0f77a7de04113e833976d098a26 ""
   "vis/random-process.png" 1425924773 13633 2211942d0ee977962753af8f7ba14e27 ""
   (generated)
   "report2.log"
   "report2.aux"
-  "report2.toc"
   "report2.pdf"
+  "report2.toc"

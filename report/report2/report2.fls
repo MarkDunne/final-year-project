@@ -59,6 +59,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
 INPUT report2.aux
 INPUT report2.aux
 OUTPUT report2.aux
@@ -162,6 +164,12 @@ INPUT ./vis/macrossover.png
 INPUT vis/ma_confusion.png
 INPUT ./vis/ma_confusion.png
 INPUT ./vis/ma_confusion.png
+INPUT vis/prices-bias-variance.png
+INPUT ./vis/prices-bias-variance.png
+INPUT ./vis/prices-bias-variance.png
+INPUT vis/50-learning-curve-15000.png
+INPUT ./vis/50-learning-curve-15000.png
+INPUT ./vis/50-learning-curve-15000.png
 INPUT report2.bbl
 INPUT report2.bbl
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd

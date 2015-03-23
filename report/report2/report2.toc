@@ -3,8 +3,8 @@
 \contentsline {chapter}{\numberline {2}Data and Tools}{3}
 \contentsline {section}{\numberline {2.1}Data Used}{3}
 \contentsline {section}{\numberline {2.2}Data Sources}{3}
-\contentsline {section}{\numberline {2.3}Tools}{3}
-\contentsline {subsubsection}{Python and associated packages}{3}
+\contentsline {section}{\numberline {2.3}Tools}{4}
+\contentsline {subsubsection}{Python and associated packages}{4}
 \contentsline {chapter}{\numberline {3}Considerations in approaching the problem}{5}
 \contentsline {section}{\numberline {3.1}Random Walk Hypothesis}{5}
 \contentsline {subsection}{\numberline {3.1.1}Qualitative Similarity to Random pattern}{5}
@@ -12,16 +12,19 @@
 \contentsline {section}{\numberline {3.2}Efficient market hypothesis}{8}
 \contentsline {section}{\numberline {3.3}Self Defeating Strategies}{9}
 \contentsline {section}{\numberline {3.4}Conclusions}{9}
-\contentsline {chapter}{\numberline {4}Attacking the problem - Fundamental Analysis}{10}
-\contentsline {section}{\numberline {4.1}Price to Earnings ratio}{10}
-\contentsline {section}{\numberline {4.2}Price to Book ratio}{12}
-\contentsline {section}{\numberline {4.3}Fundamental Analysis limitations}{14}
-\contentsline {section}{\numberline {4.4}Fundamental Analysis - Conclustion}{14}
-\contentsline {chapter}{\numberline {5}Technical Analysis}{16}
-\contentsline {section}{\numberline {5.1}Broad families of Technical Analysis models}{16}
-\contentsline {section}{\numberline {5.2}Naive trading patterns}{16}
-\contentsline {section}{\numberline {5.3}Statistical trading patterns}{18}
-\contentsline {subsection}{\numberline {5.3.1}Evaluating the Moving Average Crossover model}{19}
-\contentsline {subsection}{\numberline {5.3.2}Additional Technical Analysis Models}{20}
-\contentsline {section}{\numberline {5.4}Common problems with technical analysis}{21}
-\contentsline {section}{\numberline {5.5}Technical Analysis - Conclusion}{21}
+\contentsline {chapter}{\numberline {4}Review of Existing Work}{10}
+\contentsline {chapter}{\numberline {5}Attacking the problem - Fundamental Analysis}{11}
+\contentsline {section}{\numberline {5.1}Price to Earnings ratio}{12}
+\contentsline {section}{\numberline {5.2}Price to Book ratio}{13}
+\contentsline {section}{\numberline {5.3}Fundamental Analysis limitations}{15}
+\contentsline {section}{\numberline {5.4}Fundamental Analysis - Conclustion}{16}
+\contentsline {chapter}{\numberline {6}Technical Analysis}{17}
+\contentsline {section}{\numberline {6.1}Broad families of Technical Analysis models}{17}
+\contentsline {section}{\numberline {6.2}Naive trading patterns}{17}
+\contentsline {section}{\numberline {6.3}Statistical trading patterns}{19}
+\contentsline {subsection}{\numberline {6.3.1}Evaluating the Moving Average Crossover model}{20}
+\contentsline {subsection}{\numberline {6.3.2}Additional Technical Analysis Models}{22}
+\contentsline {section}{\numberline {6.4}Common problems with technical analysis}{22}
+\contentsline {section}{\numberline {6.5}Technical Analysis - Conclusion}{22}
+\contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{23}
+\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{23}

@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  20 MAR 2015 00:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.19)  23 MAR 2015 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
-LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 4 languages loaded.
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -32,7 +32,7 @@ File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
@@ -361,10 +361,10 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -480,34 +480,34 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 21.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 20.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 20.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 21.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 20.
+(Font)              <12> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 21.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 21.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] (./report2.toc
@@ -539,85 +539,92 @@ Chapter 3.
 File: vis/random-process.png Graphic file (type png)
 
 <use vis/random-process.png>
-Package pdftex.def Info: vis/random-process.png used on input line 98.
+Package pdftex.def Info: vis/random-process.png used on input line 99.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
  <vis/appl.png, id=32, 382.42876pt x 256.96pt>
 File: vis/appl.png Graphic file (type png)
 
 <use vis/appl.png>
-Package pdftex.def Info: vis/appl.png used on input line 106.
+Package pdftex.def Info: vis/appl.png used on input line 107.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
  [6 <./vis/random-process.png>] [7 <./vis/appl.png>]
 <vis/gain_loss_asymmetry.png, id=47, 578.16pt x 433.62pt>
 File: vis/gain_loss_asymmetry.png Graphic file (type png)
 
 <use vis/gain_loss_asymmetry.png>
-Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 124.
+Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 125.
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
  [8 <./vis/gain_loss_asymmetry.png>] [9]
 Chapter 4.
+[10
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--181
+]
+Chapter 5.
+[11
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 179--184
 
  []
 
-[10
-
-] <vis/pe-ratio-abs.png, id=59, 717.68124pt x 409.53pt>
+<vis/pe-ratio-abs.png, id=63, 717.68124pt x 409.53pt>
 File: vis/pe-ratio-abs.png Graphic file (type png)
 
 <use vis/pe-ratio-abs.png>
-Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 188.
+Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 191.
 (pdftex.def)             Requested size: 345.0pt x 196.8721pt.
- <vis/pe_box.png, id=60, 722.7pt x 379.4175pt>
+ [12 <./vis/pe-ratio-abs.png>]
+<vis/pe_box.png, id=68, 722.7pt x 379.4175pt>
 File: vis/pe_box.png Graphic file (type png)
-
-<use vis/pe_box.png>
-Package pdftex.def Info: vis/pe_box.png used on input line 198.
+ <use vis/pe_box.png>
+Package pdftex.def Info: vis/pe_box.png used on input line 201.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
- [11 <./vis/pe-ratio-abs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 208--213
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--216
 
  []
 
-<vis/pb-ratio-abs.png, id=66, 723.70375pt x 409.53pt>
+<vis/pb-ratio-abs.png, id=69, 723.70375pt x 409.53pt>
 File: vis/pb-ratio-abs.png Graphic file (type png)
 
 <use vis/pb-ratio-abs.png>
-Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 220.
+Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 223.
 (pdftex.def)             Requested size: 345.0pt x 195.22864pt.
- [12 <./vis/pe_box.png>]
-<vis/pb_box.png, id=71, 722.7pt x 379.4175pt>
+ [13 <./vis/pe_box.png>]
+<vis/pb_box.png, id=74, 722.7pt x 379.4175pt>
 File: vis/pb_box.png Graphic file (type png)
  <use vis/pb_box.png>
-Package pdftex.def Info: vis/pb_box.png used on input line 232.
+Package pdftex.def Info: vis/pb_box.png used on input line 235.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
- [13 <./vis/pb-ratio-abs.png>] [14 <./vis/pb_box.png>] [15]
-Chapter 5.
-<vis/headshoulders.png, id=83, 426.59375pt x 235.88126pt>
+ [14 <./vis/pb-ratio-abs.png>] [15 <./vis/pb_box.png>] [16]
+Chapter 6.
+<vis/headshoulders.png, id=86, 426.59375pt x 235.88126pt>
 File: vis/headshoulders.png Graphic file (type png)
 
 <use vis/headshoulders.png>
-Package pdftex.def Info: vis/headshoulders.png used on input line 277.
+Package pdftex.def Info: vis/headshoulders.png used on input line 280.
 (pdftex.def)             Requested size: 345.0pt x 190.77483pt.
- [16
+ [17
 
-] [17 <./vis/headshoulders.png>]
-<vis/macrossover.png, id=92, 722.7pt x 394.47375pt>
+] [18 <./vis/headshoulders.png>]
+<vis/macrossover.png, id=95, 722.7pt x 394.47375pt>
 File: vis/macrossover.png Graphic file (type png)
  <use vis/macrossover.png>
-Package pdftex.def Info: vis/macrossover.png used on input line 301.
+Package pdftex.def Info: vis/macrossover.png used on input line 304.
 (pdftex.def)             Requested size: 345.0pt x 188.30994pt.
 
-[18 <./vis/macrossover.png>] [19]
-<vis/ma_confusion.png, id=100, 308.15125pt x 246.9225pt>
+[19 <./vis/macrossover.png>] [20]
+<vis/ma_confusion.png, id=103, 308.15125pt x 246.9225pt>
 File: vis/ma_confusion.png Graphic file (type png)
 
 <use vis/ma_confusion.png>
-Package pdftex.def Info: vis/ma_confusion.png used on input line 344.
+Package pdftex.def Info: vis/ma_confusion.png used on input line 347.
 (pdftex.def)             Requested size: 231.11285pt x 185.1914pt.
- [20 <./vis/ma_confusion.png>] (./report2.bbl
-[21]
+ [21 <./vis/ma_confusion.png>] [22]
+Chapter 7.
+(./report2.bbl [23
+
+]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 41.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -631,32 +638,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--42
 \T1/lmr/m/n/10 guage rank-ings: Jan-uary 2015, Jan-uary 2015.  URL
  []
 
-) [22
+) [24
 
-] (./report2.aux) ) 
+] (./report2.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3244 strings out of 494978
- 42369 string characters out of 6180203
- 99424 words of memory out of 5000000
- 6371 multiletter control sequences out of 15000+600000
+ 3243 strings out of 493304
+ 42352 string characters out of 6139871
+ 103515 words of memory out of 5000000
+ 6608 multiletter control sequences out of 15000+600000
  69789 words of font info for 49 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  37i,8n,28p,778b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/t
-exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-r
-m.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/font
-s/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmtt10.pfb>
-Output written on report2.pdf (24 pages, 440086 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm
+/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmtt10.pfb>
+Output written on report2.pdf (26 pages, 446159 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 163 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

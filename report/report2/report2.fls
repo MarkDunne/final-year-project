@@ -170,6 +170,9 @@ INPUT ./vis/prices-bias-variance.png
 INPUT vis/50-learning-curve-15000.png
 INPUT ./vis/50-learning-curve-15000.png
 INPUT ./vis/50-learning-curve-15000.png
+INPUT vis/single_feature_prediction.png
+INPUT ./vis/single_feature_prediction.png
+INPUT ./vis/single_feature_prediction.png
 INPUT report2.bbl
 INPUT report2.bbl
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd

@@ -468,6 +468,109 @@ We must then conclude the the problem must lie in the data itself. It would seem
 
 Clearly we must begin to look at using external data.
 
+\section{Related Assets}
+
+With the failure of using the price itself to predict stock movements, we turn to our sources of predictive value. Prehaps the most obvious source we should seek to use is the movement of assets related to the Dow Jones.
+
+Intuitive, one might suppose that when the price of Oil rises, that is a good sign for the Dow Jones and we can expect it to rise too. Similarly, if the price of Oil falls we might expect the price of the Dow Jones to fall with it. In this section, we will search for features that rise and fall with the Dow Jones index.
+
+\subsection{Data}
+
+Since in the last section we showed that yesterdays prices appear to have no influence on todays prices, it is unreasonable to expect yesterday's prices of related assets to influence today's Dow Jones price. Because of this, instead of predicting based on yesterday's prices, we will predict based on price movements in assets that are traded earlier in the day than the Dow Jones. For example, we will will use the price movements of assets that are traded in Europe and Asia to predict the trend in the Dow Jones, which is traded in New York. If markets in Europe and Asia as trending heavily in one directly, it might follow that the Dow Jones will also trend that way when the markets open. What is important is that in the real world, we can observe the trends of our related assets before we need to make a prediction of our the trend in the Dow Jones.
+
+However, some market times overlap. For instance, the London Stock Exchange and the New York Stock Exchange are both trading at the same time for approximately 4 hours daily. It would be ideal then to have price data then which we can cleanly partition into intraday prices before and after the Dow Jones begins. However, this data is not easily available in the public domain. Intraday price data is a commodity and not something which is distributed as freely as interday price data. Quandl, which has been our source of much of the data up to this point, does not offer intraday price data.
+
+We are then forced to accept subpar data which does not allow for proper preparation. We will continue to use the data provided by Quandl from which we can extract the daily closing price of each asset and index. This is opening us to problems of leakage, where the test set can influence the training set. It is concievable that the trend in the New York Stock Exchange can effect the trend in the London Stock Exchange, even though it only opens in the final 4 trading hours. Due to this issue we must be cautious and suspecious positive results moving forward. It is unfortunate that later in the report, when we implent the trading algorithms in Quantopian, we will show that positive results mentioned in this section do indeed appear to be because of this error in the data.
+
+Temporaraly ignoring the aforementioned issues, we gathered data for 8 features from Quandl. These features are detailed below.
+
+\begin{description}
+  \item[DAX] The German DAX index is essentially equivilent to the Dow Jones except that its components are 30 major German companies traded on the Frankfurt Stock Exchange.
+  
+  \item[DAX FUT] We also considered DAX futures. Futures are a stock market derivative product.
+  
+  \item[FTSE] Similar to the Dow Jones and the German DAX. Traded on the London Stock exchange, its components are a selection of 100 large UK based companies. Commonly known as the FTSE100
+  
+  \item[N225] The Nikkei 225 has 225 large Japanese companies as components as is traded on the Tokyo Stock Exchange.
+  
+  \item[SSE] The SSE Composite Index is an index covering all stocks that are traded on Shanghai Stock Exchange. It is itself traded on the Shanghai Stock Exchange.
+  
+  \item[AUD] The Australian Dollar to US Dollar exchange rate
+  
+  \item[EUR] The Euro to US Dollar exchange rate
+  
+  \item[OIL] Brent Crude Oil futures prices
+      
+\end{description}
+
+A decision was made to use the price of the Dow Jones index rather than the price of the components, or companies, themselves as the dependent variable. This was due to the fact that the features listed above are not specific to any one company, although it could be argued that some features might influence some companies more than others. Determining the predictive value for each feature for each company would have made modeling significantly the problem more complex and computationally time consuming. For simplicity, the price of the Dow Jones index was used as the dependent variable in this section.
+
+\subsection{Exploration of Feature Utility}
+
+The next step in creating a model to predict the daily trend of the Dow Jones Index is to determine the predictive value of the features. To do this in an exploratory and qualitative manner, we first analysed the predictive value of each feature on its own. We trained 8 models, one for every feature. Each of these models used exactly one of the features to try and predict the trend for the Dow Jones Index. For each feature a, kNN model was trained and cross validated. Figure \ref{fig:single_feature_prediction} shows the cross validation results for each feature.
+
+\begin{figure}[H]
+	\caption{Single Feature Prediction Results}
+	\centerline{\includegraphics[scale=0.5]{vis/single_feature_prediction.png}}
+	\label{fig:single_feature_prediction}
+\end{figure}
+
+It is evident from the graph that there is indeed some predictive value in this dataset. There are three features that appear to be highly predictive. The German DAX, DAX futures, and the FTSE100 are all roughly 70\% accurate without doing any work whatsoever.
+
+\subsection{Modeling}
+
+Now that we know that there is at least some predictive value in our dataset, we can begin to create our model.
+
+\subsubsection{Error Estimation}
+
+Similar to what we attempt to do with the model based on the historical prices, the first step in creating our model is error estimation. In this step we estimate the performance of various classes of model.
+
+We used a nested kFold method to correctly perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the best model found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the best features should be kept, for instance the search could determine that it was best to keep the top 3 most predictive features. The second domain was the hyperparameter specific to the model being tested. Table \ref{table:asset-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
+
+\begin{center}
+  \captionof{table}{Error Estimation Scores}
+  
+  \begin{tabular}{l | l | l}
+	  Model Name & Hyperparameters Tested & Nested KFold Accuracy \\ \hline
+	  LogisticRegression & Norm penalization: l1 and l2 & 0.5717 \\ \hline
+	  KNeighborsClassifier & $0 < k \leq 25$, weights: uniform and distance & 0.7251 \\ \hline
+	  GaussianNB & - & 0.7208
+	  \label{table:asset-error-est}
+  \end{tabular}
+\end{center}
+
+The scores from table \ref{table:asset-error-est} look hopeful. We can see that the kNN model has the best estimated accuracy, albeit not by much. This means that this is the model we should bring forward to Model Selection to further optimise it.
+
+\subsubsection{Model Selection}
+
+Now that we have our winning model class, kNN, we now need to estimate the optimum hyperparameters for our model. 
+
+A kNN model has two important hyperparameters, $k$ and how to weigh examples in the neighborhood. $k$ dictates how many neighbors the model should examine to make a prediction. We can then weigh those neighbors either uniformly or by their distance to our input. We can search over the same value space as we did in Error Estimation for kNN, $0 < k \leq 25$ and weights $uniform$ or $distance$. We will also be searching for the best number of features to keep in the model, this can be treated as another hyperparameter.
+
+After performing a grid search over the value space and cross validating each combination of hyperparameters, we find that the best combination of hyperparameters gives us a cross validated accuracy of 74.63\% at predicting Dow Jones Index daily trends. Table \ref{table:asset-model-sel} shows the best combination of hyperparameters found.
+
+\begin{center}
+  \captionof{table}{Error Estimation Scores}
+  
+  \begin{tabular}{l | l}
+	  Hyperparameter & Best value \\ \hline
+	  Number of features to keep & 3 \\ \hline
+	  Number of nighbours to examine & 14 \\ \hline
+    Method of weighing neighbours & uniform
+	  \label{table:asset-model-sel}
+  \end{tabular}
+\end{center}
+
+Table \ref{table:asset-model-sel} indicates that the search determined that keeping only three of the original 8 features gave us the best cross validation score. This is in line with what we might have expected from the exploration of the predictive value of the features where we pointed out three features that appeared to be were highly predictive already.
+
+By training the model on the full dataset with the winning hyperparameters and inspecting the 3 features the feature selector decided to keep, we can see that they are indeed the three features we assumed would be predicted. The German DAX, DAX futures, and the FTSE100 are the features selected in the final model.
+
+\subsection{Related Assets - Conclusion}
+
+In this section we gathered data for 8 features that could conceivably have some predictive value for the Dow Jones. We explored the predictive value of each feature visually to gain some sense of the data and then followed the precisely correct methodology to end up with an optimal model. The final model had an estimated accuracy of 74.63\%, which is significant for stock market data.
+
+However, as warned by the data section, we should be cautious of such high accuracy figures. Due to lack of publically available intraday price data, we might have some leakage of the test set that is skewing our result. Later in the report, when we try to translate this model to a trading simulation,  We will demonstrate that this error is most likely what is giving such a high accuracy score and that it would not work as well in the real world. 
+
 \bibliography{report2}
 \bibliographystyle{plainnat}
 

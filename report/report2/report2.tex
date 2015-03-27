@@ -8,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{capt-of}
+\usepackage{subfigure}
+\usepackage{listings} 
 
 
 \title{Stock Market Prediction}
@@ -15,6 +17,7 @@
 
 \begin{document}
 
+\lstset{language=Python}    
 \linespread{1.3}
 \belowdisplayskip=12pt plus 3pt minus 9pt
 \belowdisplayshortskip=7pt plus 3pt minus 4pt
@@ -376,6 +379,7 @@ It might have been expected that given the popularity of Technical Analysis for 
 
 Our final approach to attacking the problem of stock market prediction is to look at machine learning. With machine learning, we will be building models that teach themselves what to look for, and learn to exploit relationships within the data that we might have otherwise missed using Fundamental Analysis or Technical Analysis.
 
+\clearpage
 \section{Preceeding 5 day prices}
 
 In Technical Analysis, we attempted to find patterns and trends in the data that we could use to predict the price movement, the trend, for the following day. Ultimately technical analysis failed to produce any notable results, but perhaps it was because the models are not complex enough to capture any hypothetical pattern that might exist in market data.
@@ -468,9 +472,10 @@ We must then conclude the the problem must lie in the data itself. It would seem
 
 Clearly we must begin to look at using external data.
 
+\clearpage
 \section{Related Assets}
 
-With the failure of using the price itself to predict stock movements, we turn to our sources of predictive value. Prehaps the most obvious source we should seek to use is the movement of assets related to the Dow Jones.
+With the failure of using the price itself to predict stock movements, we turn to other sources of predictive value. Prehaps the most obvious source we should seek to use is the movement of assets related to the Dow Jones.
 
 Intuitive, one might suppose that when the price of Oil rises, that is a good sign for the Dow Jones and we can expect it to rise too. Similarly, if the price of Oil falls we might expect the price of the Dow Jones to fall with it. In this section, we will search for features that rise and fall with the Dow Jones index.
 
@@ -525,15 +530,15 @@ Now that we know that there is at least some predictive value in our dataset, we
 
 Similar to what we attempt to do with the model based on the historical prices, the first step in creating our model is error estimation. In this step we estimate the performance of various classes of model.
 
-We used a nested kFold method to correctly perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the best model found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the best features should be kept, for instance the search could determine that it was best to keep the top 3 most predictive features. The second domain was the hyperparameter specific to the model being tested. Table \ref{table:asset-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
+We used a nested kFold method to perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the set of hyperparameters found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the $k$ best features to keep. For instance, the search might determine that it was best to keep the top 3 most predictive features. The second domain were the hyperparameter specific to the model being tested. Table \ref{table:asset-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
 
 \begin{center}
   \captionof{table}{Error Estimation Scores}
   
   \begin{tabular}{l | l | l}
-	  Model Name & Hyperparameters Tested & Nested KFold Accuracy \\ \hline
-	  LogisticRegression & Norm penalization: l1 and l2 & 0.5717 \\ \hline
-	  KNeighborsClassifier & $0 < k \leq 25$, weights: uniform and distance & 0.7251 \\ \hline
+	  \textbf{Model Name} & \textbf{Model Specifc Hyperparameters} & \textbf{Estimated Accuracy} \\ \hline
+	  LogisticRegression & Norm penalization: l1, l2 & 0.5717 \\ \hline
+	  KNeighborsClassifier & $0 < k \leq 25$, weights: uniform, distance & 0.7251 \\ \hline
 	  GaussianNB & - & 0.7208
 	  \label{table:asset-error-est}
   \end{tabular}
@@ -550,10 +555,10 @@ A kNN model has two important hyperparameters, $k$ and how to weigh examples in 
 After performing a grid search over the value space and cross validating each combination of hyperparameters, we find that the best combination of hyperparameters gives us a cross validated accuracy of 74.63\% at predicting Dow Jones Index daily trends. Table \ref{table:asset-model-sel} shows the best combination of hyperparameters found.
 
 \begin{center}
-  \captionof{table}{Error Estimation Scores}
+  \captionof{table}{Model Selection Results}
   
   \begin{tabular}{l | l}
-	  Hyperparameter & Best value \\ \hline
+	  \textbf{Hyperparameter} & \textbf{Best value} \\ \hline
 	  Number of features to keep & 3 \\ \hline
 	  Number of nighbours to examine & 14 \\ \hline
     Method of weighing neighbours & uniform
@@ -570,6 +575,149 @@ By training the model on the full dataset with the winning hyperparameters and i
 In this section we gathered data for 8 features that could conceivably have some predictive value for the Dow Jones. We explored the predictive value of each feature visually to gain some sense of the data and then followed the precisely correct methodology to end up with an optimal model. The final model had an estimated accuracy of 74.63\%, which is significant for stock market data.
 
 However, as warned by the data section, we should be cautious of such high accuracy figures. Due to lack of publically available intraday price data, we might have some leakage of the test set that is skewing our result. Later in the report, when we try to translate this model to a trading simulation,  We will demonstrate that this error is most likely what is giving such a high accuracy score and that it would not work as well in the real world. 
+
+\clearpage
+\section{Analyst Opinions}
+
+With the apparent success of using related assets to predict daily movements in the Dow Jones, we continue our search for additional predictive features. In this section we will attempt to use analyst opinions to predict the same day trend.
+
+An analyst opinion is a prediction of a particular research firm on a particular stock. For instance, a large investment research firm such as JP Morgan might issue an opinion on Intel stock. They may upgrade or downgrade their estimates of stock performance, may recommend buying or selling the stock at the current price.
+
+It would seem intuitive that these recommendations should be predictive. There are two reasons why that might be true. The first reason that these recommendations might truely be predictive of the price. One can imagine that large research firms such as JP Morgan would employ skilled analysts that are able to make accurate predictions. The second reason is less optimistic and assumes that these predictions are self-fulfilling prophecies. If multiple large investment firms upgrade or downgrade their opinion of a stock on the same day, it is certainly concievable that the opinions themselves are enough to shift the market regardless of their true predictive value.
+
+However, it should not matter to us why they are predict. For whatever reason, if these opinions can predictive we should be able to build a model to utilise them.
+
+\subsection{Data}
+
+Conveniently, Yahoo Finance provides an open database of opinions issued by large research firms. The database covers all major stocks including the components of the Dow Jones, the 30 companies of interest to the project. 
+
+One small difficulty in obtaining this data is that it is provided in a HTML table on the Yahoo Finance website. This means that it was not directly downloadable as a csv file or an equivilent easy to use file format. Because of this, a small web scraper had to be constructed. 
+
+The web scraper was constructed in python. The scraper began by sending 30 HTTP get requests to Yahoo Finance, one for each company. The responses were then parsed using the BeautifulSoup4 HTML parsing library. After the HTML was parsed it was trivial to extract the data in a more usable format. The extracted data for all companies was cached in a single CSV file. In total, 3584 analyst opinions were gathered from the year 2000 to 2014.
+
+\begin{center}
+  \captionof{table}{Analyst Opinion Data}
+  
+  \begin{tabular}{l | l | l | l | l | l}
+\textbf{Date}        & \textbf{Research Firm}      & \textbf{Action}       & \textit{From}         & \textbf{To}                   & \textbf{Symbol} \\ \hline
+2001-04-25  & First Union Sec    & Downgrade    & Strong Buy   & Buy                  & CSCO \\ \hline
+2001-04-25  & AG Edwards         & Downgrade    & Accumulate   & Maintain Position    & VZ \\ \hline
+2001-05-01  & Salomon Smth Brny  & Upgrade      & Neutral      & Outperform           & PG \\ \hline
+2001-05-07  & Prudential         & Downgrade    & Hold         & Sell                 & JPM \\ \hline
+2001-05-08  & Mrgn Stnly         & Upgrade      & Neutral      & Outperform           & CSCO
+	  \label{table:opinions-data}
+  \end{tabular}
+\end{center}
+
+Table \ref{table:opinions-data} Displays what the gathered data looks like.
+
+It should be noted that in this section we will be trying to predict the daily movement of individual companies prices rather than the Dow Jones index as a whole as we did in the last section. This is because each opinion very explicitly relates to a single company.
+
+Also note that these opinions are almost always issued before the market opens. It is therefore acceptable to use these opinions to predict the movement on the market for that day.
+
+\subsection{Data Exploration}
+
+As we did in the previous section, to get a better sense of our data we will explore it a little further.
+
+The company with the most opinions in the gathered dataset is Intel (INTC) which 326 individual analyst opinions. To get a sense of whether the data might be useful, we can plot these opinions in relation to the INTC price.
+
+First we filtered the dataset so that we only consider INTC opinions. We then aggregated the opinions that were issued on the same day by counting the number of Upgrades and Downgrades. Finally, the aggregated opinions were merged with the INTC stock price. This data was then plotted.
+
+\begin{figure}[H]
+	\caption{Visualisation of analyst opinions and INTC price}
+	\centerline{\includegraphics[scale=0.5]{vis/analyst_opinions.png}}
+	\label{fig:opinions_vis}
+\end{figure} 
+
+Figure \ref{fig:opinions_vis} visualises the relationship between opinion sentiment (Upgrade or Downgrade) and price. Green upwards pointing triangles signal an upgrade and red downwards pointing triangles signal a downgrade. The size of the triangle represents the number of coinciding opinions across all research firms. For instance the large red down pointing triangle on the left hand side of the diagrm is a point representing 9 separate research firms all downgrading their opinion of INTC on the same day.
+
+From visual inspection it would appear there may indeed be some value in these opinions, but we cannot be certain until we attempt to build a model.
+
+\subsection{Data Preparation}
+
+As evident from Table \ref{table:opinions-data} all of the feature values in the dataset are labels and categories, not numerical data. This presents a problem. The machine learning library used in this problem, sklearn, does not provide models which can handle non-numeric data. We must therefore transform our data into numeric form.
+
+The correct way to transform a label type feature is to use One-hot Encoding. One-hot Encoding will transform a single feature with $n$ unique values into $n$ different features with binary values.
+
+\begin{figure}[H]
+\caption{One-hot Encoding Example}
+\subfigure[Before]{\includegraphics[scale=0.6]{vis/before_encoding.png}}
+\hfill
+\subfigure[After]{\includegraphics[scale=0.6]{vis/after_encoding.png}}
+\label{fig:one-hot}
+\end{figure}
+
+Figure \ref{fig:one-hot} demonstrates the concept of One-hot encoding. After One-hot encoding, the original feature is removed but no information is lost. To signify a value in the original column, a $1$ is placed in the new corresponding column.
+
+For the opinions dataset, it was decided that the most important original features are $Research\ Firm$, $Action$, and $To$. $Research\ Firm$ might be important because an opinion from some firms may have more of an influence on the movement than others. The $Action$ column is intuitively important because it summarises the sentiment of the opinion into Upgrade or Downgrade. The $To$ column is the recommendation of the Research Firm, this is also intuitively important because it could be a recommendation to Buy or Sell.
+
+It was then necessary to One-hot encode each of these three features features. This resulted in a total of 266 new feature columns, one new column for each unique value in the original three columns. Now that all the features have been one hot encoded, we can aggregate rows where more than one research firm issued an opinion for the same company on the same date. We will use a sum operation to aggregate the rows accross all columns. For example, if both research firms upgraded a company on the same day then we will merge these rows and place a value of $2$ in the upgrade column.
+
+The entire data preparation stage can be done very concisely a using the Pandas python library.
+
+\begin{lstlisting}[frame=single, caption=Data Preparation Using Pandas]
+dataset = pd.merge(opinions,prices,on=['Date', 'Symbol'])
+
+X = dataset[['Date', 'Symbol']] \
+    .join(pd.get_dummies(dataset['Research Firm'])) \
+    .join(pd.get_dummies(dataset['Action'])) \
+    .join(pd.get_dummies(dataset['To'])) \
+    .groupby(['Date', 'Symbol']).sum() 
+    
+y = [frame['Trend'].values[0] for index, frame in \
+         dataset.groupby(['Date', 'Symbol'])]
+\end{lstlisting}
+
+\subsection{Error Estimation}
+
+With our data prepared, we must decide which class of model to use.
+
+We used a nested kFold method to perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the set of hyperparameters found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the $k$ best features to keep. The second domain were the hyperparameter specific to the model being tested. Table \ref{table:opinions-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
+
+\begin{center}
+  \captionof{table}{Error Estimation Scores}
+  
+  \begin{tabular}{l | l | l}
+	  \textbf{Model Name} & \textbf{Model Specifc Hyperparameters} & \textbf{Estimated Accuracy} \\ \hline
+	  LogisticRegression & Norm penalization: l1, l2 & 0.6627 \\ \hline
+	  KNeighborsClassifier & $0 < k \leq 20$, weights: uniform, distance & 0.6564 \\ \hline
+	  MultinomialNB & - & 0.6729
+	  \label{table:opinions-error-est}
+  \end{tabular}
+\end{center}
+
+The scores from table \ref{table:opinions-error-est} look positive. We can see that the MultinomialNB model has the best estimated accuracy. This means that this is the model we should bring forward to Model Selection.
+
+\subsection{Model Selection}
+
+MultinomialNB being the model that won in the Error Estimation round, it should now be the model that we focus on in Model Selection. 
+
+The MultinomialNB model is a naive bayes classifier and only has one hyperparameter. The hyperparameter, called alpha in sklearn, controls the additive smoothing in the model. What exactly additive smoothing is is out of the scope of this report, but all we need to know is that it is a hyperparameter that should be searched over to optimise the model. 
+
+At the same time as we are searching over the model hyperparameter, we will again be searching for the best $k$ features to keep.
+
+\begin{center}
+  \captionof{table}{Model Selection Results}  
+  \begin{tabular}{l | l}
+	  \textbf{Hyperparameter} & \textbf{Best value} \\ \hline
+	  Number of features to keep & 11 \\ \hline
+	  MultinomialNB alpha & 0.7333
+	  \label{table:opinions-model-sel}
+  \end{tabular}
+\end{center}
+
+Table \ref{table:opinions-model-sel} shows the best set of hyperparameters found in the search. The winning model had a cross validation accuracy of 67.40\%.
+
+\subsection{Analyst Opinions - Conclusion}
+
+In this section we gathered a list of analyst opinions and used them to build a model to predict the same day price movement for companies in the Dow Jones. Although concise in its final version, the data preparation for this section proved difficult to get right. The final model had an estimated accuracy of 67.40\% which is an extremely positive result. 
+
+Although the data used in this section does not have the leakage problems the data in the last section had, we will unfortunately see that we cannot profitably trade on the stock market using this model either. 
+
+\clearpage
+\section{Disasters}
+
+[todo]
 
 \bibliography{report2}
 \bibliographystyle{plainnat}

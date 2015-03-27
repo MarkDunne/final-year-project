@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  26 MAR 2015 02:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  27 MAR 2015 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,39 +402,83 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/capt-of/capt-of.sty
 Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
-) (./report2.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip51
+\subfigcapskip=\skip52
+\subfigcaptopadj=\dimen114
+\subfigbottomskip=\skip53
+\subfigcapmargin=\dimen115
+\subfiglabelskip=\skip54
+\c@subfigure=\count103
+\c@lofdepth=\count104
+\c@subtable=\count105
+\c@lotdepth=\count106
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip55
+\subfig@bottom=\skip56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count107
+\lst@gtempboxa=\box30
+\lst@token=\toks30
+\lst@length=\count108
+\lst@currlwidth=\dimen116
+\lst@column=\count109
+\lst@pos=\count110
+\lst@lostspace=\dimen117
+\lst@width=\dimen118
+\lst@newlines=\count111
+\lst@lineno=\count112
+\lst@maxwidth=\dimen119
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count113
+\lst@skipnumbers=\count114
+\lst@framebox=\box31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+ (./report2.aux)
 \openout1 = `report2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 16.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 18.
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count103
-\scratchdimen=\dimen114
-\scratchbox=\box30
-\nofMPsegments=\count104
-\nofMParguments=\count105
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count106
-\MPscratchDim=\dimen115
-\MPnumerator=\count107
-\makeMPintoPDFobject=\count108
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count115
+\scratchdimen=\dimen120
+\scratchbox=\box32
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen121
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -483,34 +527,39 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 22.
+\c@lstlisting=\count121
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 25.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 22.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 25.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 25.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 22.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 25.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 22.
+(Font)              <12> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 22.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 22.
+(Font)              <6> on input line 25.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] (./report2.toc
@@ -542,20 +591,20 @@ Chapter 3.
 File: vis/random-process.png Graphic file (type png)
 
 <use vis/random-process.png>
-Package pdftex.def Info: vis/random-process.png used on input line 100.
+Package pdftex.def Info: vis/random-process.png used on input line 103.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
  <vis/appl.png, id=35, 382.42876pt x 256.96pt>
 File: vis/appl.png Graphic file (type png)
 
 <use vis/appl.png>
-Package pdftex.def Info: vis/appl.png used on input line 108.
+Package pdftex.def Info: vis/appl.png used on input line 111.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
  [7 <./vis/random-process.png>] [8 <./vis/appl.png>]
 <vis/gain_loss_asymmetry.png, id=50, 578.16pt x 433.62pt>
 File: vis/gain_loss_asymmetry.png Graphic file (type png)
 
 <use vis/gain_loss_asymmetry.png>
-Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 126.
+Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 129.
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
  [9 <./vis/gain_loss_asymmetry.png>] [10]
 Chapter 4.
@@ -566,7 +615,7 @@ Chapter 5.
 [12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 180--185
+Underfull \hbox (badness 10000) in paragraph at lines 183--188
 
  []
 
@@ -574,16 +623,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--185
 File: vis/pe-ratio-abs.png Graphic file (type png)
 
 <use vis/pe-ratio-abs.png>
-Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 192.
+Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 195.
 (pdftex.def)             Requested size: 345.0pt x 196.8721pt.
  [13 <./vis/pe-ratio-abs.png>]
 <vis/pe_box.png, id=71, 722.7pt x 379.4175pt>
 File: vis/pe_box.png Graphic file (type png)
  <use vis/pe_box.png>
-Package pdftex.def Info: vis/pe_box.png used on input line 202.
+Package pdftex.def Info: vis/pe_box.png used on input line 205.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--217
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
 
  []
 
@@ -591,13 +640,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--217
 File: vis/pb-ratio-abs.png Graphic file (type png)
 
 <use vis/pb-ratio-abs.png>
-Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 224.
+Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 227.
 (pdftex.def)             Requested size: 345.0pt x 195.22864pt.
  [14 <./vis/pe_box.png>]
 <vis/pb_box.png, id=77, 722.7pt x 379.4175pt>
 File: vis/pb_box.png Graphic file (type png)
  <use vis/pb_box.png>
-Package pdftex.def Info: vis/pb_box.png used on input line 236.
+Package pdftex.def Info: vis/pb_box.png used on input line 239.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
  [15 <./vis/pb-ratio-abs.png>] [16 <./vis/pb_box.png>] [17]
 Chapter 6.
@@ -605,7 +654,7 @@ Chapter 6.
 File: vis/headshoulders.png Graphic file (type png)
 
 <use vis/headshoulders.png>
-Package pdftex.def Info: vis/headshoulders.png used on input line 281.
+Package pdftex.def Info: vis/headshoulders.png used on input line 284.
 (pdftex.def)             Requested size: 345.0pt x 190.77483pt.
  [18
 
@@ -613,7 +662,7 @@ Package pdftex.def Info: vis/headshoulders.png used on input line 281.
 <vis/macrossover.png, id=98, 722.7pt x 394.47375pt>
 File: vis/macrossover.png Graphic file (type png)
  <use vis/macrossover.png>
-Package pdftex.def Info: vis/macrossover.png used on input line 305.
+Package pdftex.def Info: vis/macrossover.png used on input line 308.
 (pdftex.def)             Requested size: 345.0pt x 188.30994pt.
 
 [20 <./vis/macrossover.png>] [21]
@@ -621,51 +670,88 @@ Package pdftex.def Info: vis/macrossover.png used on input line 305.
 File: vis/ma_confusion.png Graphic file (type png)
 
 <use vis/ma_confusion.png>
-Package pdftex.def Info: vis/ma_confusion.png used on input line 348.
+Package pdftex.def Info: vis/ma_confusion.png used on input line 351.
 (pdftex.def)             Requested size: 231.11285pt x 185.1914pt.
  [22 <./vis/ma_confusion.png>] [23]
 Chapter 7.
-
-Overfull \hbox (8.33311pt too wide) in paragraph at lines 389--398
- [] 
- []
-
 [24
 
 ]
-Overfull \hbox (66.86163pt too wide) in paragraph at lines 411--418
+Overfull \hbox (8.33311pt too wide) in paragraph at lines 393--402
  [] 
  []
 
-[25] <vis/prices-bias-variance.png, id=120, 516.7305pt x 575.9919pt>
+[25
+
+]
+Overfull \hbox (66.86163pt too wide) in paragraph at lines 415--422
+ [] 
+ []
+
+[26] <vis/prices-bias-variance.png, id=123, 516.7305pt x 575.9919pt>
 File: vis/prices-bias-variance.png Graphic file (type png)
 
 <use vis/prices-bias-variance.png>
-Package pdftex.def Info: vis/prices-bias-variance.png used on input line 441.
+Package pdftex.def Info: vis/prices-bias-variance.png used on input line 445.
 (pdftex.def)             Requested size: 258.36461pt x 287.99524pt.
- [26] [27 <./vis/prices-bias-variance.png>]
+ [27 <./vis/prices-bias-variance.png>]
 <vis/50-learning-curve-15000.png, id=128, 578.16pt x 433.62pt>
 File: vis/50-learning-curve-15000.png Graphic file (type png)
 
 <use vis/50-learning-curve-15000.png>
-Package pdftex.def Info: vis/50-learning-curve-15000.png used on input line 457
+Package pdftex.def Info: vis/50-learning-curve-15000.png used on input line 461
 .
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [28 <./vis/50-learning-curve-15000.png>]
-[29] [30]
-<vis/single_feature_prediction.png, id=140, 719.68875pt x 408.52625pt>
+ [28] [29 <./vis/50-learning-curve-15000.png>] [30] [31
+
+]
+<vis/single_feature_prediction.png, id=143, 719.68875pt x 408.52625pt>
 File: vis/single_feature_prediction.png Graphic file (type png)
 
 <use vis/single_feature_prediction.png>
 Package pdftex.def Info: vis/single_feature_prediction.png used on input line 5
-14.
+19.
 (pdftex.def)             Requested size: 359.84349pt x 204.26262pt.
- [31 <./vis/single_feature_prediction.png>]
-Overfull \hbox (70.99307pt too wide) in paragraph at lines 533--540
+ [32] [33 <./vis/single_feature_prediction.png>]
+Overfull \hbox (52.16672pt too wide) in paragraph at lines 538--545
  [] 
  []
 
-[32] (./report2.bbl [33]
+[34] [35]
+Overfull \hbox (78.24837pt too wide) in paragraph at lines 601--610
+ [] 
+ []
+
+[36
+
+] <vis/analyst_opinions.png, id=161, 716.6775pt x 394.47375pt>
+File: vis/analyst_opinions.png Graphic file (type png)
+
+<use vis/analyst_opinions.png>
+Package pdftex.def Info: vis/analyst_opinions.png used on input line 628.
+(pdftex.def)             Requested size: 358.33788pt x 197.23639pt.
+ [37 <./vis/analyst_opinions.png>]
+<vis/before_encoding.png, id=166, 89.33376pt x 119.44624pt>
+File: vis/before_encoding.png Graphic file (type png)
+
+<use vis/before_encoding.png>
+Package pdftex.def Info: vis/before_encoding.png used on input line 644.
+(pdftex.def)             Requested size: 53.60065pt x 71.66829pt.
+
+<vis/after_encoding.png, id=167, 197.73875pt x 118.4425pt>
+File: vis/after_encoding.png Graphic file (type png)
+
+<use vis/after_encoding.png>
+Package pdftex.def Info: vis/after_encoding.png used on input line 646.
+(pdftex.def)             Requested size: 118.64417pt x 71.06604pt.
+ [38 <./vis/before_encoding.png> <./vis/after_encoding.png>]
+Overfull \hbox (52.16672pt too wide) in paragraph at lines 680--687
+ [] 
+ []
+
+[39] [40] (./report2.bbl [41
+
+]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 41.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -679,17 +765,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--42
 \T1/lmr/m/n/10 guage rank-ings: Jan-uary 2015, Jan-uary 2015.  URL
  []
 
-) [34
+) [42
 
 ] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
- 3275 strings out of 494978
- 43272 string characters out of 6180203
- 101589 words of memory out of 5000000
- 6395 multiletter control sequences out of 15000+600000
- 69789 words of font info for 49 fonts, out of 8000000 for 9000
+ 5246 strings out of 494978
+ 69105 string characters out of 6180203
+ 150409 words of memory out of 5000000
+ 8340 multiletter control sequences out of 15000+600000
+ 72781 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 37i,8n,28p,873b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,40p,873b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/t
 exmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-r
 m.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/font
@@ -698,13 +784,14 @@ s/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb
 e1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
-y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmtt10.pfb>
-Output written on report2.pdf (36 pages, 578099 bytes).
+mf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+
+Output written on report2.pdf (44 pages, 661258 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 236 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

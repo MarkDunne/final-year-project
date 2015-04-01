@@ -8,6 +8,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{capt-of}
+\usepackage{subfigure}
+\usepackage{listings} 
 
 
 \title{Stock Market Prediction}
@@ -15,6 +17,7 @@
 
 \begin{document}
 
+\lstset{language=Python}    
 \linespread{1.3}
 \belowdisplayskip=12pt plus 3pt minus 9pt
 \belowdisplayshortskip=7pt plus 3pt minus 4pt
@@ -23,7 +26,7 @@
 
 \begin{abstract}
 
-In this report we analyse existing, and explore new methods of stock market prediction. We take three different approaches at the problem; Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investors decisions. We demonstrate a common flaw in the methodology of Technical Analysis practitioners and show that it produces limited useful information. Based on our findings, an algorithmic trading program is developed and entered into the Quantopian trading competition.
+In this report we analyse existing and new methods of stock market prediction. We take three different approaches at the problem: Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market Hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investor's decisions. We demonstrate a common flaw in the Technical Analysis methodology and show that it produces limited useful information. Based on our findings, an algorithmic trading program is developed and entered into the Quantopian trading competition.
 
 \end{abstract}
 
@@ -41,13 +44,13 @@ In this report we analyse existing, and explore new methods of stock market pred
 
 \section{Data Used}
 
-For this project, we chose the Dow Jones and its components as a representitive bundle of stocks. The dow jones is a large index traded on the New York stock exchange. It is a prices-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publically traded companies, leaders in each of their own sectors. The index covers many different sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
+For this project, we chose the Dow Jones and its components as a representa`tive bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a prices-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers many different sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
 
-We wanted to use a set of companies already picked by someone else so that we don't open ourselves to methodology errors / fishing expeditions to find a set of companies that our algorithms do happen to work for. 
+We wanted to use a set of companies already picked by someone else so that we do not open ourselves to methodology errors or accusations fishing expeditions to find a set of companies that our algorithms do happen to work for. 
 
-The dow jones was chosen because it is well known, and has a relatively small number of compontents when compared to indices such as the S\&P 500 which has over 500 components at the time of writing. 
+The Dow Jones was chosen because it is well known, and has a relatively small number of compontents when compared to indices such as the S\&P 500 which has over 500 components at the time of writing. 
 
-This small but representitiive set allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypothesis laid out in this report, we were able to extract datasets many thousands of examples in size.
+This small but representitiive set allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypotheses laid out in this report, we were able to extract datasets many thousands of examples in size.
 
 \section{Data Sources}
 
@@ -59,7 +62,7 @@ This small but representitiive set allowed for a managable dataset given limited
 Python was the language of choice for this project. This was an easy decision for the following reasons.
 
 \begin{enumerate}
-  \item Python as a language has an enourmous community behind it. Any problems that might be encountered on the way can be easily solved with a trip to Stack Overflow. Python is amoung the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
+  \item Python as a language has an enourmous community behind it. Any problems that might be encountered on the way can be easily solved with a trip to Stack Overflow. Python is among the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
   
   \item Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available, performant and well documented. Packages such as these can dramatically reduce and simplify the code needed to write a given program. This makes iteration quick.
 
@@ -69,21 +72,21 @@ Python was the language of choice for this project. This was an easy decision fo
 
 However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.
 
-\chapter{Considerations in approaching the problem}
+\chapter{Considerations in Approaching the Problem}
 
-Throughout the project, there are a couple of things that should be kept in mind. All three of these ideas, in their own way, emplore us to keep an open mind in that we might not actually find a profitable way to predict market movements.
+Throughout the project, there are three ideas that warn us that we might not actually find a profitable way to predict market trends.
 
 \section{Random Walk Hypothesis}
 
 The random walk hypothesis sets out the bleakest view of the predictibility of the stock market. The hypothesis says that the market price of a stock is essentially random. The hypothesis implies that any attempt to predict the stock market will inevitably fail. 
 
-The term was popularized by \citet{malkiel1999random}. Famously, he demonstrated that he was able to fool a stock market 'expert' into forcasting a fake market. He set up an experiment where he repeatedly tossed a coin. If the coin showed heads, he moved the price of a fictitious stock up, and if it showed tails then he moved it lower. He then took his random stock price chart to a supposed expert in stock forcasting, and asked for a prediction. The expert was fooled and recommended that he buy the stock immediately. 
+The term was popularized by \citet{malkiel1999random}. Famously, he demonstrated that he was able to fool a stock market 'expert' into forecasting a fake market. He set up an experiment where he repeatedly tossed a coin. If the coin showed heads, he moved the price of a fictitious stock up, and if it showed tails then he moved it lower. He then took his random stock price chart to a supposed expert in stock forecasting, and asked for a prediction. The expert was fooled and recommended that he buy the stock immediately. 
 
 It is important for the purpose of this project to confront the Random Walk Hypothesis. If the market is truely random, there is little point in continuing. 
 
 \subsection{Qualitative Similarity to Random pattern}
 
-The stock market can certainly looks random to the eye of a casual observer. To demonstrate this, we generated a random process with similar visual characteristics to the Dow Jones index.
+The stock market can certainly look random to the eye of a casual observer. To demonstrate this, we generated a random process with similar visual characteristics to the Dow Jones index.
 
 We created a perfectly random process that had striking visual similarity to real stock market data using the following simple formula.
 
@@ -111,7 +114,7 @@ We then compare this random process to a real piece of market data.
 
 Presented with both of these diagrams, and without the aid of time scales or actual prices, most people would find it impossible to differentiate the diagrams. Using visual inspection alone, either of these diagrams could just as likely be a real piece of stock market data.
 
-This gives us pause as there is little point in moving forward if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when take external variables into account.
+This gives us pause as there is little point in moving forward if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when we take external variables into account.
 
 \subsection{Quantitative Difference to Random pattern}
 
@@ -119,7 +122,7 @@ We will first show that the way in which markets move is fundamentally different
 
 \citet{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones and how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
 
-On every day from the year 2000 to 2014, we simulated an investment on the Dow Jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows 2 overlaid histograms detailing how long it took for an investment to lose of gain 5\%.
+On every day from the year 2000 to 2014, we simulated an investment on the Dow Jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows two overlaid histograms detailing how long it took for an investment to lose or gain 5\%.
 
 \begin{figure}[H]
 	\caption{Gain-Loss Asymmetry on the Dow Jones}
@@ -129,9 +132,9 @@ On every day from the year 2000 to 2014, we simulated an investment on the Dow J
 
 What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings described earlier. This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
 
-\section{Efficient market hypothesis}
+\section{Efficient Market Hypothesis}
 
-Another concept to keep in mind while working on the project, was the Efficient Market Hypothesis. Informally, the efficient market says that the market is efficient at finding the correct price for the stock market.
+Another concept to keep in mind while working on the project, was the Efficient Market Hypothesis. Informally, the Efficient Market Hypothesis says that the market is efficient at finding the correct price for the stock market.
 
 It comes in three flavors, however it is still a matter of debate which one, if any, are correct.
 
@@ -147,7 +150,7 @@ It comes in three flavors, however it is still a matter of debate which one, if 
 \end{description}
 
 
-Clearly, if we are to predict the stock market using only public information, we must hope that at most the weak form of the efficient market hypothesis is true so that at least then we can use external data to predict the price of a product.
+Clearly, if we are to predict the stock market using only public information, we must hope that at most the weak form of the Efficient Market Hypothesis is true so that at least then we can use external data to predict the price of a product.
 
 \section{Self Defeating Strategies}
 
@@ -163,17 +166,17 @@ The three preceding ideas ask us to keep an open mind on stock market prediction
 
 \chapter{Review of Existing Work}
 
-\chapter{Attacking the problem - Fundamental Analysis}
+\chapter{Attacking the Problem - Fundamental Analysis}
 
 The first approach we take at solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 
 
 \citet{graham1934security} laid the groundwork for the field with the book \textit{Security Analysis}. He encouraged would-be investors to estimate the intrinsic value of a stock before buying or selling based on trends, a novel idea at the time. It stands as testament to his approach that his only A+ student was Warren Buffet who methodically applied the strategy and has enjoyed renowned success since \cite{schroeder2008snowball}. This gives us some hope, but we should be cautious and remember that the economy might behave differently today than it did before.
 
-It should be noted that Fundamental Analysis is compatible with the weak form of the efficient market hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
+It should be noted that Fundamental Analysis is compatible with the weak form of the Efficient Market Hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
 
 We will look at two of the most common metrics used in fundamental analysis, Price to Earnings ratio, and Price to Book ratio to try and predict long term price movements on a year to year basis. This is the typical prediction range for Fundamental Analysis.
 
-\section{Price to Earnings ratio}
+\section{Price to Earnings Ratio}
 
 The first metric for the value of a company that we will look at is the Price to Earnings ratio. The price to earnings ratio is calculated as
 
@@ -205,7 +208,7 @@ We can investigate the data further using a boxplot. Figure \ref{fig:pe-box} div
 
 If the P/E Ratio was predictive, we would have expected a noticable difference in the P/E Ratio distribution of companies whose share increased, and those whose share price decreased. However, this is not the case. It is clear they the P/E Ratio distribution between these categories is almost identical. We can therefore conclude that the P/E Ratio has little or no predictive value when it comes to estimating company performance for the following year.
 
-\section{Price to Book ratio}
+\section{Price to Book Ratio}
 
 The second metric for the value of a company that we will look at is the Price to Book ratio. The price to Book ratio is calculated as
 
@@ -239,7 +242,7 @@ To better understand the predictive value of the P/B Ratio we can use a box plot
 
 It is evident that this diagram tells a very similar story to the P/E Ratio diagram. We can see that companies that grew and companies that shrank had an almost identical distribution of P/B Ratios. If it were predictive, we would have expected different distributions for each category. We can therefore conclude that the P/B Ratio also has little or no predictive value when it comes to estimating company performance for the following year.
 
-\section{Fundamental Analysis limitations}
+\section{Limitations of Fundamental Analysis}
 
 There is an obvious pattern with fundamental Analysis. We are trying to find the quantify the true value of a company when almost every company has in some way or another some purely qualitative value
 
@@ -249,7 +252,7 @@ These are three examples of some of the many things that a human investor might 
 
 Instead, we are limited to purely quantitative company metrics. We will look at two of the most common metrics, Price to Earnings ratio and Price to Book ratio.
 
-\section{Fundamental Analysis - Conclustion}
+\section{Fundamental Analysis - Conclusion}
 
 We evaluated two Fundamental Analysis metrics and found no conclusive proof of their predictive value.  
 
@@ -262,19 +265,19 @@ Because of these issues that we moved away from Fundamental Analysis.
 
 The second approach we take at solving the problem of market prediction is to use Technical Analysis. This approach tries to recurring patterns and trends within the price of the stock itself.
 
-It should be noted that Technical Analysis goes directly against all forms of the efficient market hypothesis. As explained earlier, even the weak form of the hypothesis rules out prediction using historic price data alone.
+It should be noted that Technical Analysis goes directly against all forms of the Efficient Market Hypothesis. As explained earlier, even the weak form of the hypothesis rules out prediction using historic price data alone.
 
 Technical Analysis is used for daily level price prediction which was the original focus of this project. 
 
-\section{Broad families of Technical Analysis models}
+\section{Broad Families of Technical Analysis Models}
 
 If a casual investor was to do some research into trading on the stock market using Technical Analysis they would encounter two broad categories of models. We will demonstrate that one of these is implausible in theory and in practice, while the other although sound in theory, does not work in practice.
 
-\section{Naive trading patterns}
+\section{Naive Trading patterns}
 
 The first family of technical analysis methods we will look at are those that do not work in theory or in practice. These methods are based on looking for very high level patterns in the stock market price and using these patterns in an attempt to predict the following price movements.
 
-Amoung the most common of these patterns is the Head and Shoulders pattern, and it is one of the worst offenders of poor methodology in the technical analysis of stock market field.
+among the most common of these patterns is the Head and Shoulders pattern, and it is one of the worst offenders of poor methodology in the technical analysis of stock market field.
 
 \begin{figure}[H]
 	\caption{Head and Shoulders Pattern \cite{website:headshoulders}}
@@ -294,7 +297,7 @@ In short, it is impossible to get any useful information from the head and shoul
 
 There is no shortage of similar patterns to be found in online literature, but almost all fall into the same problems as the head and shoulders pattern. All information available from these models is only useful in retrospect. 
 
-\section{Statistical trading patterns}
+\section{Statistical Trading Patterns}
 
 Next, we move to technical analysis models that are sound in theory. These models work on a statistical basis rather than patterns and make explicit predictions about the future. One of the simpliest and most common model of this type is the Moving Average Crossover strategy.
 
@@ -310,7 +313,7 @@ In figure \ref{fig:macrossover}, the red areas are where the short moving averag
 
 However, while it is attractive to look at the crossover points on the left of the diagram, one should not ignore the less significant crossover points on the right of the diagram. This are crossover points just as much as the ones on the left area but these are not as predictive for market trends. We need to choose a long and short periods moving average to maximize the predictive value.
 
-\subsection{Evaluating the Moving Average Crossover model}
+\subsection{Evaluating the Moving Average Crossover Model}
 
 To evaluate the predictive value moving average crossover model, we attempted to build a predictor using these crossover signals (negative and positive) as the input features and the market trend for the following day as the dependent variable we are trying to predict. We performed a rigorous evaluation of long and short term pairs on a training set, and tested the winning long/short term pair against an independent test set.
 
@@ -357,7 +360,7 @@ We must conclude that the Moving Average Crossover is not predictive in any mean
 
 [todo]
 
-\section{Common problems with technical analysis}
+\section{Common Problems with Technical Analysis}
 
 For a casual investor, navigating online literature in this area poses a significant challenge. An extremely common theme in this literature is the poor methodology applied to evaluating trading patterns.
 
@@ -376,11 +379,12 @@ It might have been expected that given the popularity of Technical Analysis for 
 
 Our final approach to attacking the problem of stock market prediction is to look at machine learning. With machine learning, we will be building models that teach themselves what to look for, and learn to exploit relationships within the data that we might have otherwise missed using Fundamental Analysis or Technical Analysis.
 
+\clearpage
 \section{Preceeding 5 day prices}
 
 In Technical Analysis, we attempted to find patterns and trends in the data that we could use to predict the price movement, the trend, for the following day. Ultimately technical analysis failed to produce any notable results, but perhaps it was because the models are not complex enough to capture any hypothetical pattern that might exist in market data.
 
-Similarly to Technical Aanalysis, in this section we will try to apply machine learning techniques to the price of the stock itself. Again, the efficient market hypothesis says that it should not be possible to gain any predictive value from the price alone, but we might be waiting a while for economists to prove that concretely.
+Similarly to Technical Aanalysis, in this section we will try to apply machine learning techniques to the price of the stock itself. Again, the Efficient Market Hypothesis says that it should not be possible to gain any predictive value from the price alone, but we might be waiting a while for economists to prove that concretely.
 
 The data that we'll we using is the percentage change in closing price of the stock from the preceding 5 days. The dependent variable will be the trend of the 6th day, i.e will the stock price move up or down.
 
@@ -468,9 +472,10 @@ We must then conclude the the problem must lie in the data itself. It would seem
 
 Clearly we must begin to look at using external data.
 
+\clearpage
 \section{Related Assets}
 
-With the failure of using the price itself to predict stock movements, we turn to our sources of predictive value. Prehaps the most obvious source we should seek to use is the movement of assets related to the Dow Jones.
+With the failure of using the price itself to predict stock movements, we turn to other sources of predictive value. Prehaps the most obvious source we should seek to use is the movement of assets related to the Dow Jones.
 
 Intuitive, one might suppose that when the price of Oil rises, that is a good sign for the Dow Jones and we can expect it to rise too. Similarly, if the price of Oil falls we might expect the price of the Dow Jones to fall with it. In this section, we will search for features that rise and fall with the Dow Jones index.
 
@@ -525,15 +530,15 @@ Now that we know that there is at least some predictive value in our dataset, we
 
 Similar to what we attempt to do with the model based on the historical prices, the first step in creating our model is error estimation. In this step we estimate the performance of various classes of model.
 
-We used a nested kFold method to correctly perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the best model found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the best features should be kept, for instance the search could determine that it was best to keep the top 3 most predictive features. The second domain was the hyperparameter specific to the model being tested. Table \ref{table:asset-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
+We used a nested kFold method to perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the set of hyperparameters found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the $k$ best features to keep. For instance, the search might determine that it was best to keep the top 3 most predictive features. The second domain were the hyperparameter specific to the model being tested. Table \ref{table:asset-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
 
 \begin{center}
   \captionof{table}{Error Estimation Scores}
   
   \begin{tabular}{l | l | l}
-	  Model Name & Hyperparameters Tested & Nested KFold Accuracy \\ \hline
-	  LogisticRegression & Norm penalization: l1 and l2 & 0.5717 \\ \hline
-	  KNeighborsClassifier & $0 < k \leq 25$, weights: uniform and distance & 0.7251 \\ \hline
+	  \textbf{Model Name} & \textbf{Model Specifc Hyperparameters} & \textbf{Estimated Accuracy} \\ \hline
+	  LogisticRegression & Norm penalization: l1, l2 & 0.5717 \\ \hline
+	  KNeighborsClassifier & $0 < k \leq 25$, weights: uniform, distance & 0.7251 \\ \hline
 	  GaussianNB & - & 0.7208
 	  \label{table:asset-error-est}
   \end{tabular}
@@ -550,10 +555,10 @@ A kNN model has two important hyperparameters, $k$ and how to weigh examples in 
 After performing a grid search over the value space and cross validating each combination of hyperparameters, we find that the best combination of hyperparameters gives us a cross validated accuracy of 74.63\% at predicting Dow Jones Index daily trends. Table \ref{table:asset-model-sel} shows the best combination of hyperparameters found.
 
 \begin{center}
-  \captionof{table}{Error Estimation Scores}
+  \captionof{table}{Model Selection Results}
   
   \begin{tabular}{l | l}
-	  Hyperparameter & Best value \\ \hline
+	  \textbf{Hyperparameter} & \textbf{Best value} \\ \hline
 	  Number of features to keep & 3 \\ \hline
 	  Number of nighbours to examine & 14 \\ \hline
     Method of weighing neighbours & uniform
@@ -569,7 +574,150 @@ By training the model on the full dataset with the winning hyperparameters and i
 
 In this section we gathered data for 8 features that could conceivably have some predictive value for the Dow Jones. We explored the predictive value of each feature visually to gain some sense of the data and then followed the precisely correct methodology to end up with an optimal model. The final model had an estimated accuracy of 74.63\%, which is significant for stock market data.
 
-However, as warned by the data section, we should be cautious of such high accuracy figures. Due to lack of publically available intraday price data, we might have some leakage of the test set that is skewing our result. Later in the report, when we try to translate this model to a trading simulation,  We will demonstrate that this error is most likely what is giving such a high accuracy score and that it would not work as well in the real world. 
+However, as warned by the data section, we should be cautious of such high accuracy figures. Due to lack of publicly available intraday price data, we might have some leakage of the test set that is skewing our result. Later in the report, when we try to translate this model to a trading simulation,  We will demonstrate that this error is most likely what is giving such a high accuracy score and that it would not work as well in the real world. 
+
+\clearpage
+\section{Analyst Opinions}
+
+With the apparent success of using related assets to predict daily movements in the Dow Jones, we continue our search for additional predictive features. In this section we will attempt to use analyst opinions to predict the same day trend.
+
+An analyst opinion is a prediction of a particular research firm on a particular stock. For instance, a large investment research firm such as JP Morgan might issue an opinion on Intel stock. They may upgrade or downgrade their estimates of stock performance, may recommend buying or selling the stock at the current price.
+
+It would seem intuitive that these recommendations should be predictive. There are two reasons why that might be true. The first reason that these recommendations might truely be predictive of the price. One can imagine that large research firms such as JP Morgan would employ skilled analysts that are able to make accurate predictions. The second reason is less optimistic and assumes that these predictions are self-fulfilling prophecies. If multiple large investment firms upgrade or downgrade their opinion of a stock on the same day, it is certainly concievable that the opinions themselves are enough to shift the market regardless of their true predictive value.
+
+However, it should not matter to us why they are predict. For whatever reason, if these opinions can predictive we should be able to build a model to utilise them.
+
+\subsection{Data}
+
+Conveniently, Yahoo Finance provides an open database of opinions issued by large research firms. The database covers all major stocks including the components of the Dow Jones, the 30 companies of interest to the project. 
+
+One small difficulty in obtaining this data is that it is provided in a HTML table on the Yahoo Finance website. This means that it was not directly downloadable as a csv file or an equivilent easy to use file format. Because of this, a small web scraper had to be constructed. 
+
+The web scraper was constructed in python. The scraper began by sending 30 HTTP get requests to Yahoo Finance, one for each company. The responses were then parsed using the BeautifulSoup4 HTML parsing library. After the HTML was parsed it was trivial to extract the data in a more usable format. The extracted data for all companies was cached in a single CSV file. In total, 3584 analyst opinions were gathered from the year 2000 to 2014.
+
+\begin{center}
+  \captionof{table}{Analyst Opinion Data}
+  
+  \begin{tabular}{l | l | l | l | l | l}
+\textbf{Date}        & \textbf{Research Firm}      & \textbf{Action}       & \textit{From}         & \textbf{To}                   & \textbf{Symbol} \\ \hline
+2001-04-25  & First Union Sec    & Downgrade    & Strong Buy   & Buy                  & CSCO \\ \hline
+2001-04-25  & AG Edwards         & Downgrade    & Accumulate   & Maintain Position    & VZ \\ \hline
+2001-05-01  & Salomon Smth Brny  & Upgrade      & Neutral      & Outperform           & PG \\ \hline
+2001-05-07  & Prudential         & Downgrade    & Hold         & Sell                 & JPM \\ \hline
+2001-05-08  & Mrgn Stnly         & Upgrade      & Neutral      & Outperform           & CSCO
+	  \label{table:opinions-data}
+  \end{tabular}
+\end{center}
+
+Table \ref{table:opinions-data} Displays what the gathered data looks like.
+
+It should be noted that in this section we will be trying to predict the daily movement of individual companies prices rather than the Dow Jones index as a whole as we did in the last section. This is because each opinion very explicitly relates to a single company.
+
+Also note that these opinions are almost always issued before the market opens. It is therefore acceptable to use these opinions to predict the movement on the market for that day.
+
+\subsection{Data Exploration}
+
+As we did in the previous section, to get a better sense of our data we will explore it a little further.
+
+The company with the most opinions in the gathered dataset is Intel (INTC) which 326 individual analyst opinions. To get a sense of whether the data might be useful, we can plot these opinions in relation to the INTC price.
+
+First we filtered the dataset so that we only consider INTC opinions. We then aggregated the opinions that were issued on the same day by counting the number of Upgrades and Downgrades. Finally, the aggregated opinions were merged with the INTC stock price. This data was then plotted.
+
+\begin{figure}[H]
+	\caption{Visualisation of analyst opinions and INTC price}
+	\centerline{\includegraphics[scale=0.5]{vis/analyst_opinions.png}}
+	\label{fig:opinions_vis}
+\end{figure} 
+
+Figure \ref{fig:opinions_vis} visualises the relationship between opinion sentiment (Upgrade or Downgrade) and price. Green upwards pointing triangles signal an upgrade and red downwards pointing triangles signal a downgrade. The size of the triangle represents the number of coinciding opinions across all research firms. For instance the large red down pointing triangle on the left hand side of the diagrm is a point representing 9 separate research firms all downgrading their opinion of INTC on the same day.
+
+From visual inspection it would appear there may indeed be some value in these opinions, but we cannot be certain until we attempt to build a model.
+
+\subsection{Data Preparation}
+
+As evident from Table \ref{table:opinions-data} all of the feature values in the dataset are labels and categories, not numerical data. This presents a problem. The machine learning library used in this problem, sklearn, does not provide models which can handle non-numeric data. We must therefore transform our data into numeric form.
+
+The correct way to transform a label type feature is to use One-hot Encoding. One-hot Encoding will transform a single feature with $n$ unique values into $n$ different features with binary values.
+
+\begin{figure}[H]
+\caption{One-hot Encoding Example}
+\subfigure[Before]{\includegraphics[scale=0.6]{vis/before_encoding.png}}
+\hfill
+\subfigure[After]{\includegraphics[scale=0.6]{vis/after_encoding.png}}
+\label{fig:one-hot}
+\end{figure}
+
+Figure \ref{fig:one-hot} demonstrates the concept of One-hot encoding. After One-hot encoding, the original feature is removed but no information is lost. To signify a value in the original column, a $1$ is placed in the new corresponding column.
+
+For the opinions dataset, it was decided that the most important original features are $Research\ Firm$, $Action$, and $To$. $Research\ Firm$ might be important because an opinion from some firms may have more of an influence on the movement than others. The $Action$ column is intuitively important because it summarises the sentiment of the opinion into Upgrade or Downgrade. The $To$ column is the recommendation of the Research Firm, this is also intuitively important because it could be a recommendation to Buy or Sell.
+
+It was then necessary to One-hot encode each of these three features features. This resulted in a total of 266 new feature columns, one new column for each unique value in the original three columns. Now that all the features have been one hot encoded, we can aggregate rows where more than one research firm issued an opinion for the same company on the same date. We will use a sum operation to aggregate the rows accross all columns. For example, if both research firms upgraded a company on the same day then we will merge these rows and place a value of $2$ in the upgrade column.
+
+The entire data preparation stage can be done very concisely a using the Pandas python library.
+
+\begin{lstlisting}[frame=single, caption=Data Preparation Using Pandas]
+dataset = pd.merge(opinions,prices,on=['Date', 'Symbol'])
+
+X = dataset[['Date', 'Symbol']] \
+    .join(pd.get_dummies(dataset['Research Firm'])) \
+    .join(pd.get_dummies(dataset['Action'])) \
+    .join(pd.get_dummies(dataset['To'])) \
+    .groupby(['Date', 'Symbol']).sum() 
+    
+y = [frame['Trend'].values[0] for index, frame in \
+         dataset.groupby(['Date', 'Symbol'])]
+\end{lstlisting}
+
+\subsection{Error Estimation}
+
+With our data prepared, we must decide which class of model to use.
+
+We used a nested kFold method to perform the error estimation. The inner kFold performed a Grid Search over a set of hyperparameters.  The outer kFold was responsible for the cross validation of the set of hyperparameters found within the inner kFold. The Grid Search searched over two domains. The first domain was the hyperparameter determining how many of the $k$ best features to keep. The second domain were the hyperparameter specific to the model being tested. Table \ref{table:opinions-error-est} details the model class tested, the model specific hyperparamters searched over, and the cross validation score.
+
+\begin{center}
+  \captionof{table}{Error Estimation Scores}
+  
+  \begin{tabular}{l | l | l}
+	  \textbf{Model Name} & \textbf{Model Specifc Hyperparameters} & \textbf{Estimated Accuracy} \\ \hline
+	  LogisticRegression & Norm penalization: l1, l2 & 0.6627 \\ \hline
+	  KNeighborsClassifier & $0 < k \leq 20$, weights: uniform, distance & 0.6564 \\ \hline
+	  MultinomialNB & - & 0.6729
+	  \label{table:opinions-error-est}
+  \end{tabular}
+\end{center}
+
+The scores from table \ref{table:opinions-error-est} look positive. We can see that the MultinomialNB model has the best estimated accuracy. This means that this is the model we should bring forward to Model Selection.
+
+\subsection{Model Selection}
+
+MultinomialNB being the model that won in the Error Estimation round, it should now be the model that we focus on in Model Selection. 
+
+The MultinomialNB model is a naive bayes classifier and only has one hyperparameter. The hyperparameter, called alpha in sklearn, controls the additive smoothing in the model. What exactly additive smoothing is is out of the scope of this report, but all we need to know is that it is a hyperparameter that should be searched over to optimise the model. 
+
+At the same time as we are searching over the model hyperparameter, we will again be searching for the best $k$ features to keep.
+
+\begin{center}
+  \captionof{table}{Model Selection Results}  
+  \begin{tabular}{l | l}
+	  \textbf{Hyperparameter} & \textbf{Best value} \\ \hline
+	  Number of features to keep & 11 \\ \hline
+	  MultinomialNB alpha & 0.7333
+	  \label{table:opinions-model-sel}
+  \end{tabular}
+\end{center}
+
+Table \ref{table:opinions-model-sel} shows the best set of hyperparameters found in the search. The winning model had a cross validation accuracy of 67.40\%.
+
+\subsection{Analyst Opinions - Conclusion}
+
+In this section we gathered a list of analyst opinions and used them to build a model to predict the same day price movement for companies in the Dow Jones. Although concise in its final version, the data preparation for this section proved difficult to get right. The final model had an estimated accuracy of 67.40\% which is an extremely positive result. 
+
+Although the data used in this section does not have the leakage problems the data in the last section had, we will unfortunately see that we cannot profitably trade on the stock market using this model either. 
+
+\clearpage
+\section{Disasters}
+
+[todo]
 
 \bibliography{report2}
 \bibliographystyle{plainnat}

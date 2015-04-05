@@ -34,11 +34,17 @@ In this report we analyse existing and new methods of stock market prediction. W
 
 \chapter{Introduction}
 
-[todo]
+Predicting the Stock Market has been the goal and bane of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another from their predictions. Entire companies rise and fall daily based on the behaviour of the market. Should one be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. 
 
-\section{Project Focus}
+It is no wonder then that the Stock Market and its associated difficulties find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different as evidenced by the flood of films and documentaries on the topic. If there was a common theme among those productions, it was that no one was really sure how the market works and reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
 
-[todo]
+\section{Project Goals and Scope}
+
+Dispite its prevalence, Stock Market prediction remains a secretive and empiracal art. Few people, if any, are willing to share what  successful strategies they may have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equiped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
+
+It is also important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into telecoms companies, just in case the entire sector takes an unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some critera he has decided on before. 
+
+This project will focus on predicting the daily movement direction (price going up or down) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
 
 \chapter{Data and Tools}
 

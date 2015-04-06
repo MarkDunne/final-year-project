@@ -10,6 +10,7 @@
 \usepackage{capt-of}
 \usepackage{subfigure}
 \usepackage{listings} 
+\usepackage{cases}
 
 
 \title{Stock Market Prediction}
@@ -50,17 +51,73 @@ This project will focus on predicting the daily movement direction (price going 
 
 \section{Data Used}
 
-For this project, we chose the Dow Jones and its components as a representa`tive bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a prices-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers many different sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
+\subsection{Choosing the Dataset}
 
-We wanted to use a set of companies already picked by someone else so that we do not open ourselves to methodology errors or accusations fishing expeditions to find a set of companies that our algorithms do happen to work for. 
+For this project, we chose the Dow Jones and its components as a representative bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a price-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers a diverse set of sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
 
-The Dow Jones was chosen because it is well known, and has a relatively small number of compontents when compared to indices such as the S\&P 500 which has over 500 components at the time of writing. 
+It is important to use a predefinied set of companies instead of a custom selected set so that we do leave ourselves open to methodology errors or accusations of fishing expeditions. If we had selected a custom set of companies, it could be argued that the set was taylored specifically to improve our results. Since the aim of the project is to create a predictive model of stock markets in general, this is a claim that we want to avoid. 
 
-This small but representitiive set allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypotheses laid out in this report, we were able to extract datasets many thousands of examples in size.
+The Dow Jones was chosen because it is well known, and has a relatively small number of compontents. The leading index, the S\&P 500 has over 500 components, but ultimately analysing 500 companies proved to be too computationally expensive for the resources at hand. This small but representitiive set of 30 components allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypotheses laid out in this report, we were able to extract datasets many thousands of examples in size.
 
-\section{Data Sources}
+\subsection{Gathering the Datasets}
 
-[todo]
+Luckily, data on daily stock prices is easy to come by. Google and Yahoo both operate websites which offer a facility to download CSV files containing a full daily price history. These are useful for looking at individual companies but are slightly cumbersome to use when analysing large amounts of data. 
+
+Instead of using Google and Yahoo directly, Quandl\cite{website:quandl} was used to gather the data. Quandl is a free to use website that hosts and maintains vast amounts of numerical datasets with a focus specifically on economic datasets. It also provides a small python library that is useful for accessing the database programmatically. The library also provides a simple method for calculating the daily percentage change in prices. This calculation is defined in equation \ref{eq:quandl-pc-calc} where $p_{t}$ is the closing price on day $d$, and $\delta p_{d}$ is the resulting percentage change.  
+
+\begin{figure}[H]
+\begin{center}
+    \begin{equation}
+      \delta p_{d} = \dfrac{p_{d} - p_{d-1}} {p_{d-1}}
+      \label{eq:quandl-pc-calc}
+    \end{equation}
+\end{center}
+\end{figure}
+
+To build the primary dataset, a simple program was built to query the Quandl API for each of the 30 Dow Jones components using the transformation outlined in equation \ref{eq:quandl-pc-calc}. Before finally saving the data, the gathered data was augmented with an additional column containing the classificiation of the daily percentage change. This augmentation is defined in equation \ref{eq:quandl-pc-class} where $trend_{d}$ is the price movement direction on day $d$ and $\delta p_{d}$ as defined in equation \ref{eq:quandl-pc-calc}.
+
+\begin{figure}[H]
+\begin{center}
+\begin{equation}
+trend_{d} = \begin{cases}
+Loss &\text{if $\delta p_{d} < 0$}\\
+Gain &\text{if $\delta p_{d} > 0$}\\
+Neutral &\text{if $\delta p_{d} = 0$}
+\end{cases}
+\label{eq:quandl-pc-class}
+\end{equation}
+\end{center}
+\end{figure}
+
+This dataset was then saved in CSV format for simple retrival as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of the number of rows from this dataset.
+
+\begin{figure}
+\caption{Data Extract of Primary Dataset}
+\begin{center}
+  
+    \begin{tabular}{l | l | l | l }
+      Date & Symbol & $\delta p_{d}$ & trend \\ \hline
+      2000-01-05 & DD  &	0.04230 	& Gain \\ \hline
+      2000-01-05 & DIS &	0.03748 	& Gain \\ \hline
+      2000-01-05 & GE  &	-0.00749 	& Loss \\ \hline
+      2000-01-05 & GS  &	-0.04248 	& Loss \\ \hline
+      2000-01-05 & HD  &	-0.00097 	& Loss \\ \hline
+      2000-01-05 & IBM &	0.03515 	& Gain
+
+    \label{table:data-example-0}
+    \end{tabular}
+\end{center}
+\end{figure}
+
+With the primary dataset prepared, we will combine it as needed with additional datasets to carry out individual experiments. 
+
+\subsection{Limitations of the Data}
+
+Although the data gathered in the previous section is certainly a good start, it is admittedly far behind what any serious investor more than likely has access to. An obvious side of the data that is missing is the intraday prices, i.e the prices minute by minute. It is possible that this data could be used to guide and investors decisions on the interday level. However, intraday prices are not as freely available as interday prices and are considered a commodity in themselves. To get hold of such a dataset would incur a large cost, one that is not in the budget of a project such as this. Later in the project we will evaluate a strategy in which this limitation becomes significant.
+
+Another important piece of the data puzzle that the project is missing is the order book. The order book is a record of buy and sell orders of each particular stock. It consists of the amount a trader is willing to buy and sell, as well as their price. Successful orders are matched off against the order book by the exchange. The actual price of a stock is usually considered to be half way between the highest buying price and the lowest selling price. It is easy to imagine that the order book contains useful data. For instance, the weighted average price of all orders on the order book might be predictive of the actual price. However access to this data is extremely costly and far beyond what most casual investors can afford, let alone this project's budget.
+
+With no way around these limitations, we do our best with the data that Quandl provides.
 
 \section{Tools}
 \subsubsection{Python and associated packages}

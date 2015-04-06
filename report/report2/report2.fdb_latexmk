@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex report2"] 1428275247 "report2.aux" "report2.bbl" "report2" 1428275248
+["bibtex report2"] 1428275247 "report2.aux" "report2.bbl" "report2" 1428351660
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   "report2.aux" 1428275248 9936 8377c74fec91f97f4bddc1347b24aae2 ""
   "report2.bcf" 0 -1 0 ""
   "report2.bib" 1428262918 3444 98512e8831d567d118ffb737b51ceb0d ""
   (generated)
-  "report2.bbl"
   "report2.blg"
+  "report2.bbl"
 ["latex"] 1428269244 "report2.tex" "report2.dvi" "report2" 1428269244
   "/etc/texmf/web2c/texmf.cnf" 1427904873 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -78,11 +78,11 @@
   "report2.tex" 1428269243 69603 b45281edfb828d8780e122844f562ffd ""
   "report2.toc" 1428269244 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "report2.log"
-  "report2.dvi"
-  "report2.aux"
   "report2.toc"
-["pdflatex"] 1428275247 "report2.tex" "report2.pdf" "report2" 1428275248
+  "report2.aux"
+  "report2.dvi"
+  "report2.log"
+["pdflatex"] 1428275247 "report2.tex" "report2.pdf" "report2" 1428351660
   "/etc/texmf/web2c/texmf.cnf" 1427904873 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -190,7 +190,7 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1427904934 3822873 d5f7a79e022cbc3d760c232d333ae615 ""
   "report2.aux" 1428275248 9936 8377c74fec91f97f4bddc1347b24aae2 ""
   "report2.bbl" 1428275247 1960 27df83b2185de7e724dcb862413e228a "bibtex report2"
-  "report2.tex" 1428275188 72498 49a0a503b11919f04386104ad674546b ""
+  "report2.tex" 1428351660 72498 49a0a503b11919f04386104ad674546b ""
   "report2.toc" 1428275248 3671 f50bc427c1ed03e243d85a19c9175c7b ""
   "vis/50-learning-curve-15000.png" 1427903300 71283 cf76b6040b9a70c6084b729e5ba51b06 ""
   "vis/after_encoding.png" 1427903300 3249 0a832943ed49f1b446c034b5ce9195c3 ""
@@ -210,6 +210,6 @@
   "vis/single_feature_prediction.png" 1427903300 16972 285156fe804bdbf0fc0309e3a1b55f73 ""
   (generated)
   "report2.log"
-  "report2.toc"
   "report2.aux"
+  "report2.toc"
   "report2.pdf"

@@ -72,60 +72,62 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Cross-validation Confusion Matrix for Moving Average Strategy}}{25}}
 \newlabel{fig:ma-confusion}{{6.3}{25}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Additional Technical Analysis Models}{26}}
+\newlabel{eq:wma-calc}{{6.1}{26}}
+\newlabel{eq:mom-calc}{{6.2}{26}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Common Problems with Technical Analysis}{26}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Technical Analysis - Conclusion}{26}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Technical Analysis - Conclusion}{27}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{28}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{28}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Data Extract}}{28}}
-\newlabel{table:data-example-1}{{7.1}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Error Estimation}{28}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces Error Estimation Scores}}{29}}
-\newlabel{table:model-score}{{7.2}{29}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{29}}
-\@writefile{toc}{\contentsline {subsubsection}{Model Complexity}{29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces kNN Validation Curve}}{30}}
-\newlabel{fig:knn-validation}{{7.1}{30}}
-\@writefile{toc}{\contentsline {subsubsection}{Training Data}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces kNN Learning Curve}}{32}}
-\newlabel{fig:knn-learning}{{7.2}{32}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Preceeding 5 day prices - Conclusion}{32}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Related Assets}{34}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Data}{34}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Single Feature Prediction Results}}{36}}
-\newlabel{fig:single_feature_prediction}{{7.3}{36}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Modeling}{36}}
-\@writefile{toc}{\contentsline {subsubsection}{Error Estimation}{36}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.3}{\ignorespaces Error Estimation Scores}}{36}}
-\newlabel{table:asset-error-est}{{7.3}{37}}
-\@writefile{toc}{\contentsline {subsubsection}{Model Selection}{37}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.4}{\ignorespaces Model Selection Results}}{37}}
-\newlabel{table:asset-model-sel}{{7.4}{37}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{38}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Analyst Opinions}{39}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Data}{39}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.5}{\ignorespaces Analyst Opinion Data}}{39}}
-\newlabel{table:opinions-data}{{7.5}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{40}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Visualisation of analyst opinions and INTC price}}{40}}
-\newlabel{fig:opinions_vis}{{7.4}{40}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces One-hot Encoding Example}}{41}}
-\newlabel{fig:one-hot}{{7.5}{41}}
-\@writefile{lol}{\contentsline {lstlisting}{\numberline {7.1}Data Preparation Using Pandas}{42}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{42}}
-\@writefile{lot}{\contentsline {subtable}{\numberline{(a)}{\ignorespaces {Before}}}{42}}
-\@writefile{lot}{\contentsline {subtable}{\numberline{(b)}{\ignorespaces {After}}}{42}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.6}{\ignorespaces Error Estimation Scores}}{42}}
-\newlabel{table:opinions-error-est}{{7.6}{42}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Model Selection}{43}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.7}{\ignorespaces Model Selection Results}}{43}}
-\newlabel{table:opinions-model-sel}{{7.7}{43}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{43}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{29}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Data Extract}}{29}}
+\newlabel{table:data-example-1}{{7.1}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Error Estimation}{29}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces Error Estimation Scores}}{30}}
+\newlabel{table:model-score}{{7.2}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{30}}
+\@writefile{toc}{\contentsline {subsubsection}{Model Complexity}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces kNN Validation Curve}}{31}}
+\newlabel{fig:knn-validation}{{7.1}{31}}
+\@writefile{toc}{\contentsline {subsubsection}{Training Data}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces kNN Learning Curve}}{33}}
+\newlabel{fig:knn-learning}{{7.2}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Preceeding 5 day prices - Conclusion}{33}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Related Assets}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}Data}{35}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Single Feature Prediction Results}}{37}}
+\newlabel{fig:single_feature_prediction}{{7.3}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.3}Modeling}{37}}
+\@writefile{toc}{\contentsline {subsubsection}{Error Estimation}{37}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.3}{\ignorespaces Error Estimation Scores}}{37}}
+\newlabel{table:asset-error-est}{{7.3}{38}}
+\@writefile{toc}{\contentsline {subsubsection}{Model Selection}{38}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.4}{\ignorespaces Model Selection Results}}{38}}
+\newlabel{table:asset-model-sel}{{7.4}{38}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Analyst Opinions}{40}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Data}{40}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.5}{\ignorespaces Analyst Opinion Data}}{40}}
+\newlabel{table:opinions-data}{{7.5}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Visualisation of analyst opinions and INTC price}}{41}}
+\newlabel{fig:opinions_vis}{{7.4}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces One-hot Encoding Example}}{42}}
+\newlabel{fig:one-hot}{{7.5}{42}}
+\@writefile{lol}{\contentsline {lstlisting}{\numberline {7.1}Data Preparation Using Pandas}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{43}}
+\@writefile{lot}{\contentsline {subtable}{\numberline{(a)}{\ignorespaces {Before}}}{43}}
+\@writefile{lot}{\contentsline {subtable}{\numberline{(b)}{\ignorespaces {After}}}{43}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.6}{\ignorespaces Error Estimation Scores}}{43}}
+\newlabel{table:opinions-error-est}{{7.6}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.5}Model Selection}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.7}{\ignorespaces Model Selection Results}}{44}}
+\newlabel{table:opinions-model-sel}{{7.7}{44}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{44}}
 \bibdata{report2}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Disasters}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Disasters}{45}}
 \bibcite{website:quandl}{{1}{2015}{{web}}{{}}}
 \bibcite{graham1934security}{{2}{1934}{{Graham et~al.}}{{Graham, Dodd, and Cottle}}}
 \bibcite{website:headshoulders}{{3}{2015}{{Guide}}{{}}}

@@ -423,7 +423,36 @@ We must conclude that the Moving Average Crossover is not predictive in any mean
 
 \subsection{Additional Technical Analysis Models}
 
-Although we had no success using moving average crossovers, there are many other technical analysis indicators that are regularly used by traders. We will evulate a further five different indicators.
+Although we had no success using moving average crossovers, there are many other technical analysis indicators that are regularly used by traders. We will evulate a further five of the most common indicators. These indicators are described below.
+
+\begin{description}
+  \item[Weighted Moving Average] A weighted moving average is the average where later data points are given more weight than earlier data points. In terms of this experiment, the data points will be the prices of individual days. The intuition follows an idea of reverting to the mean, but in this case the mean is calculated using weighted prices.
+ 
+  \begin{figure}[H]
+  \begin{center}
+      \begin{equation}
+        wma_{d} = \dfrac{p_{d} - p_{d-n}} {p_{d-n}}
+        \label{eq:wma-calc}
+      \end{equation}
+  \end{center}
+  \end{figure} 
+    
+  \item[Momentum]
+  A momentum indictator calculates the change in price over the last $n$ days. This is based on a straight forward percentage change.
+  
+  \begin{figure}[H]
+  \begin{center}
+      \begin{equation}
+        momentum_{d} = \dfrac{p_{d} - p_{d-n}} {p_{d-n}}
+        \label{eq:mom-calc}
+      \end{equation}
+  \end{center}
+  \end{figure}  
+    
+  \item[Bollinger Bands]
+  
+  \item[Relative Strength Index] 
+\end{description}
 
 \section{Common Problems with Technical Analysis}
 

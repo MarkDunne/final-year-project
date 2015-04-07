@@ -332,6 +332,8 @@ It should be noted that Technical Analysis goes directly against all forms of th
 
 Technical Analysis is used for daily level price prediction which was the original focus of this project. 
 
+tech anal is popular because it is simple and accessable and intuitive
+
 \section{Broad Families of Technical Analysis Models}
 
 If a casual investor was to do some research into trading on the stock market using Technical Analysis they would encounter two broad categories of models. We will demonstrate that one of these is implausible in theory and in practice, while the other although sound in theory, does not work in practice.
@@ -417,11 +419,11 @@ We can better understand what the model is doing by looking at the confusion mat
 
 We can now put into context how accurate the model is. We can see a slight increase in the numbers along the principle diagonal, indicating correct predictions. This gives us the slightly better than 0.5 accuracy score. But it is also obvious that the model isn't doing much better than a random predictor. We can quantify this using the Kappa Statistic, which compares the model's performance to a random version of itself based on the confusion matrix. This model scores a kappa of 0.0427, which is not significant. 
 
-We must conclude that the Moving Average Crossover is not predictive in any meaningful way.
+We must conclude that the Moving Average Crossover is not predictive in any meaningful way, at least for predicting the movement of companies on the Dow Jones.
 
 \subsection{Additional Technical Analysis Models}
 
-[todo]
+Although we had no success using moving average crossovers, there are many other technical analysis indicators that are regularly used by traders. We will evulate a further five different indicators.
 
 \section{Common Problems with Technical Analysis}
 

@@ -13,6 +13,7 @@
 \usepackage{cases}
 \usepackage{comment}
 \usepackage{mathtools}
+\usepackage{enumitem}
 
 
 \title{Stock Market Prediction}
@@ -21,7 +22,6 @@
 \begin{document}
 
 \lstset{language=Python}    
-\linespread{1.3}
 \belowdisplayskip=12pt plus 3pt minus 9pt
 \belowdisplayshortskip=7pt plus 3pt minus 4pt
 
@@ -232,6 +232,89 @@ This is the same reason for the lack of academic papers on the topic of successf
 The three preceding ideas ask us to keep an open mind on stock market prediction. It is possible that we will not be able to do it profitably.
 
 \chapter{Review of Existing Work}
+
+In this section, we will review existing academic literature in regard to predicting the stock market. We will look at two articles, one in support of technical analysis methods and another in support of machine learning methods. We will see that both leave room for improvement.
+
+\section{Article 1 - \citet{kara2011predicting}} 
+
+[todo need to explain technical analysis before this]
+
+The first article we will review is \textit{Predicting direction of stock price index movement using artificial neural networks and support vector machines: The sample of the Istanbul Stock Exchange} by \citet{kara2011predicting}. 
+
+The article makes a case for using technical analysis to predict the direction of the ISE National 100 Index, a stock index traded on the Istanbul Stock Exchange. The article claims impressive results, up to 75.74\% accuracy.
+
+The team uses a set of 10 technical analysis indicators and applies each of them to the price history of the National 100 Index price history. The indicators used are listed below.
+
+\begin{itemize}[noitemsep]
+  \item Simple 10-day moving average
+  \item Weighted 10-day moving average
+  \item Momentum
+  \item Stochastic K\%
+  \item Stochastic D\%
+  \item Relative Strength Index
+  \item Moving Average Convergence Divergence
+  \item Larry Williams R\%
+  \item Accumulation Distribution Oscillator
+  \item Commodity Channel Index
+\end{itemize}
+
+This data is then coupled with the price movement direction, the dependent variable and used to train two types of model. The models used are a Support vector machine, and a neural network. Results are cross-validated using a single-holdout method. This method of cross-validation is known to be inferior when compared to other techniques such as k-fold cross-validation \cite{kohavi1995study}, but it is unlikely that this would have a drastic effect on the results presented in the article. The team's neural network model had an average performance of 75.74\% accuracy and their support vector machine had an average performance of 71.52\% accuracy.
+
+These results are in sharpe contrast with work that we will present later in the report. The first reason this might be is that prehaps the Istanbul stock exchange is more accommodating to technical analysis than the 30 Dow Jones components reviewed in this report. This is understandable since all 30 of the Dow Jones components are traded on the New York Stock Exchange, which is the most computerised exchange in the world. It is likely that there are less trading algorithms competing on the Istanbul stock exchange and it is therefore easier to leverage algorithmic approaches. 
+
+There is another large flaw however in the methodology of the article that is far more likely to have dramatically increased the performance of their algorithms. In section three of the article, the team describes how they prepared their research data. Specifically, 
+
+\begin{quotation}
+\textit{The direction of daily change in the stock price index is categorized
+as ‘‘0’’ or ‘‘1’’. If the ISE National 100 Index at time $t$ is higher
+than that at time $t-1$, direction $t$ is ‘‘1’’. If the ISE National 100
+Index at time t is lower than that at time $t-1$, direction $t$ is ‘‘0’’.}
+\end{quotation}
+
+At first this would appear sensible, but their calculations also use the same $t$. For example, their moving average calculation is defined in equation \ref{eq:article1-sma-calc} where $C_{t}$ is the closing price at time $t$.
+
+  \begin{figure}[H]
+  \begin{center}
+      \begin{equation}
+        \text{Simple 10-day moving average} = \dfrac
+          {C_{t} + C_{t-1} + ... + C_{t-10}} {10}
+        \label{eq:article1-sma-calc}
+      \end{equation}
+  \end{center}
+  \end{figure} 
+
+In \ref{eq:article1-sma-calc}, the simple moving average is calculated using the closing price at time $t$ and $t-1$. In fact all features used in the article use some information from time $t$ and $t-1$, as well as others. But what they were trying to predict is the difference between $t$ and $t-1$. This means, in effect, that they are using information about tomorrow to predict tomorrows price. In a real world situation, no trader or trading algorithm would have the same level of information about tomorrow when they are making their predictions. If we wish to remain true to the idea of stock market prediction, we should only provide our models with information they could have in the world world. Clearly, this is a large flaw in the article. 
+
+However, it can be argued that the work may still be useful. Although the impressive figure of 75.74\% prediction accuracy would be impossible to replicate in a real world model because of the problems described above, perhaps it tells us something else. We could reinterpret the 75.74\% accuracy result not as predictive accuracy, but how accurately the technical analysis indicators agreed reality. In other words, even though the features ultimately had access to the movement direction because of the overlapping times, they agreed with it 75.74\% of the time. 
+
+Using this interpretation, \citet{kara2011predicting} have not demonstrated the predictive power of technical analysis, but demonstrated that it might be worth investigating. Later in this report, we will apply the corrected methodology and attempt to build a model using some of the same features.
+
+\section{Article 2 - \citet{shen2012stock}}
+
+The second article we will look at is \textit{Stock Market Forecasting Using Machine Learning Algorithms} by \citet{shen2012stock}.
+
+The article makes a case for the use of machine learning to predict large american stock indicies, including the Dow Jones. The article boasts a 77.6\% accuracy rate for the Dow Jones specificially. 
+
+The team uses a set of 16 financial products and and uses their movements to predict movements in american stock exchanges. Some of the financial products used are listed below.
+
+\begin{itemize}[noitemsep]
+  \item FTSE index price
+  \item DAX index price
+  \item Oil price
+  \item EURO/USD exchange rate
+\end{itemize}
+
+The article makes good use of explorative methods in their data preparation stage. They show using graphs there there is a some features may have predictive power because of their correlation to the NASDAQ index. 
+
+They then go on to perform feature selection based on the predictive power of each feature on its own. The results presented in this section, the predictive power of single features, are very similar to results that we will show later in this report. 
+
+After they have selected their top 4 features they compare a Support vector machine model to a Multiple Additive Regression Trees model for predicting the following day's NASDAQ trend. Their winning model is the SVM with 74.4\% accuracy. 
+
+While the results presented by \citet{shen2012stock} in this article appear to be very much inline with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However because their results will be supported by ours, we don't imagine that any critical errors were made in these steps.
+
+After they successfully train and test a model, they use it to simulate a real life trading environment. Their models perform extremely well on the simulated trading example with an average of an 8\% return rate every 50 days. This is where the results of this article and the results of our report diverge. This article fails to account for overlapping trading hours. For instance the FTSE, which is traded in London, and the Dow Jones, which is traded in New York, are both trading simultaneously for three to four hours each day. This is enough time for the New York stock exchange to influence the London Stock stock exchange. It follows then that it is incorrect to use the closing prices in London to predict New York's movements.
+
+While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when simulating real world trading. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours. 
 
 \chapter{Attacking the Problem - Fundamental Analysis}
 

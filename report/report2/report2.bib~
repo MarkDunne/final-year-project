@@ -124,3 +124,14 @@ month = "March",
 year = "2015",
 url = "http://www.online-stock-trading-guide.com/head-and-shoulders-pattern.html
 }
+
+@article{wong2003rewarding,
+  title={How rewarding is technical analysis? Evidence from Singapore stock market},
+  author={Wong, Wing-Keung and Manzur, Meher and Chew, Boon-Kiat},
+  journal={Applied Financial Economics},
+  volume={13},
+  number={7},
+  pages={543--551},
+  year={2003},
+  publisher={Taylor \& Francis}
+}

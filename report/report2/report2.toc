@@ -3,10 +3,10 @@
 \contentsline {chapter}{\numberline {2}Data and Tools}{5}
 \contentsline {section}{\numberline {2.1}Data Used}{5}
 \contentsline {subsection}{\numberline {2.1.1}Choosing the Dataset}{5}
-\contentsline {subsection}{\numberline {2.1.2}Gathering the Datasets}{6}
+\contentsline {subsection}{\numberline {2.1.2}Gathering the Datasets}{5}
 \contentsline {subsection}{\numberline {2.1.3}Limitations of the Data}{7}
-\contentsline {section}{\numberline {2.2}Tools}{8}
-\contentsline {subsubsection}{Python and associated packages}{8}
+\contentsline {section}{\numberline {2.2}Tools}{7}
+\contentsline {subsubsection}{Python and associated packages}{7}
 \contentsline {chapter}{\numberline {3}Considerations in Approaching the Problem}{9}
 \contentsline {section}{\numberline {3.1}Random Walk Hypothesis}{9}
 \contentsline {subsection}{\numberline {3.1.1}Qualitative Similarity to Random pattern}{9}
@@ -15,41 +15,43 @@
 \contentsline {section}{\numberline {3.3}Self Defeating Strategies}{13}
 \contentsline {section}{\numberline {3.4}Conclusions}{13}
 \contentsline {chapter}{\numberline {4}Review of Existing Work}{14}
-\contentsline {chapter}{\numberline {5}Attacking the Problem - Fundamental Analysis}{15}
-\contentsline {section}{\numberline {5.1}Price to Earnings Ratio}{16}
-\contentsline {section}{\numberline {5.2}Price to Book Ratio}{17}
-\contentsline {section}{\numberline {5.3}Limitations of Fundamental Analysis}{19}
-\contentsline {section}{\numberline {5.4}Fundamental Analysis - Conclusion}{20}
-\contentsline {chapter}{\numberline {6}Technical Analysis}{21}
-\contentsline {section}{\numberline {6.1}Broad Families of Technical Analysis Models}{21}
-\contentsline {section}{\numberline {6.2}Naive Trading patterns}{21}
-\contentsline {section}{\numberline {6.3}Moving Average Crossover}{23}
-\contentsline {subsection}{\numberline {6.3.1}Evaluating the Moving Average Crossover Model}{24}
-\contentsline {section}{\numberline {6.4}Additional Technical Analysis Models}{26}
-\contentsline {subsection}{\numberline {6.4.1}Evaluating the Indicators}{27}
-\contentsline {subsection}{\numberline {6.4.2}Data Preparation}{28}
-\contentsline {subsection}{\numberline {6.4.3}Error Estimation}{28}
-\contentsline {section}{\numberline {6.5}Common Problems with Technical Analysis}{29}
-\contentsline {section}{\numberline {6.6}Technical Analysis - Conclusion}{30}
-\contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{31}
-\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{32}
-\contentsline {subsection}{\numberline {7.1.1}Error Estimation}{32}
-\contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{33}
-\contentsline {subsubsection}{Model Complexity}{33}
-\contentsline {subsubsection}{Training Data}{35}
-\contentsline {subsection}{\numberline {7.1.3}Preceeding 5 day prices - Conclusion}{36}
-\contentsline {section}{\numberline {7.2}Related Assets}{38}
-\contentsline {subsection}{\numberline {7.2.1}Data}{38}
-\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{39}
-\contentsline {subsection}{\numberline {7.2.3}Modeling}{40}
-\contentsline {subsubsection}{Error Estimation}{40}
-\contentsline {subsubsection}{Model Selection}{41}
-\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{42}
-\contentsline {section}{\numberline {7.3}Analyst Opinions}{43}
-\contentsline {subsection}{\numberline {7.3.1}Data}{43}
-\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{44}
-\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{45}
-\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{46}
-\contentsline {subsection}{\numberline {7.3.5}Model Selection}{47}
-\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{47}
-\contentsline {section}{\numberline {7.4}Disasters}{48}
+\contentsline {section}{\numberline {4.1}Article 1 - \citet {kara2011predicting}}{14}
+\contentsline {section}{\numberline {4.2}Article 2 - \citet {shen2012stock}}{16}
+\contentsline {chapter}{\numberline {5}Attacking the Problem - Fundamental Analysis}{18}
+\contentsline {section}{\numberline {5.1}Price to Earnings Ratio}{18}
+\contentsline {section}{\numberline {5.2}Price to Book Ratio}{20}
+\contentsline {section}{\numberline {5.3}Limitations of Fundamental Analysis}{22}
+\contentsline {section}{\numberline {5.4}Fundamental Analysis - Conclusion}{23}
+\contentsline {chapter}{\numberline {6}Technical Analysis}{24}
+\contentsline {section}{\numberline {6.1}Broad Families of Technical Analysis Models}{24}
+\contentsline {section}{\numberline {6.2}Naive Trading patterns}{24}
+\contentsline {section}{\numberline {6.3}Moving Average Crossover}{26}
+\contentsline {subsection}{\numberline {6.3.1}Evaluating the Moving Average Crossover Model}{27}
+\contentsline {section}{\numberline {6.4}Additional Technical Analysis Models}{29}
+\contentsline {subsection}{\numberline {6.4.1}Evaluating the Indicators}{30}
+\contentsline {subsection}{\numberline {6.4.2}Data Preparation}{31}
+\contentsline {subsection}{\numberline {6.4.3}Error Estimation}{31}
+\contentsline {section}{\numberline {6.5}Common Problems with Technical Analysis}{32}
+\contentsline {section}{\numberline {6.6}Technical Analysis - Conclusion}{33}
+\contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{34}
+\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{35}
+\contentsline {subsection}{\numberline {7.1.1}Error Estimation}{35}
+\contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{36}
+\contentsline {subsubsection}{Model Complexity}{36}
+\contentsline {subsubsection}{Training Data}{38}
+\contentsline {subsection}{\numberline {7.1.3}Preceeding 5 day prices - Conclusion}{39}
+\contentsline {section}{\numberline {7.2}Related Assets}{41}
+\contentsline {subsection}{\numberline {7.2.1}Data}{41}
+\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{42}
+\contentsline {subsection}{\numberline {7.2.3}Modeling}{43}
+\contentsline {subsubsection}{Error Estimation}{43}
+\contentsline {subsubsection}{Model Selection}{44}
+\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{45}
+\contentsline {section}{\numberline {7.3}Analyst Opinions}{46}
+\contentsline {subsection}{\numberline {7.3.1}Data}{46}
+\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{47}
+\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{48}
+\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{49}
+\contentsline {subsection}{\numberline {7.3.5}Model Selection}{49}
+\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{50}
+\contentsline {section}{\numberline {7.4}Disasters}{51}

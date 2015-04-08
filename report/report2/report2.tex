@@ -11,6 +11,8 @@
 \usepackage{subfigure}
 \usepackage{listings} 
 \usepackage{cases}
+\usepackage{comment}
+\usepackage{mathtools}
 
 
 \title{Stock Market Prediction}
@@ -89,9 +91,11 @@ Neutral &\text{if $\delta p_{d} = 0$}
 \end{center}
 \end{figure}
 
-This dataset was then saved in CSV format for simple retrival as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of the number of rows from this dataset.
+The final step is shifting all of the $\delta p_{d}$ and $trend_{d}$ data points backwards by one day. This is done because these are the dependent variables that we are trying to predict. The data we have for any day should be used to predict the trend tomorrow, not the same day. By doing this, data in later sections we gather for a Monday will be matched with the Tuesday's trend.
 
-\begin{figure}
+This dataset was then saved in CSV format for simple retrival as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. When we want to use the dataset later with the extra data we collect for each experiment, we only need to do a simple database join operation on the company and date. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of the number of rows from this dataset.
+
+\begin{figure}[H]
 \caption{Data Extract of Primary Dataset}
 \begin{center}
   
@@ -362,7 +366,7 @@ In short, it is impossible to get any useful information from the head and shoul
 
 There is no shortage of similar patterns to be found in online literature, but almost all fall into the same problems as the head and shoulders pattern. All information available from these models is only useful in retrospect. 
 
-\section{Statistical Trading Patterns}
+\section{Moving Average Crossover}
 
 Next, we move to Technical Analysis models that are sound in theory. These models work on a statistical basis rather than patterns and make explicit predictions about the future. One of the simplest and most common models of this type is the Moving Average Crossover strategy.
 
@@ -421,38 +425,121 @@ We can now put into context how accurate the model is. We can see a slight incre
 
 We must conclude that the Moving Average Crossover is not predictive in any meaningful way, at least for predicting the movement of companies on the Dow Jones.
 
-\subsection{Additional Technical Analysis Models}
+\section{Additional Technical Analysis Models}
 
 Although we had no success using moving average crossovers, there are many other technical analysis indicators that are regularly used by traders. We will evulate a further five of the most common indicators. These indicators are described below.
 
 \begin{description}
-  \item[Weighted Moving Average] A weighted moving average is the average where later data points are given more weight than earlier data points. In terms of this experiment, the data points will be the prices of individual days. The intuition follows an idea of reverting to the mean, but in this case the mean is calculated using weighted prices.
+  \item[Weighted Moving Average] A weighted moving average is the average where later data points are given more weight than earlier data points. In terms of this experiment, the data points will be the prices of individual days. The intuition in using the weighted moving average indicator follows an idea of reverting to the mean, but in this case the mean is calculated using weighted prices. Equation \ref{eq:wma-calc} defines weighted moving average  $wma^{n}_{d}$, on day $d$ using the previous $n$ days.
  
   \begin{figure}[H]
   \begin{center}
       \begin{equation}
-        wma_{d} = \dfrac{p_{d} - p_{d-n}} {p_{d-n}}
+        wma^{n}_{d} = \dfrac{n * p_{d} + (n - 1) * p_{d-1} + ... + 1 * p_{d-n}} {n + (n - 1) + ... + 1}
         \label{eq:wma-calc}
       \end{equation}
   \end{center}
   \end{figure} 
     
   \item[Momentum]
-  A momentum indictator calculates the change in price over the last $n$ days. This is based on a straight forward percentage change.
+  A momentum indictator calculates the relative change in price over the last $n$ days. This is based on a straight forward percentage change. Equation \ref{eq:mom-calc} defines $momentum^{n}_{d}$ which calculates momentum on day $d$ by looking at the price difference from $n$ days ago.
   
   \begin{figure}[H]
   \begin{center}
       \begin{equation}
-        momentum_{d} = \dfrac{p_{d} - p_{d-n}} {p_{d-n}}
+        momentum^{n}_{d} = \dfrac{p_{d} - p_{d-n}} {p_{d-n}}
         \label{eq:mom-calc}
       \end{equation}
   \end{center}
   \end{figure}  
     
   \item[Bollinger Bands]
+  A Bollinger Band indicator calculates the number of standard deviations a price is away from a moving avereage. The intuition is that if the current price is far away from the mean price, then it might signal an upward or downward trend is to follow. Equation \ref{eq:bol-calc} defines $bollinger^{n}_{d}$ where $\mu^{n}_{d}$ is the mean price on day $d$ of the last $n$ days and $\sigma^{n}_{d}$ is the standard deviation in price on day $d$ of the last $n$ days.
+  
+  \begin{figure}[H]
+  \begin{center}
+      \begin{equation}
+        bollinger^{n}_{d} = \dfrac{p_{d} - \mu^{n}_{d}} {\sigma^{n}_{d}}
+        \label{eq:bol-calc}
+      \end{equation}
+  \end{center}
+  \end{figure}  
   
   \item[Relative Strength Index] 
+  The Relative Strength Index (RSI) attempts to capture the trading strength of a stock, i.e will how likely a stock price is to continue rising or falling. Borrowing from \citet{wong2003rewarding} for the intuition,
+  
+  \begin{quotation}
+  \textit{Readings of 100 imply that there are pure upward price movements, while readings of 0 imply that there are pure downward price movements. Hence a reading close to 100 indicates an overbought market, while a reading around 0 indicates an oversold market.}
+  \end{quotation} 
+  
+  Much like our other indicators then, RSI should act as an indicator that the market price is about to revert back to a some kind of mean.
+  
+  Calculation of RSI is done in two parts. First $RS^{n}_{d}$ is calculated. $RS^{n}_{d}$ is, informally, the average price increase over the last $n$ days divided by the average price decrease over the last $n$ days. $RS^{n}_{d}$ is then used to calculate $RSI^{n}_{d}$ which is the relative strength index on day $d$ using the preceding $n$ days.
+  
+  \begin{figure}[H]
+  \begin{center}
+      \begin{equation}
+        RS^{n}_{d} = \dfrac 
+        {\dfrac {1} {n} \sum\limits_{k=d-n}^{d} ( p_{k} - p_{k-1} \mid p_{k} > p_{k-1})} 
+        {\dfrac {1} {n} \sum\limits_{k=d-n}^{d} ( p_{k} - p_{k-1} \mid p_{k} < p_{k-1})}  
+        \label{eq:rsi-calc}
+      \end{equation}
+      \begin{equation}
+        RSI^{n}_{d} = 100 - \dfrac{100} {1 + RS^{n}_{d}} 
+      \end{equation}  
+  \end{center}
+  \end{figure}  
+  
 \end{description}
+
+\subsection{Evaluating the Indicators}
+
+In the previous section, when looking at the moving average crossover strategy, we built an extremely simple model that predicted the trend based on a signal. This signal was relatively easy to define, there was a signal when the long and short moving averages crossed over on each other. However with the indicators mentioned above, the definition what constitutes a signal and what doesn't is far more ambiguous. For instance, in regard to the Bollinger Band indicator there is no agreed upon threshold of standard deviation that should signal an upward or downward trend. 
+
+The correct thing to do at this point would be to train many different extremely simple models on many different signal parameters for each indicator, like what was done for the moving averages model. However this would have been extremely computationally expensive. A different approach was required. Instead of generating the signals and using a simple model to predict the following day trend, we used the raw values from the indicators and a more complex model to predict the following day trend. A more complex model should be able to hypothesise what these signals should be, which avoids having to predefine them.
+
+These models will employ machine learning techniques in an attempt to abstract the important signals from our technical analysis indicators. If these models perform well, given the indicator data as input, it must mean that the indicator is indeed useful. If, on the other hand, these models are not successful it probably (but not certainly) means that the indicators are not useful. 
+
+\subsection{Data Preparation}
+
+Before we begin training the models, we must prepare the data to feed them. Because no signals had to be definied, this step was relatively straight forward. 
+
+The primary price database originally prepared in the Data and Tools chapter was used for this experiment. For each company, its price history was iterated over and the value of each indicator for each day was calculated. The results of these calculations were stored in a temporary collection. 
+
+When iteration was completed, the data for each company was standardised so that both high and low priced companies could be used in training and testing the same model. Standardisation shifts and scales the data so that it has a mean of $0$ and a standard deviation of $1$. It should be noted that standardising all of the data in one go, like what is being done in this case, is not correct methodology. Ideally, the training data should be standardised before the test data, and the test data should be standardised using calculations based on the training data. This is done to avoid leakage, when the test data influences the training data. However, this would be difficult to do in this situation as each each company needed to be standardised separately and no division of test and training data has been made yet. Since this error is more likely to artificially increase the models performance than not, and our models will later fail to perform anyway, this error is ignored.
+
+With each the indicator data of each company standardised, the data is stored for later use in testing models. There are 95,407 examples in the database.
+
+\subsection{Error Estimation}
+
+In this step, we determine which class of model should be used on this data. We will compare three types of model, a k-Nearest Neighbors model, a Logistic Regression model, and a Naive Bayes based model. We also need to search a range of hyperparameters for each model. For instance, what value of k do we use in k-NN? To get an error estimation of each model type, we do a grid search over all hyperparameter values and test using nested kFold cross validation. In this case, we split the data into 10 outer folds and 10 inner folds. The inner folds determine the winning hyperparamter which is cross validated by the outer fold. In total, for each hyperparameter there are 100 models trained. Table \ref{table:model-score-indicators} details the models tested, the hyperparameters searched, and their estimated accuracy. 
+
+\begin{center}
+  \captionof{table}{Error Estimation Scores}
+  
+  \begin{tabular}{l | l | l}
+	  Model Name & Model Specific Hyperparameters & Estimated Accuracy \\ \hline
+	  LogisticRegression & Norm penalization: l1 and l2 & 0.5143 \\ \hline
+	  KNeighborsClassifier & k: 5 to 15, weights: uniform and distance & 0.5034 \\ \hline
+	  GaussianNB & - & 0.5131
+	  \label{table:model-score-indicators}
+  \end{tabular}
+\end{center}
+
+It is evident from table \ref{table:model-score-indicators} that none of these models were terribly successful. This is a strong sign that the input data, the indicator values, were not predictive of the following day's price trend.
+
+This does not bode well for technical analysis in general. All technical analysis methods that we have tested have failed. However it would seem that our work is supportive of most serious academic literature on the subject. Prominent economist Burton Malkiel summarises the academic attiude towards technical analysis quite well \cite{malkielrandomwalk}.
+
+\begin{quotation}
+\textit{Obviously, I am biased against the chartist. This is not only a personal predilection, but a professional one as well. Technical analysis is anathema to, the academic world. We love
+to pick on it. Our bullying tactics' are prompted by two considerations: (1) the method is
+patently false; and (2) it's easy to pick on. And while it may seem a bit unfair to pick on
+such a sorry target, just remember': His your money we are trying to save.}  
+\end{quotation}
+
+Whether deserving of it or not, it would be right to analyse what went wrong in the tests that were carried out. Does the fault indeed lie with lack of predictive power in the technical analysis indicators? Perhaps it is that our models were not able to capture their signals.
+
+This question will be answered in the following chapter where we will determine if there is any useful information in the price history at all. Ultimately, we will provide strong evidence that there is in fact no useful information in price history. It logically follows then that any system that tries to leverage price history is doomed to fail. This includes technical analysis models.
 
 \section{Common Problems with Technical Analysis}
 
@@ -462,8 +549,7 @@ We have seen two examples of confirmation bias when we looked at the Head and Sh
 
 Even when there is no confirmation bias present, there is very rarely any proper separation of training and test set. Correct methodology would separate these examples so that one could accurately estimate how the model would perform given unseen examples, like it would have to do in the real world. This problem is prevalent when looking for short and long terms in moving average crossover. What many practitioners appear to do is find the best terms for their given time period and expect that to be just as predictive in future periods. This is incorrect methodology. You will always be able to overfit your model to perform well on a single piece of data, but this may not carry over to unseen examples.
 
-Above, we applied the correct methodology. First we split the data into test and training sets, found the best term pair for the training set, and tested that on the test set. This gives us a true estimate of how our best estimator carries over to future data. This proper methodology is not common in online literature
-
+Above, we applied the correct methodology. We split the data into test and training sets and determined hyperparameters through cross-validation. This gives us a true estimate of how our best estimator carries over to future data. This proper methodology is not common in online literature.
 
 \section{Technical Analysis - Conclusion}
 

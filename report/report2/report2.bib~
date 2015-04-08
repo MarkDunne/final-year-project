@@ -6,6 +6,13 @@ year = "2015",
 url = "http://pybrain.org/docs/tutorial/fnn.html"
 }
 
+@misc{website:quandl,
+title = "Quandl",
+month = "January",
+year = "2015",
+url = "https://www.quandl.com/"
+}
+
 @misc{website:redmonk-languages,
 author = "Stephen O'Grady",
 title = "The RedMonk Programming Language Rankings: January 2015",

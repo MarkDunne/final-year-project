@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{10}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -37,6 +37,12 @@ Burton~Gordon Malkiel.
   personal investing}.
 \newblock WW Norton \& Company, 1999.
 
+\bibitem[Malkiel(2003)]{malkielrandomwalk}
+Burton~Gordon Malkiel.
+\newblock \emph{A random walk down Wall Street: the time-tested strategy for
+  successful investing}.
+\newblock WW Norton \& Company, 2003.
+
 \bibitem[O'Grady(2015)]{website:redmonk-languages}
 Stephen O'Grady.
 \newblock The redmonk programming language rankings: January 2015, January
@@ -48,5 +54,12 @@ Stephen O'Grady.
 Alice Schroeder.
 \newblock \emph{The snowball: Warren Buffett and the business of life}.
 \newblock Random House LLC, 2008.
+
+\bibitem[Wong et~al.(2003)Wong, Manzur, and Chew]{wong2003rewarding}
+Wing-Keung Wong, Meher Manzur, and Boon-Kiat Chew.
+\newblock How rewarding is technical analysis? evidence from singapore stock
+  market.
+\newblock \emph{Applied Financial Economics}, 13\penalty0 (7):\penalty0
+  543--551, 2003.
 
 \end{thebibliography}

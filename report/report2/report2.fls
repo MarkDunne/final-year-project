@@ -73,6 +73,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/cases/cases.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
 INPUT report2.aux
 INPUT report2.aux
 OUTPUT report2.aux

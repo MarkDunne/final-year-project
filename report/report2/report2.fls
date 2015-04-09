@@ -209,6 +209,12 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT vis/after_encoding.png
 INPUT ./vis/after_encoding.png
 INPUT ./vis/after_encoding.png
+INPUT vis/disaster_data.png
+INPUT ./vis/disaster_data.png
+INPUT ./vis/disaster_data.png
+INPUT vis/disaster_box.png
+INPUT ./vis/disaster_box.png
+INPUT ./vis/disaster_box.png
 INPUT report2.bbl
 INPUT report2.bbl
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd

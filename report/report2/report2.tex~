@@ -291,6 +291,31 @@ Using this interpretation, \citet{kara2011predicting} have not demonstrated the 
 
 \section{Article 2 - \citet{shen2012stock}}
 
+The second article we will look at is \textit{Stock Market Forecasting Using Machine Learning Algorithms} by \citet{shen2012stock}.
+
+The article makes a case for the use of machine learning to predict large american stock indicies, including the Dow Jones. The article boasts a 77.6\% accuracy rate for the Dow Jones specificially. 
+
+The team uses a set of 16 financial products and and uses their movements to predict movements in american stock exchanges. Some of the financial products used are listed below.
+
+\begin{itemize}[noitemsep]
+  \item FTSE index price
+  \item DAX index price
+  \item Oil price
+  \item EURO/USD exchange rate
+\end{itemize}
+
+The article makes good use of explorative methods in their data preparation stage. They show using graphs there there is a some features may have predictive power because of their correlation to the NASDAQ index. 
+
+They then go on to perform feature selection based on the predictive power of each feature on its own. The results presented in this section, the predictive power of single features, are very similar to results that we will show later in this report. 
+
+After they have selected their top 4 features they compare a Support vector machine model to a Multiple Additive Regression Trees model for predicting the following day's NASDAQ trend. Their winning model is the SVM with 74.4\% accuracy. 
+
+While the results presented by \citet{shen2012stock} in this article appear to be very much inline with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However because their results will be supported by ours, we don't imagine that any critical errors were made in these steps.
+
+After they successfully train and test a model, they use it to simulate a real life trading environment. Their models perform extremely well on the simulated trading example with an average of an 8\% return rate every 50 days. This is where the results of this article and the results of our report diverge. This article fails to account for overlapping trading hours. For instance the FTSE, which is traded in London, and the Dow Jones, which is traded in New York, are both trading simultaneously for three to four hours each day. This is enough time for the New York stock exchange to influence the London Stock stock exchange. It follows then that it is incorrect to use the closing prices in London to predict New York's movements.
+
+While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when simulating real world trading. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours. 
+
 \chapter{Attacking the Problem - Fundamental Analysis}
 
 The first approach we took to solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 

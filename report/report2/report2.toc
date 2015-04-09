@@ -55,3 +55,8 @@
 \contentsline {subsection}{\numberline {7.3.5}Model Selection}{49}
 \contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{50}
 \contentsline {section}{\numberline {7.4}Disasters}{51}
+\contentsline {subsection}{\numberline {7.4.1}Data Preparation}{51}
+\contentsline {subsection}{\numberline {7.4.2}Predictive Value of Disasters}{52}
+\contentsline {subsection}{\numberline {7.4.3}Disasters - Conclusion}{53}
+\contentsline {chapter}{\numberline {8}Quantopian}{55}
+\contentsline {chapter}{\numberline {9}Conclusion}{56}

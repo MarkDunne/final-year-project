@@ -1056,7 +1056,17 @@ Failing to find any predicted value in disasters might be expected in hindsight 
 
 \chapter{Quantopian}
 
-\chapter{Conclusion}
+We have presented two apparently successfull strategies in this report. The first used correlated related financial products to predict the price movement in the Dow Jones Index. The second used analyst opinions to predict the price movement in the component companies of the Dow Jones. These strategies had an estimated accuracy of [todo] and [todo] respectively. With accuracies as high as these, it would seem logical then that one could profit their use on the real market.
+
+To test this we will use Quantopian \cite{quantopian}. Quantopian allows users to create trading algorithms and test them rigorously against historical data (known as 'backtesting'). Quantopian allows for much more realistic simulation than one might otherwise be able to carry out. Quantopian will correctly model costs a real trading algorithm would incur such as commission charged by the stock broker and slippage. Slippage is the difference between the expected price of a trade and the price the trade actually executes at \cite{slippage}. This might occur when placing a large order that could shift the market, or when market volatility is high. Quantopian has the added benifit on being able to use minute by minute or daily price. This will be useful when working with overlapping tradiing hours.
+
+Algorithms are constructed in Quantopian using their web-based python IDE. This is a slow and tedious process which is why Quantopian was not used before this point. The web IDE does not allow the same level of code hinting and inspection that modern tools like IPython Notebooks allow.
+
+\section{Simulation 1 - Related Assets}
+
+\section{Simulation 2 - Analyst Opinions}
+
+\chapter{Report Conclusion}
 
 \bibliography{report2}
 \bibliographystyle{plainnat}

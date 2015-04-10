@@ -848,7 +848,7 @@ An analyst opinion is a prediction of a particular research firm on a particular
 
 It would seem intuitive that these recommendations should be predictive. There are two reasons why that might be true. The first reason that these recommendations might truely be predictive of the price. One can imagine that large research firms such as JP Morgan would employ skilled analysts that are able to make accurate predictions. The second reason is less optimistic and assumes that these predictions are self-fulfilling prophecies. If multiple large investment firms upgrade or downgrade their opinion of a stock on the same day, it is certainly concievable that the opinions themselves are enough to shift the market regardless of their true predictive value.
 
-However, it should not matter to us why they are predict. For whatever reason, if these opinions can predictive we should be able to build a model to utilise them.
+However, it should not matter to us why they are predictive. For whatever reason, if these opinions can predictive we should be able to build a model to utilise them.
 
 \subsection{Data}
 
@@ -980,7 +980,83 @@ Although the data used in this section does not have the leakage problems the da
 \clearpage
 \section{Disasters}
 
-[todo]
+The final source of predictive data we will consider are natural disasters in the United States. 
+
+It is easy to see why these might be predictive of changes in the stock price. A large storm, for instance, could damages some of the company's machinery or interfere with manufacture and logistics. In turn, this could have an impact on the company's profit and therefore their stock price.
+
+\subsection{Data Preparation}
+
+The first task was to gather a database of natural disasters in the United States. This data is provided by EM-DAT, The Internation Disaster Database \cite{disasterdb}. Disasters in this dataset are gauranteed to be relatively large. The website states the qualifications necessary for a disaster to be entered into the database
+
+\begin{quotation}
+\textit{In order for a disaster to be entered into the database at least one of the following criteria has to be fulfilled:}
+\begin{itemize}
+  \item \textit{10 or more people reported killed}
+  \item \textit{100 people reported affected}
+  \item \textit{a call for international assistance}
+  \item \textit{declaration of a state of emergency}
+\end{itemize}
+\end{quotation}
+
+ All disasters occuring in the United States from the year 2000 to 2014 were extracted. Before any further preparation, there were 423 entries in this dataset.
+
+Disasters with missing or invalid dates were then removed. Following this, disasters with anomalous durations were removed. Figure \ref{fig:disaster-data} shows that there were three clear outliers in this regard. These were removed from the dataset. After all preparation was completed on this dataset, there were 395 disaster events remaining.
+
+\begin{figure}[H]
+	\caption{Anomolies in the disaster data}
+	\centerline{\includegraphics[width=\textwidth]{vis/disaster_data.png}}
+	\label{fig:disaster-data}
+\end{figure}
+
+Similarly to the Related Assets section, this data does not relate specifically to any one company. Because of this, we will look at price changes of the Dow Jones index, rather than any of its component companies. 
+
+\subsection{Predictive Value of Disasters}
+
+We will first determine the predictive value of the disaster events. The goal of this experiment is to decide whether the price movements of the Dow Jones during disaster times are any different to non-disaster times. If disasters contain any predictive value, positive or negative, we should be able to observe a difference in market behaviour during disaster times.
+
+For each disaster, we determined how much the Dow Jones price index moved in the duration of the disaster. Equation \ref{eq:disaster-calc} shows how this was calculated where $P_{start - 1}$ is price of the Dow Jones the day the before the disaster began and $P_{end}$ is the price of the Dow Jones the day the disaster ended. The varying length of disasters is controlled for by diving by the change in price by the length of the disaster. This equates to an average price movement for each day of the disaster. 
+
+\begin{figure}[H]
+\begin{center}
+    \begin{equation}
+      \text{Disaster price change} = \dfrac{p_{(end)} - p_{(start - 1)}} {p_{(start - 1)}} * \dfrac{1}{Disaster Duration}
+      \label{eq:disaster-calc}
+    \end{equation}
+\end{center}
+\end{figure}
+
+Next, daily prices changes in the Dow Jones were calculated for days where no disaster was occuring. Because disaster duration is controlled for, this allows the disaster price changes to be directly compared to daily expected price movements in the Dow Jones.
+
+At this point we have two independent, but comparible, datasets. One contains average daily price movements of the Dow Jones in times of Disaster. The other contains daily price movements of the Dow Jones in times of no Disaster. 
+
+To visualise these datasets, figure \ref{fig:disaster-box} shows a boxplot of their distributions. From visual inspection, we can see immiediately that the data is probably not useful for prediction. If it were useful, we would expect to see a difference in their distibutions.
+
+\begin{figure}[H]
+	\caption{Disaster and no disaster price change distributions}
+	\centerline{\includegraphics[width=\textwidth]{vis/disaster_box.png}}
+	\label{fig:disaster-box}
+\end{figure}
+
+To quantify this, we perform a t-test. This results in a t-value of -0.4783 and a two-tailed p-value of 0.6324. Because the p-value is large, we cannot rule out the null hypothesis, that any difference in the distribution of disaster time price movements and non disaster time price movements is due to random chance.
+
+Because there is no significant difference between these two datasets, we will not be able to use disasters to predict price movements in the Dow Jones.
+
+\subsection{Disasters - Conclusion}
+
+Failing to find any predicted value in disasters might be expected in hindsight for three reasons.
+
+\begin{enumerate}
+  \item Although all companies are traded on the New York Stock Exchange and have headquarters located in the United States, they are all very much multinational corporations. Multinational corporations are unlikely to be substantially impacted by any single disaster. One top of this, if there are any set of companies that are in a position to mitigate themselves from any disaster they might forcast, it is probably these companies, all of which are among the largest in the world.
+  
+  \item The second reason that these companies might be uneffected is that they are companies which are largely divorced from whether conditions. It is hard to imagine that companies such as Microsoft, Visa, or Walt Disney are terribly concerned about extreme weather conditions.
+  
+  \item Finally, it is possible that we simply did not have enough data to begin with. After preparation we had 395 examples spanning 14 years. Perhaps with more data we could target disasters by type or location to specific companies rather than the Dow Jones index as a whole. It is easy to imagine this might have more predictive value.
+  
+\end{enumerate}
+
+\chapter{Quantopian}
+
+\chapter{Conclusion}
 
 \bibliography{report2}
 \bibliographystyle{plainnat}

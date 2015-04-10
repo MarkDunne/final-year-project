@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report2.aux
 The style file: plainnat.bst
@@ -10,47 +10,52 @@ Unbalanced braces---line 126 of file report2.bib
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in website:quandl
 Warning--to sort, need author or key in disasterdb
+Warning--to sort, need author or key in quantopian
+Warning--to sort, need author or key in slippage
 Warning--empty year in disasterdb
+Warning--empty year in quantopian
+Warning--empty author in slippage
+Warning--empty journal in slippage
 Warning--can't use both volume and number fields in kohavi1995study
-You've used 14 entries,
+You've used 16 entries,
             2773 wiz_defined-function locations,
-            669 strings with 6862 characters,
-and the built_in function-call counts, 5425 in all, are:
-= -- 470
+            677 strings with 7010 characters,
+and the built_in function-call counts, 5933 in all, are:
+= -- 521
 > -- 250
 < -- 8
-+ -- 89
++ -- 91
 - -- 75
-* -- 409
-:= -- 794
-add.period$ -- 39
-call.type$ -- 14
-change.case$ -- 62
-chr.to.int$ -- 14
-cite$ -- 34
-duplicate$ -- 275
-empty$ -- 517
+* -- 446
+:= -- 841
+add.period$ -- 45
+call.type$ -- 16
+change.case$ -- 68
+chr.to.int$ -- 16
+cite$ -- 45
+duplicate$ -- 309
+empty$ -- 585
 format.name$ -- 88
-if$ -- 1155
+if$ -- 1276
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 13
-newline$ -- 75
+missing$ -- 14
+newline$ -- 85
 num.names$ -- 48
-pop$ -- 172
+pop$ -- 200
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 56
 quote$ -- 0
-skip$ -- 207
+skip$ -- 228
 stack$ -- 0
-substring$ -- 170
-swap$ -- 31
+substring$ -- 176
+swap$ -- 33
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 134
-warning$ -- 4
+type$ -- 156
+warning$ -- 9
 while$ -- 47
 width$ -- 0
-write$ -- 174
+write$ -- 196
 (There was 1 error message)

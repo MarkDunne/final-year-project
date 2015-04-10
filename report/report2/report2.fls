@@ -215,6 +215,12 @@ INPUT ./vis/disaster_data.png
 INPUT vis/disaster_box.png
 INPUT ./vis/disaster_box.png
 INPUT ./vis/disaster_box.png
+INPUT vis/quantopian_related.png
+INPUT ./vis/quantopian_related.png
+INPUT ./vis/quantopian_related.png
+INPUT vis/quantopian_analysts.png
+INPUT ./vis/quantopian_analysts.png
+INPUT ./vis/quantopian_analysts.png
 INPUT report2.bbl
 INPUT report2.bbl
 INPUT /usr/share/texmf/tex/latex/lm/t1lmtt.fd

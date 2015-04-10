@@ -58,5 +58,7 @@
 \contentsline {subsection}{\numberline {7.4.1}Data Preparation}{51}
 \contentsline {subsection}{\numberline {7.4.2}Predictive Value of Disasters}{52}
 \contentsline {subsection}{\numberline {7.4.3}Disasters - Conclusion}{53}
-\contentsline {chapter}{\numberline {8}Quantopian}{55}
-\contentsline {chapter}{\numberline {9}Conclusion}{56}
+\contentsline {chapter}{\numberline {8}Quantopian Trading Simulation}{55}
+\contentsline {section}{\numberline {8.1}Simulation 1 - Related Assets}{55}
+\contentsline {section}{\numberline {8.2}Simulation 2 - Analyst Opinions}{57}
+\contentsline {chapter}{\numberline {9}Report Conclusion}{59}

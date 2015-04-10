@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"opini",
+				"opinion_history"
+			],
+			[
 				"sym",
 				"symbols"
 			],
@@ -263,6 +267,23 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "import numpy as np\nimport pandas as pd\nfrom sklearn.metrics import accuracy_score\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.naive_bayes import MultinomialNB\n\nopinions_csv_url = 'https://gist.githubusercontent.com/MarkDunne/ca589252e4772934f0c4/raw/a3b32112d23569c3900aa75a0b82689361b22f3d/opinion_sentiments.csv'\n\ndax_history  = []\nftse_history = []\ndji_history  = []\npred_history = []\n\nopinions_model = MultinomialNB()\n\ndef train_model(df):\n    X = df[['Positive', 'Negative']]\n    y = np.asarray(df['CloseClass'], dtype=\"|S6\")\n    opinions_model.fit(X, y)\n    return df\n\ndef initialize(context):    \n    context.example_count = 0\n    context.order_target = 0\n    \n    schedule_function(market_open, time_rule=time_rules.market_open())\n    schedule_function(market_close, time_rule=time_rules.market_close())\n    \n    fetch_csv(opinions_csv_url,\n        date_column='Date',\n        date_format='%Y-%m-%d', \n        post_func=train_model,\n        universe_func=my_universe)\n\ndef my_universe(context, fetcher_data):\n    my_stocks = set(fetcher_data['sid'])\n    context.count = len(my_stocks)\n    return my_stocks\n    \n    \ndef market_open(context, data):\n    # print 'market open ' + str(get_datetime()) \n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                return\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            \n            pred_y = opinions_model.predict(x)\n            probs = opinions_model.predict_proba(x)\n            \n            if not np.any(probs > 0.7):\n                return\n            \n            print probs\n            \n            order_size = 100000\n            if pred_y == 'Gain':\n                print 'Gain'\n                order_target(stock, order_size)\n            elif pred_y == 'Loss':\n                print 'Loss'\n                order_target(stock, order_size)\n  \ndef market_close(context, data):   \n    # print 'market close ' + str(get_datetime())\n    for stock in data:\n        # print context.portfolio.positions[stock]\n        order_target(stock, 0)\n\ndef handle_data(context, data):\n    pass",
+			"settings":
+			{
+				"buffer_size": 2301,
+				"line_ending": "Unix",
+				"name": "import numpy as np"
+			}
+		},
+		{
+			"contents": "import numpy as np\nimport pandas as pd\nfrom sklearn.metrics import accuracy_score\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.naive_bayes import MultinomialNB\n\nopinions_csv_url = 'https://gist.githubusercontent.com/MarkDunne/ca589252e4772934f0c4/raw/a3b32112d23569c3900aa75a0b82689361b22f3d/opinion_sentiments.csv'\n\nopinion_history = []\npred_history = []\n\nopinions_model = MultinomialNB()\n\ndef train_model(df):\n    X = df[['Positive', 'Negative']]\n    y = np.asarray(df['CloseClass'], dtype=\"|S6\")\n    opinions_model.fit(X, y)\n    return df\n\ndef initialize(context):    \n    context.example_count = 0\n    context.order_target = 0\n    \n    schedule_function(market_open, time_rule=time_rules.market_open())\n    schedule_function(market_close, time_rule=time_rules.market_close())\n    \n    fetch_csv(opinions_csv_url,\n        date_column='Date',\n        date_format='%Y-%m-%d', \n        post_func=train_model,\n        universe_func=my_universe)\n\ndef my_universe(context, fetcher_data):\n    my_stocks = set(fetcher_data['sid'])\n    context.count = len(my_stocks)\n    return my_stocks\n    \n    \ndef market_open(context, data):\n    # print 'market open ' + str(get_datetime()) \n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                continue\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            opinion_history.append(x)\n            \n            pred_y = opinions_model.predict(x)\n            probs = opinions_model.predict_proba(x)\n            \n            if not np.any(probs > 0.7):\n                return\n            \n            order_size = 100000\n            if pred_y == 'Gain':\n                print 'Gain'\n                order_target(stock, order_size)\n            elif pred_y == 'Loss':\n                print 'Loss'\n                order_target(stock, order_size)\n  \ndef market_close(context, data): \n    for stock in data:\n        # print context.portfolio.positions[stock]\n        order_target(stock, 0)\n\n    prices = history(bar_count=2, frequency='1d', field='price')\n    pc_change = (prices.ix[1] - prices.ix[0]) / prices.ix[0]\n    change_class = 'Gain' if (pc_change[context.djia] > 0) else 'Loss'\n    dji_history.append(change_class)\n\n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                continue\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            opinion_history.append(x)\n\ndef handle_data(context, data):\n    pass",
+			"settings":
+			{
+				"buffer_size": 2843,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/User/anaconda-distribution.sublime-build",
 	"build_system_choices":
@@ -271,10 +292,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 140.0,
-		"last_filter": "",
+		"height": 96.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -296,7 +321,7 @@
 				"Anaconda: Autoformat PEP8 Errors"
 			]
 		],
-		"width": 457.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -321,6 +346,7 @@
 	],
 	"file_history":
 	[
+		"/home/mark/Desktop/temp.html",
 		"/home/mark/workspace/final-year-project/report/report2/report2.bib",
 		"/home/mark/workspace/final-year-project/work/machines/plot_learning_curve.py",
 		"/home/mark/workspace/final-year-project/work/machines/knn-model-selection.py",
@@ -400,7 +426,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -417,6 +443,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<tr>",
 			"–",
 			" ",
 			"shift",
@@ -543,8 +570,7 @@
 			"channelschedule",
 			"ChannelSchedule",
 			"<option value=\"\">",
-			"channl",
-			"programme"
+			"channl"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -562,8 +588,72 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2301,
+								2301
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plain text",
+							"auto_name": "import numpy as np",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2412,
+								2412
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "plain text",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 561.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

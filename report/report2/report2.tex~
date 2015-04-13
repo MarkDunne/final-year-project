@@ -15,7 +15,6 @@
 \usepackage{mathtools}
 \usepackage{enumitem}
 
-
 \title{Stock Market Prediction}
 \author{Mark Dunne}
 
@@ -29,7 +28,7 @@
 
 \begin{abstract}
 
-In this report we analyse existing and new methods of stock market prediction. We take three different approaches at the problem: Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market Hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investor's decisions. We demonstrate a common flaw in the Technical Analysis methodology and show that it produces limited useful information. Based on our findings, an algorithmic trading program is developed and entered into the Quantopian trading competition.
+In this report we analyse existing and new methods of stock market prediction. We take three different approaches at the problem: Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market Hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investor's decisions. We demonstrate a common flaw in Technical Analysis methodology and show that it produces limited useful information. Based on our findings, algorithmic trading programs are developed and simulated using Quantopian.
 
 \end{abstract}
 
@@ -37,17 +36,15 @@ In this report we analyse existing and new methods of stock market prediction. W
 
 \chapter{Introduction}
 
-Predicting the Stock Market has been the goal and bane of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another from their predictions. Entire companies rise and fall daily based on the behaviour of the market. Should one be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. 
-
-It is no wonder then that the Stock Market and its associated difficulties find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different as evidenced by the flood of films and documentaries on the topic. If there was a common theme among those productions, it was that no one was really sure how the market works and reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
+Predicting the Stock Market has been the goal and bane of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another. Entire companies rise and fall daily based on the behaviour of the market. Should an investor be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. It is no wonder then that the Stock Market and its associated challenges find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different, as evidenced by the flood of films and documentaries based on the crash. If there was a common theme among those productions, it was that no one was really sure how the market works or reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
 
 \section{Project Goals and Scope}
 
-Dispite its prevalence, Stock Market prediction remains a secretive and empiracal art. Few people, if any, are willing to share what  successful strategies they may have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equiped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
+Dispite its prevalence, Stock Market prediction remains a secretive and empiracal art. Few people, if any, are willing to share what  successful strategies they have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equiped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
 
-It is also important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into telecoms companies, just in case the entire sector takes an unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some critera he has decided on before. 
+It is important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into a single company lest that company takes unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some critera he has decided on before.This project will focus exclusively on predicting the daily trend (price movement) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
 
-This project will focus on predicting the daily movement direction (price going up or down) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
+Additionally, a distinction must be made between the type of trading algorithm that will be built in this project and high frequency trading (HFT) algorithms. HFT algorithms make little use of true prediction and instead rely on simply being the fastest algorithm in the market. These algorithms operate on the order of fractions of a second. The algorithms presented in this report will not compete with HFT algorithms, and will operate on the order of days. We will attempt to build algorithms that are truely predictive of the market, rather than taking advantage of slower algorithms. 
 
 \chapter{Data and Tools}
 
@@ -1054,7 +1051,7 @@ Failing to find any predicted value in disasters might be expected in hindsight 
   
 \end{enumerate}
 
-\chapter{Quantopian}
+\chapter{Quantopian Trading Simulation}
 
 We have presented two apparently successfull strategies in this report. The first used correlated related financial products to predict the price movement in the Dow Jones Index. The second used analyst opinions to predict the price movement in the component companies of the Dow Jones. These strategies had an estimated accuracy of [todo] and [todo] respectively. With accuracies as high as these, it would seem logical then that one could profit their use on the real market.
 
@@ -1064,9 +1061,66 @@ Algorithms are constructed in Quantopian using their web-based python IDE. This 
 
 \section{Simulation 1 - Related Assets}
 
+The first model we will simulate in a trading environment is the model based on related financial assets. 
+
+The only external data that can be imported into the Quantopian web IDE are CSV files. This means that we can not simply move out final fully trained model that was stored locally into Quantopian. Instead, we will take the optimal hyperparameters we learned from the model selection process and train a new model using these hyperparameters for the first half of the backtest period. This isn't optimal, but it is the best that can be done under the circumstances.
+
+An important difference between the training of this model and the training of the model earlier is that this model were given the price of London and German assets at the exact moment the Dow Jones index began trading. The earlier model were given access to the closing prices of the London and German assets. As discussed earlier, because of overlapping trading hours, access to the closing price might have provided more information than the models were entitled to. This risk is mitigated in the Quantopian simulation.
+
+After the training period has been completed, the model will begin to make predictions. Quantopian allows the use of short selling, so that the algorithm can make use of negative predictions. If the prediction is that the price of the Dow Jones index will rise, the algorithm attempts to buy shares in the Dow Jones index. If the prediction is that the price of the Dow Jones index will fall, the algorithm attempts to sell shares in the Dow Jones index. The algorithm issues all orders in the opening minutes of the Dow Jones and liquidates all positions in the final closing minutes of trading. The profit the algorithm makes will be determined by the difference in price at these two points.
+
+The algorithm was simulated from January 1st 2006 to March 2nd 2015. The performance charts generated by Quantopian are presented in figure \ref{fig:quantopian-1}. The benchmark performance line in red is the S\&P 500 index. This is a general indicator of the performance of a passive buy and hold strategy. The lack of activity by up to the approximate half way point is the training period of the model.
+
+\begin{figure}[H]
+	\caption{Quantopian Simulation 1 Performance}
+	\vspace{10pt}
+	\centerline{\includegraphics[width=\textwidth]{vis/quantopian_related.png}}
+	
+	\label{fig:quantopian-1}
+\end{figure}
+
+Although the algorithm did have a positivie return of about 6\%, this is probably due to random chance more than any success of the model. It should also be noted that in the eyes of an investor, any return less than a low risk buy and hold strategy is considered a loss.
+
+Clearly there is a big difference between the performance of the model trained earlier and the one simulated here. There are few differences between the models, except that in the Quantopian simulation the problem of overlapping trading hours was corrected. One must conclude that this is to blame for the difference. It follows then that the model trained earlier scored so highly only because of this error.
+
 \section{Simulation 2 - Analyst Opinions}
 
+The next model that will be simulated is the model based on analyst opinions.
+
+Similarly to the previous section, we can not use the model that was trained earlier because of the limitations of Quantopian. Instead, we must train the model during the backtest. 
+
+Trading logic is exactly equivilent to the previous section, but is now applied to individual companies rather than the Dow Jones index. If the prediction is positive for a company, then the algorithm attempts to buy a share in the company. If the prediction is negative, it tries to sell shares in the company. The algorithm issues all orders in the opening minutes of the Dow Jones and liquidates all positions in the final closing minutes of trading.
+
+The algorithm was simulated from January 1st 2006 to December 31st 2014. The performance charts generated by Quantopian are presented in figure \ref{fig:quantopian-2}. The lack of activity by up to the approximate half way point is the training period of the model.
+
+\begin{figure}[H]
+	\caption{Quantopian Simulation 1 Performance}
+	\vspace{10pt}
+	\centerline{\includegraphics[width=\textwidth]{vis/quantopian_analysts.png}}
+	
+	\label{fig:quantopian-2}
+\end{figure}
+
+With total returns of -18.7\%, it is obvious that \ref{fig:quantopian-2} that the model performs poorly in a real world simulation. 
+
+We offer two explanations as to why the the algorithm performs so poorly. 
+\begin{enumerate}
+  \item By the time the algorithm places its orders, the market has already shifted to reflect these analyst opinions. It is plausible that there are many traders that have already read these analyst opinions before the market opens. These traders are then ready to immediately place their orders when the market opens. Quantopian offers no gaurantees on when an order will be fulfilled. It is therefore possible that by the time our model places an order on the market, the price has already moved to reflect the opinions and they are no longer relevent. The algorithm is then effectively trading on out dated information.
+  
+  \item Another possible explanation is that there are traders explicitly taking advantage of other traders that are employing a similar strategy. After all the training has been completed, the model ultimately ends up using an extremely simple strategy; buy when there is a positive opinion and sell on a negative opinion. It does not take a terribly sophisticated model to come up with such as strategy and it is therefore credible there are many traders also trying to apply the same strategy. It follows then that there will also be traders trying to take advantage of them. Such traders could artificially shift the market more than the opinion might originally merit, leave time for naive traders (including our model) to buy into the shifted price, and profit by exiting soon after. This would invert any predicted profit of the naive traders.
+\end{enumerate}
+
 \chapter{Report Conclusion}
+
+A large body of work was presented in this report. 
+
+Two of the most widely used methods, Fundamental Analysis and Technical Analysis showed little promise in the experiments carried out. Technical Analysis specifically shows little to no potential of ever producing a statistically significant result when the correct methodology is applied.
+
+Machine learning methods were then tested on a wide range of possibly predictive data sources. The result of some models looked hopeful, but ultimately failed when they were put through realistic trading simulations.
+
+If there is anything that this report shows, it is that profitable stock market prediction is an extremely tough problem. Whether it is possible at all remains an open question. 
+
+After completing the project, it is the firm belief of the author that the only sane trading strategy for a casual investor is a passive buy and hold strategy in Index Funds and ETFs.
 
 \bibliography{report2}
 \bibliographystyle{plainnat}

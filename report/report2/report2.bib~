@@ -169,3 +169,17 @@ url = "http://www.online-stock-trading-guide.com/head-and-shoulders-pattern.html
   howpublished = {\url{http://www.emdat.be/database}},
   note = {Accessed: 2015-02-26}
 }
+
+@misc{quantopian,
+  title = {Quantopian},
+  howpublished = {\url{https://www.quantopian.com/}},
+  note = {Accessed: 2015-03-15}
+}
+
+@article {slippage,
+    title = {Investopedia.com},
+    month = {Apr},
+    day = {10},
+    year = {2015},
+    url = {http://www.investopedia.com/terms/s/slippage.asp},
+}

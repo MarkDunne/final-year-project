@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,9 @@
 Quantopian.
 \newblock \url{https://www.quantopian.com/}.
 \newblock Accessed: 2015-03-15.
+
+\bibitem[wha()]{whatsapp}
+Facebook $22 billion whatsapp deal buys $10 million in sales.
 
 \bibitem[sli(2015)]{slippage}
 Investopedia.com.

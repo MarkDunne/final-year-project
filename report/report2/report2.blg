@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report2.aux
 The style file: plainnat.bst
@@ -8,54 +8,64 @@ Unbalanced braces---line 126 of file report2.bib
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 189 of file report2.bib
+ :   
+ :   author = {Sarah Frier}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in website:quandl
+Warning--to sort, need author or key in whatsapp
 Warning--to sort, need author or key in disasterdb
 Warning--to sort, need author or key in quantopian
 Warning--to sort, need author or key in slippage
 Warning--empty year in disasterdb
 Warning--empty year in quantopian
+Warning--empty author in whatsapp
+Warning--empty journal in whatsapp
+Warning--empty year in whatsapp
+Warning--empty year in whatsapp
 Warning--empty author in slippage
 Warning--empty journal in slippage
 Warning--can't use both volume and number fields in kohavi1995study
-You've used 16 entries,
+You've used 17 entries,
             2773 wiz_defined-function locations,
-            677 strings with 7010 characters,
-and the built_in function-call counts, 5933 in all, are:
-= -- 521
+            679 strings with 7078 characters,
+and the built_in function-call counts, 6178 in all, are:
+= -- 542
 > -- 250
 < -- 8
-+ -- 91
++ -- 92
 - -- 75
-* -- 446
-:= -- 841
-add.period$ -- 45
-call.type$ -- 16
-change.case$ -- 68
-chr.to.int$ -- 16
-cite$ -- 45
-duplicate$ -- 309
-empty$ -- 585
+* -- 469
+:= -- 862
+add.period$ -- 46
+call.type$ -- 17
+change.case$ -- 71
+chr.to.int$ -- 17
+cite$ -- 53
+duplicate$ -- 328
+empty$ -- 618
 format.name$ -- 88
-if$ -- 1276
+if$ -- 1331
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 14
-newline$ -- 85
+missing$ -- 15
+newline$ -- 88
 num.names$ -- 48
-pop$ -- 200
+pop$ -- 216
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 58
 quote$ -- 0
-skip$ -- 228
+skip$ -- 238
 stack$ -- 0
-substring$ -- 176
+substring$ -- 179
 swap$ -- 33
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 156
-warning$ -- 9
+type$ -- 167
+warning$ -- 14
 while$ -- 47
 width$ -- 0
-write$ -- 196
-(There was 1 error message)
+write$ -- 203
+(There were 2 error messages)

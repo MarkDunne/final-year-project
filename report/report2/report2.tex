@@ -28,7 +28,7 @@
 
 \begin{abstract}
 
-In this report we analyse existing and new methods of stock market prediction. We take three different approaches at the problem: Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market Hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investor's decisions. We demonstrate a common flaw in the Technical Analysis methodology and show that it produces limited useful information. Based on our findings, an algorithmic trading program is developed and entered into the Quantopian trading competition.
+In this report we analyse existing and new methods of stock market prediction. We take three different approaches at the problem: Fundamental analysis, Technical Analysis, and the application of Machine Learning. We find evidence in support of the weak form of the Efficient Market Hypothesis, that the historic price does not contain useful information but out of sample data may be predictive. We show that Fundamental Analysis and Machine Learning could be used to guide an investor's decisions. We demonstrate a common flaw in Technical Analysis methodology and show that it produces limited useful information. Based on our findings, algorithmic trading programs are developed and simulated using Quantopian.
 
 \end{abstract}
 
@@ -36,19 +36,15 @@ In this report we analyse existing and new methods of stock market prediction. W
 
 \chapter{Introduction}
 
-Predicting the Stock Market has been the goal and bane of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another from their predictions. Entire companies rise and fall daily based on the behaviour of the market. Should one be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. 
-
-It is no wonder then that the Stock Market and its associated difficulties find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different as evidenced by the flood of films and documentaries on the topic. If there was a common theme among those productions, it was that no one was really sure how the market works and reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
+Predicting the Stock Market has been the goal and bane of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another. Entire companies rise and fall daily based on the behaviour of the market. Should an investor be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. It is no wonder then that the Stock Market and its associated challenges find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different, as evidenced by the flood of films and documentaries based on the crash. If there was a common theme among those productions, it was that no one was really sure how the market works or reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
 
 \section{Project Goals and Scope}
 
-Dispite its prevalence, Stock Market prediction remains a secretive and empiracal art. Few people, if any, are willing to share what  successful strategies they may have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equiped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
+Dispite its prevalence, Stock Market prediction remains a secretive and empiracal art. Few people, if any, are willing to share what  successful strategies they have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equiped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
 
-It is also important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into telecoms companies, just in case the entire sector takes an unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some critera he has decided on before. 
+It is important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into a single company lest that company takes unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some critera he has decided on before.This project will focus exclusively on predicting the daily trend (price movement) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
 
-This project will focus on predicting the daily movement direction (price going up or down) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
-
-[todo not hft]
+Additionally, a distinction must be made between the trading algorithms studied in this project and high frequency trading (HFT) algorithms. HFT algorithms make little use of intelligent prediction and instead rely on simply being the fastest algorithm in the market. These algorithms operate on the order of fractions of a second. The algorithms presented in this report will operate on the order of days and will attempt to be truely predictive of the market.  
 
 \chapter{Data and Tools}
 
@@ -58,15 +54,17 @@ This project will focus on predicting the daily movement direction (price going 
 
 For this project, we chose the Dow Jones and its components as a representative bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a price-weighted index over 30 component companies [todo show calculation]. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers a diverse set of sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
 
-It is important to use a predefinied set of companies instead of a custom selected set so that we do leave ourselves open to methodology errors or accusations of fishing expeditions. If we had selected a custom set of companies, it could be argued that the set was taylored specifically to improve our results. Since the aim of the project is to create a predictive model of stock markets in general, this is a claim that we want to avoid. 
+It is important to use a predefinied set of companies rather than a custom selected set so that we do leave ourselves open to methodology errors or accusations of fishing expeditions. If we had selected a custom set of companies, it could be argued that the set was taylored specifically to improve our results. Since the aim of the project is to create a predictive model of stock markets in general, this is a claim that we want to avoid. 
 
-The Dow Jones was chosen because it is well known, and has a relatively small number of compontents. The leading index, the S\&P 500 has over 500 components, but ultimately analysing 500 companies proved to be too computationally expensive for the resources at hand. This small but representitiive set of 30 components allowed for a managable dataset given limited resources. Although there were only 30 companies, there was no lack of data to study. To test many of the hypotheses laid out in this report, we were able to extract datasets many thousands of examples in size.
+The Dow Jones was chosen because it is well known, and has a relatively small number of compontents. The leading index, the S\&P 500, has over 500 components, but ultimately analysing 500 companies would be too computationally expensive for the resources at hand. The Dow Jones components provided a good balance between data available and computational feasability. Although there were only 30 companies,  for many of the experiments carried out in this report, datasets many thousands of examples in size were available.
 
 \subsection{Gathering the Datasets}
 
-Luckily, data on daily stock prices is easy to come by. Google and Yahoo both operate websites which offer a facility to download CSV files containing a full daily price history. These are useful for looking at individual companies but are slightly cumbersome to use when analysing large amounts of data. 
+A primary dataset will be used throughout the project. The dataset will contain the daily percentage change in stock price for all 30 components of the Dow Jones.
 
-Instead of using Google and Yahoo directly, Quandl\cite{website:quandl} was used to gather the data. Quandl is a free to use website that hosts and maintains vast amounts of numerical datasets with a focus specifically on economic datasets. It also provides a small python library that is useful for accessing the database programmatically. The library also provides a simple method for calculating the daily percentage change in prices. This calculation is defined in equation \ref{eq:quandl-pc-calc} where $p_{t}$ is the closing price on day $d$, and $\delta p_{d}$ is the resulting percentage change.  
+Luckily, daily stock price data is easy to come by. Google and Yahoo both operate websites which offer a facility to download CSV files containing a full daily price history. These are useful for looking at individual companies but cumbersome when accessing large amounts of data across many stocks. 
+
+For this reason, Quandl\cite{website:quandl} was used to gather the data instead of using Google and Yahoo directly. Quandl is a free to use website that hosts and maintains vast amounts of numerical datasets with a focus specifically on economic datasets. Stock market data which is backed by Google and Yahoo are both avilable through Quandl. Quandl also provides a small python library that is useful for accessing the database programmatically. The library also provides a simple method for calculating the daily percentage change daily in prices. This calculation is defined in equation \ref{eq:quandl-pc-calc} where $p_{t}$ is the closing price on day $d$, and $\delta p_{d}$ is the resulting percentage change.  
 
 \begin{figure}[H]
 \begin{center}
@@ -92,7 +90,7 @@ Neutral &\text{if $\delta p_{d} = 0$}
 \end{center}
 \end{figure}
 
-The final step is shifting all of the $\delta p_{d}$ and $trend_{d}$ data points backwards by one day. This is done because these are the dependent variables that we are trying to predict. The data we have for any day should be used to predict the trend tomorrow, not the same day. By doing this, data in later sections we gather for a Monday will be matched with the Tuesday's trend.
+The final step is shifting all of the $\delta p_{d}$ and $trend_{d}$ data points backwards by one day. The data we have for any day should be used to predict the trend tomorrow, not the same day. By shifting $\delta p_{d}$ and $trend_{d}$ backwards, data gathered in later sections will be paired with the correct dependent variable. For instance, data we gather for a Monday will be matched with, and try to predict, Tuesday's trend.
 
 This dataset was then saved in CSV format for simple retrival as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. When we want to use the dataset later with the extra data we collect for each experiment, we only need to do a simple database join operation on the company and date. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of the number of rows from this dataset.
 
@@ -118,11 +116,13 @@ With the primary dataset prepared, we will combine it as needed with additional 
 
 \subsection{Limitations of the Data}
 
-Although the data gathered in the previous section is certainly a good start, it is admittedly far behind what any serious investor more than likely has access to. An obvious side of the data that is missing is the intraday prices, i.e the prices minute by minute. It is possible that this data could be used to guide and investors decisions on the interday level. However, intraday prices are not as freely available as interday prices and are considered a commodity in themselves. To get hold of such a dataset would incur a large cost, one that is not in the budget of a project such as this. Later in the project we will evaluate a strategy in which this limitation becomes significant.
+Although the data gathered in the previous section is certainly a good start, it is admittedly far behind what any serious investor more than likely has access to. 
 
-Another important piece of the data puzzle that the project is missing is the order book. The order book is a record of buy and sell orders of each particular stock. It consists of the amount a trader is willing to buy and sell, as well as their price. Successful orders are matched off against the order book by the exchange. The actual price of a stock is usually considered to be half way between the highest buying price and the lowest selling price. It is easy to imagine that the order book contains useful data. For instance, the weighted average price of all orders on the order book might be predictive of the actual price. However access to this data is extremely costly and far beyond what most casual investors can afford, let alone this project's budget.
+One obvious piece of missing data that is the intraday prices, i.e the prices minute by minute. It is possible that this data could be used to guide and investors decisions on the interday level. However, intraday prices are not as freely available as interday prices and are considered a commodity in themselves. To get hold of such a dataset would incur a large cost, one that is not in the budget of a project such as this. Later in the project we will evaluate a strategy in which this limitation becomes significant.
 
-With no way around these limitations, we do our best with the data that Quandl provides.
+Another important piece of missing data is the order book. The order book is a record of live buy and sell orders for a particular stock. It consists of the amount of stock each trader is willing to buy or sell, as well as their price. Successful orders are matched off against the order book by the exchange. The price of a stock is usually considered to be half way between the highest buying price and the lowest selling price. It is easy to imagine that the order book contains useful data. For instance, the weighted average of orders might be predictive of the price. However access to this data is extremely costly and far beyond what most casual investors can afford, let alone the budget for this project's.
+
+With no way around these limitations, we use the data provided by Quandl.
 
 \section{Tools}
 \subsubsection{Python and associated packages}
@@ -138,11 +138,11 @@ Python was the language of choice for this project. This was an easy decision fo
 
 \end{enumerate}
 
-However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language such as Haskell. In my view, this is an issue that makes learning to use a new Python package more difficult than it otherwise could be.
+However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language. In my view, this is an issue that makes learning to use a new Python package or library more difficult than it otherwise could be.
 
 \chapter{Considerations in Approaching the Problem}
 
-Throughout the project, there are three ideas that warn us that we might not actually find a profitable way to predict market trends.
+Throughout the project, there are three ideas that warn us that we might not find a profitable way to predict market trends.
 
 \section{Random Walk Hypothesis}
 
@@ -154,20 +154,21 @@ It is important for the purpose of this project to confront the Random Walk Hypo
 
 \subsection{Qualitative Similarity to Random pattern}
 
-The stock market can certainly look random to the eye of a casual observer. To demonstrate this, we generated a random process with similar visual characteristics to the Dow Jones index.
+The stock market can certainly look random to the eye of a casual observer. To demonstrate this, we created a perfectly random process that had striking visual similarity to real stock market data. The random process used to generate this is defined in equation \ref{eq:stock-process-calc} where $a_{0} = 0$, $0.995 \leq \rho < 0$, $q$ and $r$ are random values taken from a standard normal distribution. $b_{0}$ can be initialised at any desired number
 
-We created a perfectly random process that had striking visual similarity to real stock market data using the following simple formula.
+\begin{equation}
+  \label{eq:stock-process-calc}
+  \begin{aligned}
+  	a_{n} = a_{n-1} * \rho + q_{n}\\
+  	b_{n} = b_{n-1} + \rho * r_{n}\\
+  	f(n) = a_{n} + b_{n}\\   
+  \end{aligned}
+\end{equation}
 
-\begin{align*}
-	a_{x} = a_{x-1} * \rho + q_{x}\\
-	b_{x} = b_{x-1} + \rho * r_{x}\\
-	f(x) = a_{x} + b_{x}\\
-\end{align*}
-
-For the best results, $\rho$ was given a value between 0.995 and 1, while $q$ and $r$ are random values taken from a standard normal distribution. 
+A sequence generated using equation \ref{eq:stock-process-calc} is displayed in figure \ref{fig:random-process}. The graph plots an example generation of $f(0), f(1), ..., f(500)$.
 
 \begin{figure}[H]
-	\caption{Example of random pattern generated}
+	\caption{Example of a randomly generated pattern}
 	\centerline{\includegraphics[width=\textwidth]{vis/random-process.png}}
 	\label{fig:random-process}
 \end{figure}
@@ -182,15 +183,17 @@ We then compare this random process to a real piece of market data.
 
 Presented with both of these diagrams, and without the aid of time scales or actual prices, most people would find it impossible to differentiate the diagrams. Using visual inspection alone, either of these diagrams could just as likely be a real piece of stock market data.
 
-This gives us pause as there is little point in moving forward if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. We will demonstrate that it is different to random in two ways. In the very next section, we will show that the price itself is fundamentally different to random data, and later we will show that the price is not as random as it may appear when we take external variables into account.
+This gives us pause as there is little point in moving forward if the stock market is truly random and there is nothing to predict. However, this does not turn out to be the case. 
 
 \subsection{Quantitative Difference to Random pattern}
 
-We will first show that the way in which markets move is fundamentally different to the way one would expect them to move if they were random.
+[todo external vars]
 
-\citet{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones and how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
+In this section, we will demonstrate that prices, specifically the way they move, are fundamentally different to random data.
 
-On every day from the year 2000 to 2014, we simulated an investment on the Dow Jones index. We then counted the number of days it took for the investment to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. The graph shows two overlaid histograms detailing how long it took for an investment to lose or gain 5\%.
+\citet{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones. They describe how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
+
+On every day from the year 2000 to 2014, we recorded the value of the Dow Jones index. We then counted the number of days it took for the value to gain or lose 5\% of its original value. When it lost 5\% of its value, it was put into the red set, when it gained 5\% of its original value, it was put into the green set. Figure \ref{fig:gain-loss-asymm} shows two overlaid histograms detailing how long it took the red and green sets to lose or gain 5\% respectively.
 
 \begin{figure}[H]
 	\caption{Gain-Loss Asymmetry on the Dow Jones}
@@ -198,7 +201,9 @@ On every day from the year 2000 to 2014, we simulated an investment on the Dow J
 	\label{fig:gain-loss-asymm}
 \end{figure}
 
-What this graph shows is that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings described earlier. This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
+Figure \ref{fig:gain-loss-asymm} shows that the green set, the instances that gained 5\% of their original value, took on average longer to reach that point than the red set, the instances that lost 5\% of their original value. This indicates that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings of \citet{karpio2007gain}.
+
+This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
 
 \section{Efficient Market Hypothesis}
 
@@ -211,7 +216,7 @@ It comes in three flavors. However it is still a matter of debate which one, if 
   The weak form of the hypothesis says that no one can profit from the stock market by looking at trends and patterns within the price of a product itself. It is important to note that this does not rule out profiting from predictions of the price of a product based on data external to the price. We will see examples of prediction based on both in sample and out of sample data, and provide evidence in support of the weak form.
   
   \item[Semi-Strong Efficient Market Hypothesis]
-  The semi-strong form rules out all methods of prediction, except for insider trading. This means that if we are only to use public domain information in our prediction attempt, the semi-strong form says that we will be unsuccessful. Later in the project, we will provide results that appear to support this hypothesis but not as strong as with the weak form.
+  The semi-strong form rules out all methods of prediction, except for insider trading. This means that if we are only to use public domain information in our prediction attempt, the semi-strong form says that we will be unsuccessful.
   
   \item[Strong form Efficient Market Hypothesis]
   The strong form says that no one can profit from predicting the market, not even insider traders.
@@ -224,9 +229,9 @@ Clearly, if we are to predict the stock market using only public information, we
 
 Finally there is the idea of a successful model ultimately leading to its own dimise. 
 
-The insight is that if there were a simple predictive model that anyone could apply and profit from themselves, then over time all of the advantage will be traded and erroded away.
+The insight is that if there were a simple predictive model that anyone could apply and profit from themselves, then over time all of the advantage will be traded and eroded away.
 
-This is the same reason for the lack of academic papers on the topic of successfully predicting the market. If a successful model was made widely known, then it wouldn't take long until it wouldn't be successful any more.
+This is the same reason for the lack of academic papers on the topic of profitably predicting the market. If a successful model was made widely known, then it wouldn't take long until it wouldn't be successful any more.
 
 \section{Conclusions}
 
@@ -263,7 +268,7 @@ This data is then coupled with the price movement direction, the dependent varia
 
 These results are in sharpe contrast with work that we will present later in the report. The first reason this might be is that prehaps the Istanbul stock exchange is more accommodating to technical analysis than the 30 Dow Jones components reviewed in this report. This is understandable since all 30 of the Dow Jones components are traded on the New York Stock Exchange, which is the most computerised exchange in the world. It is likely that there are less trading algorithms competing on the Istanbul stock exchange and it is therefore easier to leverage algorithmic approaches. 
 
-There is another large flaw however in the methodology of the article that is far more likely to have dramatically increased the performance of their algorithms. In section three of the article, the team describes how they prepared their research data. Specifically, 
+However, there is another flaw however in the methodology of the article that is far more likely to have dramatically increased the performance of their algorithms. In section three of the article, the team describes how they prepared their research data. Specifically, 
 
 \begin{quotation}
 \textit{The direction of daily change in the stock price index is categorized
@@ -286,7 +291,7 @@ At first this would appear sensible, but their calculations also use the same $t
 
 In \ref{eq:article1-sma-calc}, the simple moving average is calculated using the closing price at time $t$ and $t-1$. In fact all features used in the article use some information from time $t$ and $t-1$, as well as others. But what they were trying to predict is the difference between $t$ and $t-1$. This means, in effect, that they are using information about tomorrow to predict tomorrows price. In a real world situation, no trader or trading algorithm would have the same level of information about tomorrow when they are making their predictions. If we wish to remain true to the idea of stock market prediction, we should only provide our models with information they could have in the world world. Clearly, this is a large flaw in the article. 
 
-However, it can be argued that the work may still be useful. Although the impressive figure of 75.74\% prediction accuracy would be impossible to replicate in a real world model because of the problems described above, perhaps it tells us something else. We could reinterpret the 75.74\% accuracy result not as predictive accuracy, but how accurately the technical analysis indicators agreed reality. In other words, even though the features ultimately had access to the movement direction because of the overlapping times, they agreed with it 75.74\% of the time. 
+Nevertheless, it can be argued that the work may still be useful. Although the impressive figure of 75.74\% prediction accuracy would be impossible to replicate in a real world model because of the problems described above, perhaps it tells us something else. We could reinterpret the 75.74\% accuracy result not as predictive accuracy, but how well the technical analysis indicators agreed reality. In other words, even though the indicators ultimately had access to the movement direction because of the overlapping times, they agreed with it 75.74\% of the time. 
 
 Using this interpretation, \citet{kara2011predicting} have not demonstrated the predictive power of technical analysis, but demonstrated that it might be worth investigating. Later in this report, we will apply the corrected methodology and attempt to build a model using some of the same features.
 
@@ -311,11 +316,11 @@ They then go on to perform feature selection based on the predictive power of ea
 
 After they have selected their top 4 features they compare a Support vector machine model to a Multiple Additive Regression Trees model for predicting the following day's NASDAQ trend. Their winning model is the SVM with 74.4\% accuracy. 
 
-While the results presented by \citet{shen2012stock} in this article appear to be very much inline with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However because their results will be supported by ours, we don't imagine that any critical errors were made in these steps.
+While the results presented by \citet{shen2012stock} in this article appear to be very much inline with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However their results will be supported by results in this report, so it is safe to assume that no critical errors were made in these steps.
 
 After they successfully train and test a model, they use it to simulate a real life trading environment. Their models perform extremely well on the simulated trading example with an average of an 8\% return rate every 50 days. This is where the results of this article and the results of our report diverge. This article fails to account for overlapping trading hours. For instance the FTSE, which is traded in London, and the Dow Jones, which is traded in New York, are both trading simultaneously for three to four hours each day. This is enough time for the New York stock exchange to influence the London Stock stock exchange. It follows then that it is incorrect to use the closing prices in London to predict New York's movements.
 
-While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when simulating real world trading. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours. 
+While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when simulating real world trading. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours.  
 
 \chapter{Attacking the Problem - Fundamental Analysis}
 
@@ -329,15 +334,16 @@ We will look at two of the most common metrics used in Fundamental Analysis, Pri
 
 \section{Price to Earnings Ratio}
 
-The first metric for the value of a company that we will look at is the Price to Earnings Ratio. The Price to Earnings Ratio is calculated as
+The first metric for the value of a company that we will look at is the Price to Earnings Ratio. The Price to Earnings Ratio calculation is defined in equation \ref{eq:pe-ratio}.
 
-\begin{math}
-  \\
-	\text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Earnings Per Share}}
-	\\
-\end{math}
+\begin{center}
+\begin{equation}
+  \text{P/E Ratio} = \dfrac{\text{Share Price}}{\text{Earnings Per Share}}
+\end{equation}
+\label{eq:pe-ratio}  
+\end{center}
 
-Roughly speaking, what this calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might be a sign of high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. We should then expect to see a relationship between high P/E ratio and high returns in the following year.
+Roughly speaking, what the P/E Ratio calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might be a sign of high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. We should then expect to see a relationship between high P/E ratio and high returns in the following year.
 
 To investigate this relationship, we plotted the P/E ratio of 456 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Figure \ref{fig:pe-abs} is a graph of this relationship.
 
@@ -347,7 +353,7 @@ To investigate this relationship, we plotted the P/E ratio of 456 companies on t
 	\label{fig:pe-abs}
 \end{figure}
 
-The best fit line was calculated using the standard Least Squares method. If the P/E ratio was indeed predictive, we might have expected a steeper slope in the best fit line, but we can see that there is a very weak correlation at best. It should also be noted that the more we remove outliers, the lower the slope becomes. This indicates that the the line is probably being pulled up by outliers rather than an actual correlation in the data. 
+The best fit line was calculated using the standard Least Squares method. If the P/E ratio was indeed predictive, we might have expected a better fitting line.
 
 We can investigate the data further using a boxplot. Figure \ref{fig:pe-box} divides companies into two categories. The first category, $Gain\ Companies$, are companies whose share price increased in a given year, and the second category, $Loss\ Companies$, are companies whose share price fell in a given year. The box plot shows the distribution of P/E Ratios for each category.
 
@@ -361,15 +367,16 @@ If the P/E Ratio was predictive, we would have expected a noticable difference i
 
 \section{Price to Book Ratio}
 
-The second metric for the value of a company that we will look at is the Price to Book Ratio. The price to Book Ratio is calculated as
+The second metric for the value of a company that we will look at is the Price to Book Ratio. The price to Book Ratio calculation is defined in equation \ref{eq:pb-ratio}.
 
-\begin{math}
-  \\
-	\text{P/B Ratio} = \dfrac{\text{Share Price}}{\text{Book Value of Company}}
-	\\
-\end{math}
+\begin{center}
+\begin{equation}
+  \text{P/B Ratio} = \dfrac{\text{Share Price}}{\text{Book Value of Company}}
+\end{equation}
+\label{eq:pb-ratio}  
+\end{center}
 
-Informally, what this calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. We should then expect to see a relationship between high P/B ratio and low returns in the following year. 
+Informally, what the Price to Book Ratio calculates is the ratio between the value of a company according to the market and the value of the company on paper. If the ratio is high, this might be a signal that the market has overvalued a company and the price may fall over time. Conversely if the ratio is low, that may signal that the market has undervalued the company and the price may rise over time. We should then expect to see a relationship between high P/B ratio and low returns in the following year. 
 
 To investigate this relationship, we plotted the P/B ratio for of 316 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Figure \ref{fig:pb-abs} is a graph of this relationship.
 
@@ -379,9 +386,7 @@ To investigate this relationship, we plotted the P/B ratio for of 316 companies 
 	\label{fig:pb-abs}
 \end{figure}
 
-Just as in the P/B diagram, the best fit line was calculated using the standard Least Squares method. Although slope of the best fit line is greater than that of the P/E ratio, this is the opposite of what we might have expected. The data suggests that a high P/B ratio is somewhat  predictive of a high growth in the stock price. This is unexpected result directly opposed to available literature on the subject \cite{jensen1997new}. 
-
-One hypothesis is that a high P/B ratio could be a signal of investor confidence like the P/E Ratio and so we might be able use the argument about how an investor confidence could be a predictor of growth. More likely, we suspect, is that the data used does not control correctly for the expected growth in all companies over the studied time period, from 2000 to 2014. Even accounting for the Great Recession, the stock price of most companies in our dataset did grow from year to year. However, this does not fully explain why the slope of the P/B Ratio best fit line is greater than the slope of the P/E Ratio best fit line. One would have expected at least a lesser slope if the expected slope was an inverse relation. 
+Just as in the P/B diagram, the best fit line was calculated using the standard Least Squares method. The slope of the best fit line here is greater than that of the P/E ratio which is the opposite of what we might have expected. The data suggests that a high P/B ratio is somewhat predictive of a high growth in the stock price. This is unexpected result directly opposed to available literature on the subject \cite{jensen1997new}. This suggests that a high P/B ratio may act as a signal of investor confidence, a better signal than the P/E Ratio. 
 
 To better understand the predictive value of the P/B Ratio we can use a box plot. Figure \ref{fig:pb-box} divides companies into two categories, exactly as in the earlier P/E Ratio example. The box plot shows the distribution of P/B Ratios for each category.
 
@@ -391,17 +396,15 @@ To better understand the predictive value of the P/B Ratio we can use a box plot
 	\label{fig:pb-box}
 \end{figure}
 
-It is evident that this diagram tells a very similar story to the P/E Ratio diagram. We can see that companies that grew and companies that shrank had an almost identical distribution of P/B Ratios. If it were predictive, we would have expected different distributions for each category. We can therefore conclude that the P/B Ratio also has little or no predictive value when it comes to estimating company performance for the following year.
+It is evident that this diagram tells a very similar story to the P/E Ratio diagram. We can see that companies that grew and companies that shrank had an almost identical distribution of P/B Ratios. If it were predictive, we would have expected different distributions for each category. We can therefore conclude that the P/B Ratio also has little predictive value when it comes to estimating company performance for the following year.
 
 \section{Limitations of Fundamental Analysis}
 
-There is an obvious problem in Fundamental Analysis. We are trying to find the quantify the true value of a company when almost every company has in some way or another some purely qualitative value.
+There is an obvious problem in Fundamental Analysis. We are trying to quantify the true value of a company when almost every company has in some way or another some purely qualitative value.
 
-Fundamental Analysis methods do not attempt to capture these qualitative values, and so it difficult to build a software solution to do so. This leaves a large gap in knowledge an algorithm could learn about a company. How should it quantify the value of a brand, the size of its customer base, or a competitive advantage?
+Fundamental Analysis methods do not attempt to capture these qualitative values. How should one quantify the value of a brand, the size of its customer base, or a competitive advantage? Until these values are quantifed, it leaves a large gap in what an algorithmic style approach can achieve. What algorithm, for instance, would have valued WhatsApp at \$22 billion while still making a year-on-year loss? \cite{whatsapp}
 
-These are three examples of some of the many things that a human investor might take into account when deciding who to invest in, but they are untouchable within the scope of this project. 
-
-Instead, we are limited to purely quantitative company metrics. We will look at two of the most common metrics, Price to Earnings ratio and Price to Book ratio.
+These are three examples of some of the many qualitative values a human investor might take into account when deciding who to invest in. In fundamental analysis we are limited to purely quantitative company metrics.
 
 \section{Fundamental Analysis - Conclusion}
 

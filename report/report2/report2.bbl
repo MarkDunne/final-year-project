@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -26,6 +26,12 @@ Investopedia.com.
 \bibitem[web(2015)]{website:quandl}
 Quandl, January 2015.
 \newblock URL \url{https://www.quandl.com/}.
+
+\bibitem[Cunningham(2009)]{cunningham2009more}
+Michael Cunningham.
+\newblock More than just the kappa coefficient: a program to fully characterize
+  inter-rater reliability between two raters.
+\newblock In \emph{SAS global forum}, pages 242--2009, 2009.
 
 \bibitem[Graham et~al.(1934)Graham, Dodd, and Cottle]{graham1934security}
 Benjamin Graham, David Le~Fevre Dodd, and Sidney Cottle.
@@ -74,6 +80,12 @@ Burton~Gordon Malkiel.
 \newblock \emph{A random walk down Wall Street: the time-tested strategy for
   successful investing}.
 \newblock WW Norton \& Company, 2003.
+
+\bibitem[Neftci(1991)]{neftci1991naive}
+Salih~N Neftci.
+\newblock Naive trading rules in financial markets and wiener-kolmogorov
+  prediction theory: a study of" technical analysis".
+\newblock \emph{Journal of Business}, pages 549--571, 1991.
 
 \bibitem[O'Grady(2015)]{website:redmonk-languages}
 Stephen O'Grady.

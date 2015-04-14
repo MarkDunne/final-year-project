@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report2.aux
 The style file: plainnat.bst
@@ -27,45 +27,45 @@ Warning--empty year in whatsapp
 Warning--empty author in slippage
 Warning--empty journal in slippage
 Warning--can't use both volume and number fields in kohavi1995study
-You've used 17 entries,
+You've used 19 entries,
             2773 wiz_defined-function locations,
-            679 strings with 7078 characters,
-and the built_in function-call counts, 6178 in all, are:
-= -- 542
-> -- 250
-< -- 8
-+ -- 92
-- -- 75
-* -- 469
-:= -- 862
-add.period$ -- 46
-call.type$ -- 17
-change.case$ -- 71
-chr.to.int$ -- 17
-cite$ -- 53
-duplicate$ -- 328
-empty$ -- 618
-format.name$ -- 88
-if$ -- 1331
+            692 strings with 7435 characters,
+and the built_in function-call counts, 7176 in all, are:
+= -- 643
+> -- 270
+< -- 12
++ -- 100
+- -- 81
+* -- 523
+:= -- 993
+add.period$ -- 52
+call.type$ -- 19
+change.case$ -- 79
+chr.to.int$ -- 19
+cite$ -- 57
+duplicate$ -- 389
+empty$ -- 717
+format.name$ -- 96
+if$ -- 1563
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 15
-newline$ -- 88
-num.names$ -- 48
-pop$ -- 216
+missing$ -- 17
+newline$ -- 98
+num.names$ -- 56
+pop$ -- 237
 preamble$ -- 1
-purify$ -- 58
+purify$ -- 64
 quote$ -- 0
-skip$ -- 238
+skip$ -- 289
 stack$ -- 0
-substring$ -- 179
-swap$ -- 33
-text.length$ -- 2
+substring$ -- 250
+swap$ -- 54
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 167
+type$ -- 189
 warning$ -- 14
-while$ -- 47
+while$ -- 59
 width$ -- 0
-write$ -- 203
+write$ -- 229
 (There were 2 error messages)

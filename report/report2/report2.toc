@@ -21,8 +21,8 @@
 \contentsline {section}{\numberline {5.1}Price to Earnings Ratio}{18}
 \contentsline {section}{\numberline {5.2}Price to Book Ratio}{20}
 \contentsline {section}{\numberline {5.3}Limitations of Fundamental Analysis}{22}
-\contentsline {section}{\numberline {5.4}Fundamental Analysis - Conclusion}{23}
-\contentsline {chapter}{\numberline {6}Technical Analysis}{24}
+\contentsline {section}{\numberline {5.4}Fundamental Analysis - Conclusion}{22}
+\contentsline {chapter}{\numberline {6}Attacking the Problem - Technical Analysis}{24}
 \contentsline {section}{\numberline {6.1}Broad Families of Technical Analysis Models}{24}
 \contentsline {section}{\numberline {6.2}Naive Trading patterns}{24}
 \contentsline {section}{\numberline {6.3}Moving Average Crossover}{26}

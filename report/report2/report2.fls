@@ -187,9 +187,6 @@ INPUT ./vis/headshoulders.png
 INPUT vis/macrossover.png
 INPUT ./vis/macrossover.png
 INPUT ./vis/macrossover.png
-INPUT vis/ma_confusion.png
-INPUT ./vis/ma_confusion.png
-INPUT ./vis/ma_confusion.png
 INPUT vis/prices-bias-variance.png
 INPUT ./vis/prices-bias-variance.png
 INPUT ./vis/prices-bias-variance.png

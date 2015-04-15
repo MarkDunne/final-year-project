@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  15 APR 2015 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  15 APR 2015 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -578,37 +578,46 @@ e
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 27.
+<vis/title.png, id=1, 390.70969pt x 56.46094pt>
+File: vis/title.png Graphic file (type png)
+ <use vis/title.png>
+Package pdftex.def Info: vis/title.png used on input line 31.
+(pdftex.def)             Requested size: 345.0pt x 49.85806pt.
+ [1
 
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 27.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./vis/title.png (PNG copy)
+>]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 74.
 
-(/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 74.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 27.
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 74.
+ [2
 
+] [1] (./report2.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 27.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 27.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1] (./report2.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -633,161 +642,154 @@ Chapter 2.
 Chapter 3.
 [9
 
-] <vis/random-process.png, id=49, 382.42876pt x 256.96pt>
+] <vis/random-process.png, id=53, 382.42876pt x 256.96pt>
 File: vis/random-process.png Graphic file (type png)
 
 <use vis/random-process.png>
-Package pdftex.def Info: vis/random-process.png used on input line 172.
+Package pdftex.def Info: vis/random-process.png used on input line 241.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
- <vis/appl.png, id=51, 382.42876pt x 256.96pt>
+ <vis/appl.png, id=55, 382.42876pt x 256.96pt>
 File: vis/appl.png Graphic file (type png)
 
 <use vis/appl.png>
-Package pdftex.def Info: vis/appl.png used on input line 180.
+Package pdftex.def Info: vis/appl.png used on input line 249.
 (pdftex.def)             Requested size: 345.0pt x 231.82254pt.
  [10 <./vis/random-process.png>]
-<vis/gain_loss_asymmetry.png, id=56, 578.16pt x 433.62pt>
+<vis/gain_loss_asymmetry.png, id=61, 578.16pt x 433.62pt>
 File: vis/gain_loss_asymmetry.png Graphic file (type png)
 
 <use vis/gain_loss_asymmetry.png>
-Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 200.
+Package pdftex.def Info: vis/gain_loss_asymmetry.png used on input line 269.
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
  [11 <./vis/appl.png>] [12 <./vis/gain_loss_asymmetry.png>] [13]
 Chapter 4.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 251.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 251.
- [14
+[14
 
 ] [15] [16] [17]
 Chapter 5.
 [18
 
-] <vis/pe-ratio-abs.png, id=86, 717.68124pt x 409.53pt>
+] <vis/pe-ratio-abs.png, id=90, 717.68124pt x 409.53pt>
 File: vis/pe-ratio-abs.png Graphic file (type png)
 
 <use vis/pe-ratio-abs.png>
-Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 348.
+Package pdftex.def Info: vis/pe-ratio-abs.png used on input line 417.
 (pdftex.def)             Requested size: 345.0pt x 196.8721pt.
- <vis/pe_box.png, id=87, 722.7pt x 379.4175pt>
+ <vis/pe_box.png, id=91, 722.7pt x 379.4175pt>
 File: vis/pe_box.png Graphic file (type png)
 
 <use vis/pe_box.png>
-Package pdftex.def Info: vis/pe_box.png used on input line 358.
+Package pdftex.def Info: vis/pe_box.png used on input line 427.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
  [19 <./vis/pe-ratio-abs.png>]
-<vis/pb-ratio-abs.png, id=92, 723.70375pt x 409.53pt>
+<vis/pb-ratio-abs.png, id=96, 723.70375pt x 409.53pt>
 File: vis/pb-ratio-abs.png Graphic file (type png)
 
 <use vis/pb-ratio-abs.png>
-Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 381.
+Package pdftex.def Info: vis/pb-ratio-abs.png used on input line 450.
 (pdftex.def)             Requested size: 345.0pt x 195.22864pt.
  [20 <./vis/pe_box.png>]
-<vis/pb_box.png, id=97, 722.7pt x 379.4175pt>
+<vis/pb_box.png, id=101, 722.7pt x 379.4175pt>
 File: vis/pb_box.png Graphic file (type png)
  <use vis/pb_box.png>
-Package pdftex.def Info: vis/pb_box.png used on input line 391.
+Package pdftex.def Info: vis/pb_box.png used on input line 460.
 (pdftex.def)             Requested size: 345.0pt x 181.12254pt.
  [21 <./vis/pb-ratio-abs.png>] [22 <./vis/pb_box.png>] [23]
 Chapter 6.
 [24
 
-] <vis/headshoulders.png, id=113, 426.59375pt x 235.88126pt>
+] <vis/headshoulders.png, id=117, 426.59375pt x 235.88126pt>
 File: vis/headshoulders.png Graphic file (type png)
 
 <use vis/headshoulders.png>
-Package pdftex.def Info: vis/headshoulders.png used on input line 431.
+Package pdftex.def Info: vis/headshoulders.png used on input line 500.
 (pdftex.def)             Requested size: 345.0pt x 190.77483pt.
  [25 <./vis/headshoulders.png>]
-<vis/macrossover.png, id=118, 722.7pt x 394.47375pt>
+<vis/macrossover.png, id=122, 722.7pt x 394.47375pt>
 File: vis/macrossover.png Graphic file (type png)
  <use vis/macrossover.png>
-Package pdftex.def Info: vis/macrossover.png used on input line 455.
+Package pdftex.def Info: vis/macrossover.png used on input line 524.
 (pdftex.def)             Requested size: 345.0pt x 188.30994pt.
 
 [26] [27 <./vis/macrossover.png>] [28] [29] [30] [31] [32] [33]
 Chapter 7.
 [34
 
-] [35] <vis/prices-bias-variance.png, id=152, 578.16pt x 433.62pt>
+] [35] <vis/prices-bias-variance.png, id=156, 578.16pt x 433.62pt>
 File: vis/prices-bias-variance.png Graphic file (type png)
 
 <use vis/prices-bias-variance.png>
-Package pdftex.def Info: vis/prices-bias-variance.png used on input line 707.
+Package pdftex.def Info: vis/prices-bias-variance.png used on input line 776.
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
  [36] [37 <./vis/prices-bias-variance.png>]
-<vis/50-learning-curve-15000.png, id=160, 578.16pt x 433.62pt>
+<vis/50-learning-curve-15000.png, id=164, 578.16pt x 433.62pt>
 File: vis/50-learning-curve-15000.png Graphic file (type png)
 
 <use vis/50-learning-curve-15000.png>
-Package pdftex.def Info: vis/50-learning-curve-15000.png used on input line 723
+Package pdftex.def Info: vis/50-learning-curve-15000.png used on input line 792
 .
 (pdftex.def)             Requested size: 345.0pt x 258.74484pt.
  [38 <./vis/50-learning-curve-15000.png>]
 [39] [40]
-<vis/single_feature_prediction.png, id=171, 719.68875pt x 408.52625pt>
+<vis/single_feature_prediction.png, id=176, 719.68875pt x 408.52625pt>
 File: vis/single_feature_prediction.png Graphic file (type png)
 
 <use vis/single_feature_prediction.png>
-Package pdftex.def Info: vis/single_feature_prediction.png used on input line 7
-80.
+Package pdftex.def Info: vis/single_feature_prediction.png used on input line 8
+49.
 (pdftex.def)             Requested size: 359.84349pt x 204.26262pt.
  [41 <./vis/single_feature_prediction.png>] [42] [43] [44]
-<vis/analyst_opinions.png, id=186, 716.6775pt x 394.47375pt>
+<vis/analyst_opinions.png, id=190, 716.6775pt x 394.47375pt>
 File: vis/analyst_opinions.png Graphic file (type png)
 
 <use vis/analyst_opinions.png>
-Package pdftex.def Info: vis/analyst_opinions.png used on input line 888.
+Package pdftex.def Info: vis/analyst_opinions.png used on input line 957.
 (pdftex.def)             Requested size: 358.33788pt x 197.23639pt.
 
-<vis/before_encoding.png, id=187, 89.33376pt x 119.44624pt>
+<vis/before_encoding.png, id=191, 89.33376pt x 119.44624pt>
 File: vis/before_encoding.png Graphic file (type png)
 
 <use vis/before_encoding.png>
-Package pdftex.def Info: vis/before_encoding.png used on input line 909.
+Package pdftex.def Info: vis/before_encoding.png used on input line 978.
 (pdftex.def)             Requested size: 53.60065pt x 71.66829pt.
 
-<vis/after_encoding.png, id=188, 197.73875pt x 118.4425pt>
+<vis/after_encoding.png, id=192, 197.73875pt x 118.4425pt>
 File: vis/after_encoding.png Graphic file (type png)
 
 <use vis/after_encoding.png>
-Package pdftex.def Info: vis/after_encoding.png used on input line 909.
+Package pdftex.def Info: vis/after_encoding.png used on input line 978.
 (pdftex.def)             Requested size: 118.64417pt x 71.06604pt.
  [45 <./vis/analyst_opinions.png>] [46 <./vis/before_encoding.png> <./vis/after
 _encoding.png>] [47]
-<vis/disaster_data.png, id=201, 731.73375pt x 379.4175pt>
+<vis/disaster_data.png, id=206, 731.73375pt x 379.4175pt>
 File: vis/disaster_data.png Graphic file (type png)
 
 <use vis/disaster_data.png>
-Package pdftex.def Info: vis/disaster_data.png used on input line 1010.
+Package pdftex.def Info: vis/disaster_data.png used on input line 1079.
 (pdftex.def)             Requested size: 345.0pt x 178.88782pt.
  [48] [49 <./vis/disaster_data.png>]
-<vis/disaster_box.png, id=210, 733.74126pt x 369.38pt>
+<vis/disaster_box.png, id=214, 733.74126pt x 369.38pt>
 File: vis/disaster_box.png Graphic file (type png)
 
 <use vis/disaster_box.png>
-Package pdftex.def Info: vis/disaster_box.png used on input line 1037.
+Package pdftex.def Info: vis/disaster_box.png used on input line 1106.
 (pdftex.def)             Requested size: 345.0pt x 173.68188pt.
  [50 <./vis/disaster_box.png>] [51]
 Chapter 8.
 [52
 
-] <vis/quantopian_related.png, id=221, 973.6375pt x 605.26125pt>
+] <vis/quantopian_related.png, id=226, 973.6375pt x 605.26125pt>
 File: vis/quantopian_related.png Graphic file (type png)
 
 <use vis/quantopian_related.png>
-Package pdftex.def Info: vis/quantopian_related.png used on input line 1081.
+Package pdftex.def Info: vis/quantopian_related.png used on input line 1150.
 (pdftex.def)             Requested size: 389.44809pt x 242.1002pt.
  [53] [54 <./vis/quantopian_related.png>]
-<vis/quantopian_analysts.png, id=229, 1041.8925pt x 545.03625pt>
+<vis/quantopian_analysts.png, id=233, 1041.8925pt x 545.03625pt>
 File: vis/quantopian_analysts.png Graphic file (type png)
 
 <use vis/quantopian_analysts.png>
-Package pdftex.def Info: vis/quantopian_analysts.png used on input line 1103.
+Package pdftex.def Info: vis/quantopian_analysts.png used on input line 1172.
 (pdftex.def)             Requested size: 416.74962pt x 218.01064pt.
  [55 <./vis/quantopian_analysts.png>] [56]
 Chapter 9.
@@ -821,11 +823,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--102
 
 ) [59] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
- 6223 strings out of 494978
- 86262 string characters out of 6180203
+ 6206 strings out of 494978
+ 86104 string characters out of 6180203
  168754 words of memory out of 5000000
- 9289 multiletter control sequences out of 15000+600000
- 72781 words of font info for 50 fonts, out of 8000000 for 9000
+ 9280 multiletter control sequences out of 15000+600000
+ 58965 words of font info for 40 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,13n,40p,1100b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/sh
@@ -841,10 +843,10 @@ hare/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public
 /fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt10.pfb>
-Output written on report2.pdf (61 pages, 812624 bytes).
+Output written on report2.pdf (62 pages, 854025 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
+ 304 PDF objects out of 1000 (max. 8388607)
+ 189 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 96 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

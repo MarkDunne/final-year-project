@@ -34,7 +34,7 @@
 \contentsline {section}{\numberline {6.5}Common Problems with Technical Analysis}{32}
 \contentsline {section}{\numberline {6.6}Technical Analysis - Conclusion}{33}
 \contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{34}
-\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{34}
+\contentsline {section}{\numberline {7.1}Preceding 5 day prices}{34}
 \contentsline {subsection}{\numberline {7.1.1}Error Estimation}{35}
 \contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{36}
 \contentsline {subsubsection}{Model Complexity}{36}

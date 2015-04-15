@@ -34,31 +34,31 @@
 \contentsline {section}{\numberline {6.5}Common Problems with Technical Analysis}{32}
 \contentsline {section}{\numberline {6.6}Technical Analysis - Conclusion}{33}
 \contentsline {chapter}{\numberline {7}Attacking the problem - Machine Learning}{34}
-\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{35}
+\contentsline {section}{\numberline {7.1}Preceeding 5 day prices}{34}
 \contentsline {subsection}{\numberline {7.1.1}Error Estimation}{35}
 \contentsline {subsection}{\numberline {7.1.2}Analysis of Model Failure}{36}
 \contentsline {subsubsection}{Model Complexity}{36}
-\contentsline {subsubsection}{Training Data}{38}
+\contentsline {subsubsection}{Training Data}{37}
 \contentsline {subsection}{\numberline {7.1.3}Preceeding 5 day prices - Conclusion}{39}
-\contentsline {section}{\numberline {7.2}Related Assets}{41}
-\contentsline {subsection}{\numberline {7.2.1}Data}{41}
-\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{42}
-\contentsline {subsection}{\numberline {7.2.3}Modeling}{43}
-\contentsline {subsubsection}{Error Estimation}{43}
-\contentsline {subsubsection}{Model Selection}{44}
-\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{45}
-\contentsline {section}{\numberline {7.3}Analyst Opinions}{46}
-\contentsline {subsection}{\numberline {7.3.1}Data}{46}
-\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{47}
-\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{48}
-\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{49}
-\contentsline {subsection}{\numberline {7.3.5}Model Selection}{49}
-\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{50}
-\contentsline {section}{\numberline {7.4}Disasters}{51}
-\contentsline {subsection}{\numberline {7.4.1}Data Preparation}{51}
-\contentsline {subsection}{\numberline {7.4.2}Predictive Value of Disasters}{52}
-\contentsline {subsection}{\numberline {7.4.3}Disasters - Conclusion}{53}
-\contentsline {chapter}{\numberline {8}Quantopian Trading Simulation}{55}
-\contentsline {section}{\numberline {8.1}Simulation 1 - Related Assets}{55}
-\contentsline {section}{\numberline {8.2}Simulation 2 - Analyst Opinions}{57}
-\contentsline {chapter}{\numberline {9}Report Conclusion}{59}
+\contentsline {section}{\numberline {7.2}Related Assets}{39}
+\contentsline {subsection}{\numberline {7.2.1}Data}{39}
+\contentsline {subsection}{\numberline {7.2.2}Exploration of Feature Utility}{40}
+\contentsline {subsection}{\numberline {7.2.3}Modeling}{41}
+\contentsline {subsubsection}{Error Estimation}{41}
+\contentsline {subsubsection}{Model Selection}{42}
+\contentsline {subsection}{\numberline {7.2.4}Related Assets - Conclusion}{43}
+\contentsline {section}{\numberline {7.3}Analyst Opinions}{43}
+\contentsline {subsection}{\numberline {7.3.1}Data}{44}
+\contentsline {subsection}{\numberline {7.3.2}Data Exploration}{44}
+\contentsline {subsection}{\numberline {7.3.3}Data Preparation}{45}
+\contentsline {subsection}{\numberline {7.3.4}Error Estimation}{47}
+\contentsline {subsection}{\numberline {7.3.5}Model Selection}{47}
+\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{48}
+\contentsline {section}{\numberline {7.4}Disasters}{48}
+\contentsline {subsection}{\numberline {7.4.1}Data Preparation}{48}
+\contentsline {subsection}{\numberline {7.4.2}Predictive Value of Disasters}{49}
+\contentsline {subsection}{\numberline {7.4.3}Disasters - Conclusion}{50}
+\contentsline {chapter}{\numberline {8}Quantopian Trading Simulation}{52}
+\contentsline {section}{\numberline {8.1}Simulation 1 - Related Assets}{52}
+\contentsline {section}{\numberline {8.2}Simulation 2 - Analyst Opinions}{54}
+\contentsline {chapter}{\numberline {9}Report Conclusion}{57}

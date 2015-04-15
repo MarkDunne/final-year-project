@@ -37,9 +37,10 @@ def test_learning_curve():
     X = data[[0, 1, 2, 3, 4]].values
     y = data[['outcome']].values
     folds = KFold(n=len(X), n_folds=10, shuffle=True)
-    fig = plot_learning_curve(estimator, "5 k-NN learning curve", X, y, cv=folds, verbose=2, 
+    fig = plot_learning_curve(estimator, "50 k-NN learning curve", X, y, cv=folds, verbose=2, 
                               train_sizes=np.linspace(.1, 1.0, 20))
     fig.show()
     
 if __name__ == "__main__":
-    test_classification()
+    test_learning_curve()	   	
+    # test_classification()

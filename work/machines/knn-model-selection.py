@@ -88,4 +88,4 @@ def learning_curve():
     fig.show()
 
 if __name__ == "__main__":
-    learning_curve()
+    bias_variance_tradeoff()

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  14 APR 2015 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2015.1.28)  15 APR 2015 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,123 +709,89 @@ File: vis/macrossover.png Graphic file (type png)
 Package pdftex.def Info: vis/macrossover.png used on input line 455.
 (pdftex.def)             Requested size: 345.0pt x 188.30994pt.
 
-[26] [27 <./vis/macrossover.png>] [28] [29] [30] [31]
-Overfull \hbox (51.58318pt too wide) in paragraph at lines 601--608
- [] 
- []
-
-[32] [33]
+[26] [27 <./vis/macrossover.png>] [28] [29] [30] [31] [32] [33]
 Chapter 7.
 [34
 
-]
-Overfull \hbox (8.33311pt too wide) in paragraph at lines 654--663
- [] 
- []
-
-[35
-
-]
-Overfull \hbox (66.86163pt too wide) in paragraph at lines 676--683
- [] 
- []
-
-[36] <vis/prices-bias-variance.png, id=155, 516.7305pt x 575.9919pt>
+] [35] <vis/prices-bias-variance.png, id=152, 578.16pt x 433.62pt>
 File: vis/prices-bias-variance.png Graphic file (type png)
 
 <use vis/prices-bias-variance.png>
-Package pdftex.def Info: vis/prices-bias-variance.png used on input line 706.
-(pdftex.def)             Requested size: 258.36461pt x 287.99524pt.
- [37 <./vis/prices-bias-variance.png>]
+Package pdftex.def Info: vis/prices-bias-variance.png used on input line 707.
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+ [36] [37 <./vis/prices-bias-variance.png>]
 <vis/50-learning-curve-15000.png, id=160, 578.16pt x 433.62pt>
 File: vis/50-learning-curve-15000.png Graphic file (type png)
 
 <use vis/50-learning-curve-15000.png>
 Package pdftex.def Info: vis/50-learning-curve-15000.png used on input line 723
 .
-(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [38] [39 <./vis/50-learning-curve-15000.png>] [40] [41
-
-]
-<vis/single_feature_prediction.png, id=175, 719.68875pt x 408.52625pt>
+(pdftex.def)             Requested size: 345.0pt x 258.74484pt.
+ [38 <./vis/50-learning-curve-15000.png>]
+[39] [40]
+<vis/single_feature_prediction.png, id=171, 719.68875pt x 408.52625pt>
 File: vis/single_feature_prediction.png Graphic file (type png)
 
 <use vis/single_feature_prediction.png>
 Package pdftex.def Info: vis/single_feature_prediction.png used on input line 7
-82.
+80.
 (pdftex.def)             Requested size: 359.84349pt x 204.26262pt.
- [42]
-Overfull \hbox (52.16672pt too wide) in paragraph at lines 801--808
- [] 
- []
-
-[43 <./vis/single_feature_prediction.png>] [44] [45]
-Overfull \hbox (78.24837pt too wide) in paragraph at lines 864--873
- [] 
- []
-
-[46
-
-] <vis/analyst_opinions.png, id=192, 716.6775pt x 394.47375pt>
+ [41 <./vis/single_feature_prediction.png>] [42] [43] [44]
+<vis/analyst_opinions.png, id=186, 716.6775pt x 394.47375pt>
 File: vis/analyst_opinions.png Graphic file (type png)
 
 <use vis/analyst_opinions.png>
-Package pdftex.def Info: vis/analyst_opinions.png used on input line 891.
+Package pdftex.def Info: vis/analyst_opinions.png used on input line 888.
 (pdftex.def)             Requested size: 358.33788pt x 197.23639pt.
- [47 <./vis/analyst_opinions.png>]
-<vis/before_encoding.png, id=198, 89.33376pt x 119.44624pt>
+
+<vis/before_encoding.png, id=187, 89.33376pt x 119.44624pt>
 File: vis/before_encoding.png Graphic file (type png)
 
 <use vis/before_encoding.png>
-Package pdftex.def Info: vis/before_encoding.png used on input line 907.
+Package pdftex.def Info: vis/before_encoding.png used on input line 909.
 (pdftex.def)             Requested size: 53.60065pt x 71.66829pt.
 
-<vis/after_encoding.png, id=199, 197.73875pt x 118.4425pt>
+<vis/after_encoding.png, id=188, 197.73875pt x 118.4425pt>
 File: vis/after_encoding.png Graphic file (type png)
 
 <use vis/after_encoding.png>
 Package pdftex.def Info: vis/after_encoding.png used on input line 909.
 (pdftex.def)             Requested size: 118.64417pt x 71.06604pt.
- [48 <./vis/before_encoding.png> <./vis/after_encoding.png>]
-Overfull \hbox (52.16672pt too wide) in paragraph at lines 943--950
- [] 
- []
-
-[49] [50] <vis/disaster_data.png, id=211, 731.73375pt x 379.4175pt>
+ [45 <./vis/analyst_opinions.png>] [46 <./vis/before_encoding.png> <./vis/after
+_encoding.png>] [47]
+<vis/disaster_data.png, id=201, 731.73375pt x 379.4175pt>
 File: vis/disaster_data.png Graphic file (type png)
 
 <use vis/disaster_data.png>
-Package pdftex.def Info: vis/disaster_data.png used on input line 1007.
+Package pdftex.def Info: vis/disaster_data.png used on input line 1010.
 (pdftex.def)             Requested size: 345.0pt x 178.88782pt.
- [51
-
-] [52 <./vis/disaster_data.png>]
-<vis/disaster_box.png, id=219, 733.74126pt x 369.38pt>
+ [48] [49 <./vis/disaster_data.png>]
+<vis/disaster_box.png, id=210, 733.74126pt x 369.38pt>
 File: vis/disaster_box.png Graphic file (type png)
 
 <use vis/disaster_box.png>
-Package pdftex.def Info: vis/disaster_box.png used on input line 1036.
+Package pdftex.def Info: vis/disaster_box.png used on input line 1037.
 (pdftex.def)             Requested size: 345.0pt x 173.68188pt.
- [53 <./vis/disaster_box.png>] [54]
+ [50 <./vis/disaster_box.png>] [51]
 Chapter 8.
-[55
+[52
 
-] <vis/quantopian_related.png, id=231, 973.6375pt x 605.26125pt>
+] <vis/quantopian_related.png, id=221, 973.6375pt x 605.26125pt>
 File: vis/quantopian_related.png Graphic file (type png)
 
 <use vis/quantopian_related.png>
-Package pdftex.def Info: vis/quantopian_related.png used on input line 1080.
-(pdftex.def)             Requested size: 345.0pt x 214.46748pt.
- [56] [57 <./vis/quantopian_related.png>]
-<vis/quantopian_analysts.png, id=238, 1040.88875pt x 363.3575pt>
+Package pdftex.def Info: vis/quantopian_related.png used on input line 1081.
+(pdftex.def)             Requested size: 389.44809pt x 242.1002pt.
+ [53] [54 <./vis/quantopian_related.png>]
+<vis/quantopian_analysts.png, id=229, 1041.8925pt x 545.03625pt>
 File: vis/quantopian_analysts.png Graphic file (type png)
 
 <use vis/quantopian_analysts.png>
-Package pdftex.def Info: vis/quantopian_analysts.png used on input line 1102.
-(pdftex.def)             Requested size: 345.0pt x 120.43506pt.
- [58 <./vis/quantopian_analysts.png>]
+Package pdftex.def Info: vis/quantopian_analysts.png used on input line 1103.
+(pdftex.def)             Requested size: 416.74962pt x 218.01064pt.
+ [55 <./vis/quantopian_analysts.png>] [56]
 Chapter 9.
-(./report2.bbl [59
+(./report2.bbl [57
 
 ]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
@@ -841,27 +807,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--25
 []\T1/lmr/m/n/10 Investopedia.com.  Apr 2015.  URL
  []
 
-[60
+[58
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 []\T1/lmr/m/n/10 Stephen O'Grady.  The red-monk pro-gram-ming lan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--102
 \T1/lmr/m/n/10 guage rank-ings: Jan-uary 2015, Jan-uary 2015.  URL
  []
 
-) [61] (./report2.aux) ) 
+) [59] (./report2.aux) ) 
 Here is how much of TeX's memory you used:
- 6219 strings out of 494978
- 86147 string characters out of 6180203
- 169674 words of memory out of 5000000
- 9285 multiletter control sequences out of 15000+600000
+ 6223 strings out of 494978
+ 86262 string characters out of 6180203
+ 168754 words of memory out of 5000000
+ 9289 multiletter control sequences out of 15000+600000
  72781 words of font info for 50 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,13n,40p,1100b,1219s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,13n,40p,1100b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/sh
 are/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm
 /lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf
@@ -875,10 +841,10 @@ hare/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public
 /fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmtt10.pfb>
-Output written on report2.pdf (63 pages, 820265 bytes).
+Output written on report2.pdf (61 pages, 812624 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
+ 300 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

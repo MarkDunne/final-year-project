@@ -1,9 +1,9 @@
 # Fdb version 3
-["bibtex report2"] 1429048751 "report2.aux" "report2.bbl" "report2" 1429048831
+["bibtex report2"] 1429128842 "report2.aux" "report2.bbl" "report2" 1429128959
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "report2.aux" 1429048831 13282 e9d1a09b7978f2b37563874d5ed447a6 ""
+  "report2.aux" 1429128959 13489 8497449616f652f994950ae2e499dcf4 ""
   "report2.bcf" 0 -1 0 ""
-  "report2.bib" 1429048220 5920 72aaccf2b19677503fd93e700cc9ec65 ""
+  "report2.bib" 1429126018 6167 796c20e14a3a4b19462433e3a4c6a2bf ""
   (generated)
   "report2.blg"
   "report2.bbl"
@@ -87,10 +87,10 @@
   "vis/random-process.png" 1427903300 13633 2211942d0ee977962753af8f7ba14e27 ""
   (generated)
   "report2.aux"
-  "report2.toc"
   "report2.log"
+  "report2.toc"
   "report2.dvi"
-["pdflatex"] 1429048828 "report2.tex" "report2.pdf" "report2" 1429048831
+["pdflatex"] 1429128957 "report2.tex" "report2.pdf" "report2" 1429128959
   "/etc/texmf/web2c/texmf.cnf" 1420219559 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -202,11 +202,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1406646078 31088 8e088e958dd0258cc5414842768a3a00 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1420221144 127805 5c3c5fac7370b5e0b4000550316abe76 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1422470989 856648 ab0ae600a5d23f6967fd37f11971e1c4 ""
-  "report2.aux" 1429048831 13282 e9d1a09b7978f2b37563874d5ed447a6 ""
-  "report2.bbl" 1429048751 4286 b0d3d7880c89719b504872a18de3ecec "bibtex report2"
-  "report2.tex" 1429048826 106792 c0f0044998b00d2ede8c1f3c252974d9 ""
-  "report2.toc" 1429048831 4579 a589bf38cd66b195e7daeb8e243a0c13 ""
-  "vis/50-learning-curve-15000.png" 1427153871 71283 cf76b6040b9a70c6084b729e5ba51b06 ""
+  "report2.aux" 1429128959 13489 8497449616f652f994950ae2e499dcf4 ""
+  "report2.bbl" 1429128842 4567 3554943c619a93253ba6ea9a3c8c6c13 "bibtex report2"
+  "report2.tex" 1429128931 107869 4480ab04567e6e424884128655c9c6ff ""
+  "report2.toc" 1429128959 4579 7df9685c8f253d2f0c67cf922c068e67 ""
+  "vis/50-learning-curve-15000.png" 1429115815 55748 8d2b75d1acd8d173568b788efd5ccc19 ""
   "vis/after_encoding.png" 1427412764 3249 0a832943ed49f1b446c034b5ce9195c3 ""
   "vis/analyst_opinions.png" 1426028679 47716 ab3e9edc48fbce58a07cfeb6bcb27038 ""
   "vis/appl.png" 1425924751 12747 9f769a95586b569ef95b5fd28d66c6e7 ""
@@ -220,13 +220,13 @@
   "vis/pb_box.png" 1426801815 13465 27184e3c7147c843515bdb513186f13f ""
   "vis/pe-ratio-abs.png" 1425945495 42120 f54a83b286f5adda21386050573cc48f ""
   "vis/pe_box.png" 1426801476 13386 289875ae41da57da415c93b673873640 ""
-  "vis/prices-bias-variance.png" 1426019371 60526 3a95e0f77a7de04113e833976d098a26 ""
-  "vis/quantopian_analysts.png" 1428696532 45321 e461e4594cec91a3ff911e678aab0c61 ""
+  "vis/prices-bias-variance.png" 1429115330 53249 ff79aca510d7fba698eedda0388abdd3 ""
+  "vis/quantopian_analysts.png" 1429128756 50697 6b06ef05831f8c8b9d05330ffeca7f6e ""
   "vis/quantopian_related.png" 1428683542 57569 84c865a847127424b628e6c494136d00 ""
   "vis/random-process.png" 1425924773 13633 2211942d0ee977962753af8f7ba14e27 ""
   "vis/single_feature_prediction.png" 1426023670 16972 285156fe804bdbf0fc0309e3a1b55f73 ""
   (generated)
   "report2.aux"
-  "report2.toc"
-  "report2.log"
   "report2.pdf"
+  "report2.log"
+  "report2.toc"

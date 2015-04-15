@@ -192,3 +192,20 @@ url = "http://www.online-stock-trading-guide.com/head-and-shoulders-pattern.html
   year = {2015}
   url = {http://www.bloomberg.com/news/articles/2014-10-28/facebook-s-22-billion-whatsapp-deal-buys-10-million-in-sales}
 }
+
+@article{neftci1991naive,
+  title={Naive trading rules in financial markets and wiener-kolmogorov prediction theory: a study of" technical analysis"},
+  author={Neftci, Salih N},
+  journal={Journal of Business},
+  pages={549--571},
+  year={1991},
+  publisher={JSTOR}
+}
+
+@inproceedings{cunningham2009more,
+  title={More than just the kappa coefficient: a program to fully characterize inter-rater reliability between two raters},
+  author={Cunningham, Michael},
+  booktitle={SAS global forum},
+  pages={242--2009},
+  year={2009}
+}

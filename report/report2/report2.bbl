@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{20}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -80,6 +80,12 @@ Burton~Gordon Malkiel.
 \newblock \emph{A random walk down Wall Street: the time-tested strategy for
   successful investing}.
 \newblock WW Norton \& Company, 2003.
+
+\bibitem[Manning et~al.(2008)Manning, Raghavan, and
+  Sch{\"u}tze]{manning2008introduction}
+Christopher~D Manning, Prabhakar Raghavan, and Hinrich Sch{\"u}tze.
+\newblock \emph{Introduction to information retrieval}, volume~1.
+\newblock Cambridge university press Cambridge, 2008.
 
 \bibitem[Neftci(1991)]{neftci1991naive}
 Salih~N Neftci.

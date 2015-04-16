@@ -14,10 +14,10 @@ data_loc = '/home/mark/workspace/final-year-project/data/machines/DJIA-window-hi
 
 print 'loading data'
 data = pd.DataFrame.from_csv(data_loc)
-estimator = KNeighborsRegressor(n_neighbors=5)
+estimator = KNeighborsClassifier(n_neighbors=50)
 
 print 'reducing data'
-sample = np.random.randint(len(data), size=10000)
+sample = np.random.randint(len(data), size=30000)
 data = data.ix[sample]
 
 def test_classification():
@@ -35,12 +35,13 @@ def test_classification():
     
 def test_learning_curve():
     X = data[[0, 1, 2, 3, 4]].values
-    y = data[['outcome']].values
-    folds = KFold(n=len(X), n_folds=10, shuffle=True)
-    fig = plot_learning_curve(estimator, "50 k-NN learning curve", X, y, cv=folds, verbose=2, 
-                              train_sizes=np.linspace(.1, 1.0, 20))
+    y = data['outcome-class'].values
+    fig = plot_learning_curve(estimator, "50 k-NN learning curve", X, y, cv=3, verbose=2, 
+                              train_sizes=np.linspace(.1, 0.99, 20))
     fig.show()
     
 if __name__ == "__main__":
-    test_learning_curve()	   	
+    print data['outcome-class'].dtypes
+    test_learning_curve()
+    
     # test_classification()

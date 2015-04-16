@@ -62,29 +62,36 @@
 	{ \huge Declaration of Originality }
 \end{center}
 
+\vspace{50pt}
+
 In signing this declaration, you are confirming, in writing, that the submitted work is entirely your own original work, except where clearly attributed otherwise, and that it has not been submitted partly or wholly for any other educational award.
 
-I hereby declare that:-
+\vspace{10pt}
 
-this is all my own work, unless clearly indicated otherwise, with full and proper accreditation; 
+I hereby declare that:
 
-with respect to my own work: none of it has been submitted at any educational institution contributing in any way towards an educational award;
+\begin{itemize}
+  \item This is all my own work, unless clearly indicated otherwise, with full and proper accreditation; 
 
-with respect to another’s work: all text, diagrams, code, or ideas, whether verbatim, paraphrased or otherwise modified or adapted, have been duly attributed to the source in a scholarly manner, whether from books, papers, lecture notes or any other student’s work, whether published or unpublished, electronically or in print. 
+  \item With respect to my own work: none of it has been submitted at any educational institution contributing in any way towards an educational award;
 
-
-
-
-
-Name:		<Insert / Hand Print Firstname, Surname>
-
+  \item With respect to another’s work: all text, diagrams, code, or ideas, whether verbatim, paraphrased or otherwise modified or adapted, have been duly attributed to the source in a scholarly manner, whether from books, papers, lecture notes or any other student’s work, whether published or unpublished, electronically or in print. 
+  
+\end{itemize}
 
 
-Signed:	_______________________________
+\vspace{20pt}
 
+{ \large Name: Mark Dunne }
 
+\vspace{20pt}
 
-Date:		<Insert dd/mm/yy>
+{ \large Signed: }
+	
+\vspace{20pt}
+
+{ \large Date: }  
+
 
 \end{titlepage}
 

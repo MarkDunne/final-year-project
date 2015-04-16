@@ -105,15 +105,15 @@ In this report we analyse existing and new methods of stock market prediction. W
 
 \chapter{Introduction}
 
-Predicting the Stock Market has been the bane and goal of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another. Entire companies rise and fall daily based on the behaviour of the market. Should an investor be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. It is no wonder then that the Stock Market and its associated challenges find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different, as evidenced by the flood of films and documentaries based on the crash. If there was a common theme among those productions, it was that no one was really sure how the market works or reacts. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
+Predicting the Stock Market has been the bane and goal of investors since its existence. Everyday billions of dollars are traded on the exchange, and behind each dollar is an investor hoping to profit in one way or another. Entire companies rise and fall daily based on the behaviour of the market. Should an investor be able to accurately predict market movements, it offers a tantalizing promises of wealth and influence. It is no wonder then that the Stock Market and its associated challenges find their way into the public imagination every time it misbehaves. The 2008 financial crisis was no different, as evidenced by the flood of films and documentaries based on the crash. If there was a common theme among those productions, it was that few people knew how the market worked or reacted. Perhaps a better understanding of stock market prediction might help in the case of similar events in the future.
 
 \section{Project Goals and Scope}
 
 Despite its prevalence, Stock Market prediction remains a secretive and empirical art. Few people, if any, are willing to share what  successful strategies they have. A chief goal of this project is to add to the academic understanding of stock market prediction. The hope is that with a greater understanding of how the market moves, investors will be better equipped to prevent another financial crisis. The project will evaluate some existing strategies from a rigorous scientific perspective and provide a quantitative evaluation of new strategies. 
 
-It is important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into a single company lest that company takes unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some criteria he has decided on before.This project will focus exclusively on predicting the daily trend (price movement) of individual stocks. The project will make no attempt at deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
+It is important here to define the scope of the project. Although vital to any investor operating in the real world, no attempt is made in this project at portfolio management. Portfolio management is largely an extra step done after an investor has made a prediction on which direction any particular stock will move. The investor may choose to allocate funds across a range of stocks in such a way to minimize his or her risk. For instance, the investor may choose not to invest all of their funds into a single company lest that company takes unexpected turn. A more common approach would be for an investor to invest across a broad range of stocks based on some criteria he has decided on before.This project will focus exclusively on predicting the daily trend (price movement) of individual stocks. The project will make no attempt to deciding how much money to allocate to each prediction.  More so, the project will analyse the accuracies of these predictions. 
 
-Additionally, a distinction must be made between the trading algorithms studied in this project and high frequency trading (HFT) algorithms. HFT algorithms make little use of intelligent prediction and instead rely on simply being the fastest algorithm in the market. These algorithms operate on the order of fractions of a second. The algorithms presented in this report will operate on the order of days and will attempt to be truly predictive of the market.  
+Additionally, a distinction must be made between the trading algorithms studied in this project and high frequency trading (HFT) algorithms. HFT algorithms make little use of intelligent prediction and instead rely on being the fastest algorithm in the market. These algorithms operate on the order of fractions of a second. The algorithms presented in this report will operate on the order of days and will attempt to be truly predictive of the market.  
 
 \chapter{Data and Tools}
 
@@ -121,11 +121,11 @@ Additionally, a distinction must be made between the trading algorithms studied 
 
 \subsection{Choosing the Dataset}
 
-For this project, we chose the Dow Jones and its components as a representative bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a price-weighted index over 30 component companies. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers a diverse set of sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
+For this project, we chose the Dow Jones Industrial Average and its components as a representative bundle of stocks. The Dow Jones is a large index traded on the New York stock exchange. It is a price-weighted index of 30 component companies. All companies in the index are large publicly traded companies, leaders in each of their own sectors. The index covers a diverse set of sectors featuring companies such as Microsoft, Visa, Boeing, and Walt Disney.
 
 It is important to use a predefined set of companies rather than a custom selected set so that we do leave ourselves open to methodology errors or accusations of fishing expeditions. If we had selected a custom set of companies, it could be argued that the set was tailored specifically to improve our results. Since the aim of the project is to create a predictive model of stock markets in general, this is a claim that we want to avoid. 
 
-The Dow Jones was chosen because it is well known, and has a relatively small number of components. The leading index, the S\&P 500, has over 500 components, but ultimately analysing 500 companies would be too computationally expensive for the resources at hand. The Dow Jones components provided a good balance between data available and computational feasibility. Although there were only 30 companies,  for many of the experiments carried out in this report, datasets many thousands of examples in size were available.
+The Dow Jones was chosen because it is well known, and has a relatively small number of components. The leading index, the S\&P 500, has over 500 components, but ultimately analysing 500 companies would be too computationally expensive for the resources at hand. The Dow Jones components provided a good balance between available data and computational feasibility. Although there were only 30 companies,  for many of the experiments carried out in this report, datasets many thousands of examples in size were obtainable.
 
 \subsection{Gathering the Datasets}
 
@@ -133,7 +133,7 @@ A primary dataset will be used throughout the project. The dataset will contain 
 
 Luckily, daily stock price data is easy to come by. Google and Yahoo both operate websites which offer a facility to download CSV files containing a full daily price history. These are useful for looking at individual companies but cumbersome when accessing large amounts of data across many stocks. 
 
-For this reason, Quandl\cite{website:quandl} was used to gather the data instead of using Google and Yahoo directly. Quandl is a free to use website that hosts and maintains vast amounts of numerical datasets with a focus specifically on economic datasets. Stock market data which is backed by Google and Yahoo are both avilable through Quandl. Quandl also provides a small python library that is useful for accessing the database programmatically. The library also provides a simple method for calculating the daily percentage change daily in prices. This calculation is defined in equation \ref{eq:quandl-pc-calc} where $p_{t}$ is the closing price on day $d$, and $\delta p_{d}$ is the resulting percentage change.  
+For this reason, Quandl\cite{website:quandl} was used to gather the data instead of using Google and Yahoo directly. Quandl is a free to use website that hosts and maintains vast amounts of numerical datasets with a focus specifically on economic datasets, including stock market data which is backed by Google and Yahoo. Quandl also provides a small python library that is useful for accessing the database programmatically. The library provides a simple method for calculating the daily percentage change daily in prices. This calculation is defined in equation \ref{eq:quandl-pc-calc} where $p_{t}$ is the closing price on day $d$, and $\delta p_{d}$ is the resulting percentage change.  
 
 \begin{figure}[H]
 \begin{center}
@@ -159,9 +159,9 @@ Neutral &\text{if $\delta p_{d} = 0$}
 \end{center}
 \end{figure}
 
-The final step is shifting all of the $\delta p_{d}$ and $trend_{d}$ data points backwards by one day. The data we have for any day should be used to predict the trend tomorrow, not the same day. By shifting $\delta p_{d}$ and $trend_{d}$ backwards, data gathered in later sections will be paired with the correct dependent variable. For instance, data we gather for a Monday will be matched with, and try to predict, Tuesday's trend.
+The final step is shifting all of the $\delta p_{d}$ and $trend_{d}$ data points backwards by one day. The data we have gathered for any day should be used to predict the trend tomorrow, not the same day. By shifting $\delta p_{d}$ and $trend_{d}$ backwards, data gathered in later sections will be paired with the correct dependent variable. For instance, data we gather for a Monday will be matched with, and try to predict, Tuesday's trend.
 
-This dataset was then saved in CSV format for simple retrial as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. When we want to use the dataset later with the extra data we collect for each experiment, we only need to do a simple database join operation on the company and date. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of the number of rows from this dataset.
+This dataset was then saved in CSV format for simple retrial as needed throughout the project. This dataset containing the daily trends of companies will serve as the core dataset that will be used in most experiments later in the report. When we want to use the dataset later with the extra data we collect for each experiment, we only need to do a simple database join operation on the company and date. The dataset contains 122,121 rows covering all 30 companies daily since January 1st 2000. Table \ref{table:data-example-0} shows an extract of a number of rows from this dataset.
 
 \begin{figure}[H]
 \caption{Data Extract of Primary Dataset}
@@ -187,27 +187,27 @@ With the primary dataset prepared, we will combine it as needed with additional 
 
 Although the data gathered in the previous section is certainly a good start, it is admittedly far behind what any serious investor more than likely has access to. 
 
-One obvious piece of missing data that is the intraday prices, i.e the prices minute by minute. It is possible that this data could be used to guide and investors decisions on the interday level. However, intraday prices are not as freely available as interday prices and are considered a commodity in themselves. To get hold of such a dataset would incur a large cost, one that is not in the budget of a project such as this. Later in the project we will evaluate a strategy in which this limitation becomes significant.
+One obvious piece of missing data that is the intraday prices, i.e the prices minute by minute. It is possible that this data could be used to guide and investors decisions on the interday level. However, intraday prices are not as freely available as interday prices and are considered a commodity in themselves. To get hold of such a dataset would incur a large cost, one that is not within the budget of a project such as this. Later in the project we will evaluate a strategy in which this limitation becomes significant.
 
-Another important piece of missing data is the order book. The order book is a record of live buy and sell orders for a particular stock. It consists of the amount of stock each trader is willing to buy or sell, as well as their price. Successful orders are matched off against the order book by the exchange. The price of a stock is usually considered to be half way between the highest buying price and the lowest selling price. It is easy to imagine that the order book contains useful data. For instance, the weighted average of orders might be predictive of the price. However access to this data is extremely costly and far beyond what most casual investors can afford, let alone the budget for this project's.
+Another important piece of missing data is the order book. The order book is a record of live buy and sell orders for a particular stock. It consists of the amount of stock each trader is willing to buy or sell, as well as their price. Successful orders are matched off against the order book by the exchange. The price of a stock is usually considered to be half way between the highest buying price and the lowest selling price. It is easy to imagine that the order book contains useful data. For instance, the weighted average of orders might be predictive of the price. However access to this data is extremely costly and far beyond what most casual investors can afford, let alone the budget for this project.
 
 With no way around these limitations, we use the data provided by Quandl.
 
 \section{Tools}
 \subsubsection{Python and associated packages}
 
-Python was the language of choice for this project. This was an easy decision for the following reasons.
+Python was the language of choice for this project. This was an easy decision for the multiple reasons.
 
 \begin{enumerate}
-  \item Python as a language has an enormous community behind it. Any problems that might be encountered on the way can be easily solved with a trip to Stack Overflow. Python is among the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
+  \item Python as a language has an enormous community behind it. Any problems that might be encountered can be easily solved with a trip to Stack Overflow. Python is among the most popular languages on the site which makes it very likely there will be a direct answer to any query \cite{website:redmonk-languages}. 
   
-  \item Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available, performant and well documented. Packages such as these can dramatically reduce and simplify the code needed to write a given program. This makes iteration quick.
+  \item Python has an abundance of powerful tools ready for scientific computing. Packages such as Numpy, Pandas, and SciPy are freely available, performant, and well documented. Packages such as these can dramatically reduce, and simplify the code needed to write a given program. This makes iteration quick.
 
   \item Python as a language is forgiving and allows for programs that look like pseudo code. This is useful when pseudo code given in academic papers needs to be implemented and tested. Using Python, this step is usually reasonably trivial.
 
 \end{enumerate}
 
-However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error type testing that would not otherwise happen in a strongly typed language. In my view, this is an issue that makes learning to use a new Python package or library more difficult than it otherwise could be.
+However, Python is not without its flaws. The language is dynamically typed and packages are notorious for Duck Typing. This can be frustrating when a package method returns something that, for example, looks like an array rather than being an actual array. Coupled with the fact that standard Python documentation does not explicitly state the return type of a method, this can lead to a lot of trial and error testing that would not otherwise happen in a strongly typed language. This is an issue that makes learning to use a new Python package or library more difficult than it otherwise could be.
 
 \chapter{Considerations in Approaching the Problem}
 
@@ -242,7 +242,7 @@ A sequence generated using equation \ref{eq:stock-process-calc} is displayed in 
 	\label{fig:random-process}
 \end{figure}
 
-We then compare this random process to a real piece of market data.
+We then visually compare this random process to a real piece of market data in figure \ref{fig:appl-process}.
 
 \begin{figure}[H]
 	\caption{Centered APPL stock price, some time after 2010}
@@ -256,8 +256,6 @@ This gives us pause as there is little point in moving forward if the stock mark
 
 \subsection{Quantitative Difference to Random pattern}
 
-[todo external vars]
-
 In this section, we will demonstrate that prices, specifically the way they move, are fundamentally different to random data.
 
 \citet{karpio2007gain} describe an asymmetry between gains and losses on the stock market. Their research looks specifically at indices like the Dow Jones. They describe how "you wait shorter time (on average) for loss of a given value than for gain of the same amount". However, this research was conducted in 2006, before the Great Recession. It is conceivable that the market conducts itself differently since then, and therefore we tried to replicate their findings.
@@ -270,7 +268,7 @@ On every day from the year 2000 to 2014, we recorded the value of the Dow Jones 
 	\label{fig:gain-loss-asymm}
 \end{figure}
 
-Figure \ref{fig:gain-loss-asymm} shows that the green set, the instances that gained 5\% of their original value, took on average longer to reach that point than the red set, the instances that lost 5\% of their original value. This indicates that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings of \citet{karpio2007gain}.
+Figure \ref{fig:gain-loss-asymm} shows that the green set, the instances that gained 5\% of their original value, took longer on average to reach that point than the red set, the instances that lost 5\% of their original value. This indicates that the market generally creeps upwards but is prone to sudden drops downwards, and supports the findings of \citet{karpio2007gain}.
 
 This demonstrates that the stock market is fundamentally different to random data. This gives us hope for the remainder of the project. If the market price is not random, then it might be worth investigating and trying to predict.
 
@@ -300,7 +298,7 @@ Finally there is the idea of a successful model ultimately leading to its own de
 
 The insight is that if there were a simple predictive model that anyone could apply and profit from themselves, then over time all of the advantage will be traded and eroded away.
 
-This is the same reason for the lack of academic papers on the topic of profitably predicting the+ market. If a successful model was made widely known, then it wouldn't take long until it wouldn't be successful any more.
+This is the same reason for the lack of academic papers on the topic of profitably predicting the market. If a successful model was made widely known, then it wouldn't take long until it wouldn't be successful any more.
 
 \section{Conclusions}
 
@@ -331,7 +329,7 @@ The article uses technical analysis indicators as features to predict the direct
 
 The daily values for the indicators are calculated and coupled with the daily price movement direction, the dependent variable. Two types of model are tested; a support vector machine and a neural network. Results are cross-validated using a single-holdout method. This method of cross-validation is known to be inferior when compared to other techniques such as k-fold cross-validation \cite{kohavi1995study}, but it is unlikely that this would have a drastic effect on the results presented in the article. The team's neural network model had an accuracy of 75.74\% and their support vector machine had an accuracy of 71.52\%.
 
-Such success using technical analysis is in sharp contrast with work that will be presented later in the report. One reason for the difference in results is that the ISE National 100 index may be more accommodating to technical analysis indicators than the 30 Dow Jones components reviewed in this report. This is understandable since all of the Dow Jones components are traded on the New York Stock Exchange, which is the most computerised exchange in the world. It is likely that there are less trading algorithms competing on the Istanbul stock exchange and it is therefore easier to leverage algorithmic approaches. 
+Such success using technical analysis is in sharp contrast with work that will be presented later in the report. One explanation for the difference in results is that the ISE National 100 index may be more accommodating to technical analysis indicators than the 30 Dow Jones components reviewed in this report. This is understandable since all of the Dow Jones components are traded on the New York Stock Exchange, which is the most computerised exchange in the world. It is likely that there are less trading algorithms competing on the Istanbul stock exchange and it is therefore easier to leverage algorithmic approaches such as Technical Analysis.
 
 However, there is another flaw however in the methodology of the article that is far more likely to have dramatically increased the performance of their algorithms. In section three of the article, the team describes how they prepared their research data. Specifically, 
 
@@ -354,7 +352,7 @@ At first this would appear sensible, but their features also make use of informa
   \end{center}
   \end{figure} 
 
-In \ref{eq:article1-sma-calc}, the simple moving average is calculated using the closing price at time $t$ and $t-1$. In fact all features used in the article use some information from time $t$ and $t-1$, as well as others. But recall that the dependent variable is a classification of the difference between prices at times $t$ and $t-1$. This means, in effect, that they are using information about tomorrow to predict tomorrows price. In a real world situation, no trader or trading algorithm would have the same level of information about tomorrow when they are making their predictions. If we wish to build a stock market prediction model that is useful in the real world, then we must only provide the model with information it could have in actuality. In reality, no model would have access to information about tomorrow when making a prediction. Clearly, this is ignored by the article which provides its models with features which contain a large amount of information about tomorrow. This can not be ignored when considering the team's reported success.
+In \ref{eq:article1-sma-calc}, the simple moving average is calculated using the closing price at time $t$ and $t-1$. In fact all features used in the article use some information from time $t$ and $t-1$, as well as others. But recall that the dependent variable is a classification of the difference between prices at times $t$ and $t-1$. This means, in effect, that they are using information about tomorrow to predict tomorrows price. In a real world situation, no trader or trading algorithm would have the same level of information about tomorrow when they are making their predictions. If we wish to build a stock market prediction model that is useful in the real world, then we must only provide the model with information it could have in actuality. In reality, no model would have access to information about tomorrow when making a prediction. This is ignored by the article which provides its models with features which contain a large amount of information about tomorrow. This can not be ignored when considering the team's reported success.
 
 Nevertheless, it can be argued that the work may still be useful. Although the impressive figure of 75.74\% prediction accuracy would be impossible to replicate in a real world model because of the problems described above, perhaps it tells us something else. We could reinterpret the 75.74\% accuracy result not as predictive accuracy, but how well the technical analysis indicators agreed with true price movement on a given day. In other words, even though the indicators ultimately had access to information which included the true price movement, they agreed with it 75.74\% of the time. 
 
@@ -381,21 +379,21 @@ They then go on to perform feature selection based on the predictive power of ea
 
 After they have selected their top 4 features they compare a Support vector machine model to a Multiple Additive Regression Trees model for predicting the daily NASDAQ trend. Their winning model is the SVM with 74.4\% accuracy. 
 
-While the results presented by \citet{shen2012stock} in this article appear to be very much in line with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However their results will be supported by results in this report, so it is safe to assume that no critical errors were made in these steps.
+While the results presented by \citet{shen2012stock} in this article appear to be very much in line with results that will be later presented in this report, it is quite vague in terms of the methodology that was used. For instance, there is no record of what model was used in the feature selection step or how cross-validation was carried out to calculate any of their results. However, their results will be supported by results in this report, so it is safe to assume that no critical errors were made in these steps.
 
-After they successfully train and test a model, they use it to simulate a real life trading environment. Their models perform extremely well on the simulated trading example with an average of an 8\% return rate every 50 days. This is where the results of this article and the results of our report diverge. The simulation in the article fails to account for overlapping trading hours. For instance the FTSE, which is traded in London, and the Dow Jones, which is traded in New York, are both trading simultaneously for three to four hours each day. This is enough time for the New York stock exchange to influence the London Stock stock exchange. It follows then that it is incorrect to use the closing prices in London to predict New York's movements.
+After they successfully train and test a model, they use it to simulate a real life trading environment. Their models perform extremely well on the simulated trading example with an average of an 8\% return rate every 50 days. At this point, the results of \citet{shen2012stock} and the results of this report diverge. The simulation in the article fails to account for overlapping trading hours. For instance the FTSE, which is traded in London, and the Dow Jones, which is traded in New York, are both trading simultaneously for three to four hours each day. This is enough time for the New York stock exchange to influence the London Stock stock exchange. It follows then that it is incorrect to use the closing prices in London to predict New York's movements.
 
-While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when simulating real world trading. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours.  
+While training and testing the models, both the article and this report ignore the overlapping of trading hours. However, this should certainly not be ignored when estimating real world trading performance. Later in this report, we will simulate real world trading using Quantopian. In Quantopian we will have access to intraday prices which will allow us to correctly account for the overlapping trading hours.  
 
 \chapter{Attacking the Problem - Fundamental Analysis}
 
-The first approach we took to solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 
+The first approach we take to solving the problem of market prediction is to use Fundamental Analysis. This approach tries to find the true value of a company, and thus determine how much one share of that company should really be worth. The assumption then is that given enough time, the market will generally agree with your prediction and move to correct its error. If you determine the market has undervalued a company, then the market price should rise to correct this inefficiency, and conversely fall to correct the price of an overvalued company. 
 
 \citet{graham1934security} laid the groundwork for the field with the book \textit{Security Analysis}. He encouraged would-be investors to estimate the intrinsic value of a stock before buying or selling based on trends, a novel idea at the time. It stands as testament to his approach that his only A+ student was Warren Buffet, who methodically applied the strategy and has enjoyed renowned success since \cite{schroeder2008snowball}. This gives us some hope, but we should be cautious and remember that the market might behave differently today than it did before.
 
 It should be noted that Fundamental Analysis is compatible with the weak form of the Efficient Market Hypothesis. As explained earlier, the weak form does not rule out prediction from data sources external to the price, which is what we will use to determine our fair market price.
 
-We will look at two of the most common metrics used in Fundamental Analysis, Price to Earnings Ratio, and Price to Book Ratio to try and predict long term price movements on a year to year basis. This is the typical prediction range for Fundamental Analysis.
+We will look at two of the most common metrics used in Fundamental Analysis, Price to Earnings Ratio, and Price to Book Ratio to predict long term price movements on a year to year basis. This is the typical prediction range for Fundamental Analysis.
 
 \section{Price to Earnings Ratio}
 
@@ -410,7 +408,7 @@ The first metric for the value of a company that we will look at is the Price to
 
 Roughly speaking, what the P/E Ratio calculates is the price an investor is willing to pay for every \$1 of company earnings. If this ratio is high, it might be a sign of high investor confidence. If investor confidence is high, that might mean they expect high returns in the following year. We should then expect to see a relationship between high P/E ratio and high returns in the following year.
 
-To investigate this relationship, we plotted the P/E ratio of 456 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Figure \ref{fig:pe-abs} plots of this relationship.
+To investigate this relationship, we plotted the P/E ratio of 456 companies on the 31st of December against the change in stock price for the following year. We gathered these data points from the year 2000 to 2014. Figure \ref{fig:pe-abs} plots this relationship.
 
 \begin{figure}[H]
 	\caption{Relationship between P/E Ratio and following year growth}
@@ -483,17 +481,17 @@ The second approach we take at market prediction is Technical Analysis.
 
 This approach tries to find recurring patterns and trends within the daily price of the stock itself. Technical Analysis goes directly against all forms of the Efficient Market Hypothesis. As described earlier, even the weak form of the Hypothesis rules out prediction using historic price data alone. 
 
-Nevertheless, Technical Analysis remains popular in online non-academic literature. This is likely because it is simple, intuitive, and what many casual investors imagine a professional trader might use. The quintessential image of what a professional trader does is analysing a historic price graphs using sophisticated diagrams and charts. This is Technical Analysis.
+Nevertheless, Technical Analysis remains popular in online non-academic literature. This is likely because it is simple, intuitive, and what many casual investors imagine a professional trader might use. The quintessential image of the work of a professional trader is analysing a historic price graphs using sophisticated diagrams and charts to predict the future price. This is Technical Analysis.
 
 \section{Broad Families of Technical Analysis Models}
 
-If a casual investor was to do some research into trading on the stock market using Technical Analysis they would, perhaps unknowingly, encounter two broad categories of models. We will demonstrate that one of these is implausible in theory and in practice, while the other although sound in theory, does not work in practice.
+If a casual investor was to do some research into trading on the stock market using Technical Analysis they would, perhaps unknowingly, encounter two broad categories of models. We will demonstrate that one of these is implausible in theory and in practice, while the other, although sound in theory, does not work in practice.
 
 \section{Naive Trading patterns}
 
 The first family of Technical Analysis methods we will look at are those that do not work in theory or in practice. These methods are based on looking for very high level patterns in the stock market price and using these patterns in an attempt to predict the following price movements.
 
-Among the most common of these patterns is the Head and Shoulders pattern, and it is one of the worst offenders of poor methodology in the Technical Analysis of stock market field.
+Among the most common of these patterns is the Head and Shoulders pattern, and it is one of the worst offenders of poor methodology in Technical Analysis.
 
 \begin{figure}[H]
 	\caption{Head and Shoulders Pattern \cite{website:headshoulders}}
@@ -501,13 +499,13 @@ Among the most common of these patterns is the Head and Shoulders pattern, and i
 	\label{fig:headshoulders}
 \end{figure}
 
-Figure \ref{fig:headshoulders} shows a bearish head and shoulders pattern. In this context, bearish is taken to mean falling share prices. The idea is that if a trader sees this pattern, they can expect the market price to then fall. To spot this pattern, a trader is supposed to look for two smaller peaks (the shoulders) surrounding a larger peak (the head). However, \citet{neftci1991naive} shows that the pattern does not, and indeed cannot, provide any useful information. 
+Figure \ref{fig:headshoulders} shows a bearish head and shoulders pattern. In this context, bearish is taken to mean falling share prices. The idea is that if a trader sees this pattern, they can expect the market price to fall. To spot this pattern, a trader should look for two smaller peaks (the shoulders) surrounding a larger peak (the head). However, \citet{neftci1991naive} shows that the pattern does not, and indeed cannot, provide any useful information. 
 
-The first issue is that the pattern cannot be identified until after it has happened. Not until the price falls away below the right shoulder, does it become apparent that a head and shoulders pattern has just occurred. But this information needed to identify a the head and shoulders pattern is exactly what it was supposed to predict. This leaves no useful information for the trader. 
+The first issue is that the pattern cannot be identified until after it has happened. Not until the price falls away below the right shoulder, does it become apparent that a head and shoulders pattern has occurred. But this information needed to identify a the head and shoulders pattern is exactly what it was supposed to predict. This leaves no useful information for the trader. 
 
-Because of the lack of theoretical support, it is easy to find many additional problems with the head and shoulders pattern. The most obvious problem is that because we cannot identify the pattern until after the fact, we can never tell which way the market should move even if the pattern was predictive. Suppose we have observed a series market movements that appear to be similar to those in the diagram up to peak of the right shoulder. We have no way of telling whether the market will continue upwards, or follow the head and shoulders pattern downwards. If the pattern moved upwards when it was supposed to be at the right peak, the right peak could turn out to be a left shoulder of another possible head and shoulders, or even a head peak.
+Because of the lack of theoretical support, it is easy to find many additional problems with the head and shoulders pattern. The most obvious problem is that because we cannot identify the pattern until after the fact, at no point can tell which way the market will move. Suppose we have observed a series market movements that appear to be similar to those in the diagram up to peak of the right shoulder. We have no way of telling whether the market will continue upwards, or follow the head and shoulders pattern downwards. If the pattern moved upwards when it was supposed to be at the right peak, the right peak could turn out to be a left shoulder of another possible head and shoulders, or even a head peak.
 
-A common error made using patterns such as this is that the analyst does not recognise instances where the pattern failed, but instead would argue that the pattern never existed. For example, if the price were to rise after the right shoulder, many investors would tell you that it was not be a head and shoulders pattern in the first place. This is a systematic acceptance of confirmation bias.
+A common error made using patterns like this is that the analyst does not recognise instances where the pattern failed, but instead would argue that the pattern never existed. For example, if the price were to rise after the right shoulder, many analysts would tell you that it was not that the pattern failed, but that the head and shoulders pattern never existed in the first place. After dismissing the incorrect instances of the pattern in this manner, the analyst will be left with only the correct instances. This is a systematic acceptance of confirmation bias.
 
 In short, it is impossible to get any useful information from the head and shoulders pattern. However this does not appear to stop investors attempting to use it. A casual investor doing an internet search about trading patterns will more than likely bump into a blog post or an apparently authoritative source telling them how to use this pattern, or one like it, to profit on the market. 
 
@@ -541,14 +539,14 @@ The data was split into a training and test set. For simplicity, the data was di
 
 The model itself was purposefully kept extremely simple so as to remain true to the intended usage of the moving average strategy. When a positive crossover occurred (short crosses over long), the model predicted the stock price would increase tomorrow, and when a negative crossover occurred it predicted the stock price would fall tomorrow. Finding the optimal pair of long and short moving average periods is equivalent to finding the best hyperparameters for the model. This is model selection.
 
-We perform a grid search over all possible long and short period pairs. For each period pair, we find the crossover points between them. For each crossover point, we make a prediction based on its positivity or negativity, and compare tomorrow's predicted trend against the actual trend. We can then calculate the accuracy of this short/long period pair and remember it if it is the best so far.
+We perform a grid search over all possible long and short period pairs. For each period pair, we find the crossover points between them. For each crossover point, we make a prediction based on its positivity or negativity, and compare tomorrow's predicted trend against the actual trend. We can then calculate the accuracy of this long/short period pair and remember it if it is the best so far.
 
 When we have iterated over all possible long and short pairs, we will have found the best period pair for predicting tomorrow's trend in the training set. Table \ref{table:ma-test-results} displays the top 5 short and long period pairs and their test accuracy.
 
 
 \begin{center}
     \begin{tabular}{l | l | l | l}
-    Rank & Short Period & Long Period & Test set accuracy \\ \hline
+    Rank & Short Period & Long Period & Training Score \\ \hline
     1 & 8 & 35 & 0.5229 \\ \hline
     2 & 8 & 34 & 0.5219 \\ \hline
     3 & 8 & 33 & 0.5127 \\ \hline
@@ -571,7 +569,7 @@ However, both of these scores are still extremely poor. They perform only margin
   \end{center}
   \end{figure} 
 
-This model scores a kappa of 0.0427, which is far from statistical significance; the model performs no better than random in any significant way. We must conclude that the Moving Average Crossover is not predictive in any meaningful way, at least for predicting the movement of companies on the Dow Jones.
+This model scores a kappa of 0.0427, which is far from statistical significance. The model performs no better than random in any significant way. We must conclude that the Moving Average Crossover is not predictive in any meaningful way, at least for predicting the movement of companies on the Dow Jones.
 
 \section{Additional Technical Analysis Models}
 
@@ -644,19 +642,19 @@ Although we had no success using moving average crossovers, there are many other
 
 In the previous section, when looking at the moving average crossover strategy, we built an extremely simple model that predicted the trend based on a signal. This signal was relatively easy to define, there was a signal when the long and short moving averages crossed over on each other. However with the indicators mentioned above, the definition what constitutes a signal and what doesn't is far more ambiguous. For instance, in regard to the Bollinger Band indicator there is no agreed upon threshold of what should signal an upward or downward trend. 
 
-Training many different models for every possible set of signal thresholds and parameters would have been extremely computationally expensive. A different approach was required. Instead of generating all signals thresholds and parameters and using a simple model, the raw values from the indicators were used in a more complex model. A more complex model should be able to hypothesise what these signals should be, which avoids having to predefine them.
+Training models for every possible set of signal thresholds and parameters would have been extremely computationally expensive. A different approach was required. Instead of generating all signals thresholds and parameters and using a simple model, the raw values from the indicators were used in a more complex model. A more complex model should be able to hypothesise what these signals should be, which avoids having to predefine them.
 
 These models will employ machine learning techniques and will attempt to learn the important signals from our technical analysis indicators. If these models perform well, given the indicator data as input, it will mean that the indicators is indeed useful. If, on the other hand, these models are not successful it probably (but not certainly) means that the indicators are not useful. 
 
 \subsection{Data Preparation}
 
-Before we begin training the models, we must prepare the data to feed them. Because no signals had to be defined, this step was relatively straight forward. 
+Before we begin training the models, we must prepare the data to feed them. Because no thresholds had to be defined, this step was relatively straight forward. 
 
-The primary price database originally prepared in the Data and Tools chapter was used for this experiment. For each company, its price history was iterated over and the value of each indicator for each day was calculated. The results of these calculations were stored in a temporary collection. 
+The primary price database originally prepared in the Data and Tools chapter was used for this experiment. For each company, its price history was iterated over and the value of each indicator was calculated for each day. The results of these calculations were stored in a temporary collection. 
 
-When iteration was completed, the data for each company was individually standardised so that both high and low priced companies could be used in training and testing the same model. Standardisation shifts and scales the data so that it has a mean of $0$ and a standard deviation of $1$. It should be noted that standardising in this manner is not correct methodology. Ideally, the training data should be standardised before the test data, and the test data should be standardised using calculations based on the training data. This is done to avoid leakage, i.e when the test data influences the training data. However, this would be difficult to do in this situation as each each company needed to be standardised separately and no division of test and training data has been made yet. Since this error will usually artificially increase the model's performance, and our models will later fail to perform anyway, this error is ignored.
+When iteration was completed, the data for each company was individually standardised so that both high and low priced companies could be used in training and testing the same model. Standardisation shifts and scales the data so that it has a mean of $0$ and a standard deviation of $1$. It should be noted that standardising in this manner is not correct methodology. Ideally, the training data should be standardised before the test data, and the test data should be standardised using calculations based on the training data. This is done to avoid leakage, i.e when the test data influences the training data. However, this would be difficult to do in this situation as each each company needed to be standardised separately. Since this error is more likely to artificially increase the model's performance, and our models will later fail to perform anyway, this error is ignored.
 
-With each the indicator data of each company standardised, the data is stored for later use in testing models. There are 95,407 examples in the database.
+With each of the indicators for each company standardised, the data is stored for later use in error estimation. There are 95,407 examples in the database.
 
 \subsection{Error Estimation}
 
@@ -677,18 +675,18 @@ In this step, we determine which class of model should be used on this data. We 
 
 It is evident from table \ref{table:model-score-indicators} that none of these models were terribly successful. This is a strong sign that the input data, the indicator values, were not predictive of the following day's price trend.
 
-This does not bode well for technical analysis in general. All technical analysis methods that we have tested have failed. However it would seem that our work is supportive of most serious academic literature on the subject. Prominent economist Burton Malkiel summarises the academic attiude towards technical analysis quite well \cite{malkielrandomwalk}.
+This does not bode well for technical analysis; all technical analysis methods that have been tested have failed. However it would seem that our work is supportive of most serious academic literature on the subject. Prominent economist Burton Malkiel summarises the academic attiude towards technical analysis quite well \cite{malkielrandomwalk}.
 
 \begin{quotation}
 \textit{Obviously, I am biased against the chartist. This is not only a personal predilection, but a professional one as well. Technical analysis is anathema to the academic world. We love
 to pick on it. Our bullying tactics are prompted by two considerations: (1) the method is
 patently false; and (2) it's easy to pick on. And while it may seem a bit unfair to pick on
-such a sorry target, just remember': it is your money we are trying to save.}  
+such a sorry target, just remember: it is your money we are trying to save.}  
 \end{quotation}
 
-Whether deserving of it or not, it would be right to analyse what went wrong in the tests that were carried out. Does the fault indeed lie with lack of predictive power in the technical analysis indicators? Perhaps it is that our models were not complex enough to capture their signals.
+Whether deserving of it or not, it would be right to analyse what went wrong. Does the fault indeed lie with lack of predictive power in the technical analysis indicators? Or, perhaps it is that our models were not complex enough to capture their signals.
 
-This question will be answered in the following chapter where we will question whether there is any useful information in the price history at all. Ultimately, we will provide strong evidence that there is in fact no useful information in price history. It logically follows then that any method that tries to leverage price history is doomed to fail. This includes technical analysis models.
+This question will be answered in the following chapter where we will question whether there is any useful information in the price history at all. Ultimately, we will provide strong evidence that there is in fact no useful information in price history. It follows logically then that any method that tries to leverage price history is doomed to fail. This includes technical analysis.
 
 \section{Common Problems with Technical Analysis}
 
@@ -696,13 +694,13 @@ For a casual investor, navigating online literature in this area poses a signifi
 
 We have seen two examples of confirmation bias when we looked at the Head and Shoulders pattern and when we looked at Moving Average crossover points. In the former, patterns that didn't fit the narrative were simply ignored and in the latter people focused too heavily on the instances where it did work.
 
-Even when there is no confirmation bias present, there is very rarely any proper separation of training and test set. Correct methodology would separate these examples so that one could accurately estimate how the model would perform given unseen examples, like it would have to do in reality. This problem is prevalent when looking for short and long periods in moving average crossover. What many practitioners do is find the best period pair for their given time period and expect that to be just as predictive in future periods. This is incorrect methodology. You will always be able to overfit a model to perform well on a single piece of data, but this may not carry over to unseen examples.
+Even when there is no confirmation bias present, there is very rarely any proper separation of training and test set. Correct methodology would separate these examples so that one could accurately estimate how the model would perform given unseen examples, like it would have to do in reality. This problem is prevalent when looking for long and short periods in moving average crossover. Many analysts find the best long/short period pair for their given time period and expect that to be just as predictive in future periods. This is incorrect methodology. It is easy to overfit a model to perform well on a single piece of data, but this may not carry over to unseen examples.
 
 Above, we applied the correct methodology. In our experiments, the data was split into test and training sets and hyperparameters were determined through cross-validation. This gives us a true estimate of how our best estimator carries over to future data. This proper methodology is not common in online literature.
 
 \section{Technical Analysis - Conclusion}
 
-It might have been expected, that given the popularity of Technical Analysis for stock market trading, that there would have been a more positive result. However, somewhat surprisingly, the data shows that there is little predictive value to be found in Technical Analysis. 
+It might have been expected that, given the popularity of Technical Analysis for stock market trading, there would have been a more positive result. However, somewhat surprisingly, the data shows that there is little predictive value to be found in Technical Analysis. 
 
 \chapter{Attacking the problem - Machine Learning}
 
@@ -753,7 +751,7 @@ We tested each model by doing a nested kFold test. In this case, we split the da
 
 Table \ref{table:model-score} shows the accuracy scores of each model that we tried on the given data. A support vector machine based model was also tried, but it proved too slow to train with the computational resources at hand. However in smaller trials the SVM model did not seem to be significantly better than any of the model types presented above.
 
-It is immediately clear that there is a problem here. None of the models tested scored significantly above 0.5\% accurate in our classification test. A coin toss predicting the outcome of the dependent variable would perform similarly to what these models did. Although some models appear to be slightly better, we cannot place too much value in the actual value cross validation score in error estimation. The nested kFold method does not give us the true accuracy of the model, it only gives us an estimate which should be good enough to choose which model we carry forward to Model Selection. Differences of 1\% or 2\% at this point do not point to any clearly superior model type. We conclude that none of these models will work at predicting the the trend on the 6th day given the trends of the previous 5 days.
+It is immediately clear that there is a problem here. None of the models tested scored significantly above 0.5\% accurate in our classification test. A coin toss predicting the outcome of the dependent variable would have performed similarly to these models. Although some models appear to be slightly better, we cannot place too much value in the actual value cross validation score in error estimation. The nested kFold method does not give us the true accuracy of the model, only an estimate used to choose the best model type. Differences of 1\% or 2\% at this point do not point to any clearly superior model type. We conclude that none of these models will work at predicting the the trend on the 6th day given the trends of the previous 5 days.
 
 \subsection{Analysis of Model Failure}
 
@@ -761,11 +759,11 @@ The failure of all models there were tested gives us a strong indication that so
 
 \subsubsection{Model Complexity}
 
-It is important here to clarify what we mean by model complexity. The complexity of a model is the size of the set of hypothesis that it can produce. A hypotheses is a guess that the model can make about the relationship between input features and the dependent variable. A linear model would guess, or hypothesize, that the relationship is a linear combination of the input features. A nearest neighbours model would guess that the relationship is going to copy previously seen examples. A model that can produce a larger number of hypotheses is more complex than one which can produce a smaller set. It is also important to note that these hypothesis sets do not necessarily overlap. One model may be more complex than the other, but that is not to say that the best hypothesis does not belong to the model of lesser complexity.
+It is important here to clarify what is meant by model complexity. The complexity of a model is the size of the set of hypothesis that it can produce. A hypothesis is a guess that the model can make about the relationship between input features and the dependent variable. A linear model would guess, or hypothesize, that the relationship is a linear combination of the input features. A nearest neighbours model would guess that the relationship is going to copy previously seen examples. A model that can produce a larger number of hypotheses is more complex than one which can produce a smaller set. It is also important to note that these hypothesis sets do not necessarily overlap. One model may be more complex than the other, but that is not to say that the best hypothesis does not belong to the model of lesser complexity.
 
 
 
-It is possible that the models in the previous section failed because the models tested were not sufficiently complex, or that they did not cover the optimal set of hypotheses. However, the models and hyperparameters that were tested covered a very large hypothesis base. If there was a good hypothesis to find, it is reasonably that one of the models should at least have been better than a coin toss at predicting the trend. 
+It is possible that the models in the previous section failed because the models tested were not sufficiently complex, or that they did not cover the optimal set of hypotheses. However, the models and hyperparameters that were tested covered a large hypothesis base. If there were a good hypothesis to find, it is reasonable that one of the models would have performed better than a coin toss.
 
 We can also inspect the effect of model complexity visually using graphs. For convenience we choose to model the kNN model here. Analysis of the kNN model is simpler and no less consequential than the other models.
 
@@ -777,7 +775,7 @@ The complexity of kNN can be varied by changing k, where k is the number of neig
 	\label{fig:knn-validation}
 \end{figure}
 
-Figure \ref{fig:knn-validation} plots the validation curve for the kNN model. To generate this graph, we generated 60 kNN models with different k values. The training and test error for each value of k was then plotted. Since the complexity of the model varies with k as explained above, we can interpret the graph as being a performance comparison of models of varying complexity. On the left are models of high complexity and high variance (leading to high training score) and on the right are models of low complexity and high bias. Normally in such a graph we would expect the training and test errors to converge somewhere in the middle, indicating the optimum trade-off between bias and variance. However there is no such clear point in this graph. No matter what the complexity of the model, the Cross Validation Accuracy never rises significantly above 0.5\%. We can then conclude that the problem is not due to the complexity of the model.
+Figure \ref{fig:knn-validation} plots the validation curve for the kNN model. To generate this graph, we generated 60 kNN models with different k values. The training and test error for each value of k was then plotted. Since the complexity of the model varies with k as explained earlier, we can interpret the graph as being a performance comparison of models of varying complexity. On the left are models of high complexity and high variance (leading to high training score) and on the right are models of low complexity and high bias. Normally in such a graph we would expect the training and test errors to become closer somewhere in the middle, indicating the optimum trade-off between bias and variance. However there is no such clear point in this graph. No matter what the complexity of the model, the Cross Validation Accuracy never rises significantly above 0.5\%. We can then conclude that the problem is not due to the complexity of the model.
 
 \subsubsection{Training Data}
 
@@ -785,15 +783,15 @@ If the problem does not lie with the complexity of our models, then maybe the pr
 
 As mentioned previously, the dataset we used for training and testing these models had over 200,000 examples. This seems like it should be enough, but maybe the stock markets are so complex they need more.
 
-To properly diagnose this, we can plot the learning curve. In the validation curve, we varied the complexity of the model. In the learning curve, we will vary the number of examples presented to the model. Because of computational resources available, we were forced to constrain the number of examples in the learning curve to approximately 15,000. This is much smaller than the 200,000 examples in the dataset, but certainly not too small to ignore the findings. A 50-Nearest Neighbours model was used because there appears to be a slight upwards bump in the validation curve around 50NN.
+To properly diagnose this, we can plot the learning curve. In the validation curve, we varied the complexity of the model. In the learning curve, we will vary the number of examples presented to the model. Because of computational resources available, we were forced to constrain the number of examples in the learning curve to approximately 20,000. This is much smaller than the 200,000 examples in the dataset, but certainly not too small to ignore the findings. A 50-Nearest Neighbours model was used because there appears to be a slight upwards bump in the validation curve around 50NN.
 
 \begin{figure}[H]
 	\caption{kNN Learning Curve}
-	\centerline{\includegraphics[width=\textwidth]{vis/50-learning-curve-15000.png}}
+	\centerline{\includegraphics[width=\textwidth]{vis/50-learning-curve-20000.png}}
 	\label{fig:knn-learning}
 \end{figure}
 
-Figure \ref{fig:knn-learning} shows the effect of varying the number of examples on the model. Normally in a learning curve graph, you would expect the test and training errors to converge. The intuition is that as the model is presented with more data, it is better equipped to come up with better, more general, hypotheses. Because these improved hypotheses are more general we expect the training accuracy to decrease (less overfitting), but the test accuracy to increase (less underfitting). However we can see that this is not the case for our graph. The graph shows that for our model, the test and training accuracy remain apart and do not begin to converge no matter how much data they were given. We can then conclude that the problem is not due to lack of data for training and testing our model.
+Figure \ref{fig:knn-learning} shows the effect of varying the number of examples on the model. Normally in a learning curve graph, you would expect the test and training errors to converge. The intuition is that as the model is presented with more data, it is better equipped to produce better hypotheses. Because these improved hypotheses are more general we expect the training accuracy to decrease (less overfitting), but the test accuracy to increase (less underfitting). However we can see that this is not the case for our graph. The graph shows that for our model, the test and training accuracy remain apart and do not begin to converge no matter how much data they were given. We can then conclude that the problem is not due to lack of data for training and testing our model.
 
 \subsection{Preceeding 5 day prices - Conclusion}
 
@@ -811,7 +809,7 @@ Intuitive, one might suppose that when the price of Oil rises, that is a good si
 
 \subsection{Data}
 
-Since in the last section we showed that yesterday's prices appear to have no influence on today’s prices, it is unreasonable to expect yesterday's prices of related assets to influence today's Dow Jones price. Because of this, instead of predicting based on yesterday's prices, we will predict based on price movements in assets that are traded earlier in the day than the Dow Jones. For example, we will use the price movements of assets that are traded in Europe and Asia to predict the trend in the Dow Jones, which is traded in New York. If markets in Europe and Asia are trending heavily in one direction, it might follow that the Dow Jones will also trend that way when the markets open. What is important is that in the real world, we can observe the trends of our related assets before we need to make a trend prediction for the Dow Jones.
+Since in the last section we showed that yesterday's prices appear to have no influence on today’s prices, it is unreasonable to expect yesterday's prices of related assets to influence today's price of the Dow Jones. Because of this, instead of predicting based on yesterday's prices, we will predict based on price movements in assets that are traded earlier in the same day. We will use the price movements of assets that are traded in Europe and Asia to predict the trend in the Dow Jones, which is traded in New York. If markets in Europe and Asia are trending heavily in one direction, it might follow that the Dow Jones will also trend that way when the markets open. What is important is that in the real world, we can observe the trends of our related assets before we need to make a trend prediction for the Dow Jones.
 
 However, some market times overlap. For instance, the London Stock Exchange and the New York Stock Exchange are both trading at the same time for approximately 4 hours daily. It would be ideal then to have price data which can be cleanly partitioned into intraday prices before and after the Dow Jones begins. However, this data is not easily available in the public domain. Intraday price data is a commodity and not something which is distributed as freely as interday price data. Quandl, which has been our source of much of the data up to this point, does not offer intraday price data.
 
@@ -824,7 +822,7 @@ Temporarily ignoring the aforementioned issues, we gathered data for 8 features 
   
   \item[DAX FUT] We also considered DAX futures. Futures are a stock market derivative product.
   
-  \item[FTSE] The FTSE is London's equivalent to the Dow Jones German Dax. It is traded on the London Stock exchange, and its components are a selection of 100 large UK based companies. It is more commonly known as the FTSE100.
+  \item[FTSE] The FTSE is London's equivalent to the Dow Jones or the German Dax. It is traded on the London Stock exchange, and its components are a selection of 100 large UK based companies. It is more commonly known as the FTSE100.
   
   \item[N225] The Nikkei 225 is Japan's equivalent. Its components are 225 large Japanese companies and it is traded on the Tokyo Stock Exchange.
   
@@ -842,7 +840,7 @@ In this section, the value of the Dow Jones index itself is used as the dependen
 
 \subsection{Exploration of Feature Utility}
 
-The next step in creating a model to predict the daily trend of the Dow Jones Index is to determine the predictive value of the features. To do this in an exploratory and qualitative manner, we first analysed the predictive value of each feature on its own. We trained 8 models, one for every feature. Each of these models used exactly one of the features to try and predict the trend for the Dow Jones Index. For each feature a, kNN model was trained and cross validated. Figure \ref{fig:single_feature_prediction} shows the cross validation results for each feature.
+The next step in creating a model to predict the daily trend of the Dow Jones Index is to determine the predictive value of the features. To do this in an explorative and qualitative manner, we first analysed the predictive value of each feature on its own. Eight models were trained, one for every feature. For each feature a, kNN model was trained to predict the trend for the Dow Jones Index and the result was cross validated. Figure \ref{fig:single_feature_prediction} shows the cross validation results for each feature.
 
 \begin{figure}[H]
 	\caption{Single Feature Prediction Results}
@@ -879,9 +877,9 @@ The scores from table \ref{table:asset-error-est} look hopeful. We can see that 
 
 \subsubsection{Model Selection}
 
-Now that we have our winning model class, kNN, we now need to estimate the optimum hyperparameters for our model. 
+Now that we have our winning model class, kNN, we now need to determine the optimum hyperparameters for our model. 
 
-A kNN model has two important hyperparameters, $k$ and how to weigh examples in the neighborhood. $k$ dictates how many neighbours the model should examine to make a prediction. We can then weigh those neighbours either uniformly or by their distance to our input. We can search over the same value space as we did in Error Estimation for kNN, $0 < k \leq 25$ and weights $uniform$ or $distance$. We will also be searching for the best number of features to keep in the model. This can be treated as another hyperparameter.
+A kNN model has two important hyperparameters, $k$ and how to weigh examples in the neighborhood. $k$ dictates how many neighbours the model should examine to make a prediction. We can then weigh those neighbours either uniformly or by their distance to the input. We can search over the same value space as we did in Error Estimation for kNN, $0 < k \leq 25$ and weights $uniform$ or $distance$. We will also be searching for the best number of features to keep in the model. This can be treated as another hyperparameter.
 
 After performing a grid search over the value space and cross validating each combination of hyperparameters, we find that the best combination of hyperparameters gives us a cross validated accuracy of 74.63\% at predicting Dow Jones Index daily trends. Table \ref{table:asset-model-sel} shows the best combination of hyperparameters found.
 
@@ -913,7 +911,7 @@ With the apparent success of using related assets to predict daily movements in 
 
 An analyst opinion is a prediction of a particular research firm on a particular stock. For instance, a large investment research firm such as JP Morgan might issue an opinion on Intel stock. They may upgrade or downgrade their estimates of stock performance and recommend buying or selling the stock at the current price.
 
-It would seem intuitive that these recommendations should be predictive. There are two reasons why that might be true. The first reason is that these recommendations might truly be predictive of the price. One can imagine that large research firms such as JP Morgan would employ skilled analysts that are able to make accurate predictions. The second reason is less optimistic and assumes that these predictions are self-fulfilling prophecies. If multiple large investment firms upgrade or downgrade their opinion of a stock on the same day, it is certainly conceivable that the opinions themselves are enough to shift the market regardless of their true predictive value.
+It would seem intuitive that these recommendations should be predictive. There are two reasons why that might be true. The first is that these recommendations might truly be predictive of the price. One can imagine that large research firms such as JP Morgan would employ skilled analysts that are able to make accurate predictions. The second reason is less optimistic and assumes that these predictions are self-fulfilling prophecies. If multiple large investment firms upgrade or downgrade their opinion of a stock on the same day, it is certainly conceivable that the opinions themselves are enough to shift the market regardless of their true predictive value.
 
 However, it should not matter to us why they are predictive. If these opinions can predict price trend, for whatever reason, then we should be able to build a model to utilise them.
 
@@ -958,7 +956,7 @@ First we filtered the dataset so that we only consider INTC opinions. We then ag
 	\label{fig:opinions_vis}
 \end{figure} 
 
-Figure \ref{fig:opinions_vis} provides a visualisation of the relationship between opinion sentiment (Upgrade or Downgrade) and price. The large red down pointing triangle on the left hand side of the diagram is a point representing 9 separate research firms all downgrading their opinion of INTC on the same day. The continued sharp fall in price after this point is evidence that the opinions were predictive.
+Figure \ref{fig:opinions_vis} provides a visualisation of the relationship between opinion sentiment (Upgrade or Downgrade) and price. The large red down pointing triangle on the left hand side of the diagram is a point representing 9 separate research firms all downgrading their opinion of INTC on the same day. The continued sharp fall in price after this point is evidence that the opinions may be predictive.
 
 From visual inspection it would appear there may be some value in these opinions, but we cannot be certain until we attempt to build a model.
 
@@ -1027,9 +1025,9 @@ The scores from table \ref{table:opinions-error-est} look positive. We can see t
 
 \subsection{Model Selection}
 
-The MultinomialNB model is a naive bayes classifier and only has one hyperparameter. The hyperparameter, called alpha in sklearn, controls the additive smoothing in the model. What exactly additive smoothing is is out of the scope of this report, but all we need to know is that it is a hyperparameter that should be searched over to optimise the model. Additive Smoothing is a technique used to smooth categorical data \cite{manning2008introduction}.
+The MultinomialNB model is a naive bayes classifier and only has one hyperparameter. The hyperparameter, called alpha in sklearn, controls the additive smoothing in the model. Additive Smoothing is a technique used to smooth categorical data \cite{manning2008introduction}.
 
-At the same time as we are searching over the model hyperparameter, we will again be searching for the best $k$ features to keep. This is an important step in this case because we have a large number of features, 266 in total, to begin with.
+At the same time as we are searching over the model hyperparameter, we will again be searching for the best $k$ features to keep. This is an important step in this case because we have a large number of features (266 in total) to begin with.
 
 \begin{center}
   \captionof{table}{Model Selection Results}  
@@ -1099,7 +1097,7 @@ For each disaster, we determined the percentage change in the value of the Dow J
 
 Next, daily percentage changes in the Dow Jones were calculated for days where no disaster was occurring. At this point we have two independent, but comparable, datasets. One contains average daily price movements of the Dow Jones in times of Disaster. The other contains daily price movements of the Dow Jones in times of no Disaster. 
 
-To visualise these datasets, figure \ref{fig:disaster-box} shows a boxplot of their distributions. From visual inspection, we can see immediately that the data is probably not useful for prediction. If it were useful, we would expect to see a difference in their distributions. However it is clear that the disaster time price changes distribution is almost entirely contained within one standard deviation from the mean of the non-disaster time price changes.
+To visualise these datasets, figure \ref{fig:disaster-box} shows a boxplot of their distributions. From visual inspection, we can see immediately that the data is probably not useful for prediction. If it were useful, we would expect to see a clear difference in their distributions. However, the disaster time price changes distribution is almost entirely contained within one standard deviation from the mean of the non-disaster time price changes.
 
 \begin{figure}[H]
 	\caption{Disaster and no disaster price change distributions}
@@ -1128,7 +1126,7 @@ Failing to find any predicted value in disasters might be expected in hindsight 
 
 We have presented two apparently successful strategies in this report. The first used correlated related financial products to predict the price movement in the Dow Jones Index. The second used analyst opinions to predict the price movement in the component companies of the Dow Jones. These strategies had an estimated accuracy of 74.63\% and 67.40\% respectively. With accuracies as high as these, it would seem logical then that one could profit their use on the real market.
 
-To test this we will use Quantopian \cite{quantopian}. Quantopian allows users to create trading algorithms and test them rigorously against historical data (a process known as backtesting). Quantopian allows for much more realistic simulation than one might otherwise be able to carry out. Quantopian will correctly model costs a real trading algorithm would incur such as commission charged by the stock broker and slippage. Slippage is a difference between the expected price of a trade and the price the trade actually executes at \cite{slippage}. Slippage might occur when placing a large order that could shift the market, or when market volatility is high. Quantopian has the added benefit on being able to use minute by minute or daily price. This will be useful when working with overlapping trading hours.
+To test this we will use Quantopian \cite{quantopian}. Quantopian allows users to create trading algorithms and test them rigorously against historical data (a process known as backtesting). Quantopian enables users to perform a much more realistic simulation than one might otherwise be able to carry out. Quantopian will correctly model costs a real trading algorithm would incur such as commission charged by the stock broker and slippage. Slippage is a difference between the expected price of a trade and the price the trade actually executes at \cite{slippage}. Slippage might occur when placing a large order that could shift the market, or when market volatility is high. Quantopian has the added benefit on being able to use minute by minute or daily price. This will be useful when working with overlapping trading hours.
 
 Algorithms are constructed in Quantopian using their web-based python IDE. This is a slow and tedious process which is why Quantopian was not used before this point. The web IDE does not allow the same level of code hinting and inspection that modern tools like IPython Notebooks allow.
 
@@ -1140,7 +1138,7 @@ The only external data that can be imported into the Quantopian web IDE are CSV 
 
 An important difference between the training of this model and the training of the model earlier is that this model were given the price of London and German assets at the exact moment the Dow Jones index began trading. The earlier model was given access to the closing prices of the London and German assets. As discussed earlier, because of overlapping trading hours, access to the closing price might have provided more information than the models were entitled to in reality. This risk is mitigated in the Quantopian simulation.
 
-After the training period has been completed, the model will begin to make predictions. Quantopian allows the use of short selling, so that the algorithm can make use of negative predictions. If the prediction is that the price of the Dow Jones index will rise, the algorithm attempts to buy shares in the Dow Jones index. If the prediction is that the price of the Dow Jones index will fall, the algorithm attempts to sell shares in the Dow Jones index. The algorithm issues all orders in the opening minutes of the Dow Jones and liquidates all positions in the final closing minutes of trading. The profit the algorithm makes will be determined by the difference in price at these two points.
+After the training period has been completed, the model will begin to make predictions. Quantopian allows the use of short selling, so that the algorithm can make use of negative predictions. If the prediction is that the price of the Dow Jones index will rise, the algorithm attempts to buy shares in the Dow Jones index. If the prediction is that the price of the Dow Jones index will fall, the algorithm attempts to sell shares in the Dow Jones index. The algorithm issues all orders in the opening minutes of the Dow Jones and liquidates all positions in the final closing minutes of trading. Any profit the algorithm makes will be determined by the difference in price at these two points.
 
 The algorithm was simulated from January 1st 2006 to March 2nd 2015. The performance charts generated by Quantopian are presented in figure \ref{fig:quantopian-1}. The benchmark performance line in red is the S\&P 500 index. This is a general indicator of the performance of a passive buy and hold strategy. The lack of activity by up to the approximate half way point is the training period of the model.
 
@@ -1152,9 +1150,9 @@ The algorithm was simulated from January 1st 2006 to March 2nd 2015. The perform
 	\label{fig:quantopian-1}
 \end{figure}
 
-Although the algorithm did have a positive return of about 6\%, this is probably due to random chance more than any success of the model. It should also be noted that in the eyes of an investor, any return less than a low risk buy and hold strategy is considered a loss. In the same time our algorithm generated a return of 6\%, the S\&P 500 generated a return of just over 100\%.
+Although the algorithm did have a positive return of about 6\%, this is probably due to random chance more than any success of the model. It should also be noted that in the eyes of an investor, any return less than a low risk buy and hold strategy would be considered a loss. In the same time our algorithm generated a return of 6\%, the S\&P 500 generated a return of just over 100\%.
 
-Clearly there is a big difference between the performance of the model trained earlier and the one simulated here. There are few differences between the models, except that in the Quantopian simulation the problem of overlapping trading hours was corrected. One must conclude that this is to blame for the difference. It follows then that the model trained earlier scored so highly only because of this error.
+Clearly there is a big difference between the performance of the model trained earlier and the one simulated here. There are few differences between the models, except that in the Quantopian simulation the problem of overlapping trading hours was corrected. One must conclude that this is to blame for the difference. It follows then that the model trained earlier scored so highly only because of this error. This is also true of the results presented by \citet{shen2012stock} as discussed earlier.
 
 \section{Simulation 2 - Analyst Opinions}
 
@@ -1174,13 +1172,13 @@ The algorithm was simulated from January 1st 2006 to December 31st 2014. The per
 	\label{fig:quantopian-2}
 \end{figure}
 
-With total returns of -52.7\%, it is obvious that \ref{fig:quantopian-2} that the model performs poorly in a real world simulation. 
+With total returns of -52.7\%, it is clear that \ref{fig:quantopian-2} that the model performs poorly in a real world simulation. 
 
 We offer two explanations as to why this algorithm performs so poorly. 
 \begin{enumerate}
   \item By the time the algorithm places its orders, the market may have already shifted to reflect these analyst opinions. It is plausible that there are many similar traders that have already read these analyst opinions before the market opens. These traders are then ready to immediately place their orders when the market opens. Quantopian offers no guarantees on when an order will be fulfilled. It is therefore possible that by the time our model places an order on the market, the price has already moved to reflect the opinions and they are no longer relevant. The algorithm is then effectively trading on outdated information.
   
-  \item Another possible explanation is that there are some traders taking advantage of other traders that are employing a similar strategy. After all the training has been completed, the model ultimately ends up using an extremely simple strategy; buy when there is a positive opinion and sell on a negative opinion. It does not take a terribly sophisticated model, or trader, to come up with such as strategy. It is therefore credible there are many traders also trying to apply the same strategy. It follows then that there will also be traders trying to take advantage of them. Such traders could artificially shift the market more than the opinion might originally merit, leave time for naive traders (including our model) to buy into the shifted price, and profit by exiting soon after. This would effectively invert any predicted profit of the naive traders.
+  \item Another possible explanation is that there are some traders taking advantage of other traders that are employing a similar strategy. After all the training has been completed, the model ultimately ends up using an extremely simple strategy; buy when there is a positive opinion and sell on a negative opinion. It does not take a terribly sophisticated model, or trader, to come up with such as strategy. It is therefore credible there are many traders also trying to apply the same strategy. It follows then that there will also be traders trying to take advantage of them. Such traders could artificially shift the market more than the opinion might originally merit, leave time for naive traders (including our model) to buy into the shifted price, and profit by exiting the market soon after. This would effectively invert any predicted profit of the naive traders.
 \end{enumerate}
 
 \chapter{Report Conclusion}

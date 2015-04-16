@@ -53,7 +53,7 @@
 \contentsline {subsection}{\numberline {7.3.3}Data Preparation}{45}
 \contentsline {subsection}{\numberline {7.3.4}Error Estimation}{47}
 \contentsline {subsection}{\numberline {7.3.5}Model Selection}{47}
-\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{48}
+\contentsline {subsection}{\numberline {7.3.6}Analyst Opinions - Conclusion}{47}
 \contentsline {section}{\numberline {7.4}Disasters}{48}
 \contentsline {subsection}{\numberline {7.4.1}Data Preparation}{48}
 \contentsline {subsection}{\numberline {7.4.2}Predictive Value of Disasters}{49}

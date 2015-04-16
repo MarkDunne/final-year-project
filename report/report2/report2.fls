@@ -183,9 +183,9 @@ INPUT ./vis/macrossover.png
 INPUT vis/prices-bias-variance.png
 INPUT ./vis/prices-bias-variance.png
 INPUT ./vis/prices-bias-variance.png
-INPUT vis/50-learning-curve-15000.png
-INPUT ./vis/50-learning-curve-15000.png
-INPUT ./vis/50-learning-curve-15000.png
+INPUT vis/50-learning-curve-20000.png
+INPUT ./vis/50-learning-curve-20000.png
+INPUT ./vis/50-learning-curve-20000.png
 INPUT vis/single_feature_prediction.png
 INPUT ./vis/single_feature_prediction.png
 INPUT ./vis/single_feature_prediction.png

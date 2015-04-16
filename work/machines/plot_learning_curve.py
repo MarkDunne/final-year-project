@@ -52,7 +52,7 @@ def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
     plt.ylabel("Accuracy")
     train_sizes, train_scores, test_scores = learning_curve(
         estimator, X, y, cv=cv, n_jobs=n_jobs, train_sizes=train_sizes, 
-        verbose=verbose, scoring=scoring)
+        verbose=verbose, scoring='accuracy')
     train_scores_mean = np.mean(train_scores, axis=1)
     train_scores_std = np.std(train_scores, axis=1)
     test_scores_mean = np.mean(test_scores, axis=1)

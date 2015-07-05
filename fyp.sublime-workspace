@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"last",
+				"lastNodes"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"Sin",
+				"Sint"
+			],
+			[
+				"sho",
+				"showS"
+			],
+			[
+				"sh",
+				"showS"
+			],
+			[
+				"Si",
+				"Sint"
+			],
+			[
+				"spli",
+				"splitDef"
+			],
+			[
+				"spl",
+				"splitQuotation"
+			],
+			[
+				"bo",
+				"Bool"
+			],
+			[
+				"is",
+				"isInteger"
+			],
+			[
+				"scor",
+				"scoring"
+			],
+			[
 				"opini",
 				"opinion_history"
 			],
@@ -44,10 +88,6 @@
 				"EmptyQueue"
 			],
 			[
-				"is",
-				"isEmptyQueue"
-			],
-			[
 				"empt",
 				"emptyQueue"
 			],
@@ -82,10 +122,6 @@
 			[
 				"tod",
 				"today"
-			],
-			[
-				"last",
-				"lastParsedDate"
 			],
 			[
 				"sta",
@@ -268,19 +304,19 @@
 	"buffers":
 	[
 		{
-			"contents": "import numpy as np\nimport pandas as pd\nfrom sklearn.metrics import accuracy_score\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.naive_bayes import MultinomialNB\n\nopinions_csv_url = 'https://gist.githubusercontent.com/MarkDunne/ca589252e4772934f0c4/raw/a3b32112d23569c3900aa75a0b82689361b22f3d/opinion_sentiments.csv'\n\ndax_history  = []\nftse_history = []\ndji_history  = []\npred_history = []\n\nopinions_model = MultinomialNB()\n\ndef train_model(df):\n    X = df[['Positive', 'Negative']]\n    y = np.asarray(df['CloseClass'], dtype=\"|S6\")\n    opinions_model.fit(X, y)\n    return df\n\ndef initialize(context):    \n    context.example_count = 0\n    context.order_target = 0\n    \n    schedule_function(market_open, time_rule=time_rules.market_open())\n    schedule_function(market_close, time_rule=time_rules.market_close())\n    \n    fetch_csv(opinions_csv_url,\n        date_column='Date',\n        date_format='%Y-%m-%d', \n        post_func=train_model,\n        universe_func=my_universe)\n\ndef my_universe(context, fetcher_data):\n    my_stocks = set(fetcher_data['sid'])\n    context.count = len(my_stocks)\n    return my_stocks\n    \n    \ndef market_open(context, data):\n    # print 'market open ' + str(get_datetime()) \n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                return\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            \n            pred_y = opinions_model.predict(x)\n            probs = opinions_model.predict_proba(x)\n            \n            if not np.any(probs > 0.7):\n                return\n            \n            print probs\n            \n            order_size = 100000\n            if pred_y == 'Gain':\n                print 'Gain'\n                order_target(stock, order_size)\n            elif pred_y == 'Loss':\n                print 'Loss'\n                order_target(stock, order_size)\n  \ndef market_close(context, data):   \n    # print 'market close ' + str(get_datetime())\n    for stock in data:\n        # print context.portfolio.positions[stock]\n        order_target(stock, 0)\n\ndef handle_data(context, data):\n    pass",
+			"contents": "['Level', 'Hitpoints', 'DPS', 'Damage', 'Training Cost', 'Research Cost', 'Armory', 'Research Time', 'Instant', 'XP Gain']",
 			"settings":
 			{
-				"buffer_size": 2301,
+				"buffer_size": 122,
 				"line_ending": "Unix",
-				"name": "import numpy as np"
+				"name": "['Level', 'Hitpoints', 'DPS', 'Damage', 'Training"
 			}
 		},
 		{
-			"contents": "import numpy as np\nimport pandas as pd\nfrom sklearn.metrics import accuracy_score\nfrom sklearn.neighbors import KNeighborsClassifier\nfrom sklearn.naive_bayes import MultinomialNB\n\nopinions_csv_url = 'https://gist.githubusercontent.com/MarkDunne/ca589252e4772934f0c4/raw/a3b32112d23569c3900aa75a0b82689361b22f3d/opinion_sentiments.csv'\n\nopinion_history = []\npred_history = []\n\nopinions_model = MultinomialNB()\n\ndef train_model(df):\n    X = df[['Positive', 'Negative']]\n    y = np.asarray(df['CloseClass'], dtype=\"|S6\")\n    opinions_model.fit(X, y)\n    return df\n\ndef initialize(context):    \n    context.example_count = 0\n    context.order_target = 0\n    \n    schedule_function(market_open, time_rule=time_rules.market_open())\n    schedule_function(market_close, time_rule=time_rules.market_close())\n    \n    fetch_csv(opinions_csv_url,\n        date_column='Date',\n        date_format='%Y-%m-%d', \n        post_func=train_model,\n        universe_func=my_universe)\n\ndef my_universe(context, fetcher_data):\n    my_stocks = set(fetcher_data['sid'])\n    context.count = len(my_stocks)\n    return my_stocks\n    \n    \ndef market_open(context, data):\n    # print 'market open ' + str(get_datetime()) \n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                continue\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            opinion_history.append(x)\n            \n            pred_y = opinions_model.predict(x)\n            probs = opinions_model.predict_proba(x)\n            \n            if not np.any(probs > 0.7):\n                return\n            \n            order_size = 100000\n            if pred_y == 'Gain':\n                print 'Gain'\n                order_target(stock, order_size)\n            elif pred_y == 'Loss':\n                print 'Loss'\n                order_target(stock, order_size)\n  \ndef market_close(context, data): \n    for stock in data:\n        # print context.portfolio.positions[stock]\n        order_target(stock, 0)\n\n    prices = history(bar_count=2, frequency='1d', field='price')\n    pc_change = (prices.ix[1] - prices.ix[0]) / prices.ix[0]\n    change_class = 'Gain' if (pc_change[context.djia] > 0) else 'Loss'\n    dji_history.append(change_class)\n\n    for stock in data:\n        if 'Positive' in data[stock] and 'Negative' in data[stock]:\n                        \n            if not (data[stock]['Positive'] > 0 or data[stock]['Negative'] > 0):\n                continue\n                \n            pos = data[stock]['Positive']\n            neg = data[stock]['Negative']\n            x = [pos, neg]\n            opinion_history.append(x)\n\ndef handle_data(context, data):\n    pass",
+			"file": "/home/mark/Downloads/SDM.pkg",
 			"settings":
 			{
-				"buffer_size": 2843,
+				"buffer_size": 35899205,
 				"line_ending": "Unix"
 			}
 		}
@@ -346,9 +382,26 @@
 	],
 	"file_history":
 	[
+		"/home/mark/Desktop/cs4621/study/factor.hs",
+		"/home/mark/Downloads/ml-100k/u.item",
+		"/home/mark/Desktop/cs4621/study/prog.f",
+		"/home/mark/Desktop/cs4621/study/2013.hs",
+		"/home/mark/Desktop/cs4621/GraphStudy.hs",
+		"/home/mark/workspace/misc/dota-model/dota_games.csv",
+		"/home/mark/workspace/misc/dota-model/dota_games2.csv",
+		"/home/mark/packages/keras/setup.py",
+		"/home/mark/Desktop/cs4621/prog.f",
+		"/home/mark/Desktop/cs4621/factor.hs",
+		"/home/mark/Desktop/cs4621/    Not in scope",
+		"/home/mark/Desktop/cs4621/study/      /home/mark/Desktop/cs4621/study/factor.hs",
+		"/home/mark/workspace/final-year-project/work/machines/plot_learning_curve.py",
+		"/home/mark/workspace/final-year-project/work/machines/knn-test.py",
+		"/home/mark/workspace/misc/study/constraints",
+		"/home/mark/Downloads/RedshiftGUI-0.2.1-Linux-i686.deb",
+		"/home/mark/workspace/misc/study/ai2",
+		"/media/mark/mark-usb/System Volume Information/IndexerVolumeGuid",
 		"/home/mark/Desktop/temp.html",
 		"/home/mark/workspace/final-year-project/report/report2/report2.bib",
-		"/home/mark/workspace/final-year-project/work/machines/plot_learning_curve.py",
 		"/home/mark/workspace/final-year-project/work/machines/knn-model-selection.py",
 		"/home/mark/workspace/final-year-project/work/common.py",
 		"/home/mark/workspace/final-year-project/data/disaster-table.html",
@@ -443,6 +496,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"island",
+			"compare",
+			"SQuot",
+			"graph = ",
+			"isBoolean",
+			"iSint",
+			"iSbool",
+			"at'ts",
+			"Sboolean",
+			"Sinteger",
+			",",
+			"constraint",
 			"<tr>",
 			"–",
 			" ",
@@ -558,19 +623,7 @@
 			"p",
 			"tomorrowsDate",
 			"tomorrow",
-			"monday",
-			"date",
-			"monday",
-			"newProgramme",
-			"ChannelSchedule",
-			"programmes",
-			"channelid",
-			"=",
-			"ChannelSchedule",
-			"channelschedule",
-			"ChannelSchedule",
-			"<option value=\"\">",
-			"channl"
+			"monday"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -596,25 +649,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2301,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2301,
-								2301
+								122,
+								122
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": true,
 							"WordCountSyntax": "plain text",
-							"auto_name": "import numpy as np",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "['Level', 'Hitpoints', 'DPS', 'Damage', 'Training",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -625,30 +675,29 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/home/mark/Downloads/SDM.pkg",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2843,
+						"buffer_size": 35899205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2412,
-								2412
+								578,
+								578
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": true,
 							"WordCountSyntax": "plain text",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -690,7 +739,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 203.0
+		"height": 387.0
 	},
 	"output.find_results":
 	{
@@ -738,7 +787,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 251.0,
+	"side_bar_width": 184.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
